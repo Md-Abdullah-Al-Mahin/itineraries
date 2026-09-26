@@ -505,7 +505,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v33</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v34</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -626,8 +626,8 @@
           { id: "oratio", title: "Hotel Oratio, Paris", text: "Small Left Bank hotel at 42 rue des Bernardins. This is the start and end of every Paris day.", from: "28 Oct 10:35", to: "3 Nov 06:30" },
           { id: "nord", title: "Eurostar 9013 from Gare du Nord", text: "Be there at 06:30, two hours before the train. Security, then passport control out of France and into the UK, both at this station. Coach 7 seat 31. Train leaves 08:32.", from: "06:30", to: "08:32" },
           { id: "stpancras", title: "Arrive St Pancras", text: "Victorian terminus on Euston Road. Walk south into Bloomsbury, or one Piccadilly stop to Russell Square.", from: "10:00", to: "10:20" },
-          { id: "royal", title: "Royal National Hotel, London", text: "Big Bloomsbury hotel at 38–51 Bedford Way. This is the start and end of every London day.", from: "3 Nov 10:35", to: "7 Nov 14:30" },
-          { id: "lhr", title: "Leave LHR · CX250", text: "Heathrow Terminal 3. Cathay to Hong Kong, seat 59J.", from: "16:00", to: "17:50" },
+          { id: "royal", title: "Royal National Hotel, London", text: "Big Bloomsbury hotel at 38–51 Bedford Way. This is the start and end of every London day.", from: "3 Nov 10:35", to: "7 Nov 13:10" },
+          { id: "lhr", title: "Leave LHR · CX250", text: "Heathrow Terminal 3. Cathay to Hong Kong, seat 59J. At the terminal by 14:15 so check-in, bags, and security are not a sprint.", from: "14:15", to: "17:50" },
         ],
       },
       {
@@ -844,15 +844,14 @@
         label: "7 Nov",
         title: "Fly home",
         kicker: "Saturday · departure",
-        lede: "Breakfast, a quiet morning, lunch near the hotel, then Russell Square and the Piccadilly line. No dinner. That is the flight. CX250 at 17:50.",
+        lede: "Bags and checkout in the morning. Lunch near the hotel, then straight to Russell Square. The Piccadilly line is about 50 minutes, plus the walk into Terminal 3. Be there by 14:15. Check-in, bags, and security need that. CX250 is 17:50. No dinner. That is the flight.",
         loop: ["royal", "russellSq", "lhr"],
         events: [
-          { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Bags can wait until after lunch.", from: "09:30", to: "10:00" },
-          { id: "royal", title: "Royal National Hotel", text: "Slow morning. You are not in a rush yet.", from: "10:00", to: "11:45", pause: true },
-          { id: "royal", meal: "lunch", title: "Lunch", text: "One hour near the hotel. Last meal on the ground.", from: "12:00", to: "13:00" },
-          { id: "royal", title: "Check out · Royal National", text: "Bags, bill, leave. You want a calm T3 check-in, not a sprint.", from: "14:00", to: "14:30" },
-          { id: "russellSq", title: "Russell Square station", text: "Piccadilly line, one minute from the door. Direct to Heathrow. Stay on for Terminal 3.", from: "14:31", to: "14:40" },
-          { id: "lhr", title: "Heathrow T3 · CX250", text: "Check in, security, then the gate. Seat 59J, flight 17:50. Dinner is on the plane.", from: "15:30", to: "17:50" },
+          { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Then bags. Checkout is before lunch, because the airport needs the afternoon.", from: "09:00", to: "09:30" },
+          { id: "royal", title: "Bags and checkout", text: "Finish packing, pay, and leave the bags by the door. You are at Terminal 3 by 14:15, so this morning is the last hotel time.", from: "09:30", to: "11:45", pause: true },
+          { id: "royal", meal: "lunch", title: "Lunch", text: "One hour near the hotel, bags with you. Last meal on the ground. Leave as soon as you finish.", from: "12:00", to: "13:00" },
+          { id: "russellSq", title: "Russell Square station", text: "Piccadilly line, one minute from the door. Direct to Heathrow. Stay on until Heathrow Terminals 2 & 3. About 50 minutes, then a walk into Terminal 3.", from: "13:10", to: "13:15" },
+          { id: "lhr", title: "Heathrow T3 · CX250", text: "At the terminal by 14:15, three and a half hours before departure. Check-in, bag drop, security, then the gate. Seat 59J, flight 17:50. Dinner is on the plane.", from: "14:15", to: "17:50" },
         ],
       },
     ];

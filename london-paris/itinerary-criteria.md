@@ -37,4 +37,4 @@ Add a line here whenever a new rule comes in.
   - London dinner: Tamila, Wednesday 4 Nov, 18:30–20:30. South Indian, Beli 9.5, about 15 minutes north of the hotel.
 - 30 Oct has no Seine dinner. Dinner that night is one hour after 18:00, near the hotel.
 - 29 Oct dinner is 21:40–22:40, one hour after Crazy Horse, near the hotel. A mid-afternoon dinner is too early.
-- 7 Nov has breakfast and lunch only. Dinner is the flight.
+- 7 Nov has breakfast and lunch only. Dinner is the flight. Be at Heathrow Terminal 3 by 14:15 for the 17:50 departure. That block is check-in, bag drop, and security, not just the walk to the gate. Checkout is in the morning, before lunch.
