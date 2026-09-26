@@ -12,7 +12,7 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 29 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Not the same day as Versailles. |
 | 30 Oct | Bateaux Parisiens dinner cruise, 20:30, Port de la Bourdonnais. That is dinner. No second sitting. |
-| 2 Nov | Louvre timed entry at 09:00. La Renommée at 17:30, the Paris dinner to book. |
+| 2 Nov | Louvre timed entry at 09:00. La Renommée at 18:00, the Paris dinner to book. |
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 07:32. Coach 7, seat 31. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
 | 4 Nov | Tamila, 8 Caledonian Road, 18:30. The London dinner to book. |
@@ -22,7 +22,7 @@ This is the written copy of the map. When the plan changes, update this file and
 
 Breakfast is half an hour, usually at the hotel. Lunch is one hour. Dinner is one hour. Those meals are not a fixed restaurant, and they are not a numbered pin. On the map they are the warm dots within a 15 minute walk of wherever you are. Something can follow dinner when the evening needs it.
 
-Two dinners are the long ones, and those are numbered pins. Each is two hours. La Renommée on Monday 2 November, 17:30–19:30, filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead. There is a card hold, and €50 a person if you cancel inside 24 hours. Monday is dinner only, from 17:30. Tamila on Wednesday 4 November, 18:30–20:30, South Indian at 8 Caledonian Road, about 15 minutes north of the hotel.
+Two dinners are the long ones, and those are numbered pins. Each is two hours. La Renommée on Monday 2 November, 18:00–20:00, filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead. There is a card hold, and €50 a person if you cancel inside 24 hours. Monday is dinner only, from 17:30, and this table is at 18:00. Tamila on Wednesday 4 November, 18:30–20:30, South Indian at 8 Caledonian Road, about 15 minutes north of the hotel. Lunch is never before noon. Dinner is never before 6.
 
 Purple dots on the map are optional sights within a 20 minute walk. They are not on that day’s plan.
 
@@ -53,11 +53,11 @@ Versailles is Saturday, so this day stays in the city. The hill, lunch on the wa
 | Time | Plan |
 | --- | --- |
 | 08:15–08:45 | Breakfast, then metro to Anvers or Abbesses. |
-| 09:30–10:40 | Sacré-Cœur. Steps, terrace, inside if you want. |
-| 10:45–11:45 | Lunch. One hour on the way down. Mamiche and the other nearby pins. |
-| 12:15–13:45 | Carnavalet. Free museum of the history of Paris. |
-| 14:00–14:40 | Place des Vosges, then metro home. The afternoon has to stay free for the show. |
-| 15:10–18:40 | Hotel. Shower and change. Leave by 18:45. |
+| 09:30–11:40 | Sacré-Cœur. Steps, terrace, inside if you want. |
+| 12:00–13:00 | Lunch. One hour on the way down. Mamiche and the other nearby pins. |
+| 13:20–14:50 | Carnavalet. Free museum of the history of Paris. |
+| 15:00–15:40 | Place des Vosges, then metro home. The afternoon has to stay free for the show. |
+| 16:10–18:40 | Hotel. Shower and change. Leave by 18:45. |
 | 19:10–21:15 | Crazy Horse, 20:00. 12 Avenue George V. Metro home after. |
 | 21:40–22:40 | Dinner. One hour near the hotel. |
 
@@ -69,13 +69,13 @@ Orsay is closed Monday, so it is today. Dinner is the cruise. There is no second
 | --- | --- |
 | 08:00–08:30 | Breakfast at the hotel. |
 | 08:35–08:50 | Leave, west along the river. |
-| 09:10–11:00 | Musée d’Orsay. Monet, Van Gogh, Degas. |
-| 11:05–12:05 | Lunch. One hour. Nearby pins around the museum. |
-| 12:20–13:10 | Hôtel des Invalides. The dome and Napoleon’s tomb. |
-| 13:20–13:35 | Pont Alexandre III. |
-| 13:40–14:40 | Petit Palais. Free. Closed Monday, so today works. |
-| 15:05–15:50 | Trocadéro, then down through the Champ de Mars. |
-| 16:05–19:50 | Eiffel Tower. Book a second-floor or summit slot. Stay for the light. The boat is next door. |
+| 09:10–11:45 | Musée d’Orsay. Monet, Van Gogh, Degas. |
+| 12:00–13:00 | Lunch. One hour. Nearby pins around the museum. |
+| 13:15–14:05 | Hôtel des Invalides. The dome and Napoleon’s tomb. |
+| 14:15–14:30 | Pont Alexandre III. |
+| 14:35–15:20 | Petit Palais. Free. Closed Monday, so today works. |
+| 15:35–16:05 | Trocadéro, then down through the Champ de Mars. |
+| 16:20–19:50 | Eiffel Tower. Book a second-floor or summit slot. Stay for the light. The boat is next door. |
 | 20:15–23:00 | Bateaux Parisiens, 20:30. Dinner cruise from Port de la Bourdonnais. Taxi home. |
 
 ## Saturday 31 October · Versailles
@@ -115,15 +115,15 @@ Versailles and Orsay are closed. This is the Paris dinner to book. Pack after. T
 | Time | Plan |
 | --- | --- |
 | 07:45–08:15 | Breakfast, then walk or metro to Palais Royal. |
-| 09:00–11:15 | Louvre, 09:00 timed entry. Mona Lisa, Winged Victory, Venus de Milo. Two hours, then leave. |
-| 11:20–12:20 | Lunch. One hour. Nearby pins around the museum. |
-| 12:30–12:55 | Tuileries. A walk west, not a second museum. |
-| 13:05–13:20 | Place de la Concorde. |
-| 13:45–14:35 | Arc de Triomphe. Use the underpass. Climb if you want the view. |
-| 15:00–16:15 | Palais Garnier. Book online. No tickets at the door. The house closes in summer 2027 until about 2032. |
-| 16:40–17:15 | Hotel. Change. The restaurant is about 15 minutes from the opera, back toward Saint-Honoré. |
-| 17:30–19:30 | La Renommée. 95 Rue Saint-Honoré. Filet au poivre. Two hours. |
-| 19:50 | Pack. Be at Gare du Nord at 07:32 tomorrow. |
+| 09:00–11:45 | Louvre, 09:00 timed entry. Mona Lisa, Winged Victory, Venus de Milo. Then leave. |
+| 12:00–13:00 | Lunch. One hour. Nearby pins around the museum. |
+| 13:10–13:35 | Tuileries. A walk west, not a second museum. |
+| 13:45–14:00 | Place de la Concorde. |
+| 14:25–15:15 | Arc de Triomphe. Use the underpass. Climb if you want the view. |
+| 15:35–16:45 | Palais Garnier. Book online. No tickets at the door. The house closes in summer 2027 until about 2032. |
+| 17:05–17:45 | Hotel. Change. The restaurant is about 15 minutes from the opera, back toward Saint-Honoré. |
+| 18:00–20:00 | La Renommée. 95 Rue Saint-Honoré. Filet au poivre. Two hours. |
+| 20:20 | Pack. Be at Gare du Nord at 07:32 tomorrow. |
 
 ## Tuesday 3 November · Paris to London, British Museum
 
@@ -179,11 +179,11 @@ Last full day. Dinner near the hotel, one hour, then pack. The flight is 17:50 t
 | Time | Plan |
 | --- | --- |
 | 08:30–09:00 | Breakfast. Book the free Natural History slot. |
-| 09:45–11:30 | Natural History Museum. Hintze Hall and the dinosaurs. The V&A is next door if you want to swap part of the morning. |
-| 11:40–12:40 | Lunch. One hour in South Kensington, then the tube to St Paul’s. |
-| 13:25–14:30 | St Paul’s. The nave, and the dome if you still want the climb. |
-| 14:45–15:50 | Tate Modern. Across the Millennium Bridge. Free. One floor. |
-| 16:20–17:45 | Hotel. |
+| 09:45–11:45 | Natural History Museum. Hintze Hall and the dinosaurs. The V&A is next door if you want to swap part of the morning. |
+| 12:00–13:00 | Lunch. One hour in South Kensington, then the tube to St Paul’s. |
+| 13:40–14:45 | St Paul’s. The nave, and the dome if you still want the climb. |
+| 15:00–16:00 | Tate Modern. Across the Millennium Bridge. Free. One floor. |
+| 16:30–17:45 | Hotel. |
 | 18:00–19:00 | Dinner near the hotel, one hour, then pack. |
 
 ## Saturday 7 November · Fly home
