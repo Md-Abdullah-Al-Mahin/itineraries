@@ -27,7 +27,7 @@ Purple dots on the map are optional sights within a 20 minute walk. They are not
 
 ## Wednesday 28 October · Arrive, islands and the 5th
 
-CX261 lands at 07:35. Off the plane, immigration, and bags come first, then the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Dinner is one hour near the hotel. Jazz after, if you want it.
+CX261 lands at 07:35. Off the plane, immigration, and bags come first, then the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Stay out through Cluny and Mouffetard. Dinner is one hour near the hotel. Jazz after, if you want it.
 
 | Time | Plan |
 | --- | --- |
@@ -39,8 +39,9 @@ CX261 lands at 07:35. Off the plane, immigration, and bags come first, then the 
 | 13:30–14:30 | Lunch. One hour. A nearby pin near the cathedral or the island. |
 | 14:40–15:10 | Île Saint-Louis. Walk rue Saint-Louis-en-l’Île. Berthillon is a nearby pin, and it is open on Wednesday. |
 | 15:25–16:10 | Panthéon. Crypt, and the dome if it is open. |
-| 16:20–17:10 | Jardin du Luxembourg. Then back to the hotel. |
-| 17:25–18:45 | Hotel. Rest. |
+| 16:20–16:55 | Jardin du Luxembourg. |
+| 17:05–17:45 | Musée de Cluny. The Lady and the Unicorn. It closes at 18:00. Closed Tuesday, so today works. |
+| 18:00–18:40 | Rue Mouffetard. Walk the market street, then dinner. |
 | 19:00–20:00 | Dinner. One hour, any nearby pin within 15 minutes of the hotel. Caveau de la Huchette is there if you want jazz after. |
 
 Du Pain et des Idées is closed at the weekend, and it is a 25 minute metro north of this walk, so it is not on today.
@@ -65,7 +66,7 @@ Versailles is Saturday, so this day stays in the city. The hill and its streets,
 
 ## Friday 30 October · Orsay, the river, the Eiffel Tower
 
-Orsay is closed Monday, so it is today. No Seine dinner. Dinner is one hour back at the hotel, after 6.
+Orsay is closed Monday, so it is today. No Seine dinner. Stay out through the tower. Dinner is one hour after 6, once you are home.
 
 | Time | Plan |
 | --- | --- |
@@ -78,8 +79,7 @@ Orsay is closed Monday, so it is today. No Seine dinner. Dinner is one hour back
 | 14:35–15:20 | Petit Palais. Free. Closed Monday, so today works. |
 | 15:35–16:05 | Trocadéro, then down through the Champ de Mars. |
 | 16:20–18:15 | Eiffel Tower. Book a second-floor or summit slot. Stay for the light coming on, then metro home. |
-| 18:40–18:55 | Hotel. |
-| 19:00–20:00 | Dinner. One hour after 6, any nearby pin within 15 minutes of the hotel. |
+| 19:00–20:00 | Dinner. Metro home from the tower. One hour after 6, any nearby pin within 15 minutes of the hotel. |
 
 ## Saturday 31 October · Versailles, then Halloween
 
@@ -116,7 +116,7 @@ Last open day of Monet’s house and gardens in 2026. Open 10:00–18:00, last e
 
 ## Monday 2 November · Louvre, west to the Arc, La Renommée
 
-Versailles and Orsay are closed. This is the Paris dinner to book. Pack after. The Eurostar is at 08:32 tomorrow.
+Versailles and Orsay are closed. This is the Paris dinner to book. The passages sit between the opera and the restaurant, so there is no hotel stop before dinner. Pack after. The Eurostar is at 08:32 tomorrow.
 
 | Time | Plan |
 | --- | --- |
@@ -127,13 +127,13 @@ Versailles and Orsay are closed. This is the Paris dinner to book. Pack after. T
 | 13:45–14:00 | Place de la Concorde. |
 | 14:25–15:15 | Arc de Triomphe. Use the underpass. Climb if you want the view. |
 | 15:35–16:45 | Palais Garnier. Book online. No tickets at the door. The house closes in summer 2027 until about 2032. |
-| 17:05–17:45 | Hotel. Change. The restaurant is about 15 minutes from the opera, back toward Saint-Honoré. |
-| 18:00–20:00 | La Renommée. 95 Rue Saint-Honoré. Filet au poivre. Two hours. |
-| 20:20 | Pack. Be at Gare du Nord at 06:30 tomorrow. |
+| 17:00–17:35 | Passage des Panoramas. A short walk from the opera. Stay out. |
+| 18:00–20:00 | La Renommée. 15 minutes south of the passages, at 95 Rue Saint-Honoré. Filet au poivre. Two hours. |
+| 20:20 | Hotel, to pack. Be at Gare du Nord at 06:30 tomorrow. |
 
 ## Tuesday 3 November · Paris to London, British Museum
 
-Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. Tamila is tomorrow night.
+Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. After lunch the day stays out: Covent Garden, Somerset House, the South Bank. Tamila is tomorrow night.
 
 | Time | Plan |
 | --- | --- |
@@ -143,13 +143,15 @@ Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be a
 | 10:00–10:20 | St Pancras. Walk south to Bedford Way. |
 | 10:35–11:15 | Royal National Hotel. Check in, drop bags. |
 | 11:30–12:30 | British Museum. Rosetta Stone, Parthenon sculptures, mummies. Free. A shortlist, not the whole place. |
-| 12:35–13:35 | Lunch. One hour near the museum. |
-| 13:50–18:15 | Hotel. Quiet afternoon. |
-| 18:30–19:30 | Dinner. One hour. Any nearby pin around the hotel. |
+| 12:35–13:35 | Lunch. One hour near the museum, then walk to Covent Garden. |
+| 13:50–14:35 | Neal’s Yard. |
+| 14:55–16:00 | Somerset House. The courtyard, and the Courtauld if you want one room. |
+| 16:15–17:45 | South Bank. Across Waterloo Bridge and along the river. |
+| 18:30–19:30 | Dinner. Tube home. One hour. Any nearby pin around the hotel. |
 
 ## Wednesday 4 November · Soane, Westminster, the palace, Tamila
 
-One walk south from the hotel. Dinner is the London meal to book.
+One walk south from the hotel, then the tube north to King’s Cross. Dinner is the London meal to book. There is no hotel stop before it.
 
 | Time | Plan |
 | --- | --- |
@@ -160,13 +162,13 @@ One walk south from the hotel. Dinner is the London meal to book.
 | 13:15–13:35 | Big Ben and Parliament Square. |
 | 13:40–14:50 | Westminster Abbey. |
 | 15:00–15:35 | St James’s Park. The walk to the palace. |
-| 15:45–16:15 | Buckingham Palace. The façade. Tube home after. |
-| 16:45–18:15 | Hotel. Change. |
-| 18:30–20:30 | Tamila. 8 Caledonian Road. Two hours, then a 15 minute walk back. |
+| 15:45–16:15 | Buckingham Palace. The façade. Tube north after, not back to the hotel. |
+| 16:50–18:15 | Coal Drops Yard, King’s Cross. |
+| 18:30–20:30 | Tamila. A 10 minute walk, at 8 Caledonian Road. Two hours, then home. |
 
 ## Thursday 5 November · Sky Garden, the Tower, Borough
 
-Lunch is the market. Dinner is not a second booking.
+Lunch is the market, then the cathedral, the Globe, and the river to the Eye. Dinner is not a second booking.
 
 | Time | Plan |
 | --- | --- |
@@ -174,23 +176,25 @@ Lunch is the market. Dinner is not a second booking.
 | 09:50–10:40 | Sky Garden, 20 Fenchurch Street. Free timed ticket. |
 | 10:55–12:40 | Tower of London. Book a ticket. Crown Jewels, ravens, a Yeoman Warder tour if the time works. |
 | 12:50–13:10 | Tower Bridge. Walk across. The high-level walkway is extra. |
-| 13:25–14:25 | Borough Market. This is lunch. One hour, then the Northern line home. The market is closed Monday, so Thursday works. |
-| 14:50–18:45 | Hotel. |
-| 19:00–20:00 | Dinner. One hour. Any nearby pin around the hotel. |
+| 13:25–14:25 | Borough Market. This is lunch. One hour. The market is closed Monday, so Thursday works. |
+| 14:35–15:10 | Southwark Cathedral, next to the market. |
+| 15:20–16:10 | Shakespeare’s Globe, then walk west along the river. |
+| 16:30–18:00 | London Eye, from the riverside. You do not have to ride it. |
+| 19:00–20:00 | Dinner. Tube home. One hour. Any nearby pin around the hotel. |
 
 ## Friday 6 November · Natural History Museum, St Paul’s, Tate
 
-Last full day. Dinner near the hotel, one hour, then pack. The flight is 17:50 tomorrow.
+Last full day. Dinosaurs, the V&A, St Paul’s, Tate Modern. The hotel is only for dinner and packing. The flight is 17:50 tomorrow.
 
 | Time | Plan |
 | --- | --- |
 | 08:30–09:00 | Breakfast. Book the free Natural History slot. |
-| 09:45–11:45 | Natural History Museum. Hintze Hall and the dinosaurs. The V&A is next door if you want to swap part of the morning. |
-| 12:00–13:00 | Lunch. One hour in South Kensington, then the tube to St Paul’s. |
-| 13:40–14:45 | St Paul’s. The nave, and the dome if you still want the climb. |
-| 15:00–16:00 | Tate Modern. Across the Millennium Bridge. Free. One floor. |
-| 16:30–17:45 | Hotel. |
-| 18:00–19:00 | Dinner near the hotel, one hour, then pack. |
+| 09:45–11:45 | Natural History Museum. Hintze Hall and the dinosaurs. |
+| 12:00–13:00 | Lunch. One hour in South Kensington. |
+| 13:10–14:00 | V&A, next door. One wing, then the tube east. |
+| 14:30–15:20 | St Paul’s. The nave, and the dome if you still want the climb. |
+| 15:40–16:40 | Tate Modern. Across the Millennium Bridge. Free. One floor. |
+| 18:00–19:00 | Dinner. Tube home. One hour near the hotel, then pack. |
 
 ## Saturday 7 November · Fly home
 

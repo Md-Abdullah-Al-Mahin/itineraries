@@ -14,6 +14,7 @@ Add a line here whenever a new rule comes in.
 ## How a day is built
 
 - The path is not a loop. Draw the day in order, including the trip back. Every day ends at the hotel you sleep in. 7 Nov ends at Heathrow, because that is the flight to Hong Kong.
+- Do not come back to the hotel in the middle of the day. Stay out until dinner. A return is only for something that needs the room: check-in on arrival, a shower and a change before Crazy Horse or before Badaboum, packing the night before Eurostar or the flight, and the fly-out morning, because the bags are there. A quiet afternoon at the hotel is not a plan.
 - 28 Oct does not start at 09:30. Landing is 07:35. The morning is off the plane, immigration, bags, then RER B and a walk. The hotel is about 10:35. The first sight is after 11:00.
 - Versailles is Saturday 31 Oct. It is not on the same day as Crazy Horse. The palace is closed Monday.
 - 29 Oct is a full city day, not a short one. Montmartre in the morning, the Marais through the afternoon, hotel only long enough to change for Crazy Horse at 20:00.
