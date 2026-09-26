@@ -363,6 +363,7 @@
     .dot.meal { background: var(--eat); }
 
     .maplibregl-popup-content {
+      max-width: 240px;
       padding: 10px 12px;
       border-radius: 2px;
       box-shadow: none;
@@ -377,6 +378,16 @@
       margin-bottom: 4px;
       font-family: Georgia, serif;
       font-size: 15px;
+    }
+
+    .maplibregl-popup-content .pop-about {
+      margin: 0 0 6px;
+    }
+
+    .maplibregl-popup-content .pop-meta {
+      display: block;
+      color: #6b6458;
+      font-size: 12px;
     }
 
     .maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
@@ -534,7 +545,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v53</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v54</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -651,6 +662,97 @@
       towerBridge: { name: "Tower Bridge", label: "Tower Bridge", kind: "london", city: "London", lat: 51.5055, lng: -0.0754, note: "Walk across after the Tower." },
       nhm: { name: "Natural History Museum", label: "Natural History", kind: "london", city: "London", lat: 51.4967, lng: -0.1764, note: "Dinosaurs. Book a free timed ticket." },
     };
+
+    const about = {
+      cdg: "Paris airport. You land at Terminal 2A.",
+      oratio: "Small hotel on the Left Bank, in the 5th. Home for the Paris nights.",
+      nord: "The station the Eurostar leaves from, in the north of Paris.",
+      stpancras: "The London station the Eurostar arrives at, next to King's Cross.",
+      royal: "Large hotel in Bloomsbury. Home for the London nights.",
+      lhr: "London airport. The flight home leaves from Terminal 3.",
+      notreDame: "Medieval cathedral on the island in the Seine, with the towers and the rebuilt spire.",
+      ileSaintLouis: "The small island just east of Notre-Dame. Quiet streets and the quay around the edge.",
+      berthillon: "The famous ice-cream shop on Île Saint-Louis. Closed Monday and Tuesday.",
+      duPain: "A bakery known for the pistachio-chocolate escargot. Closed at the weekend.",
+      alexandre: "The ornate bridge over the Seine, between the Invalides and the Petit Palais.",
+      petitPalais: "A fine-arts museum in a Beaux-Arts palace. The permanent collection is free. Closed Monday.",
+      paulBert: "A classic bistro. Steak in pepper sauce. Closed Sunday and Monday.",
+      laRenommee: "A small restaurant on Rue Saint-Honoré. Filet au poivre. The long Paris dinner.",
+      soane: "A house museum packed with art, paintings, and a crypt. Free, closed Tuesday.",
+      tamila: "South Indian restaurant on Caledonian Road, near King's Cross.",
+      skyGarden: "A public garden and viewing deck on top of the Walkie Talkie, in the City.",
+      stJames: "The royal park between Westminster and Buckingham Palace. Lake and pelicans.",
+      sainteChapelle: "A royal chapel almost entirely of stained glass, inside the Palais de la Cité.",
+      shakespeare: "The English-language bookshop on the quay opposite Notre-Dame.",
+      pantheon: "The domed monument in the Latin Quarter, where French writers and scientists are buried.",
+      mouffetard: "A market street in the 5th, full of food shops.",
+      caveau: "A small jazz cellar in the Latin Quarter. Live music from 21:30.",
+      louvre: "The huge art museum in the old palace. Mona Lisa, Winged Victory, Venus de Milo.",
+      orsay: "The museum of Impressionist painting, in a former train station on the river.",
+      crazyHorse: "A cabaret on Avenue George V. The booked show.",
+      bac: "A Left Bank shopping street running south from the river.",
+      grandeEpicerie: "The food hall of Le Bon Marché, on Rue de Sèvres.",
+      artModerne: "The city's modern-art museum, next to the Palais de Tokyo.",
+      trocadero: "The terrace across the river from the Eiffel Tower. The view is the point.",
+      eiffel: "The iron tower on the Champ de Mars. You can go up, or stay for the lights.",
+      sacreCoeur: "The white basilica on the hill of Montmartre.",
+      tertre: "The painters' square in front of Sacré-Cœur.",
+      picasso: "Picasso's own collection, in a Marais mansion. Closed Monday.",
+      rosiers: "The food street of the Marais, known for falafel.",
+      mamiche: "A bakery on the way down from Montmartre.",
+      carnavalet: "The museum of the history of Paris, in the Marais. Free. Closed Monday.",
+      falafel: "The best-known falafel shop on Rue des Rosiers.",
+      vosges: "The oldest planned square in Paris, arcades around a garden, in the Marais.",
+      badaboum: "A club in the 11th. The Halloween night.",
+      saintLazare: "The station for the train out to Giverny.",
+      vernon: "The station nearest Monet's garden. A shuttle runs to the house.",
+      giverny: "Monet's house and the water-lily garden, outside Paris.",
+      saintMichel: "The RER station by the river, where you catch the train to Versailles.",
+      versaillesRiveGauche: "The station at the end of the RER C line, a short walk from the palace.",
+      versailles: "The royal palace outside Paris. Hall of Mirrors, the state rooms.",
+      versaillesGardens: "The formal gardens and the Grand Canal behind the palace.",
+      garnier: "The old opera house. Marble staircase, the auditorium, the Chagall ceiling.",
+      arc: "The war memorial at the top of the Champs-Élysées. You can climb it.",
+      zara: "A clothes shop on the Champs-Élysées.",
+      britishMuseum: "The national museum of world history. Rosetta Stone, Parthenon sculptures, mummies. Free.",
+      nationalGallery: "The national collection of European painting, on Trafalgar Square. Free.",
+      darjeeling: "A Bengali restaurant in Soho, with an all-women kitchen. Lunch until 14:15.",
+      oma: "A Greek restaurant on Bedale Street, by Borough Market. The long London dinner.",
+      gordons: "A candlelit wine bar in a cellar on Villiers Street.",
+      westminster: "The abbey where kings and queens are crowned. Royal tombs and Poets' Corner.",
+      bigBen: "The clock tower at the Houses of Parliament, on Parliament Square.",
+      dishoomKX: "A Bombay café at King's Cross.",
+      leadenhall: "A covered Victorian market in the City, under the towers.",
+      borough: "The food market under the railway at London Bridge. Closed Monday.",
+      tower: "The medieval fortress by the river. Crown Jewels, ravens, and the walls.",
+      nealsYard: "A small painted courtyard in Covent Garden, off a lane of shops.",
+      fortnum: "The old food shop and department store on Piccadilly.",
+      buckingham: "The King's London residence. The façade and the Victoria Memorial.",
+      hydePark: "The big royal park. The carriage drive loops the Serpentine.",
+      cluny: "The museum of the Middle Ages, in a townhouse in the Latin Quarter.",
+      passages: "A 19th-century covered shopping arcade, near the opera.",
+      somerset: "A grand courtyard building on the Strand, with a terrace on the river.",
+      southBank: "The river path on the south side, by the National Theatre.",
+      coalDrops: "Two converted coal warehouses and a canal, at King's Cross.",
+      southwark: "The medieval cathedral next to Borough Market.",
+      globe: "A rebuilt wooden Elizabethan theatre on Bankside.",
+      londonEye: "The big observation wheel on the river, opposite Parliament.",
+      va: "The museum of art and design, next door to the Natural History Museum. Free.",
+      kensingtonGardens: "The west half of Hyde Park. Albert Memorial, the Round Pond, the Italian Gardens.",
+      harrods: "The Knightsbridge department store. The food halls are the part worth seeing.",
+      russellSq: "The Piccadilly line station a few minutes from the hotel, for the airport.",
+      luxembourg: "The formal garden of the palace in the 6th. Gravel paths, chairs, and the basin.",
+      tuileries: "The formal garden between the Louvre and Place de la Concorde.",
+      concorde: "The huge square at the west end of the Tuileries, with the obelisk.",
+      invalides: "The military hospital with the gold dome. Napoleon's tomb is underneath.",
+      stPauls: "Wren's cathedral in the City. The dome is the landmark. The climb is extra.",
+      tate: "The modern-art museum in a former power station on Bankside. The collection is free.",
+      towerBridge: "The Victorian bridge next to the Tower, with the two stone towers.",
+      nhm: "The museum of animals, fossils, and dinosaurs in South Kensington. Hintze Hall has the blue whale. Free.",
+    };
+    Object.entries(about).forEach(([id, text]) => {
+      places[id].about = text;
+    });
 
     const days = [
       {
@@ -1297,7 +1399,7 @@
       return uniqueStops(day.loop).map((id, i) => {
         const place = places[id];
         const when = (day.events || [])
-          .filter((item) => item.id === id)
+          .filter((item) => item.id === id && !item.meal)
           .map(whenLabel)
           .filter(Boolean)
           .join(" · ");
@@ -1313,6 +1415,7 @@
             label: place.label,
             kind: place.kind,
             note: what,
+            about: place.about || place.note,
             cycleLoop: place.cycleLoop === true,
             city: place.city,
             when,
@@ -1669,35 +1772,39 @@
         },
       });
 
-      map.on("click", "stops-dot", (event) => {
-        const feature = event.features[0];
-        const props = feature.properties;
+      const pinLayers = [
+        "stops-label", "stops-num", "stops-loop", "stops-dot",
+        "food-label", "food-dot", "shop-label", "shop-dot", "option-label", "option-dot",
+      ];
+      function esc(value) {
+        return String(value ?? "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function popupHtml(props) {
+        if (props.num) {
+          const meta = [props.when, props.city].filter(Boolean).join(" · ");
+          return `<strong>${esc(props.num)}. ${esc(props.name)}</strong><p class="pop-about">${esc(props.about)}</p>${meta ? `<span class="pop-meta">${esc(meta)}</span>` : ""}`;
+        }
+        const meta = [props.category, props.note].filter(Boolean).join(" · ");
+        return `<strong>${esc(props.name)}</strong><p class="pop-about">${esc(props.what)}</p>${meta ? `<span class="pop-meta">${esc(meta)}</span>` : ""}`;
+      }
+      map.on("click", (event) => {
+        const hits = map.queryRenderedFeatures(event.point, { layers: pinLayers });
+        if (!hits.length) {
+          if (popup) popup.remove();
+          return;
+        }
+        const feature = hits[0];
         if (popup) popup.remove();
-        popup = new maplibregl.Popup({ offset: 16, closeButton: false })
+        popup = new maplibregl.Popup({ offset: 16, closeButton: false, maxWidth: "260px" })
           .setLngLat(feature.geometry.coordinates)
-          .setHTML(`<strong>${props.num}. ${props.name}</strong>${props.when ? `${props.when}<br>` : ""}${props.note}<br>${props.city}`)
+          .setHTML(popupHtml(feature.properties))
           .addTo(map);
       });
-      map.on("mouseenter", "stops-dot", () => { map.getCanvas().style.cursor = "pointer"; });
-      map.on("mouseleave", "stops-dot", () => { map.getCanvas().style.cursor = ""; });
-
-      function openPin(event, extra) {
-        const props = event.features[0].properties;
-        if (popup) popup.remove();
-        popup = new maplibregl.Popup({ offset: 14, closeButton: false })
-          .setLngLat(event.features[0].geometry.coordinates)
-          .setHTML(`<strong>${props.name}</strong>${props.category}<br>${extra}<br>${props.note}<br>${props.what}`)
-          .addTo(map);
-      }
-      ["food-dot", "shop-dot", "option-dot"].forEach((layerId) => {
-        map.on("click", layerId, (event) => {
-          const extra = layerId === "food-dot"
-            ? "Not on today's route"
-            : layerId === "shop-dot"
-              ? "Shopping · within 10 min"
-              : "Optional · not on today's plan";
-          openPin(event, extra);
-        });
+      pinLayers.forEach((layerId) => {
         map.on("mouseenter", layerId, () => { map.getCanvas().style.cursor = "pointer"; });
         map.on("mouseleave", layerId, () => { map.getCanvas().style.cursor = ""; });
       });
