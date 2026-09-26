@@ -21,6 +21,7 @@
       --hotel: #8b3d2e;
       --eat: #c0562a;
       --option: #5c4d7a;
+      --shop: #2c6e62;
     }
 
     * { box-sizing: border-box; }
@@ -203,6 +204,7 @@
     }
 
     .nearby.option em { color: var(--option); }
+    .nearby.shop em { color: var(--shop); }
 
     .eat-marker {
       position: relative;
@@ -270,6 +272,7 @@
     .legend .london::before { background: var(--london); }
     .legend .eat::before { background: #c47858; }
     .legend .option::before { background: var(--option); }
+    .legend .shop::before { background: var(--shop); }
 
     .rec-marker {
       position: relative;
@@ -505,7 +508,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v36</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v37</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -518,6 +521,7 @@
         <span class="paris">Paris stop</span>
         <span class="london">London stop</span>
         <span class="eat">Food · 15 min</span>
+        <span class="shop">Shops · 10 min</span>
         <span class="option">Optional · 20 min</span>
       </div>
     </div>
@@ -619,7 +623,7 @@
         label: "Overall",
         title: "The whole route",
         kicker: "Paris · London",
-        lede: "Land in Paris on 28 Oct. Numbered pins are the plan. Warm dots are restaurants, bars, and bakeries within a 15 minute walk of a stop. Purple dots are random sights within 20 minutes, not on that day's plan. Eurostar on 3 Nov, fly out of Heathrow on 7 Nov.",
+        lede: "Land in Paris on 28 Oct. Numbered pins are the plan. Warm dots are restaurants, bars, and bakeries within a 15 minute walk of a stop. Green dots are shopping streets and stores within 10 minutes. Purple dots are random sights within 20 minutes, not on that day's plan. Eurostar on 3 Nov, fly out of Heathrow on 7 Nov.",
         loop: ["cdg", "oratio", "nord", "stpancras", "royal", "lhr"],
         events: [
           { id: "cdg", title: "Arrive CDG · CX261", text: "Charles de Gaulle, Terminal 2A. Off the plane, immigration, bags, then RER B toward Saint-Michel.", from: "07:35", to: "10:35" },
@@ -896,6 +900,7 @@
     let recs = [];
     const FOOD = new Set(["Restaurants", "Nightlife", "Bakeries & sweets", "Street food"]);
     const FOOD_KM = 1.2;
+    const SHOP_KM = 0.8;
     const OPTION_KM = 1.6;
 
     function emptyCollection() {
@@ -1122,8 +1127,10 @@
       const matches = [];
       recs.forEach((rec) => {
         if (options.categories && !options.categories.has(rec.category)) return;
+        if (options.source && rec.source !== options.source) return;
+        if (options.excludeSource && rec.source === options.excludeSource) return;
         if (options.priority && rec.priority !== options.priority) return;
-        if (!options.categories && FOOD.has(rec.category)) return;
+        if (!options.categories && !options.source && FOOD.has(rec.category)) return;
         const lat = Number(rec.lat);
         const lng = Number(rec.lng);
         if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
@@ -1170,8 +1177,12 @@
       return collectPins(day, { categories: FOOD, maxKm: FOOD_KM, skipPlanned: true });
     }
 
+    function shopPins(day) {
+      return collectPins(day, { source: "shopping", maxKm: SHOP_KM, skipPlanned: true });
+    }
+
     function optionPins(day) {
-      return collectPins(day, { priority: "random", maxKm: OPTION_KM, skipPlanned: true });
+      return collectPins(day, { priority: "random", excludeSource: "shopping", maxKm: OPTION_KM, skipPlanned: true });
     }
 
     function eatsForStop(eats, placeId) {
@@ -1243,7 +1254,7 @@
       ];
     }
 
-    function renderSidebar(day, food, options) {
+    function renderSidebar(day, food, options, shops) {
       const events = day.events && day.events.length
         ? day.events
         : uniqueStops(day.loop).map((id) => ({ id, title: places[id].name, text: places[id].note }));
@@ -1268,6 +1279,9 @@
           const allNearby = event.pause ? [] : eatsForStop(food, event.id);
           const nearby = allNearby.slice(0, 4);
           const more = allNearby.length - nearby.length;
+          const shopHere = event.pause ? [] : eatsForStop(shops || [], event.id);
+          const shopShown = shopHere.slice(0, 3);
+          const shopMore = shopHere.length - shopShown.length;
           const hops = eventHops(day, i);
           const when = whenLabel(event);
           const hopBits = [];
@@ -1275,6 +1289,9 @@
           if (hops.fromHere) hopBits.push(`From: ${hops.fromHere} to ${hops.toName}`);
           const nearbyHtml = nearby.length
             ? `<p class="nearby"><em>15 min walk</em>${nearby.map((item) => `${esc(item.label)} · ${item.mins} min`).join("<br>")}${more > 0 ? `<br>+ ${more} more on the map` : ""}</p>`
+            : "";
+          const shopHtml = shopShown.length
+            ? `<p class="nearby shop"><em>10 min walk</em>${shopShown.map((item) => `${esc(item.label)} · ${item.mins} min`).join("<br>")}${shopMore > 0 ? `<br>+ ${shopMore} more on the map` : ""}</p>`
             : "";
           return `
             <article class="event">
@@ -1285,6 +1302,7 @@
                 ${hopBits.length ? `<p class="hops">${hopBits.join("<br>")}</p>` : ""}
                 <p>${event.text}</p>
                 ${nearbyHtml}
+                ${shopHtml}
               </div>
             </article>
           `;
@@ -1342,8 +1360,9 @@
       const day = days.find((d) => d.id === id);
       const path = day.loop;
       const food = foodPins(day);
+      const shops = shopPins(day);
       const options = optionPins(day);
-      renderSidebar(day, food, options);
+      renderSidebar(day, food, options, shops);
       if (!mapReady) return;
 
       if (popup) {
@@ -1354,11 +1373,13 @@
       map.getSource("routes").setData({ type: "FeatureCollection", features: routeFeatures(path) });
       map.getSource("stops").setData({ type: "FeatureCollection", features: stopFeatures(day) });
       map.getSource("food").setData({ type: "FeatureCollection", features: pinFeatures(food) });
+      map.getSource("shops").setData({ type: "FeatureCollection", features: pinFeatures(shops) });
       map.getSource("options").setData({ type: "FeatureCollection", features: pinFeatures(options) });
 
       const bounds = new maplibregl.LngLatBounds();
       uniqueStops(day.loop).forEach((placeId) => bounds.extend(lngLat(placeId)));
       food.forEach((item) => bounds.extend([item.lng, item.lat]));
+      shops.forEach((item) => bounds.extend([item.lng, item.lat]));
       options.forEach((item) => bounds.extend([item.lng, item.lat]));
       map.fitBounds(bounds, {
         padding: { top: 64, right: 140, bottom: 52, left: 48 },
@@ -1390,6 +1411,7 @@
       map.addSource("routes", { type: "geojson", data: emptyCollection() });
       map.addSource("stops", { type: "geojson", data: emptyCollection() });
       map.addSource("food", { type: "geojson", data: emptyCollection() });
+      map.addSource("shops", { type: "geojson", data: emptyCollection() });
       map.addSource("options", { type: "geojson", data: emptyCollection() });
       map.addLayer({
         id: "routes-train",
@@ -1409,6 +1431,35 @@
           "line-color": colors.city,
           "line-width": 2,
           "line-opacity": 0.7,
+        },
+      });
+      map.addLayer({
+        id: "shop-dot",
+        type: "circle",
+        source: "shops",
+        paint: {
+          "circle-radius": 5,
+          "circle-color": "#2c6e62",
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#fffdf8",
+        },
+      });
+      map.addLayer({
+        id: "shop-label",
+        type: "symbol",
+        source: "shops",
+        layout: {
+          "text-field": ["get", "label"],
+          "text-size": 11,
+          "text-font": ["Noto Sans Regular"],
+          "text-anchor": "left",
+          "text-offset": [0.75, 0],
+          "text-optional": true,
+        },
+        paint: {
+          "text-color": "#2c6e62",
+          "text-halo-color": "#fffdf8",
+          "text-halo-width": 1.4,
         },
       });
       map.addLayer({
@@ -1544,9 +1595,14 @@
           .setHTML(`<strong>${props.name}</strong>${props.category}<br>${extra}<br>${props.note}<br>${props.what}`)
           .addTo(map);
       }
-      ["food-dot", "option-dot"].forEach((layerId) => {
+      ["food-dot", "shop-dot", "option-dot"].forEach((layerId) => {
         map.on("click", layerId, (event) => {
-          openPin(event, layerId === "food-dot" ? "Not on today's route" : "Optional · not on today's plan");
+          const extra = layerId === "food-dot"
+            ? "Not on today's route"
+            : layerId === "shop-dot"
+              ? "Shopping · within 10 min"
+              : "Optional · not on today's plan";
+          openPin(event, extra);
         });
         map.on("mouseenter", layerId, () => { map.getCanvas().style.cursor = "pointer"; });
         map.on("mouseleave", layerId, () => { map.getCanvas().style.cursor = ""; });

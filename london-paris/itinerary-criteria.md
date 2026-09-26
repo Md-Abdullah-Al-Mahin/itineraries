@@ -8,7 +8,8 @@ Add a line here whenever a new rule comes in.
 - Restaurants, bars and pubs, bakeries and sweet shops, and street food get a fixed amber dot when they are within a 15 minute walk of a numbered stop where you actually spend time (a sight or the hotel). They are not part of the route.
 - Random attractions get a different pin, an open ring, when they are within a 20 minute walk of those same stops. They are optional. They are not on that day's itinerary.
 - Airports and stations do not grow nearby pins. The overall map and the Heathrow morning do not either. On 3 Nov the nearby pins are London only, because Paris is just the departure.
-- A walk minute is about 80 metres. 15 minutes is 1.2 km. 20 minutes is 1.6 km.
+- Shopping streets and stores from the shopping list get a green dot when they are within a 10 minute walk of a numbered stop where you spend time. Farther than that, they stay off that day's map. They are not numbered stops.
+- A walk minute is about 80 metres. 10 minutes is 0.8 km. 15 minutes is 1.2 km. 20 minutes is 1.6 km.
 - A place that already has a numbered pin on any day does not also appear as a nearby pin.
 
 ## How a day is built
