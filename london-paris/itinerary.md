@@ -8,7 +8,7 @@ This is the written copy of the map. When the plan changes, update this file and
 
 | When | What |
 | --- | --- |
-| 28 Oct | CX261 into Paris Charles de Gaulle, Terminal 2A, 07:35. Then RER B toward Saint-Michel. |
+| 28 Oct | CX261 into Paris Charles de Gaulle, Terminal 2A, 07:35. Off the plane, immigration, bags, then RER B. Hotel about 10:35. |
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 29 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Not the same day as Versailles. |
 | 30 Oct | Bateaux Parisiens dinner cruise, 20:30, Port de la Bourdonnais. That is dinner. No second sitting. |
@@ -28,19 +28,23 @@ Purple dots on the map are optional sights within a 20 minute walk. They are not
 
 ## Wednesday 28 October · Arrive, islands and the 5th
 
-CX261 lands at 07:35. Breakfast was on the flight. After check-in: the bookshop, Sainte-Chapelle, Notre-Dame, then an hour for lunch. The island, the Panthéon, and Luxembourg fill the afternoon. Dinner is an hour and a half near the hotel.
+CX261 lands at 07:35. Off the plane, immigration, and bags come first, then the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Dinner is an hour and a half near the hotel.
 
 | Time | Plan |
 | --- | --- |
-| 09:30–10:00 | Hotel Oratio. Check in, drop bags. |
-| 10:05–10:30 | Shakespeare and Company. Three minutes from the hotel. |
-| 10:40–11:40 | Sainte-Chapelle. Book a timed ticket. Go for the upper chapel. |
-| 11:50–12:20 | Notre-Dame. Façade, parvis, the bridges. Go inside if the queue is short. |
-| 12:25–13:25 | Lunch. One hour. A nearby pin near the cathedral or the island. |
-| 13:35–14:05 | Île Saint-Louis. Walk rue Saint-Louis-en-l’Île. Berthillon is a nearby pin, and it is open on Wednesday. |
-| 14:20–15:05 | Panthéon. Crypt, and the dome if it is open. |
-| 15:15–16:05 | Jardin du Luxembourg. Then back to the hotel. |
-| 16:20–18:45 | Hotel. Rest. |
+| 07:35–08:05 | Off the plane, Terminal 2A. |
+| 08:05–08:50 | Immigration. |
+| 08:50–09:20 | Bags, then walk to the RER B station. |
+| 09:20–10:35 | RER B toward Saint-Michel, about 50 minutes, then a 15 minute walk to the hotel. |
+| 10:35–11:05 | Hotel Oratio. Check in and drop bags. If the room is not ready, leave the bags and go. |
+| 11:10–11:35 | Shakespeare and Company. Three minutes from the hotel. |
+| 11:45–12:45 | Sainte-Chapelle. Book a timed ticket. Go for the upper chapel. |
+| 12:55–13:25 | Notre-Dame. Façade, parvis, the bridges. Go inside if the queue is short. |
+| 13:30–14:30 | Lunch. One hour. A nearby pin near the cathedral or the island. |
+| 14:40–15:10 | Île Saint-Louis. Walk rue Saint-Louis-en-l’Île. Berthillon is a nearby pin, and it is open on Wednesday. |
+| 15:25–16:10 | Panthéon. Crypt, and the dome if it is open. |
+| 16:20–17:10 | Jardin du Luxembourg. Then back to the hotel. |
+| 17:25–18:45 | Hotel. Rest. |
 | 19:00–20:30 | Dinner. An hour and a half, any nearby pin within 15 minutes of the hotel. Caveau de la Huchette is there if you want jazz after. |
 
 Du Pain et des Idées is closed at the weekend, and it is a 25 minute metro north of this walk, so it is not on today.
