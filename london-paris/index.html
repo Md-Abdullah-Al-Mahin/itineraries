@@ -689,7 +689,7 @@
         title: "Versailles",
         kicker: "Saturday · Paris day 4",
         lede: "The palace day, on its own. Crazy Horse was Thursday. Breakfast, RER C out, an hour for lunch in town, gardens, then a normal dinner back at the hotel. The palace is closed Monday, so Saturday is the day.",
-        loop: ["oratio", "saintMichel", "versaillesRiveGauche", "versailles", "versaillesGardens", "oratio"],
+        loop: ["oratio", "saintMichel", "versaillesRiveGauche", "versailles", "versaillesGardens", "versaillesRiveGauche", "saintMichel", "oratio"],
         events: [
           { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour. Coffee and something from a nearby pin, then out the door.", from: "07:30", to: "08:00" },
           { id: "oratio", title: "Hotel Oratio", text: "Walk to Saint-Michel for the RER C west.", from: "08:05", to: "08:20" },
@@ -1171,13 +1171,6 @@
       }));
     }
 
-    function cycleIds(day) {
-      const stops = uniqueStops(day.loop);
-      const closed = day.loop.length > 1 && day.loop[0] === day.loop[day.loop.length - 1];
-      if (closed && stops.length > 1) return [...stops, stops[0]];
-      return stops;
-    }
-
     function routeFeatures(path) {
       const features = [];
       for (let i = 0; i < path.length - 1; i += 1) {
@@ -1326,7 +1319,7 @@
     function renderDay(id) {
       current = id;
       const day = days.find((d) => d.id === id);
-      const path = cycleIds(day);
+      const path = day.loop;
       const food = foodPins(day);
       const options = optionPins(day);
       renderSidebar(day, food, options);
