@@ -505,7 +505,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v35</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v36</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -864,7 +864,7 @@
       paris: "#3d5a4c",
       london: "#2d4a6f",
       flight: "#2d4a6f",
-      train: "#8b3d2e",
+      train: "#6b6458",
       city: "#6b6458",
     };
 
@@ -1397,7 +1397,7 @@
         source: "routes",
         filter: ["==", ["get", "mode"], "train"],
         layout: { "line-cap": "round", "line-join": "round" },
-        paint: { "line-color": colors.train, "line-width": 3, "line-opacity": 0.9 },
+        paint: { "line-color": colors.train, "line-width": 2, "line-opacity": 0.7 },
       });
       map.addLayer({
         id: "routes-city",
