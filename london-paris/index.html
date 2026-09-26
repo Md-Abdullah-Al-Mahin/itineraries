@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <title>London & Paris · 28 Oct – 8 Nov 2026</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+  <style>
+    :root {
+      --ink: #1c1914;
+      --muted: #6b6458;
+      --line: #ddd6c8;
+      --paper: #f6f1e7;
+      --panel: #fffdf8;
+      --accent: #8b3d2e;
+      --paris: #3d5a4c;
+      --london: #2d4a6f;
+      --transit: #8a6a2f;
+      --hotel: #8b3d2e;
+      --eat: #c0562a;
+      --option: #5c4d7a;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background: var(--paper);
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: minmax(300px, 380px) 1fr;
+      height: 100%;
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      background: var(--panel);
+      border-right: 1px solid var(--line);
+    }
+
+    .brand {
+      padding: 22px 22px 14px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand p {
+      margin: 0 0 6px;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    .brand .dates {
+      margin-top: 8px;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .days {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 14px 22px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .days button {
+      flex: 0 0 auto;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .days button.active {
+      background: var(--ink);
+      color: #fffdf8;
+      border-color: var(--ink);
+    }
+
+    .detail {
+      flex: 1;
+      overflow: auto;
+      padding: 18px 22px 28px;
+    }
+
+    .kicker {
+      margin: 0 0 6px;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .detail h2 {
+      margin: 0 0 8px;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .lede {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .event {
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      gap: 10px;
+      padding: 12px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .event h3 {
+      margin: 0 0 4px;
+      font-size: 16px;
+    }
+
+    .when {
+      margin: 0 0 6px;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .hops {
+      margin: 0 0 6px;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .event p {
+      margin: 0;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .nearby {
+      margin-top: 8px;
+      padding: 8px 10px;
+      background: #f7efe4;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .nearby em {
+      display: block;
+      margin-bottom: 3px;
+      font-style: normal;
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--eat);
+    }
+
+    .nearby.option em { color: var(--option); }
+
+    .eat-marker {
+      position: relative;
+      width: 14px;
+      height: 14px;
+      cursor: pointer;
+    }
+
+    .eat-marker-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--eat);
+      border: 2px solid #fffdf8;
+      box-shadow: 0 0 0 1px rgba(192, 86, 42, 0.25);
+    }
+
+    .eat-marker-label {
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      white-space: nowrap;
+      background: #fffdf8;
+      border: 1px solid #e3c8b4;
+      color: var(--eat);
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 11px;
+      line-height: 1;
+      padding: 3px 6px;
+    }
+
+    .map-wrap { position: relative; min-height: 0; }
+    #map { height: 100%; width: 100%; background: #efe4c8; }
+
+    .legend {
+      position: absolute;
+      left: 12px;
+      bottom: 12px;
+      z-index: 500;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 8px 10px;
+      background: rgba(255, 253, 248, 0.94);
+      border: 1px solid var(--line);
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .legend span::before {
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-right: 6px;
+      border-radius: 50%;
+      background: var(--ink);
+    }
+
+    .legend .hotel::before { background: var(--hotel); }
+    .legend .transit::before { background: var(--transit); }
+    .legend .paris::before { background: var(--paris); }
+    .legend .london::before { background: var(--london); }
+    .legend .eat::before { background: #c47858; }
+    .legend .option::before { background: var(--option); }
+
+    .rec-marker {
+      position: relative;
+      width: 12px;
+      height: 12px;
+      cursor: pointer;
+    }
+
+    .rec-marker.must { width: 16px; height: 16px; }
+
+    .rec-marker-dot {
+      width: 10px;
+      height: 10px;
+      margin: 1px;
+      background: #6b3d6a;
+      border: 2px solid #fffdf8;
+      transform: rotate(45deg);
+      box-shadow: 0 0 0 1px rgba(107, 61, 106, 0.25);
+    }
+
+    .rec-marker.must .rec-marker-dot {
+      width: 12px;
+      height: 12px;
+      margin: 2px;
+      background: #8b3d2e;
+      box-shadow: 0 0 0 1px rgba(139, 61, 46, 0.3);
+    }
+
+    .rec-marker-label {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      white-space: nowrap;
+      background: #fffdf8;
+      border: 1px solid #e3c8b4;
+      color: #8b3d2e;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 11px;
+      line-height: 1;
+      padding: 3px 6px;
+    }
+
+    .dot {
+      width: 18px;
+      height: 18px;
+      margin-top: 2px;
+      border-radius: 50%;
+      background: var(--ink);
+      color: #fffdf8;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      line-height: 18px;
+      text-align: center;
+    }
+
+    .dot.hotel { background: var(--hotel); }
+    .dot.paris { background: var(--paris); }
+    .dot.london { background: var(--london); }
+    .dot.transit { background: var(--transit); }
+    .dot.meal { background: var(--eat); }
+
+    .maplibregl-popup-content {
+      padding: 10px 12px;
+      border-radius: 2px;
+      box-shadow: none;
+      border: 1px solid var(--line);
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .maplibregl-popup-content strong {
+      display: block;
+      margin-bottom: 4px;
+      font-family: Georgia, serif;
+      font-size: 15px;
+    }
+
+    .maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+      border-top-color: var(--line);
+    }
+
+    .maplibregl-ctrl-attrib {
+      font-size: 10px;
+    }
+
+    .all-trips {
+      display: inline-block;
+      margin-bottom: 8px;
+      font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .view-toggle {
+      display: none;
+    }
+
+    @media (max-width: 860px) {
+      .app {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(0, 1fr);
+        height: 100dvh;
+      }
+
+      .sidebar { border-right: 0; }
+
+      .brand {
+        padding: calc(12px + env(safe-area-inset-top)) 16px 10px;
+      }
+
+      .brand h1 { font-size: 22px; }
+
+      .days {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 8px;
+        padding: 10px 16px;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .days button {
+        min-height: 40px;
+        padding: 8px 14px;
+        font-size: 13px;
+      }
+
+      .detail {
+        padding: 14px 16px calc(92px + env(safe-area-inset-bottom));
+      }
+
+      .map-wrap { display: none; height: 100%; }
+
+      body.map-mode .sidebar { display: none; }
+      body.map-mode .map-wrap { display: block; }
+
+      .legend {
+        left: 10px;
+        right: 10px;
+        bottom: calc(76px + env(safe-area-inset-bottom));
+        gap: 8px 12px;
+      }
+
+      .maplibregl-ctrl-top-right {
+        top: calc(8px + env(safe-area-inset-top));
+      }
+
+      .view-toggle {
+        display: flex;
+        position: fixed;
+        z-index: 30;
+        left: 50%;
+        bottom: calc(14px + env(safe-area-inset-bottom));
+        transform: translateX(-50%);
+        gap: 4px;
+        padding: 4px;
+        background: rgba(255, 253, 248, 0.96);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        box-shadow: 0 8px 24px rgba(28, 25, 20, 0.14);
+      }
+
+      .view-toggle button {
+        min-width: 88px;
+        min-height: 44px;
+        border: 0;
+        border-radius: 999px;
+        background: transparent;
+        color: var(--ink);
+        font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .view-toggle button.active {
+        background: var(--ink);
+        color: #fffdf8;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <a class="all-trips" href="../">All trips</a>
+        <p>Trip map</p>
+        <h1>Paris, then London</h1>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v32</div>
+      </div>
+      <div class="days" id="day-nav"></div>
+      <div class="detail" id="detail"></div>
+    </aside>
+    <div class="map-wrap">
+      <div id="map"></div>
+      <div class="legend">
+        <span class="hotel">Hotel</span>
+        <span class="transit">Airport / station</span>
+        <span class="paris">Paris stop</span>
+        <span class="london">London stop</span>
+        <span class="eat">Food · 15 min</span>
+        <span class="option">Optional · 20 min</span>
+      </div>
+    </div>
+  </div>
+  <nav class="view-toggle" aria-label="Plan or map">
+    <button type="button" id="show-plan" class="active">Plan</button>
+    <button type="button" id="show-map">Map</button>
+  </nav>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script>
+    const places = {
+      cdg: { name: "Paris Charles de Gaulle", label: "CDG", kind: "transit", city: "Paris", lat: 49.0097, lng: 2.5479, note: "Terminal 2A" },
+      oratio: { name: "Hotel Oratio", label: "Hotel Oratio", kind: "hotel", city: "Paris", lat: 48.848751, lng: 2.34961, note: "42 rue des Bernardins, 75005" },
+      nord: { name: "Paris Gare du Nord", label: "Gare du Nord", kind: "transit", city: "Paris", lat: 48.8809, lng: 2.3553, note: "Eurostar · be there 07:32" },
+      stpancras: { name: "London St Pancras International", label: "St Pancras", kind: "transit", city: "London", lat: 51.5314, lng: -0.1261, note: "Eurostar arrival 10:00" },
+      royal: { name: "Royal National Hotel", label: "Royal National", kind: "hotel", city: "London", lat: 51.523473, lng: -0.127234, note: "38–51 Bedford Way, Bloomsbury" },
+      lhr: { name: "London Heathrow", label: "Heathrow", kind: "transit", city: "London", lat: 51.4706, lng: -0.4581, note: "Terminal 3" },
+      notreDame: { name: "Notre-Dame", label: "Notre-Dame", kind: "paris", city: "Paris", lat: 48.8527288, lng: 2.3505635, note: "10 minutes from the hotel" },
+      ileSaintLouis: { name: "Île Saint-Louis", label: "Île Saint-Louis", kind: "paris", city: "Paris", lat: 48.8515572, lng: 2.3574207, note: "Walk east from Notre-Dame" },
+      berthillon: { name: "Berthillon", label: "Berthillon", kind: "paris", city: "Paris", lat: 48.8517135, lng: 2.3567206, note: "Ice cream on Île Saint-Louis. Closed Mon–Tue." },
+      duPain: { name: "Du Pain et des Idées", label: "Du Pain et des Idées", kind: "paris", city: "Paris", lat: 48.871197, lng: 2.362886, note: "Pistachio-chocolate escargot. Closed weekends." },
+      alexandre: { name: "Pont Alexandre III", label: "Alexandre III", kind: "paris", city: "Paris", lat: 48.8638, lng: 2.3136, note: "Walk the bridge on the way to the Petit Palais." },
+      petitPalais: { name: "Petit Palais", label: "Petit Palais", kind: "paris", city: "Paris", lat: 48.866042, lng: 2.31535, note: "Free permanent collection. Closed Monday." },
+      paulBert: { name: "Bistrot Paul Bert", label: "Paul Bert", kind: "paris", city: "Paris", lat: 48.8522292, lng: 2.3848682, note: "Steak in pepper sauce. Book. Closed Sun–Mon." },
+      laRenommee: { name: "La Renommée", label: "La Renommée", kind: "paris", city: "Paris", lat: 48.8612719, lng: 2.343211, note: "Filet au poivre. Book up to 30 days ahead. Dinner from 17:30." },
+      soane: { name: "Sir John Soane's Museum", label: "Soane's", kind: "london", city: "London", lat: 51.517, lng: -0.1175, note: "Free timed ticket. Closed Tuesday. Lincoln's Inn Fields." },
+      tamila: { name: "Tamila", label: "Tamila", kind: "london", city: "London", lat: 51.5312, lng: -0.1214, note: "South Indian on Caledonian Road. Beli 9.5. Walk from the hotel." },
+      skyGarden: { name: "Sky Garden", label: "Sky Garden", kind: "london", city: "London", lat: 51.5112, lng: -0.0837, note: "Free timed ticket on the Walkie Talkie. Book ahead. Bring ID." },
+      stJames: { name: "St James's Park", label: "St James's Park", kind: "london", city: "London", lat: 51.5024, lng: -0.1347, note: "Lake, pelicans, palace view. Walk it after Buckingham." },
+      sainteChapelle: { name: "Sainte-Chapelle", label: "Sainte-Chapelle", kind: "paris", city: "Paris", lat: 48.8554, lng: 2.3450, note: "Book a timed ticket" },
+      shakespeare: { name: "Shakespeare and Company", label: "Shakespeare & Co", kind: "paris", city: "Paris", lat: 48.8527, lng: 2.3471, note: "Left bank, next to the hotel" },
+      pantheon: { name: "Panthéon", label: "Panthéon", kind: "paris", city: "Paris", lat: 48.8462218, lng: 2.3464138, note: "South of the hotel" },
+      mouffetard: { name: "Rue Mouffetard Market", label: "Mouffetard", kind: "paris", city: "Paris", lat: 48.8404307, lng: 2.3498002, note: "Food street in the 5th" },
+      caveau: { name: "Caveau de la Huchette", label: "Caveau", kind: "paris", city: "Paris", lat: 48.8527634, lng: 2.3462818, note: "Jazz cellar, 5 minutes from the hotel" },
+      louvre: { name: "Louvre Museum", label: "Louvre", kind: "paris", city: "Paris", lat: 48.8606111, lng: 2.337644, note: "Book a 09:00 timed entry" },
+      orsay: { name: "Musée d'Orsay", label: "Orsay", kind: "paris", city: "Paris", lat: 48.8600, lng: 2.3266, note: "Across the river from the Louvre" },
+      crazyHorse: { name: "Crazy Horse", label: "Crazy Horse", kind: "paris", city: "Paris", lat: 48.8656, lng: 2.3018, note: "12 Avenue George V · arrive 19:15" },
+      bac: { name: "Rue du Bac", label: "Rue du Bac", kind: "paris", city: "Paris", lat: 48.8556843, lng: 2.3252936, note: "Left-bank shopping street" },
+      grandeEpicerie: { name: "La Grande Épicerie de Paris", label: "Grande Épicerie", kind: "paris", city: "Paris", lat: 48.8503167, lng: 2.3239433, note: "Food hall on Rue de Sèvres" },
+      artModerne: { name: "Musée d'Art Moderne de Paris", label: "Art Moderne", kind: "paris", city: "Paris", lat: 48.8643421, lng: 2.2978208, note: "Next to Trocadéro" },
+      trocadero: { name: "Trocadéro", label: "Trocadéro", kind: "paris", city: "Paris", lat: 48.8621498, lng: 2.2884502, note: "Best tower view" },
+      eiffel: { name: "Eiffel Tower", label: "Eiffel Tower", kind: "paris", city: "Paris", lat: 48.8583701, lng: 2.2944813, note: "Book second floor or summit" },
+      bateaux: { name: "Bateaux Parisiens", label: "Seine dinner", kind: "paris", city: "Paris", lat: 48.8600, lng: 2.2938, note: "Port de la Bourdonnais · 20:30" },
+      sacreCoeur: { name: "Sacré-Cœur", label: "Sacré-Cœur", kind: "paris", city: "Paris", lat: 48.8867, lng: 2.3431, note: "Montmartre" },
+      tertre: { name: "Place du Tertre", label: "Tertre", kind: "paris", city: "Paris", lat: 48.8864, lng: 2.3406, note: "Montmartre square" },
+      mamiche: { name: "Mamiche", label: "Mamiche", kind: "paris", city: "Paris", lat: 48.8800888, lng: 2.3435419, note: "Bakery on the way down from the hill" },
+      carnavalet: { name: "Carnavalet Museum", label: "Carnavalet", kind: "paris", city: "Paris", lat: 48.8570669, lng: 2.3628579, note: "Free · Paris history in the Marais" },
+      falafel: { name: "L'As du Fallafel", label: "L'As du Fallafel", kind: "paris", city: "Paris", lat: 48.8574067, lng: 2.3591962, note: "Rue des Rosiers" },
+      vosges: { name: "Place des Vosges", label: "Vosges", kind: "paris", city: "Paris", lat: 48.8556, lng: 2.3655, note: "Marais square" },
+      badaboum: { name: "Badaboum", label: "Badaboum", kind: "paris", city: "Paris", lat: 48.8536, lng: 2.3758, note: "Halloween party 23:30–07:00" },
+      saintLazare: { name: "Gare Saint-Lazare", label: "Saint-Lazare", kind: "transit", city: "Paris", lat: 48.8755, lng: 2.3253, note: "TER to Vernon-Giverny" },
+      vernon: { name: "Vernon-Giverny station", label: "Vernon", kind: "transit", city: "Paris", lat: 49.0915, lng: 1.4788, note: "Shuttle to Monet’s gardens" },
+      giverny: { name: "Monet's House and Gardens", label: "Giverny", kind: "paris", city: "Paris", lat: 49.0753792, lng: 1.5337035, note: "Last day of the 2026 season" },
+      saintMichel: { name: "Saint-Michel–Notre-Dame", label: "Saint-Michel", kind: "transit", city: "Paris", lat: 48.8536, lng: 2.3442, note: "RER C to Versailles" },
+      versaillesRiveGauche: { name: "Versailles Château Rive Gauche", label: "Versailles RER", kind: "transit", city: "Paris", lat: 48.8004, lng: 2.1295, note: "RER C terminus · 10 min walk to the palace" },
+      versailles: { name: "Palace of Versailles", label: "Versailles", kind: "paris", city: "Paris", lat: 48.804865, lng: 2.120355, note: "Book a Passport ticket" },
+      versaillesGardens: { name: "Gardens of Versailles", label: "Gardens", kind: "paris", city: "Paris", lat: 48.8094, lng: 2.1095, note: "Grand Canal and parterres" },
+      garnier: { name: "Palais Garnier", label: "Garnier", kind: "paris", city: "Paris", lat: 48.8719697, lng: 2.3316014, note: "Self-guided opera visit" },
+      arc: { name: "Arc de Triomphe", label: "Arc de Triomphe", kind: "paris", city: "Paris", lat: 48.8737917, lng: 2.2950275, note: "Top of the Champs" },
+      zara: { name: "Zara", label: "Zara Champs", kind: "paris", city: "Paris", lat: 48.8712082, lng: 2.3046964, note: "Your bookmark on the Champs" },
+      britishMuseum: { name: "The British Museum", label: "British Museum", kind: "london", city: "London", lat: 51.5194133, lng: -0.1269566, note: "10 minutes from Bedford Way" },
+      nationalGallery: { name: "The National Gallery", label: "National Gallery", kind: "london", city: "London", lat: 51.508929, lng: -0.128299, note: "Trafalgar Square" },
+      gordons: { name: "Gordon's Wine Bar", label: "Gordon's", kind: "london", city: "London", lat: 51.507944, lng: -0.123314, note: "Villiers Street cellar" },
+      westminster: { name: "Westminster Abbey", label: "Westminster", kind: "london", city: "London", lat: 51.4993695, lng: -0.1272993, note: "Next to Big Ben" },
+      bigBen: { name: "Big Ben", label: "Big Ben", kind: "london", city: "London", lat: 51.5007292, lng: -0.1246254, note: "Parliament Square" },
+      dishoomKX: { name: "Dishoom King's Cross", label: "Dishoom KX", kind: "london", city: "London", lat: 51.536207, lng: -0.125499, note: "Near St Pancras" },
+      leadenhall: { name: "Leadenhall Market", label: "Leadenhall", kind: "london", city: "London", lat: 51.512766, lng: -0.0835289, note: "City market hall" },
+      borough: { name: "Borough Market", label: "Borough", kind: "london", city: "London", lat: 51.5055826, lng: -0.0904808, note: "Southwark food market" },
+      tower: { name: "Tower of London", label: "Tower", kind: "london", city: "London", lat: 51.5081124, lng: -0.0759493, note: "East of the City" },
+      nealsYard: { name: "Neal's Yard", label: "Neal's Yard", kind: "london", city: "London", lat: 51.5145931, lng: -0.1265282, note: "Covent Garden courtyard" },
+      fortnum: { name: "Fortnum & Mason", label: "Fortnum", kind: "london", city: "London", lat: 51.5083687, lng: -0.13831, note: "Piccadilly" },
+      buckingham: { name: "Buckingham Palace", label: "Buckingham", kind: "london", city: "London", lat: 51.501364, lng: -0.14189, note: "St James's" },
+      hydePark: { name: "Hyde Park", label: "Hyde Park", kind: "london", city: "London", lat: 51.5073638, lng: -0.1641135, note: "West of the palace" },
+      russellSq: { name: "Russell Square station", label: "Russell Square", kind: "transit", city: "London", lat: 51.5230, lng: -0.1243, note: "Piccadilly line to Heathrow" },
+      luxembourg: { name: "Jardin du Luxembourg", label: "Luxembourg", kind: "paris", city: "Paris", lat: 48.8466, lng: 2.3372, note: "Formal garden south of the hotel" },
+      tuileries: { name: "Jardin des Tuileries", label: "Tuileries", kind: "paris", city: "Paris", lat: 48.8635, lng: 2.3275, note: "The garden you walk out of the Louvre into" },
+      concorde: { name: "Place de la Concorde", label: "Concorde", kind: "paris", city: "Paris", lat: 48.8656, lng: 2.3212, note: "West end of the Tuileries" },
+      invalides: { name: "Hôtel des Invalides", label: "Invalides", kind: "paris", city: "Paris", lat: 48.8556, lng: 2.3125, note: "Dome and Napoleon's tomb" },
+      stPauls: { name: "St Paul's Cathedral", label: "St Paul's", kind: "london", city: "London", lat: 51.5138, lng: -0.0984, note: "Wren's dome. Book a slot if you want to climb." },
+      tate: { name: "Tate Modern", label: "Tate Modern", kind: "london", city: "London", lat: 51.5076, lng: -0.0994, note: "Free. Across the Millennium Bridge from St Paul's." },
+      towerBridge: { name: "Tower Bridge", label: "Tower Bridge", kind: "london", city: "London", lat: 51.5055, lng: -0.0754, note: "Walk across after the Tower." },
+      nhm: { name: "Natural History Museum", label: "Natural History", kind: "london", city: "London", lat: 51.4967, lng: -0.1764, note: "Dinosaurs. Book a free timed ticket." },
+    };
+
+    const days = [
+      {
+        id: "overall",
+        label: "Overall",
+        title: "The whole route",
+        kicker: "Paris · London",
+        lede: "Land in Paris on 28 Oct. Numbered pins are the plan. Warm dots are restaurants, bars, and bakeries within a 15 minute walk of a stop. Purple dots are random sights within 20 minutes, not on that day's plan. Eurostar on 3 Nov, fly out of Heathrow on 7 Nov.",
+        loop: ["cdg", "oratio", "nord", "stpancras", "royal", "lhr"],
+        events: [
+          { id: "cdg", title: "Arrive CDG · CX261", text: "Charles de Gaulle, Terminal 2A. Collect bags, then RER B toward Saint-Michel.", from: "07:35", to: "08:30" },
+          { id: "oratio", title: "Hotel Oratio, Paris", text: "Small Left Bank hotel at 42 rue des Bernardins. This is the start and end of every Paris day.", from: "28 Oct 09:30", to: "3 Nov 06:30" },
+          { id: "nord", title: "Eurostar 9013 from Gare du Nord", text: "Paris’s Eurostar station. Clear security, find coach 7 seat 31.", from: "07:32", to: "08:32" },
+          { id: "stpancras", title: "Arrive St Pancras", text: "Victorian terminus on Euston Road. Walk south into Bloomsbury, or one Piccadilly stop to Russell Square.", from: "10:00", to: "10:20" },
+          { id: "royal", title: "Royal National Hotel, London", text: "Big Bloomsbury hotel at 38–51 Bedford Way. This is the start and end of every London day.", from: "3 Nov 10:35", to: "7 Nov 14:30" },
+          { id: "lhr", title: "Leave LHR · CX250", text: "Heathrow Terminal 3. Cathay to Hong Kong, seat 59J.", from: "16:00", to: "17:50" },
+        ],
+      },
+      {
+        id: "oct28",
+        label: "28 Oct",
+        title: "Arrive · islands and the 5th",
+        kicker: "Wednesday · Paris day 1",
+        lede: "CX261 lands 07:35. Breakfast was on the flight. After check-in: the bookshop, Sainte-Chapelle, Notre-Dame, then an hour for lunch. The island, the Panthéon, and Luxembourg fill the afternoon. Dinner is an hour and a half near the hotel.",
+        loop: ["oratio", "shakespeare", "sainteChapelle", "notreDame", "ileSaintLouis", "pantheon", "luxembourg", "oratio"],
+        events: [
+          { id: "oratio", title: "Hotel Oratio", text: "Landed 07:35. Check in, drop bags. Breakfast was on the flight.", from: "09:30", to: "10:00" },
+          { id: "shakespeare", title: "Shakespeare and Company", text: "English-language bookshop on the Seine, three minutes from the hotel. Browse the stalls and peek at the reading room upstairs.", from: "10:05", to: "10:30" },
+          { id: "sainteChapelle", title: "Sainte-Chapelle", text: "Royal chapel built for the Crown of Thorns. Go for the upper chapel’s stained glass. Book a timed ticket.", from: "10:40", to: "11:40" },
+          { id: "notreDame", title: "Notre-Dame", text: "The cathedral, back after the fire. Façade, parvis, the Seine bridges. Go inside if the queue is short.", from: "11:50", to: "12:20" },
+          { id: "notreDame", meal: "lunch", title: "Lunch", text: "One hour. Pick a nearby pin near the cathedral or the island.", from: "12:25", to: "13:25" },
+          { id: "ileSaintLouis", title: "Île Saint-Louis", text: "Quiet residential island next door. Walk rue Saint-Louis-en-l’Île. Ice cream is a nearby pin, not a separate stop.", from: "13:35", to: "14:05" },
+          { id: "pantheon", title: "Panthéon", text: "Neoclassical mausoleum up the hill. Voltaire, Rousseau and Curie in the crypt. Climb the dome if it is open.", from: "14:20", to: "15:05" },
+          { id: "luxembourg", title: "Jardin du Luxembourg", text: "The formal garden. Chairs around the basin, a slow lap, then back to the hotel.", from: "15:15", to: "16:05" },
+          { id: "oratio", title: "Hotel Oratio", text: "Rest before dinner.", from: "16:20", to: "18:45", pause: true },
+          { id: "oratio", meal: "dinner", title: "Dinner", text: "An hour and a half. Any nearby pin within a 15 minute walk of the hotel. Caveau is one of them if you want jazz after.", from: "19:00", to: "20:30" },
+        ],
+      },
+      {
+        id: "oct29",
+        label: "29 Oct",
+        title: "Montmartre · Marais · Crazy Horse",
+        kicker: "Thursday · Paris day 2",
+        lede: "Versailles is Saturday, so this day stays in the city. The hill, lunch on the way down, the Marais, then time to change before Crazy Horse at 20:00. Dinner is after the show.",
+        loop: ["oratio", "sacreCoeur", "carnavalet", "vosges", "oratio", "crazyHorse", "oratio"],
+        events: [
+          { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour, then metro to Anvers or Abbesses and walk up the butte.", from: "08:15", to: "08:45" },
+          { id: "oratio", title: "Hotel Oratio", text: "Out the door.", from: "08:50", to: "09:05" },
+          { id: "sacreCoeur", title: "Sacré-Cœur", text: "White basilica on the hill. Climb the steps, Paris from the terrace, go inside if you want.", from: "09:30", to: "10:40" },
+          { id: "sacreCoeur", meal: "lunch", title: "Lunch", text: "One hour on the way down the hill. Mamiche and the other nearby pins.", from: "10:45", to: "11:45" },
+          { id: "carnavalet", title: "Carnavalet", text: "Free museum of Paris history in two Marais mansions. Revolution rooms, reconstructed interiors upstairs.", from: "12:15", to: "13:45" },
+          { id: "vosges", title: "Place des Vosges", text: "Oldest planned square in Paris. Red brick, arcades, a short sit, then metro home. You need the afternoon free for the show.", from: "14:00", to: "14:40" },
+          { id: "oratio", title: "Hotel Oratio", text: "Shower and change. Leave by 18:45 so you are at the door for 19:10.", from: "15:10", to: "18:40", pause: true },
+          { id: "crazyHorse", title: "Crazy Horse · 20:00", text: "Cabaret on Avenue George V. Nude revue, tight lighting, about an hour. Doors before 20:00, then metro home for dinner.", from: "19:10", to: "21:15" },
+          { id: "oratio", meal: "dinner", title: "Dinner", text: "An hour and a half after the show, near the hotel. Any nearby pin within a 15 minute walk.", from: "21:40", to: "23:10" },
+        ],
+      },
+      {
+        id: "oct30",
+        label: "30 Oct",
+        title: "Orsay · river · Eiffel",
+        kicker: "Friday · Paris day 3",
+        lede: "Orsay is closed Monday, so it is today. Breakfast, the museum, then an hour for lunch before Invalides and the Petit Palais. The tower is the afternoon. Dinner is the cruise already booked for 20:30, so there is no second sitting.",
+        loop: ["oratio", "orsay", "invalides", "alexandre", "petitPalais", "trocadero", "eiffel", "bateaux", "oratio"],
+        events: [
+          { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour at the hotel, then the left bank toward Orsay.", from: "08:00", to: "08:30" },
+          { id: "oratio", title: "Hotel Oratio", text: "Leave west along the river.", from: "08:35", to: "08:50" },
+          { id: "orsay", title: "Musée d'Orsay", text: "Old railway station, now the Impressionist museum. Monet, Van Gogh, Degas.", from: "09:10", to: "11:00" },
+          { id: "orsay", meal: "lunch", title: "Lunch", text: "One hour. Nearby pins around the museum, then walk to the dome.", from: "11:05", to: "12:05" },
+          { id: "invalides", title: "Hôtel des Invalides", text: "The gold dome and Napoleon’s tomb. An hour, then the bridge.", from: "12:20", to: "13:10" },
+          { id: "alexandre", title: "Pont Alexandre III", text: "The gold bridge. Walk it for the photos. The Petit Palais is on the right-bank end.", from: "13:20", to: "13:35" },
+          { id: "petitPalais", title: "Petit Palais", text: "Free city art museum. Permanent collection, no reservation. Closed Monday, so Friday is the day.", from: "13:40", to: "14:40" },
+          { id: "trocadero", title: "Trocadéro", text: "Esplanade with the postcard Eiffel view. Photos from the terrace, then walk down through the Champ de Mars.", from: "15:05", to: "15:50" },
+          { id: "eiffel", title: "Eiffel Tower", text: "Book a second-floor or summit slot. Stay for the light. The cruise boards next door.", from: "16:05", to: "19:50" },
+          { id: "bateaux", title: "Bateaux Parisiens · dinner", text: "This is dinner. The cruise is already booked for 20:30 from Port de la Bourdonnais, about two and a half hours, then a taxi home.", from: "20:15", to: "23:00" },
+        ],
+      },
+      {
+        id: "oct31",
+        label: "31 Oct",
+        title: "Versailles",
+        kicker: "Saturday · Paris day 4",
+        lede: "The palace day, on its own. Crazy Horse was Thursday. Breakfast, RER C out, an hour for lunch in town, gardens, then a normal dinner back at the hotel. The palace is closed Monday, so Saturday is the day.",
+        loop: ["oratio", "saintMichel", "versaillesRiveGauche", "versailles", "versaillesGardens", "oratio"],
+        events: [
+          { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour. Coffee and something from a nearby pin, then out the door.", from: "07:30", to: "08:00" },
+          { id: "oratio", title: "Hotel Oratio", text: "Walk to Saint-Michel for the RER C west.", from: "08:05", to: "08:20" },
+          { id: "saintMichel", title: "Saint-Michel–Notre-Dame", text: "RER C platform toward Versailles Château Rive Gauche. Trains about every 15 minutes. Take the one that says Versailles.", from: "08:30", to: "08:35" },
+          { id: "versaillesRiveGauche", title: "Versailles Château Rive Gauche", text: "End of the line. Walk straight up Avenue de Paris to the palace gates.", from: "09:15", to: "09:25" },
+          { id: "versailles", title: "Palace of Versailles", text: "Louis XIV’s château. Hall of Mirrors, King’s State Apartments, chapel. Passport ticket, go in as it opens.", from: "09:35", to: "12:30" },
+          { id: "versailles", meal: "lunch", title: "Lunch", text: "One hour in town, by the gates or back toward the station. The nearby pins on this map are Paris restaurants, not Versailles.", from: "12:35", to: "13:35" },
+          { id: "versaillesGardens", title: "Gardens of Versailles", text: "Le Nôtre’s parterres, Grand Canal, fountains. Slow walk, then the RER home.", from: "13:50", to: "16:15" },
+          { id: "oratio", title: "Hotel Oratio", text: "Shower. Giverny is tomorrow, the last day of the season.", from: "17:15", to: "18:45", pause: true },
+          { id: "oratio", meal: "dinner", title: "Dinner", text: "An hour and a half near the hotel. The Halloween club is a metro ride if you still want it at 23:30. It is not on the walk.", from: "19:00", to: "20:30" },
+        ],
+      },
+      {
+        id: "nov1",
+        label: "1 Nov",
+        title: "Giverny",
+        kicker: "Sunday · Paris day 5",
+        lede: "Last open day of Monet’s house and gardens. Breakfast, then the TER from Saint-Lazare. Lunch is an hour at Giverny. Dinner is an hour and a half near the hotel. The Louvre is 09:00 tomorrow.",
+        loop: ["oratio", "saintLazare", "vernon", "giverny", "vernon", "saintLazare", "oratio"],
+        events: [
+          { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour. Later if the night ran late. Then metro to Saint-Lazare: Line 10 to Odéon, Line 4 north.", from: "09:15", to: "09:45" },
+          { id: "oratio", title: "Hotel Oratio", text: "Out the door for the train.", from: "09:50", to: "10:00" },
+          { id: "saintLazare", title: "Gare Saint-Lazare", text: "TER toward Rouen / Vernon-Giverny. About 50 minutes. Buy a return. Sunday trains are about hourly. Check SNCF that morning.", from: "10:25", to: "10:30" },
+          { id: "vernon", title: "Vernon-Giverny station", text: "Seasonal shuttle meets the Paris trains. About 15–20 minutes to the garden car park.", from: "11:20", to: "11:25" },
+          { id: "giverny", title: "Monet’s house and gardens", text: "Last day of the 2026 season, 10:00–18:00, last entry 17:30. Clos Normand and the pink house first.", from: "11:45", to: "12:30" },
+          { id: "giverny", meal: "lunch", title: "Lunch", text: "One hour. Les Nymphéas is opposite the garden if you want a table. Then the water-lily pond.", from: "12:30", to: "13:30" },
+          { id: "giverny", title: "Gardens", text: "The pond and a last walk. Be on a 16:20 shuttle.", from: "13:30", to: "16:10" },
+          { id: "vernon", title: "Vernon-Giverny · return", text: "Shuttle back for the Paris train.", from: "16:40", to: "16:50" },
+          { id: "saintLazare", title: "Gare Saint-Lazare · return", text: "Off the TER. Metro Line 4 south, then 10 to Maubert.", from: "17:40", to: "17:45" },
+          { id: "oratio", title: "Hotel Oratio", text: "Drop your bag. Louvre is a 09:00 timed entry tomorrow.", from: "18:10", to: "18:45", pause: true },
+          { id: "oratio", meal: "dinner", title: "Dinner", text: "An hour and a half near the hotel, then an early night.", from: "19:00", to: "20:30" },
+        ],
+      },
+      {
+        id: "nov2",
+        label: "2 Nov",
+        title: "Louvre · west to the Arc",
+        kicker: "Monday · Paris day 6",
+        lede: "Versailles and Orsay are closed. Breakfast, the Louvre, an hour for lunch, then the Tuileries, Concorde, the Arc, and Garnier. Dinner is La Renommée, the one Paris meal to book: 17:30–19:00. Pack after. Eurostar is 08:32 tomorrow.",
+        loop: ["oratio", "louvre", "tuileries", "concorde", "arc", "garnier", "laRenommee", "oratio"],
+        events: [
+          { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour, then walk or metro to Palais Royal for the 09:00 Louvre slot.", from: "07:45", to: "08:15" },
+          { id: "oratio", title: "Hotel Oratio", text: "Out the door.", from: "08:20", to: "08:40" },
+          { id: "louvre", title: "Louvre · 09:00 timed entry", text: "Mona Lisa, Winged Victory, Venus de Milo. Two hours, then leave.", from: "09:00", to: "11:15" },
+          { id: "louvre", meal: "lunch", title: "Lunch", text: "One hour. Nearby pins around the museum. Tonight’s dinner is the one that is booked, not this.", from: "11:20", to: "12:20" },
+          { id: "tuileries", title: "Jardin des Tuileries", text: "The formal garden on the way west. A walk, not a second museum.", from: "12:30", to: "12:55" },
+          { id: "concorde", title: "Place de la Concorde", text: "The square at the west end. Obelisk, the view back toward the Louvre, then metro or a walk up the avenue.", from: "13:05", to: "13:20" },
+          { id: "arc", title: "Arc de Triomphe", text: "Tomb of the Unknown Soldier. Climb for the twelve-avenue view. Use the underpass.", from: "13:45", to: "14:35" },
+          { id: "garnier", title: "Palais Garnier", text: "The opera house, and the visit to do before it closes in summer 2027. Self-guided: grand staircase, auditorium, Chagall ceiling. Book online. No tickets at the door.", from: "15:00", to: "16:15" },
+          { id: "oratio", title: "Hotel Oratio", text: "Change. La Renommée is back toward Saint-Honoré, about 15 minutes from the opera.", from: "16:40", to: "17:15", pause: true },
+          { id: "laRenommee", title: "La Renommée · dinner", text: "The Paris dinner to book. Filet au poivre at 95 Rue Saint-Honoré. An hour and a half. Monday is dinner only, from 17:30. Reserve up to 30 days ahead. Card hold, €50 a head if you cancel inside 24 hours.", from: "17:30", to: "19:00", pause: true },
+          { id: "oratio", title: "Hotel Oratio · pack", text: "Pack. Be at Gare du Nord at 07:32 tomorrow.", from: "19:25", to: "evening", pause: true },
+        ],
+      },
+      {
+        id: "nov3",
+        label: "3 Nov",
+        title: "Paris to London · British Museum",
+        kicker: "Tuesday · travel day",
+        lede: "Eurostar into St Pancras at 10:00. Breakfast is a short one before the train. Drop bags, the British Museum, then an hour for lunch. Dinner is an hour and a half near the hotel. Tamila, the London dinner to book, is tomorrow. Soane’s is closed today.",
+        loop: ["oratio", "nord", "stpancras", "royal", "britishMuseum", "royal"],
+        events: [
+          { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Short. The train will not wait. Bags down, taxi or RER B.", from: "06:15", to: "06:40" },
+          { id: "oratio", title: "Leave Hotel Oratio", text: "Ticket says be at Gare du Nord at 07:32.", from: "06:45", to: "07:00" },
+          { id: "nord", title: "Gare du Nord · Eurostar 9013", text: "Check in, passport, find coach 7 seat 31. Train leaves 08:32.", from: "07:20", to: "08:32" },
+          { id: "stpancras", title: "St Pancras", text: "Gothic revival station. Walk south to Bedford Way.", from: "10:00", to: "10:20" },
+          { id: "royal", title: "Royal National Hotel", text: "Check in, drop bags. 38–51 Bedford Way. The museum is ten minutes south.", from: "10:35", to: "11:15" },
+          { id: "britishMuseum", title: "British Museum", text: "Rosetta Stone, Parthenon sculptures, mummies. Great Court and a shortlist, not the whole place. Free.", from: "11:30", to: "12:30" },
+          { id: "britishMuseum", meal: "lunch", title: "Lunch", text: "One hour near the museum, then back to the hotel.", from: "12:35", to: "13:35" },
+          { id: "royal", title: "Royal National Hotel", text: "Quiet afternoon. The rest of London starts tomorrow.", from: "13:50", to: "18:15", pause: true },
+          { id: "royal", meal: "dinner", title: "Dinner", text: "An hour and a half. Any nearby pin around the hotel. Tamila is tomorrow night, the one to book.", from: "18:30", to: "20:00" },
+        ],
+      },
+      {
+        id: "nov4",
+        label: "4 Nov",
+        title: "Soane · Westminster · palace",
+        kicker: "Wednesday · London day 1",
+        lede: "Breakfast, then one walk south: Soane’s, the National Gallery, an hour for lunch at Trafalgar, Big Ben, the Abbey, the park, Buckingham. Dinner is Tamila, the London meal to book, 18:30–20:00.",
+        loop: ["royal", "soane", "nationalGallery", "bigBen", "westminster", "stJames", "buckingham", "tamila", "royal"],
+        events: [
+          { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour, then walk south through Bloomsbury toward Lincoln’s Inn Fields.", from: "08:15", to: "08:45" },
+          { id: "royal", title: "Royal National Hotel", text: "Out the door.", from: "08:50", to: "09:05" },
+          { id: "soane", title: "Sir John Soane's Museum", text: "The small one people are sorry they skipped. Free, book a timed ticket. Closed Tuesday, so today works.", from: "09:20", to: "10:30" },
+          { id: "nationalGallery", title: "National Gallery", text: "Free painting collection on Trafalgar Square. Van Gogh, Turner, the Impressionists.", from: "10:50", to: "11:50" },
+          { id: "nationalGallery", meal: "lunch", title: "Lunch", text: "One hour around Trafalgar. Gordon’s is the wine bar if you want to sit down.", from: "12:00", to: "13:00" },
+          { id: "bigBen", title: "Big Ben", text: "Elizabeth Tower and Parliament. Photos from the square and Westminster Bridge.", from: "13:15", to: "13:35" },
+          { id: "westminster", title: "Westminster Abbey", text: "Coronations, royal tombs, Poets’ Corner. Next door to Big Ben.", from: "13:40", to: "14:50" },
+          { id: "stJames", title: "St James's Park", text: "Lake, pelicans, the palace from the bridge. This is the walk between the Abbey and Buckingham.", from: "15:00", to: "15:35" },
+          { id: "buckingham", title: "Buckingham Palace", text: "The façade and the Victoria Memorial. Guard change is mornings and not every day. This slot is the building. Tube home after.", from: "15:45", to: "16:15" },
+          { id: "royal", title: "Royal National Hotel", text: "Change. Tamila is a 15 minute walk north, on Caledonian Road.", from: "16:45", to: "18:15", pause: true },
+          { id: "tamila", title: "Tamila · dinner", text: "The London dinner to book. South Indian, Beli 9.5, at 8 Caledonian Road. An hour and a half, then walk back.", from: "18:30", to: "20:00", pause: true },
+          { id: "royal", title: "Royal National Hotel", text: "Home.", from: "20:15", to: "evening", pause: true },
+        ],
+      },
+      {
+        id: "nov5",
+        label: "5 Nov",
+        title: "Sky Garden · Tower · Borough",
+        kicker: "Thursday · London day 2",
+        lede: "Breakfast, Sky Garden, the Tower, a walk across Tower Bridge. Lunch is an hour at Borough Market. Dinner is an hour and a half back near the hotel, not a second booking.",
+        loop: ["royal", "skyGarden", "tower", "towerBridge", "borough", "royal"],
+        events: [
+          { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Book the Sky Garden slot before you leave.", from: "08:30", to: "09:00" },
+          { id: "royal", title: "Royal National Hotel", text: "Tube to Monument or Bank.", from: "09:10", to: "09:20" },
+          { id: "skyGarden", title: "Sky Garden", text: "Free view from the Walkie Talkie. Timed slot, bring ID.", from: "09:50", to: "10:40" },
+          { id: "tower", title: "Tower of London", text: "Castle, Crown Jewels, ravens, Traitors’ Gate. Book a ticket. Yeoman Warder tour if the timing works.", from: "10:55", to: "12:40" },
+          { id: "towerBridge", title: "Tower Bridge", text: "Walk across. The high-level walkway is extra if you want it. Otherwise the pavement is the point.", from: "12:50", to: "13:10" },
+          { id: "borough", title: "Borough Market · lunch", text: "This is lunch. One hour of stalls under the railway, then the Northern line home.", from: "13:25", to: "14:25" },
+          { id: "royal", title: "Royal National Hotel", text: "Afternoon back at the hotel.", from: "14:50", to: "18:45", pause: true },
+          { id: "royal", meal: "dinner", title: "Dinner", text: "An hour and a half. Any nearby pin around the hotel.", from: "19:00", to: "20:30" },
+        ],
+      },
+      {
+        id: "nov6",
+        label: "6 Nov",
+        title: "Natural History · St Paul's · Tate",
+        kicker: "Friday · London day 3",
+        lede: "Last full day. Breakfast, dinosaurs, an hour for lunch in South Kensington, then St Paul’s and Tate Modern. Dinner is an hour and a half near the hotel, then pack. The flight is 17:50 tomorrow.",
+        loop: ["royal", "nhm", "stPauls", "tate", "royal"],
+        events: [
+          { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Book the free Natural History slot, then tube to South Kensington.", from: "08:30", to: "09:00" },
+          { id: "royal", title: "Royal National Hotel", text: "Out the door.", from: "09:05", to: "09:15" },
+          { id: "nhm", title: "Natural History Museum", text: "Hintze Hall and the dinosaurs. The V&A is the ring pin next door if you want to swap part of the morning.", from: "09:45", to: "11:30" },
+          { id: "nhm", meal: "lunch", title: "Lunch", text: "One hour in South Kensington, then tube to St Paul’s.", from: "11:40", to: "12:40" },
+          { id: "stPauls", title: "St Paul's Cathedral", text: "Nave, then the dome if you still have legs. Book the climb if you want it.", from: "13:25", to: "14:30" },
+          { id: "tate", title: "Tate Modern", text: "Walk across the Millennium Bridge. Free permanent collection. One floor, then home.", from: "14:45", to: "15:50" },
+          { id: "royal", title: "Royal National Hotel", text: "Drop your bag. Pack after dinner. CX250 is 17:50 tomorrow from Heathrow T3.", from: "16:20", to: "17:45", pause: true },
+          { id: "royal", meal: "dinner", title: "Dinner", text: "An hour and a half near the hotel, then pack.", from: "18:00", to: "19:30" },
+        ],
+      },
+      {
+        id: "nov7",
+        label: "7 Nov",
+        title: "Fly home",
+        kicker: "Saturday · departure",
+        lede: "Breakfast, a quiet morning, lunch near the hotel, then Russell Square and the Piccadilly line. No dinner. That is the flight. CX250 at 17:50.",
+        loop: ["royal", "russellSq", "lhr"],
+        events: [
+          { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Bags can wait until after lunch.", from: "09:30", to: "10:00" },
+          { id: "royal", title: "Royal National Hotel", text: "Slow morning. You are not in a rush yet.", from: "10:00", to: "11:45", pause: true },
+          { id: "royal", meal: "lunch", title: "Lunch", text: "One hour near the hotel. Last meal on the ground.", from: "12:00", to: "13:00" },
+          { id: "royal", title: "Check out · Royal National", text: "Bags, bill, leave. You want a calm T3 check-in, not a sprint.", from: "14:00", to: "14:30" },
+          { id: "russellSq", title: "Russell Square station", text: "Piccadilly line, one minute from the door. Direct to Heathrow. Stay on for Terminal 3.", from: "14:31", to: "14:40" },
+          { id: "lhr", title: "Heathrow T3 · CX250", text: "Check in, security, then the gate. Seat 59J, flight 17:50. Dinner is on the plane.", from: "15:30", to: "17:50" },
+        ],
+      },
+    ];
+
+    const colors = {
+      hotel: "#8b3d2e",
+      transit: "#8a6a2f",
+      nearby: "#8b9198",
+      eat: "#c0562a",
+      paris: "#3d5a4c",
+      london: "#2d4a6f",
+      flight: "#2d4a6f",
+      train: "#8b3d2e",
+      city: "#6b6458",
+    };
+
+    const map = new maplibregl.Map({
+      container: "map",
+      style: "https://tiles.openfreemap.org/styles/liberty",
+      attributionControl: true,
+      maxZoom: 15,
+    });
+
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+
+    const showPlan = document.getElementById("show-plan");
+    const showMap = document.getElementById("show-map");
+    function setPhoneView(mode) {
+      const mapOn = mode === "map";
+      document.body.classList.toggle("map-mode", mapOn);
+      showPlan.classList.toggle("active", !mapOn);
+      showMap.classList.toggle("active", mapOn);
+      if (mapOn) requestAnimationFrame(() => map.resize());
+    }
+    showPlan.addEventListener("click", () => setPhoneView("plan"));
+    showMap.addEventListener("click", () => setPhoneView("map"));
+    window.addEventListener("resize", () => map.resize());
+
+    let current = "overall";
+    let popup = null;
+    let mapReady = false;
+    let recs = [];
+    const FOOD = new Set(["Restaurants", "Nightlife", "Bakeries & sweets", "Street food"]);
+    const FOOD_KM = 1.2;
+    const OPTION_KM = 1.6;
+
+    function emptyCollection() {
+      return { type: "FeatureCollection", features: [] };
+    }
+
+    function uniqueStops(path) {
+      const seen = new Set();
+      return path.filter((id) => {
+        if (seen.has(id)) return false;
+        seen.add(id);
+        return true;
+      });
+    }
+
+    function hopLabel(fromId, toId) {
+      const key = `${fromId}|${toId}`;
+      const known = {
+        "cdg|oratio": "50 min RER B",
+        "oratio|nord": "20 min taxi / RER B",
+        "nord|stpancras": "1h 28m Eurostar",
+        "stpancras|royal": "15 min walk",
+        "royal|lhr": "50 min Piccadilly line",
+        "royal|russellSq": "1 min walk",
+        "russellSq|lhr": "50 min Piccadilly line",
+        "oratio|saintMichel": "8 min walk",
+        "saintMichel|oratio": "8 min walk",
+        "saintMichel|versaillesRiveGauche": "40 min RER C",
+        "versaillesRiveGauche|saintMichel": "40 min RER C",
+        "versaillesRiveGauche|versailles": "10 min walk",
+        "versailles|versaillesGardens": "10 min walk",
+        "versaillesGardens|oratio": "50 min RER C home",
+        "oratio|versailles": "45 min RER C",
+        "versailles|oratio": "45 min RER C",
+        "oratio|crazyHorse": "20 min metro",
+        "crazyHorse|oratio": "20 min metro",
+        "oratio|saintLazare": "25 min metro",
+        "saintLazare|oratio": "25 min metro",
+        "saintLazare|vernon": "50 min TER",
+        "vernon|saintLazare": "50 min TER",
+        "vernon|giverny": "20 min shuttle",
+        "giverny|vernon": "20 min shuttle",
+        "oratio|sacreCoeur": "20 min metro",
+        "mamiche|falafel": "20 min metro",
+        "badaboum|oratio": "20 min metro",
+        "oratio|badaboum": "20 min metro",
+        "oratio|shakespeare": "3 min walk",
+        "shakespeare|oratio": "3 min walk",
+        "shakespeare|sainteChapelle": "10 min walk",
+        "sainteChapelle|notreDame": "6 min walk",
+        "notreDame|ileSaintLouis": "6 min walk",
+        "ileSaintLouis|pantheon": "13 min walk",
+        "pantheon|mouffetard": "9 min walk",
+        "mouffetard|oratio": "12 min walk",
+        "oratio|caveau": "5 min walk",
+        "caveau|oratio": "5 min walk",
+        "oratio|louvre": "15 min walk",
+        "louvre|garnier": "15 min walk",
+        "garnier|arc": "25 min walk",
+        "arc|laRenommee": "20 min metro",
+        "laRenommee|oratio": "15 min metro",
+        "garnier|laRenommee": "15 min metro",
+        "oratio|duPain": "25 min metro",
+        "duPain|shakespeare": "25 min metro",
+        "ileSaintLouis|berthillon": "2 min walk",
+        "berthillon|pantheon": "12 min walk",
+        "orsay|alexandre": "12 min walk",
+        "alexandre|petitPalais": "4 min walk",
+        "petitPalais|bac": "15 min walk",
+        "oratio|paulBert": "20 min metro",
+        "paulBert|badaboum": "8 min walk",
+        "britishMuseum|soane": "12 min walk",
+        "soane|nationalGallery": "15 min walk",
+        "westminster|tamila": "20 min tube",
+        "tamila|royal": "15 min walk",
+        "royal|tamila": "15 min walk",
+        "leadenhall|skyGarden": "6 min walk",
+        "skyGarden|tower": "12 min walk",
+        "buckingham|stJames": "5 min walk",
+        "stJames|royal": "20 min tube",
+        "oratio|orsay": "20 min walk",
+        "orsay|bac": "10 min walk",
+        "bac|grandeEpicerie": "10 min walk",
+        "grandeEpicerie|trocadero": "20 min metro / bus",
+        "trocadero|eiffel": "15 min walk",
+        "bateaux|oratio": "20 min taxi",
+        "arc|oratio": "20 min metro",
+        "oratio|garnier": "20 min metro",
+        "tertre|mamiche": "9 min walk",
+        "vosges|oratio": "20 min metro",
+        "dishoomKX|leadenhall": "15 min tube",
+        "leadenhall|tower": "10 min walk",
+        "tower|borough": "15 min walk",
+        "borough|royal": "20 min Northern line",
+        "westminster|royal": "15 min tube",
+        "hydePark|royal": "15 min tube",
+        "royal|britishMuseum": "10 min walk",
+        "britishMuseum|royal": "10 min walk",
+        "britishMuseum|nationalGallery": "15 min walk",
+        "nationalGallery|gordons": "5 min walk",
+        "gordons|bigBen": "15 min walk",
+        "bigBen|westminster": "5 min walk",
+        "nealsYard|fortnum": "15 min walk",
+        "fortnum|buckingham": "15 min walk",
+        "buckingham|hydePark": "15 min walk",
+        "eiffel|bateaux": "5 min walk",
+      };
+      if (known[key]) return known[key];
+      const km = kmBetween(places[fromId], places[toId]);
+      const walkMins = Math.max(1, Math.round(km / 0.08));
+      if (walkMins <= 18) return `${walkMins} min walk`;
+      return `${Math.max(15, Math.round(10 + km * 5))} min metro`;
+    }
+
+    function placeLabel(id, fallback) {
+      return places[id] ? places[id].label : fallback;
+    }
+
+    function eventHops(day, index) {
+      const events = day.events || [];
+      const curr = events[index];
+      if (!curr) return { toHere: null, fromHere: null, fromName: null, toName: null };
+      const stopBefore = events.slice(0, index).reverse().find((item) => !item.meal);
+      const stopAfter = events.slice(index + 1).find((item) => !item.meal);
+      if (curr.meal) return { toHere: null, fromHere: null, fromName: null, toName: null };
+      return {
+        toHere: stopBefore && stopBefore.id !== curr.id ? hopLabel(stopBefore.id, curr.id) : null,
+        fromHere: stopAfter && stopAfter.id !== curr.id ? hopLabel(curr.id, stopAfter.id) : null,
+        fromName: stopBefore ? placeLabel(stopBefore.id, stopBefore.title) : null,
+        toName: stopAfter ? placeLabel(stopAfter.id, stopAfter.title) : null,
+      };
+    }
+
+    function mapNumber(day, placeId) {
+      const idx = uniqueStops(day.loop).indexOf(placeId);
+      return idx >= 0 ? idx + 1 : "·";
+    }
+
+    function whenLabel(event) {
+      if (!event || !event.from) return "";
+      if (!event.to || event.to === "—") return event.from;
+      return `${event.from}–${event.to}`;
+    }
+
+    function segmentMode(fromId, toId) {
+      if (
+        (fromId === "saintLazare" && toId === "vernon")
+        || (fromId === "vernon" && toId === "saintLazare")
+      ) return "train";
+      if (
+        (fromId === "saintMichel" && toId === "versaillesRiveGauche")
+        || (fromId === "versaillesRiveGauche" && toId === "saintMichel")
+        || (fromId === "versaillesGardens" && toId === "oratio")
+        || (fromId === "oratio" && toId === "versailles")
+        || (fromId === "versailles" && toId === "oratio")
+      ) return "train";
+      if (fromId === "nord" && toId === "stpancras") return "train";
+      if ((fromId === "cdg" && toId === "oratio") || (fromId === "royal" && toId === "lhr") || (fromId === "russellSq" && toId === "lhr")) return "train";
+      return "city";
+    }
+
+    function lngLat(id) {
+      const place = places[id];
+      return [place.lng, place.lat];
+    }
+
+    function kmBetween(a, b) {
+      const toRad = (deg) => (deg * Math.PI) / 180;
+      const dLat = toRad(b.lat - a.lat);
+      const dLng = toRad(b.lng - a.lng);
+      const sin = Math.sin(dLat / 2) ** 2
+        + Math.cos(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.sin(dLng / 2) ** 2;
+      return 6371 * 2 * Math.asin(Math.sqrt(sin));
+    }
+
+    function normalizeName(value) {
+      return String(value || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim();
+    }
+
+    function shortLabel(name) {
+      return name
+        .split("|")[0]
+        .replace(/ - Boutique hôtel.*$/i, "")
+        .replace(/ - Paris \d+$/i, "")
+        .replace(/^The /, "")
+        .trim();
+    }
+
+    function alreadyOnLoop(pin, stopIds) {
+      return stopIds.some((id) => {
+        const place = places[id];
+        if (kmBetween(pin, place) < 0.05) return true;
+        const pinName = normalizeName(pin.name);
+        const label = normalizeName(place.label);
+        const full = normalizeName(place.name);
+        if (label.length > 3 && pinName.includes(label)) return true;
+        if (full.length > 6 && (pinName.includes(full) || full.includes(pinName))) return true;
+        return false;
+      });
+    }
+
+    function anchorStops(day) {
+      if (!day || day.id === "overall" || day.id === "nov7") return [];
+      return uniqueStops(day.loop).filter((id) => {
+        if (places[id].kind === "transit") return false;
+        if (day.id === "nov3" && places[id].city === "Paris") return false;
+        return true;
+      });
+    }
+
+    function collectPins(day, options) {
+      const anchors = anchorStops(day);
+      if (!anchors.length) return [];
+      const stopIds = uniqueStops(day.loop);
+      const matches = [];
+      recs.forEach((rec) => {
+        if (options.categories && !options.categories.has(rec.category)) return;
+        if (options.priority && rec.priority !== options.priority) return;
+        if (!options.categories && FOOD.has(rec.category)) return;
+        const lat = Number(rec.lat);
+        const lng = Number(rec.lng);
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+        const pin = { name: rec.name, lat, lng };
+        if (alreadyOnLoop(pin, stopIds)) return;
+        if (options.skipPlanned && plannedElsewhere(pin)) return;
+        let best = null;
+        anchors.forEach((id) => {
+          if (places[id].city !== rec.city) return;
+          const km = kmBetween(pin, places[id]);
+          if (km <= options.maxKm && (!best || km < best.km)) best = { id, km };
+        });
+        if (!best) return;
+        const branch = rec.branch ? ` · ${rec.branch}` : "";
+        matches.push({
+          name: rec.name + branch,
+          label: shortLabel(rec.name),
+          category: rec.category,
+          what: rec.what || "",
+          priority: rec.priority,
+          lat,
+          lng,
+          nearId: best.id,
+          km: best.km,
+          mins: Math.max(1, Math.round(best.km / 0.08)),
+        });
+      });
+      matches.sort((a, b) => a.km - b.km);
+      const seen = [];
+      return matches.filter((item) => {
+        const key = normalizeName(item.label);
+        const duplicate = seen.find((other) => other.key === key && kmBetween(item, other) < 0.12);
+        if (duplicate) return false;
+        seen.push({ key, lat: item.lat, lng: item.lng });
+        return true;
+      });
+    }
+
+    function plannedElsewhere(pin) {
+      return days.some((day) => day.id !== "overall" && alreadyOnLoop(pin, uniqueStops(day.loop)));
+    }
+
+    function foodPins(day) {
+      return collectPins(day, { categories: FOOD, maxKm: FOOD_KM, skipPlanned: true });
+    }
+
+    function optionPins(day) {
+      return collectPins(day, { priority: "random", maxKm: OPTION_KM, skipPlanned: true });
+    }
+
+    function eatsForStop(eats, placeId) {
+      return eats.filter((item) => item.nearId === placeId);
+    }
+
+    function pinFeatures(items) {
+      return items.map((item) => ({
+        type: "Feature",
+        properties: {
+          name: item.name,
+          label: item.label,
+          category: item.category,
+          what: item.what,
+          note: `${item.mins} min walk from ${places[item.nearId].label}`,
+        },
+        geometry: { type: "Point", coordinates: [item.lng, item.lat] },
+      }));
+    }
+
+    function cycleIds(day) {
+      const stops = uniqueStops(day.loop);
+      const closed = day.loop.length > 1 && day.loop[0] === day.loop[day.loop.length - 1];
+      if (closed && stops.length > 1) return [...stops, stops[0]];
+      return stops;
+    }
+
+    function routeFeatures(path) {
+      const features = [];
+      for (let i = 0; i < path.length - 1; i += 1) {
+        features.push({
+          type: "Feature",
+          properties: { mode: segmentMode(path[i], path[i + 1]) },
+          geometry: {
+            type: "LineString",
+            coordinates: [lngLat(path[i]), lngLat(path[i + 1])],
+          },
+        });
+      }
+      return features;
+    }
+
+    function stopFeatures(day) {
+      return uniqueStops(day.loop).map((id, i) => {
+        const place = places[id];
+        const when = (day.events || [])
+          .filter((item) => item.id === id)
+          .map(whenLabel)
+          .filter(Boolean)
+          .join(" · ");
+        return {
+          type: "Feature",
+          properties: {
+            num: String(i + 1),
+            name: place.name,
+            label: place.label,
+            kind: place.kind,
+            note: place.note,
+            city: place.city,
+            when,
+          },
+          geometry: { type: "Point", coordinates: lngLat(id) },
+        };
+      });
+    }
+
+    function kindColor() {
+      return [
+        "match",
+        ["get", "kind"],
+        "hotel", colors.hotel,
+        "transit", colors.transit,
+        "paris", colors.paris,
+        "london", colors.london,
+        colors.nearby,
+      ];
+    }
+
+    function renderSidebar(day, food, options) {
+      const events = day.events && day.events.length
+        ? day.events
+        : uniqueStops(day.loop).map((id) => ({ id, title: places[id].name, text: places[id].note }));
+      document.querySelectorAll("#day-nav button").forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.id === day.id);
+      });
+      const shownOptions = (options || []).slice(0, 8);
+      const extraOptions = (options || []).length - shownOptions.length;
+      const optionHtml = shownOptions.length
+        ? `<p class="nearby option"><em>Within 20 min, not on today's plan</em>${shownOptions.map((item) => `${esc(item.label)} · ${item.mins} min`).join("<br>")}${extraOptions > 0 ? `<br>+ ${extraOptions} more on the map` : ""}</p>`
+        : "";
+      document.getElementById("detail").innerHTML = `
+        <p class="kicker">${day.kicker}</p>
+        <h2>${day.title}</h2>
+        <p class="lede">${day.lede}</p>
+        ${events.map((event, i) => {
+          const place = places[event.id];
+          const num = mapNumber(day, event.id);
+          const mark = event.meal === "breakfast" ? "B" : event.meal === "lunch" ? "L" : event.meal === "dinner" ? "D" : String(num);
+          const allNearby = event.pause ? [] : eatsForStop(food, event.id);
+          const nearby = allNearby.slice(0, 4);
+          const more = allNearby.length - nearby.length;
+          const hops = eventHops(day, i);
+          const when = whenLabel(event);
+          const hopBits = [];
+          if (hops.toHere) hopBits.push(`To: ${hops.toHere} from ${hops.fromName}`);
+          if (hops.fromHere) hopBits.push(`From: ${hops.fromHere} to ${hops.toName}`);
+          const nearbyHtml = nearby.length
+            ? `<p class="nearby"><em>15 min walk</em>${nearby.map((item) => `${esc(item.label)} · ${item.mins} min`).join("<br>")}${more > 0 ? `<br>+ ${more} more on the map` : ""}</p>`
+            : "";
+          return `
+            <article class="event">
+              <div class="dot ${event.meal ? "meal" : (place ? place.kind : "hotel")}">${mark}</div>
+              <div>
+                <h3>${event.meal ? event.title : `${num}. ${event.title}`}</h3>
+                ${when ? `<p class="when">${when}</p>` : ""}
+                ${hopBits.length ? `<p class="hops">${hopBits.join("<br>")}</p>` : ""}
+                <p>${event.text}</p>
+                ${nearbyHtml}
+              </div>
+            </article>
+          `;
+        }).join("")}
+        ${optionHtml}
+      `;
+    }
+
+    function esc(value) {
+      return String(value || "").replace(/[&<>"]/g, (ch) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+      }[ch]));
+    }
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let field = "";
+      let quoted = false;
+      for (let i = 0; i < text.length; i += 1) {
+        const ch = text[i];
+        if (quoted) {
+          if (ch === '"') {
+            if (text[i + 1] === '"') {
+              field += '"';
+              i += 1;
+            } else quoted = false;
+          } else field += ch;
+        } else if (ch === '"') quoted = true;
+        else if (ch === ",") {
+          row.push(field);
+          field = "";
+        } else if (ch === "\n") {
+          row.push(field);
+          rows.push(row);
+          row = [];
+          field = "";
+        } else if (ch !== "\r") field += ch;
+      }
+      if (field.length || row.length) {
+        row.push(field);
+        rows.push(row);
+      }
+      const header = rows.shift() || [];
+      return rows
+        .filter((cells) => cells.length === header.length && cells.some(Boolean))
+        .map((cells) => Object.fromEntries(header.map((key, index) => [key, cells[index]])));
+    }
+
+    function renderDay(id) {
+      current = id;
+      const day = days.find((d) => d.id === id);
+      const path = cycleIds(day);
+      const food = foodPins(day);
+      const options = optionPins(day);
+      renderSidebar(day, food, options);
+      if (!mapReady) return;
+
+      if (popup) {
+        popup.remove();
+        popup = null;
+      }
+
+      map.getSource("routes").setData({ type: "FeatureCollection", features: routeFeatures(path) });
+      map.getSource("stops").setData({ type: "FeatureCollection", features: stopFeatures(day) });
+      map.getSource("food").setData({ type: "FeatureCollection", features: pinFeatures(food) });
+      map.getSource("options").setData({ type: "FeatureCollection", features: pinFeatures(options) });
+
+      const bounds = new maplibregl.LngLatBounds();
+      uniqueStops(day.loop).forEach((placeId) => bounds.extend(lngLat(placeId)));
+      food.forEach((item) => bounds.extend([item.lng, item.lat]));
+      options.forEach((item) => bounds.extend([item.lng, item.lat]));
+      map.fitBounds(bounds, {
+        padding: { top: 64, right: 140, bottom: 52, left: 48 },
+        maxZoom: id === "overall" ? 6.4 : 13.4,
+        duration: 0,
+      });
+    }
+
+    map.on("load", () => {
+      map.setPaintProperty("background", "background-color", "#efe4c8");
+      if (map.getLayer("natural_earth")) {
+        map.setPaintProperty("natural_earth", "raster-opacity", 0);
+      }
+      map.setPaintProperty("water", "fill-color", "#6ea8dc");
+      ["waterway_river", "waterway_other", "waterway_tunnel"].forEach((id) => {
+        if (map.getLayer(id)) map.setPaintProperty(id, "line-color", "#6ea8dc");
+      });
+      map.setPaintProperty("park", "fill-color", "#a8d48a");
+      map.setPaintProperty("park", "fill-opacity", 0.9);
+      if (map.getLayer("landcover_grass")) {
+        map.setPaintProperty("landcover_grass", "fill-color", "#b8d98c");
+        map.setPaintProperty("landcover_grass", "fill-opacity", 0.55);
+      }
+      if (map.getLayer("landcover_wood")) {
+        map.setPaintProperty("landcover_wood", "fill-color", "#88c070");
+        map.setPaintProperty("landcover_wood", "fill-opacity", 0.55);
+      }
+
+      map.addSource("routes", { type: "geojson", data: emptyCollection() });
+      map.addSource("stops", { type: "geojson", data: emptyCollection() });
+      map.addSource("food", { type: "geojson", data: emptyCollection() });
+      map.addSource("options", { type: "geojson", data: emptyCollection() });
+      map.addLayer({
+        id: "routes-train",
+        type: "line",
+        source: "routes",
+        filter: ["==", ["get", "mode"], "train"],
+        layout: { "line-cap": "round", "line-join": "round" },
+        paint: { "line-color": colors.train, "line-width": 3, "line-opacity": 0.9 },
+      });
+      map.addLayer({
+        id: "routes-city",
+        type: "line",
+        source: "routes",
+        filter: ["==", ["get", "mode"], "city"],
+        layout: { "line-cap": "round", "line-join": "round" },
+        paint: {
+          "line-color": colors.city,
+          "line-width": 2,
+          "line-opacity": 0.7,
+        },
+      });
+      map.addLayer({
+        id: "option-dot",
+        type: "circle",
+        source: "options",
+        paint: {
+          "circle-radius": 5,
+          "circle-color": "#5c4d7a",
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#fffdf8",
+        },
+      });
+      map.addLayer({
+        id: "option-label",
+        type: "symbol",
+        source: "options",
+        layout: {
+          "text-field": ["get", "label"],
+          "text-size": 11,
+          "text-font": ["Noto Sans Regular"],
+          "text-anchor": "left",
+          "text-offset": [0.75, 0],
+          "text-optional": true,
+        },
+        paint: {
+          "text-color": "#5c4d7a",
+          "text-halo-color": "#fffdf8",
+          "text-halo-width": 1.4,
+        },
+      });
+      map.addLayer({
+        id: "food-dot",
+        type: "circle",
+        source: "food",
+        paint: {
+          "circle-radius": 5,
+          "circle-color": "#c47858",
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#fffdf8",
+        },
+      });
+      map.addLayer({
+        id: "food-label",
+        type: "symbol",
+        source: "food",
+        layout: {
+          "text-field": ["get", "label"],
+          "text-size": 11,
+          "text-font": ["Noto Sans Regular"],
+          "text-anchor": "left",
+          "text-offset": [0.7, 0],
+          "text-optional": true,
+        },
+        paint: {
+          "text-color": "#a85c42",
+          "text-halo-color": "#fffdf8",
+          "text-halo-width": 1.4,
+        },
+      });
+      map.addLayer({
+        id: "stops-halo",
+        type: "circle",
+        source: "stops",
+        paint: {
+          "circle-radius": 11,
+          "circle-color": "#fffdf8",
+          "circle-stroke-width": 0,
+        },
+      });
+      map.addLayer({
+        id: "stops-dot",
+        type: "circle",
+        source: "stops",
+        paint: {
+          "circle-radius": 9,
+          "circle-color": kindColor(),
+          "circle-stroke-width": 0,
+        },
+      });
+      map.addLayer({
+        id: "stops-num",
+        type: "symbol",
+        source: "stops",
+        layout: {
+          "text-field": ["get", "num"],
+          "text-size": 11,
+          "text-font": ["Noto Sans Regular"],
+          "text-allow-overlap": true,
+          "text-ignore-placement": true,
+        },
+        paint: {
+          "text-color": "#fffdf8",
+        },
+      });
+      map.addLayer({
+        id: "stops-label",
+        type: "symbol",
+        source: "stops",
+        layout: {
+          "text-field": ["get", "label"],
+          "text-size": 12,
+          "text-font": ["Noto Sans Regular"],
+          "text-anchor": "top",
+          "text-offset": [0, 0.85],
+          "text-allow-overlap": true,
+          "text-ignore-placement": true,
+        },
+        paint: {
+          "text-color": "#2b2a28",
+          "text-halo-color": "#fffdf8",
+          "text-halo-width": 1.6,
+        },
+      });
+
+      map.on("click", "stops-dot", (event) => {
+        const feature = event.features[0];
+        const props = feature.properties;
+        if (popup) popup.remove();
+        popup = new maplibregl.Popup({ offset: 16, closeButton: false })
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML(`<strong>${props.num}. ${props.name}</strong>${props.when ? `${props.when}<br>` : ""}${props.note}<br>${props.city}`)
+          .addTo(map);
+      });
+      map.on("mouseenter", "stops-dot", () => { map.getCanvas().style.cursor = "pointer"; });
+      map.on("mouseleave", "stops-dot", () => { map.getCanvas().style.cursor = ""; });
+
+      function openPin(event, extra) {
+        const props = event.features[0].properties;
+        if (popup) popup.remove();
+        popup = new maplibregl.Popup({ offset: 14, closeButton: false })
+          .setLngLat(event.features[0].geometry.coordinates)
+          .setHTML(`<strong>${props.name}</strong>${props.category}<br>${extra}<br>${props.note}<br>${props.what}`)
+          .addTo(map);
+      }
+      ["food-dot", "option-dot"].forEach((layerId) => {
+        map.on("click", layerId, (event) => {
+          openPin(event, layerId === "food-dot" ? "Not on today's route" : "Optional · not on today's plan");
+        });
+        map.on("mouseenter", layerId, () => { map.getCanvas().style.cursor = "pointer"; });
+        map.on("mouseleave", layerId, () => { map.getCanvas().style.cursor = ""; });
+      });
+
+      mapReady = true;
+      renderDay(current);
+    });
+
+    const nav = document.getElementById("day-nav");
+    days.forEach((day) => {
+      const btn = document.createElement("button");
+      btn.dataset.id = day.id;
+      btn.textContent = day.label;
+      btn.addEventListener("click", () => renderDay(day.id));
+      nav.appendChild(btn);
+    });
+
+    renderDay("overall");
+
+    fetch("recs.csv")
+      .then((response) => response.text())
+      .then((text) => {
+        recs = parseCsv(text);
+        if (mapReady) renderDay(current);
+      })
+      .catch(() => {});
+  </script>
+</body>
+</html>
