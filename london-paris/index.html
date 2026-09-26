@@ -21,7 +21,7 @@
       --hotel: #8b3d2e;
       --eat: #c0562a;
       --option: #5c4d7a;
-      --shop: #2c6e62;
+      --shop: #c23b73;
     }
 
     * { box-sizing: border-box; }
@@ -508,7 +508,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v37</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v38</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -623,7 +623,7 @@
         label: "Overall",
         title: "The whole route",
         kicker: "Paris · London",
-        lede: "Land in Paris on 28 Oct. Numbered pins are the plan. Warm dots are restaurants, bars, and bakeries within a 15 minute walk of a stop. Green dots are shopping streets and stores within 10 minutes. Purple dots are random sights within 20 minutes, not on that day's plan. Eurostar on 3 Nov, fly out of Heathrow on 7 Nov.",
+        lede: "Land in Paris on 28 Oct. Numbered pins are the plan. Warm dots are restaurants, bars, and bakeries within a 15 minute walk of a stop. Pink dots are shopping streets and stores within 10 minutes, on each day, not on the overall map. Purple dots are random sights within 20 minutes, not on that day's plan. Eurostar on 3 Nov, fly out of Heathrow on 7 Nov.",
         loop: ["cdg", "oratio", "nord", "stpancras", "royal", "lhr"],
         events: [
           { id: "cdg", title: "Arrive CDG · CX261", text: "Charles de Gaulle, Terminal 2A. Off the plane, immigration, bags, then RER B toward Saint-Michel.", from: "07:35", to: "10:35" },
@@ -1434,35 +1434,6 @@
         },
       });
       map.addLayer({
-        id: "shop-dot",
-        type: "circle",
-        source: "shops",
-        paint: {
-          "circle-radius": 5,
-          "circle-color": "#2c6e62",
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#fffdf8",
-        },
-      });
-      map.addLayer({
-        id: "shop-label",
-        type: "symbol",
-        source: "shops",
-        layout: {
-          "text-field": ["get", "label"],
-          "text-size": 11,
-          "text-font": ["Noto Sans Regular"],
-          "text-anchor": "left",
-          "text-offset": [0.75, 0],
-          "text-optional": true,
-        },
-        paint: {
-          "text-color": "#2c6e62",
-          "text-halo-color": "#fffdf8",
-          "text-halo-width": 1.4,
-        },
-      });
-      map.addLayer({
         id: "option-dot",
         type: "circle",
         source: "options",
@@ -1518,6 +1489,36 @@
           "text-color": "#a85c42",
           "text-halo-color": "#fffdf8",
           "text-halo-width": 1.4,
+        },
+      });
+      map.addLayer({
+        id: "shop-dot",
+        type: "circle",
+        source: "shops",
+        paint: {
+          "circle-radius": 6,
+          "circle-color": "#c23b73",
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#fffdf8",
+        },
+      });
+      map.addLayer({
+        id: "shop-label",
+        type: "symbol",
+        source: "shops",
+        layout: {
+          "text-field": ["get", "label"],
+          "text-size": 12,
+          "text-font": ["Noto Sans Regular"],
+          "text-anchor": "left",
+          "text-offset": [0.8, 0],
+          "text-allow-overlap": true,
+          "text-ignore-placement": true,
+        },
+        paint: {
+          "text-color": "#c23b73",
+          "text-halo-color": "#fffdf8",
+          "text-halo-width": 1.6,
         },
       });
       map.addLayer({
