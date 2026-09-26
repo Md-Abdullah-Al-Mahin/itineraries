@@ -42,5 +42,5 @@ Add a line here whenever a new rule comes in.
 - Darjeeling Express is Wednesday 4 Nov lunch, 12:10–13:10, at 36–40 Rupert Street. One hour, after the National Gallery. Lunch service ends at 14:15. It is not the long dinner.
 - 30 Oct has no Seine dinner. Dinner that night is one hour by the tower, after the lights, then the metro home about 21:15.
 - 29 Oct dinner is 21:30–22:30, one hour after Crazy Horse, near the show, not the hotel. Home about 23:15. A mid-afternoon dinner is too early.
-- 3 Nov and 5 Nov dinners stay on the South Bank and by the Eye. 6 Nov dinner is OMA, then home to pack. Home after, about 21:15–21:45.
+- The London Eye is 4 Nov, across the bridge from Big Ben. 5 Nov does not walk west to it again. That night’s dinner stays by the Globe. 3 Nov dinner stays on the South Bank east of Waterloo. 6 Nov dinner is OMA, then home to pack.
 - 7 Nov has breakfast and lunch only. Dinner is the flight. Checkout is in the morning, before lunch. Leave the hotel at 13:00. Russell Square is a few minutes with bags, the Piccadilly ride to Heathrow Terminals 2 & 3 is about 55 minutes, and the subway into Terminal 3 is about 10 minutes. Check-in is about 14:30. That block is check-in, bag drop, and security.

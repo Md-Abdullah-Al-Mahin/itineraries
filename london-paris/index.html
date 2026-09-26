@@ -534,7 +534,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v51</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v52</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -828,19 +828,20 @@
         label: "4 Nov",
         title: "Soane · Darjeeling Express · palace",
         kicker: "Wednesday · London day 1",
-        lede: "Breakfast, then Soane’s and the National Gallery. Lunch is Darjeeling Express in Soho, one hour, not the long dinner. Then Whitehall, the Abbey, the park, and the palace. King’s Cross after that. Dinner there is a normal hour, and not Indian. OMA on Friday is the London meal to book.",
-        loop: ["royal", "soane", "nationalGallery", "darjeeling", "bigBen", "westminster", "stJames", "buckingham", "coalDrops", "royal"],
+        lede: "Breakfast, then Soane’s and the National Gallery. Lunch is Darjeeling Express in Soho, one hour, not the long dinner. Then Whitehall. The London Eye is across the bridge from Big Ben, so you do it now and not again tomorrow. Then the Abbey, the park, and the palace. King’s Cross after that. Dinner there is a normal hour, and not Indian. OMA on Friday is the London meal to book.",
+        loop: ["royal", "soane", "nationalGallery", "darjeeling", "bigBen", "londonEye", "westminster", "stJames", "buckingham", "coalDrops", "royal"],
         events: [
           { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour, then walk south through Bloomsbury toward Lincoln’s Inn Fields.", from: "08:15", to: "08:45" },
           { id: "royal", title: "Royal National Hotel", text: "Out the door.", from: "08:50", to: "09:05" },
           { id: "soane", title: "Sir John Soane's Museum", text: "A house packed with art. See the picture room with the folding walls, then the crypt. Free timed ticket. You will not see every room, so don't try. Closed Tuesday, so today works.", from: "09:20", to: "10:30" },
           { id: "nationalGallery", title: "National Gallery", text: "Free. One route only: Van Gogh's Sunflowers, Turner's Fighting Temeraire, a Monet, then leave. Lunch is a 12 minute walk north, in Soho.", from: "10:50", to: "11:50" },
           { id: "darjeeling", title: "Darjeeling Express · lunch", text: "Bengali home cooking, all-women kitchen, 36–40 Rupert Street. One hour, not the long London dinner. Lunch service ends at 14:15, so be seated by 12:10. Book it. Kosha mangsho if you eat meat.", from: "12:10", to: "13:10" },
-          { id: "bigBen", title: "Big Ben", text: "Elizabeth Tower and Parliament. Photos from the square and Westminster Bridge. The walk down from Soho is along Whitehall.", from: "13:35", to: "13:55" },
-          { id: "westminster", title: "Westminster Abbey", text: "Coronations, royal tombs, Poets’ Corner. Next door to Big Ben.", from: "14:00", to: "15:10" },
-          { id: "stJames", title: "St James's Park", text: "Lake, pelicans, the palace from the bridge. This is the walk between the Abbey and Buckingham.", from: "15:20", to: "15:55" },
-          { id: "buckingham", title: "Buckingham Palace", text: "The façade and the Victoria Memorial. Guard change is mornings and not every day. This slot is the building. Tube north to King’s Cross after, not back to the hotel.", from: "16:05", to: "16:35" },
-          { id: "coalDrops", title: "Coal Drops Yard", text: "Walk the two brick yards and the canal between them. Dinner is here, a normal hour. Not another Indian. OMA on Friday is the meal to book.", from: "17:10", to: "18:40" },
+          { id: "bigBen", title: "Big Ben", text: "Elizabeth Tower and Parliament. Photos from the square. The walk down from Soho is along Whitehall. The wheel is across the bridge.", from: "13:35", to: "13:55" },
+          { id: "londonEye", title: "London Eye", text: "Look at the wheel from the river path. Ride it only if you already have a ticket. You are here anyway. Tomorrow does not come back.", from: "14:00", to: "14:25" },
+          { id: "westminster", title: "Westminster Abbey", text: "Coronations, royal tombs, Poets’ Corner. Back across the bridge, next door to Big Ben.", from: "14:35", to: "15:45" },
+          { id: "stJames", title: "St James's Park", text: "Lake, pelicans, the palace from the bridge. This is the walk between the Abbey and Buckingham.", from: "15:55", to: "16:30" },
+          { id: "buckingham", title: "Buckingham Palace", text: "The façade and the Victoria Memorial. Guard change is mornings and not every day. This slot is the building. Tube north to King’s Cross after, not back to the hotel.", from: "16:40", to: "17:10" },
+          { id: "coalDrops", title: "Coal Drops Yard", text: "Walk the two brick yards and the canal between them. Dinner is here, a normal hour. Not another Indian. OMA on Friday is the meal to book.", from: "17:45", to: "18:45" },
           { id: "coalDrops", meal: "dinner", title: "Dinner", text: "One hour around Coal Drops. Skip the Indian pins. You had Darjeeling Express at lunch.", from: "19:00", to: "20:00" },
           { id: "royal", title: "Royal National Hotel", text: "Home about 20:45. Tube from King’s Cross.", from: "20:45", to: "evening", pause: true },
         ],
@@ -850,8 +851,8 @@
         label: "5 Nov",
         title: "Sky Garden · Tower · Borough",
         kicker: "Thursday · London day 2",
-        lede: "Breakfast, Sky Garden, the Tower, a walk across Tower Bridge. Lunch is an hour at Borough Market, then the cathedral, the Globe, and the river to the Eye. Dinner is there. Home about 21:45, not before.",
-        loop: ["royal", "skyGarden", "tower", "towerBridge", "borough", "southwark", "globe", "londonEye", "royal"],
+        lede: "Breakfast, Sky Garden, the Tower, a walk across Tower Bridge. Lunch is an hour at Borough Market, then the cathedral and the Globe. The Eye was yesterday, from Big Ben, so this day does not walk west for it. Dinner is here. Home from London Bridge about 21:15.",
+        loop: ["royal", "skyGarden", "tower", "towerBridge", "borough", "southwark", "globe", "royal"],
         events: [
           { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Book the Sky Garden slot before you leave.", from: "08:30", to: "09:00" },
           { id: "royal", title: "Royal National Hotel", text: "Tube to Monument or Bank.", from: "09:10", to: "09:20" },
@@ -860,11 +861,11 @@
           { id: "towerBridge", title: "Tower Bridge", text: "Walk across. The high-level walkway is extra if you want it. Otherwise the pavement is the point.", from: "12:50", to: "13:10" },
           { id: "borough", title: "Borough Market · lunch", text: "This is lunch. One hour of stalls under the railway. The market is closed Monday, so Thursday works.", from: "13:25", to: "14:25" },
           { id: "southwark", title: "Southwark Cathedral", text: "The nave, the Shakespeare memorial, and the courtyard. About twenty minutes beside the market, then walk on to the Globe.", from: "14:35", to: "15:10" },
-          { id: "globe", title: "Shakespeare's Globe", text: "See the round wooden theatre from the yard, or go into the exhibition if you want the inside. Then walk west along the river.", from: "15:20", to: "16:10" },
-          { id: "londonEye", title: "London Eye", text: "Look at the wheel from the river path. Ride it only if you already have a ticket. Stay for the river after dark.", from: "16:30", to: "18:15" },
-          { id: "londonEye", meal: "dinner", title: "Dinner", text: "One hour on this bank. The market stalls are done for the day, so this is a pin by the river, not Borough and not the hotel.", from: "18:30", to: "19:30" },
-          { id: "londonEye", title: "River after dark", text: "Stay on the bank. Then the tube home.", from: "19:45", to: "21:15" },
-          { id: "royal", title: "Royal National Hotel", text: "Home about 21:45.", from: "21:45", to: "evening", pause: true },
+          { id: "globe", title: "Shakespeare's Globe", text: "See the round wooden theatre from the yard, or go into the exhibition if you want the inside. The Eye was yesterday.", from: "15:20", to: "16:20" },
+          { id: "globe", title: "Clink Street", text: "The bank between the Globe and the cathedral. The old palace wall, the lane, the river if the tide is out. This stretch only. Do not walk west.", from: "16:30", to: "17:45" },
+          { id: "globe", meal: "dinner", title: "Dinner", text: "One hour here. The market stalls are done for the day. A pin by the Globe or the cathedral, not a walk west, and not the hotel.", from: "18:00", to: "19:00" },
+          { id: "globe", title: "Bankside", text: "Stay out on this part of the river. Tate is tomorrow, so you do not go in, and you do not continue west to the wheel. Then the Northern line from London Bridge.", from: "19:15", to: "20:45" },
+          { id: "royal", title: "Royal National Hotel", text: "Home about 21:15.", from: "21:15", to: "evening", pause: true },
         ],
       },
       {
@@ -1070,6 +1071,9 @@
         "coalDrops|royal": "20 min walk",
         "nationalGallery|gordons": "5 min walk",
         "gordons|bigBen": "15 min walk",
+        "bigBen|londonEye": "6 min walk across Westminster Bridge",
+        "londonEye|westminster": "8 min walk back across the bridge",
+        "globe|royal": "20 min Northern line from London Bridge",
         "bigBen|westminster": "5 min walk",
         "nealsYard|fortnum": "15 min walk",
         "fortnum|buckingham": "15 min walk",

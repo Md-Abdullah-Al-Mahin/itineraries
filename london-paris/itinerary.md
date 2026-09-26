@@ -159,7 +159,7 @@ Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be a
 
 ## Wednesday 4 November · Soane, Darjeeling Express, the palace
 
-One walk south from the hotel through Soane’s and the National Gallery. Lunch is Darjeeling Express, one hour in Soho, then Whitehall to the palace. King’s Cross after that. Dinner there is a normal hour, and not Indian. OMA on Friday is the meal to book.
+One walk south from the hotel through Soane’s and the National Gallery. Lunch is Darjeeling Express, one hour in Soho, then Whitehall. The London Eye is across the bridge from Big Ben, so it is today. Then the Abbey, the park, and the palace. King’s Cross after that. Dinner there is a normal hour, and not Indian. OMA on Friday is the meal to book.
 
 | Time | Plan |
 | --- | --- |
@@ -168,16 +168,17 @@ One walk south from the hotel through Soane’s and the National Gallery. Lunch 
 | 10:50–11:50 | National Gallery. Free. Sunflowers, Turner’s Fighting Temeraire, a Monet, then leave. |
 | 12:10–13:10 | Darjeeling Express. 36–40 Rupert Street. One hour. Bengali. Book it. Lunch service ends at 14:15. |
 | 13:35–13:55 | Big Ben and Parliament Square. Walk down Whitehall. |
-| 14:00–15:10 | Westminster Abbey. |
-| 15:20–15:55 | St James’s Park. The walk to the palace. |
-| 16:05–16:35 | Buckingham Palace. The façade. Tube north after, not back to the hotel. |
-| 17:10–18:40 | Coal Drops Yard. Walk the two brick yards and the canal. |
+| 14:00–14:25 | London Eye. Across Westminster Bridge. Look from the path. Ride it only if you already have a ticket. |
+| 14:35–15:45 | Westminster Abbey. Back across the bridge. |
+| 15:55–16:30 | St James’s Park. The walk to the palace. |
+| 16:40–17:10 | Buckingham Palace. The façade. Tube north after, not back to the hotel. |
+| 17:45–18:45 | Coal Drops Yard. Walk the two brick yards and the canal. |
 | 19:00–20:00 | Dinner. One hour around Coal Drops. Not another Indian. |
 | 20:45 | Hotel. Tube from King’s Cross. |
 
 ## Thursday 5 November · Sky Garden, the Tower, Borough
 
-Lunch is the market, then the cathedral, the Globe, and the river to the Eye. Dinner is on that bank. Home about 21:45.
+Lunch is the market, then the cathedral and the Globe. The Eye was yesterday, from Big Ben, so you do not walk west for it. Dinner is here. Home from London Bridge about 21:15.
 
 | Time | Plan |
 | --- | --- |
@@ -187,11 +188,11 @@ Lunch is the market, then the cathedral, the Globe, and the river to the Eye. Di
 | 12:50–13:10 | Tower Bridge. Walk across. The high-level walkway is extra. |
 | 13:25–14:25 | Borough Market. This is lunch. One hour. The market is closed Monday, so Thursday works. |
 | 14:35–15:10 | Southwark Cathedral. The nave, the Shakespeare memorial, and the courtyard. About twenty minutes. |
-| 15:20–16:10 | Shakespeare’s Globe. See the wooden theatre from the yard, or the exhibition if you go in. Then walk west. |
-| 16:30–18:15 | London Eye. Look at the wheel from the river path. Ride it only if you already have a ticket. Stay for the river after dark. |
-| 18:30–19:30 | Dinner. One hour on this bank. The market stalls are done for the day. |
-| 19:45–21:15 | River after dark. |
-| 21:45 | Hotel. |
+| 15:20–16:20 | Shakespeare’s Globe. See the wooden theatre from the yard, or the exhibition if you go in. The Eye was yesterday. |
+| 16:30–17:45 | Clink Street. The bank between the Globe and the cathedral. Do not walk west. |
+| 18:00–19:00 | Dinner. One hour by the Globe or the cathedral. The market stalls are done for the day. |
+| 19:15–20:45 | Bankside. This part of the river only. Tate is tomorrow, so you do not go in, and you do not walk west to the wheel. |
+| 21:15 | Hotel. Northern line from London Bridge. |
 
 ## Friday 6 November · Natural History Museum, St Paul’s, Tate
 
