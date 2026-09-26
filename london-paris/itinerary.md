@@ -20,15 +20,15 @@ This is the written copy of the map. When the plan changes, update this file and
 
 ## How meals work
 
-Breakfast is half an hour, usually at the hotel. Lunch is one hour. Dinner is an hour and a half. Those meals are not a fixed restaurant. On the map they are the warm dots within a 15 minute walk of wherever you are.
+Breakfast is half an hour, usually at the hotel. Lunch is one hour. Dinner is one hour. Those meals are not a fixed restaurant, and they are not a numbered pin. On the map they are the warm dots within a 15 minute walk of wherever you are. Something can follow dinner when the evening needs it.
 
-Two dinners are fixed, because they are the ones to reserve. La Renommée on Monday 2 November, 17:30–19:00, filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead. There is a card hold, and €50 a person if you cancel inside 24 hours. Monday is dinner only, from 17:30. Tamila on Wednesday 4 November, 18:30–20:00, South Indian at 8 Caledonian Road, about 15 minutes north of the hotel.
+Two dinners are the long ones, and those are numbered pins. Each is two hours. La Renommée on Monday 2 November, 17:30–19:30, filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead. There is a card hold, and €50 a person if you cancel inside 24 hours. Monday is dinner only, from 17:30. Tamila on Wednesday 4 November, 18:30–20:30, South Indian at 8 Caledonian Road, about 15 minutes north of the hotel.
 
 Purple dots on the map are optional sights within a 20 minute walk. They are not on that day’s plan.
 
 ## Wednesday 28 October · Arrive, islands and the 5th
 
-CX261 lands at 07:35. Off the plane, immigration, and bags come first, then the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Dinner is an hour and a half near the hotel.
+CX261 lands at 07:35. Off the plane, immigration, and bags come first, then the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Dinner is one hour near the hotel. Jazz after, if you want it.
 
 | Time | Plan |
 | --- | --- |
@@ -45,7 +45,7 @@ CX261 lands at 07:35. Off the plane, immigration, and bags come first, then the 
 | 15:25–16:10 | Panthéon. Crypt, and the dome if it is open. |
 | 16:20–17:10 | Jardin du Luxembourg. Then back to the hotel. |
 | 17:25–18:45 | Hotel. Rest. |
-| 19:00–20:30 | Dinner. An hour and a half, any nearby pin within 15 minutes of the hotel. Caveau de la Huchette is there if you want jazz after. |
+| 19:00–20:00 | Dinner. One hour, any nearby pin within 15 minutes of the hotel. Caveau de la Huchette is there if you want jazz after. |
 
 Du Pain et des Idées is closed at the weekend, and it is a 25 minute metro north of this walk, so it is not on today.
 
@@ -62,7 +62,7 @@ Versailles is Saturday, so this day stays in the city. The hill, lunch on the wa
 | 14:00–14:40 | Place des Vosges, then metro home. The afternoon has to stay free for the show. |
 | 15:10–18:40 | Hotel. Shower and change. Leave by 18:45. |
 | 19:10–21:15 | Crazy Horse, 20:00. 12 Avenue George V. Metro home after. |
-| 21:40–23:10 | Dinner. An hour and a half near the hotel. |
+| 21:40–22:40 | Dinner. One hour near the hotel. |
 
 ## Friday 30 October · Orsay, the river, the Eiffel Tower
 
@@ -94,7 +94,7 @@ The palace day, on its own. Crazy Horse was Thursday. The palace is closed Monda
 | 12:35–13:35 | Lunch. One hour in town, by the gates or back toward the station. |
 | 13:50–16:15 | Gardens. Parterres, Grand Canal, fountains. Then RER C home, about 50 minutes. |
 | 17:15 | Hotel. Shower. Giverny is tomorrow, the last day of the season. |
-| 19:00–20:30 | Dinner. An hour and a half near the hotel. The Halloween club is a metro ride if you still want it at 23:30. It is not on the walk. |
+| 19:00–20:00 | Dinner. One hour near the hotel. The Halloween club is a metro ride if you still want it at 23:30. It is not on the walk. |
 
 ## Sunday 1 November · Giverny
 
@@ -109,7 +109,7 @@ Last open day of Monet’s house and gardens in 2026. Open 10:00–18:00, last e
 | 12:30–13:30 | Lunch. One hour. Les Nymphéas is opposite the garden if you want a table. |
 | 13:30–16:10 | Water-lily pond. Be on the 16:20 shuttle. |
 | 18:10 | Back at the hotel. |
-| 19:00–20:30 | Dinner near the hotel, then an early night. |
+| 19:00–20:00 | Dinner. One hour near the hotel, then an early night. |
 
 ## Monday 2 November · Louvre, west to the Arc, La Renommée
 
@@ -125,8 +125,8 @@ Versailles and Orsay are closed. This is the Paris dinner to book. Pack after. T
 | 13:45–14:35 | Arc de Triomphe. Use the underpass. Climb if you want the view. |
 | 15:00–16:15 | Palais Garnier. Book online. No tickets at the door. The house closes in summer 2027 until about 2032. |
 | 16:40–17:15 | Hotel. Change. The restaurant is about 15 minutes from the opera, back toward Saint-Honoré. |
-| 17:30–19:00 | La Renommée. 95 Rue Saint-Honoré. Filet au poivre. An hour and a half. |
-| 19:25 | Pack. Be at Gare du Nord at 07:32 tomorrow. |
+| 17:30–19:30 | La Renommée. 95 Rue Saint-Honoré. Filet au poivre. Two hours. |
+| 19:50 | Pack. Be at Gare du Nord at 07:32 tomorrow. |
 
 ## Tuesday 3 November · Paris to London, British Museum
 
@@ -142,7 +142,7 @@ Soane’s is closed on Tuesdays, so the museum today is the British Museum. Tami
 | 11:30–12:30 | British Museum. Rosetta Stone, Parthenon sculptures, mummies. Free. A shortlist, not the whole place. |
 | 12:35–13:35 | Lunch. One hour near the museum. |
 | 13:50–18:15 | Hotel. Quiet afternoon. |
-| 18:30–20:00 | Dinner. An hour and a half. Any nearby pin around the hotel. |
+| 18:30–19:30 | Dinner. One hour. Any nearby pin around the hotel. |
 
 ## Wednesday 4 November · Soane, Westminster, the palace, Tamila
 
@@ -159,7 +159,7 @@ One walk south from the hotel. Dinner is the London meal to book.
 | 15:00–15:35 | St James’s Park. The walk to the palace. |
 | 15:45–16:15 | Buckingham Palace. The façade. Tube home after. |
 | 16:45–18:15 | Hotel. Change. |
-| 18:30–20:00 | Tamila. 8 Caledonian Road. An hour and a half, then a 15 minute walk back. |
+| 18:30–20:30 | Tamila. 8 Caledonian Road. Two hours, then a 15 minute walk back. |
 
 ## Thursday 5 November · Sky Garden, the Tower, Borough
 
@@ -173,11 +173,11 @@ Lunch is the market. Dinner is not a second booking.
 | 12:50–13:10 | Tower Bridge. Walk across. The high-level walkway is extra. |
 | 13:25–14:25 | Borough Market. This is lunch. One hour, then the Northern line home. The market is closed Monday, so Thursday works. |
 | 14:50–18:45 | Hotel. |
-| 19:00–20:30 | Dinner. An hour and a half. Any nearby pin around the hotel. |
+| 19:00–20:00 | Dinner. One hour. Any nearby pin around the hotel. |
 
 ## Friday 6 November · Natural History Museum, St Paul’s, Tate
 
-Last full day. Dinner near the hotel, then pack. The flight is 17:50 tomorrow.
+Last full day. Dinner near the hotel, one hour, then pack. The flight is 17:50 tomorrow.
 
 | Time | Plan |
 | --- | --- |
@@ -187,7 +187,7 @@ Last full day. Dinner near the hotel, then pack. The flight is 17:50 tomorrow.
 | 13:25–14:30 | St Paul’s. The nave, and the dome if you still want the climb. |
 | 14:45–15:50 | Tate Modern. Across the Millennium Bridge. Free. One floor. |
 | 16:20–17:45 | Hotel. |
-| 18:00–19:30 | Dinner near the hotel, an hour and a half, then pack. |
+| 18:00–19:00 | Dinner near the hotel, one hour, then pack. |
 
 ## Saturday 7 November · Fly home
 

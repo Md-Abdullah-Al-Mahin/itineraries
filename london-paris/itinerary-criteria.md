@@ -27,10 +27,11 @@ Add a line here whenever a new rule comes in.
 ## Meals
 
 - Breakfast is 30 minutes, at the hotel or an amber pin beside it. It is not a numbered stop. The arrival morning skips it, because breakfast was on the flight. The Eurostar morning is shorter than 30 minutes.
-- Lunch is 1 hour. Dinner is 1.5 hours. Those blocks are in the day so the sights do not eat them. The restaurant itself stays an amber pin, chosen when you are there.
-- Two meals are numbered, because they are the ones to book:
-  - Paris dinner: La Renommée, Monday 2 Nov, 17:30–19:00. Filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead.
-  - London dinner: Tamila, Wednesday 4 Nov, 18:30–20:00. South Indian, Beli 9.5, about 15 minutes north of the hotel.
-- 30 Oct dinner is the cruise already booked, so that night has no second sitting.
-- 29 Oct dinner is 21:40–23:10, after Crazy Horse, near the hotel. A mid-afternoon dinner is too early.
+- Lunch is 1 hour. Dinner is 1 hour. Those blocks are in the day so the sights do not eat them. The restaurant itself stays an unnumbered pin, chosen when you are there.
+- After a one-hour dinner, the evening can hold something else. Jazz on 28 Oct and the Halloween club on 31 Oct are that kind of extra, not part of the walk.
+- Two dinners are numbered pins, and those are the long ones, 1.5 to 2 hours:
+  - Paris dinner: La Renommée, Monday 2 Nov, 17:30–19:30. Filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead.
+  - London dinner: Tamila, Wednesday 4 Nov, 18:30–20:30. South Indian, Beli 9.5, about 15 minutes north of the hotel.
+- 30 Oct dinner is the cruise already booked, so that night has no second sitting and it is not cut to one hour.
+- 29 Oct dinner is 21:40–22:40, one hour after Crazy Horse, near the hotel. A mid-afternoon dinner is too early.
 - 7 Nov has breakfast and lunch only. Dinner is the flight.
