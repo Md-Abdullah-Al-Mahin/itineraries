@@ -550,7 +550,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v58</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v59</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -782,6 +782,7 @@
           label: shortLabel(rec.name),
           category: rec.category,
           what: rec.what || "",
+          hours: rec.hours || "",
           priority: rec.priority,
           lat,
           lng,
@@ -829,6 +830,7 @@
           label: item.label,
           category: item.category,
           what: item.what,
+          hours: item.hours || "",
           note: `${item.mins} min walk from ${places[item.nearId].label}`,
         },
         geometry: { type: "Point", coordinates: [item.lng, item.lat] },
@@ -1246,7 +1248,8 @@
           return `<strong>${esc(props.num)}. ${esc(props.name)}</strong><p class="pop-about">${esc(props.about)}</p>${hours}${meta ? `<span class="pop-meta">${esc(meta)}</span>` : ""}`;
         }
         const meta = [props.category, props.note].filter(Boolean).join(" · ");
-        return `<strong>${esc(props.name)}</strong><p class="pop-about">${esc(props.what)}</p>${meta ? `<span class="pop-meta">${esc(meta)}</span>` : ""}`;
+        const hours = props.hours ? `<p class="pop-hours">${esc(props.hours)}</p>` : "";
+        return `<strong>${esc(props.name)}</strong><p class="pop-about">${esc(props.what)}</p>${hours}${meta ? `<span class="pop-meta">${esc(meta)}</span>` : ""}`;
       }
       map.on("click", (event) => {
         const hits = map.queryRenderedFeatures(event.point, { layers: pinLayers });
@@ -1293,7 +1296,7 @@
         .catch(() => {});
     }
 
-    fetch("trip.json?v=58")
+    fetch("trip.json?v=59")
       .then((response) => {
         if (!response.ok) throw new Error("trip.json");
         return response.json();

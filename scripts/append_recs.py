@@ -24,6 +24,7 @@ FIELDS = [
     "what",
     "source",
     "notes",
+    "hours",
 ]
 CATEGORIES = {
     "Museums",
