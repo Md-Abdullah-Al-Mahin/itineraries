@@ -688,10 +688,10 @@
       {
         id: "oct31",
         label: "31 Oct",
-        title: "Versailles",
+        title: "Versailles · Halloween",
         kicker: "Saturday · Paris day 4",
-        lede: "The palace day, on its own. Crazy Horse was Thursday. Breakfast, RER C out, an hour for lunch in town, gardens, then a normal dinner back at the hotel. The palace is closed Monday, so Saturday is the day.",
-        loop: ["oratio", "saintMichel", "versaillesRiveGauche", "versailles", "versaillesGardens", "versaillesRiveGauche", "saintMichel", "oratio"],
+        lede: "The palace in the day. Crazy Horse was Thursday. Dinner is one hour at the hotel after 6, then Badaboum for Halloween. The party starts at 23:30. You come home after. Giverny is tomorrow, so the morning can start late.",
+        loop: ["oratio", "saintMichel", "versaillesRiveGauche", "versailles", "versaillesGardens", "versaillesRiveGauche", "saintMichel", "oratio", "badaboum", "oratio"],
         events: [
           { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour. Coffee and something from a nearby pin, then out the door.", from: "07:30", to: "08:00" },
           { id: "oratio", title: "Hotel Oratio", text: "Walk to Saint-Michel for the RER C west.", from: "08:05", to: "08:20" },
@@ -700,8 +700,11 @@
           { id: "versailles", title: "Palace of Versailles", text: "Louis XIV’s château. Hall of Mirrors, King’s State Apartments, chapel. Passport ticket, go in as it opens.", from: "09:35", to: "12:30" },
           { id: "versailles", meal: "lunch", title: "Lunch", text: "One hour in town, by the gates or back toward the station. The nearby pins on this map are Paris restaurants, not Versailles.", from: "12:35", to: "13:35" },
           { id: "versaillesGardens", title: "Gardens of Versailles", text: "Le Nôtre’s parterres, Grand Canal, fountains. Slow walk, then the RER home.", from: "13:50", to: "16:15" },
-          { id: "oratio", title: "Hotel Oratio", text: "Shower. Giverny is tomorrow, the last day of the season.", from: "17:15", to: "18:45", pause: true },
-          { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour near the hotel. The Halloween club is a metro ride if you still want it at 23:30. It is not on the walk.", from: "19:00", to: "20:00" },
+          { id: "oratio", title: "Hotel Oratio", text: "Shower. Giverny is tomorrow, and the morning can start late.", from: "17:15", to: "18:45", pause: true },
+          { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour near the hotel, after 6. Then rest before the club.", from: "19:00", to: "20:00" },
+          { id: "oratio", title: "Hotel Oratio", text: "Change. Metro toward Bastille, about 20 minutes.", from: "22:45", to: "23:05" },
+          { id: "badaboum", title: "Badaboum · Halloween", text: "Club on Rue des Taillandiers. Doors at 23:30, and it runs until morning. Stay as long as you want, then metro home.", from: "23:15", to: "02:30" },
+          { id: "oratio", title: "Hotel Oratio", text: "Home. Sleep. Giverny can wait until late morning.", from: "02:50", to: "03:10" },
         ],
       },
       {

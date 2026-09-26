@@ -28,7 +28,8 @@ Add a line here whenever a new rule comes in.
 
 - Breakfast is 30 minutes, at the hotel or an amber pin beside it. It is not a numbered stop. The arrival morning skips it, because breakfast was on the flight. The Eurostar morning is shorter than 30 minutes.
 - Lunch is 1 hour and starts at 12:00 or later. Dinner is 1 hour and starts at 18:00 or later. The restaurant itself stays an unnumbered pin, chosen when you are there. La Renommée opens at 17:30 on Monday, and the booking is still 18:00.
-- After a one-hour dinner, the evening can hold something else. Jazz on 28 Oct and the Halloween club on 31 Oct are that kind of extra, not part of the walk.
+- After a one-hour dinner, the evening can hold something else. Jazz on 28 Oct is that kind of extra.
+- Halloween night, 31 Oct, is Badaboum. It is on the plan: dinner at the hotel, club from 23:30, then home. Giverny the next morning can start late.
 - Two dinners are numbered pins, and those are the long ones, 1.5 to 2 hours:
   - Paris dinner: La Renommée, Monday 2 Nov, 18:00–20:00. Filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead.
   - London dinner: Tamila, Wednesday 4 Nov, 18:30–20:30. South Indian, Beli 9.5, about 15 minutes north of the hotel.

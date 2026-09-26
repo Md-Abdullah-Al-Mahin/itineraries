@@ -81,9 +81,9 @@ Orsay is closed Monday, so it is today. No Seine dinner. Dinner is one hour back
 | 18:40–18:55 | Hotel. |
 | 19:00–20:00 | Dinner. One hour after 6, any nearby pin within 15 minutes of the hotel. |
 
-## Saturday 31 October · Versailles
+## Saturday 31 October · Versailles, then Halloween
 
-The palace day, on its own. Crazy Horse was Thursday. The palace is closed Monday, so Saturday is the day.
+The palace in the day. Crazy Horse was Thursday. Dinner is one hour at the hotel after 6, then Badaboum. The party starts at 23:30. You come home after. Giverny is tomorrow, so the morning can start late.
 
 | Time | Plan |
 | --- | --- |
@@ -93,8 +93,11 @@ The palace day, on its own. Crazy Horse was Thursday. The palace is closed Monda
 | 09:35–12:30 | Palace of Versailles. Passport ticket. Hall of Mirrors, state apartments, chapel. |
 | 12:35–13:35 | Lunch. One hour in town, by the gates or back toward the station. |
 | 13:50–16:15 | Gardens. Parterres, Grand Canal, fountains. Then RER C home, about 50 minutes. |
-| 17:15 | Hotel. Shower. Giverny is tomorrow, the last day of the season. |
-| 19:00–20:00 | Dinner. One hour near the hotel. The Halloween club is a metro ride if you still want it at 23:30. It is not on the walk. |
+| 17:15 | Hotel. Shower. The morning tomorrow can start late. |
+| 19:00–20:00 | Dinner. One hour near the hotel, after 6. Then rest. |
+| 22:45 | Change. Metro toward Bastille, about 20 minutes. |
+| 23:15–02:30 | Badaboum, Rue des Taillandiers. Doors at 23:30. It runs until morning if you want to stay. |
+| 02:50 | Metro home. |
 
 ## Sunday 1 November · Giverny
 
