@@ -39,7 +39,7 @@ CX261 lands at 07:35. Off the plane, immigration, and bags come first. Consider 
 | 12:35–13:05 | Île Saint-Louis. Walk the street, or cycle the quay around the island. Berthillon is a nearby pin, and it is open on Wednesday. |
 | 13:10–14:10 | Lunch. One hour on the island. |
 | 14:25–15:25 | Sainte-Chapelle. The west end of the island, on the way off it. Book a timed ticket for this hour. |
-| 15:40–16:20 | Musée de Cluny. Straight off the island. The Lady and the Unicorn. It closes at 18:00. |
+| 15:40–16:20 | Musée de Cluny. Straight off the island. The Lady and the Unicorn. It closes at 18:15. Closed Monday. |
 | 16:30–17:05 | Jardin du Luxembourg. A chair by the big basin, one lap, then on to the Panthéon. |
 | 17:15–17:55 | Panthéon. Crypt, and the dome if it is open. Mouffetard is downhill. |
 | 18:05–18:25 | Rue Mouffetard. Walk the market street. Dinner is here, not back at the hotel. |

@@ -8,7 +8,8 @@
       "lat": 49.0097,
       "lng": 2.5479,
       "note": "Terminal 2A",
-      "about": "Paris’s main airport. Terminal 2 is the big international side, a cluster of terminals under one long roof."
+      "about": "Paris’s main airport. Terminal 2 is the big international side, a cluster of terminals under one long roof.",
+      "hours": "Open all day."
     },
     "oratio": {
       "name": "Hotel Oratio",
@@ -18,7 +19,8 @@
       "lat": 48.848751,
       "lng": 2.34961,
       "note": "42 rue des Bernardins, 75005",
-      "about": "A small Left Bank hotel in the 5th, on a quiet street a few minutes from the Seine."
+      "about": "A small Left Bank hotel in the 5th, on a quiet street a few minutes from the Seine.",
+      "hours": "Reception is open all day."
     },
     "nord": {
       "name": "Paris Gare du Nord",
@@ -28,7 +30,8 @@
       "lat": 48.8809,
       "lng": 2.3553,
       "note": "Eurostar · be there 06:30",
-      "about": "Paris’s great northern station, a vast 19th-century train shed. The Eurostar leaves from here."
+      "about": "Paris’s great northern station, a vast 19th-century train shed. The Eurostar leaves from here.",
+      "hours": "Open from the first train until the last, early morning to late evening."
     },
     "stpancras": {
       "name": "London St Pancras International",
@@ -38,7 +41,8 @@
       "lat": 51.5314,
       "lng": -0.1261,
       "note": "Eurostar arrival 10:00",
-      "about": "London’s Gothic station, with the red-brick clock tower and the huge iron roof over the trains."
+      "about": "London’s Gothic station, with the red-brick clock tower and the huge iron roof over the trains.",
+      "hours": "Open from the first train until the last, early morning to late evening."
     },
     "royal": {
       "name": "Royal National Hotel",
@@ -48,7 +52,8 @@
       "lat": 51.523473,
       "lng": -0.127234,
       "note": "38–51 Bedford Way, Bloomsbury",
-      "about": "A big old hotel in Bloomsbury, a short walk from the British Museum."
+      "about": "A big old hotel in Bloomsbury, a short walk from the British Museum.",
+      "hours": "Reception is open all day."
     },
     "lhr": {
       "name": "London Heathrow",
@@ -58,7 +63,8 @@
       "lat": 51.4706,
       "lng": -0.4581,
       "note": "Terminal 3",
-      "about": "London’s main airport. Terminal 3 is one of the original buildings, now the long-haul terminal."
+      "about": "London’s main airport. Terminal 3 is one of the original buildings, now the long-haul terminal.",
+      "hours": "Open all day."
     },
     "notreDame": {
       "name": "Notre-Dame",
@@ -69,7 +75,8 @@
       "lng": 2.3505635,
       "note": "10 minutes from the hotel",
       "cycleLoop": true,
-      "about": "The medieval cathedral on the island in the Seine. The towers, the rose windows, and the rebuilt spire are the sight."
+      "about": "The medieval cathedral on the island in the Seine. The towers, the rose windows, and the rebuilt spire are the sight.",
+      "hours": "Inside: Mon–Fri 07:50–19:00, Thursday until 22:00. Sat–Sun 08:15–19:30. The square outside is open all day."
     },
     "ileSaintLouis": {
       "name": "Île Saint-Louis",
@@ -80,7 +87,8 @@
       "lng": 2.3574207,
       "note": "Walk east from Notre-Dame",
       "cycleLoop": true,
-      "about": "The smaller, quieter island next to Notre-Dame. One main street, and a quay you can walk the whole way around."
+      "about": "The smaller, quieter island next to Notre-Dame. One main street, and a quay you can walk the whole way around.",
+      "hours": "The streets and the quay are open all day."
     },
     "berthillon": {
       "name": "Berthillon",
@@ -90,7 +98,8 @@
       "lat": 48.8517135,
       "lng": 2.3567206,
       "note": "Ice cream on Île Saint-Louis. Closed Mon–Tue.",
-      "about": "The island’s famous ice-cream shop. Known for sharp fruit sorbets, not just vanilla."
+      "about": "The island’s famous ice-cream shop. Known for sharp fruit sorbets, not just vanilla.",
+      "hours": "Closed Monday and Tuesday."
     },
     "duPain": {
       "name": "Du Pain et des Idées",
@@ -100,7 +109,8 @@
       "lat": 48.871197,
       "lng": 2.362886,
       "note": "Pistachio-chocolate escargot. Closed weekends.",
-      "about": "A bakery famous for the pistachio-chocolate escargot, a spiral pastry, not a snail."
+      "about": "A bakery famous for the pistachio-chocolate escargot, a spiral pastry, not a snail.",
+      "hours": "Closed Saturday and Sunday."
     },
     "alexandre": {
       "name": "Pont Alexandre III",
@@ -110,7 +120,8 @@
       "lat": 48.8638,
       "lng": 2.3136,
       "note": "Walk the bridge on the way to the Petit Palais.",
-      "about": "The most ornate bridge in Paris. Gilded statues and lamp posts over the Seine."
+      "about": "The most ornate bridge in Paris. Gilded statues and lamp posts over the Seine.",
+      "hours": "The bridge is open all day."
     },
     "petitPalais": {
       "name": "Petit Palais",
@@ -120,7 +131,8 @@
       "lat": 48.866042,
       "lng": 2.31535,
       "note": "Free permanent collection. Closed Monday.",
-      "about": "A Beaux-Arts palace built for the 1900 World’s Fair. Fine art inside a spectacular building."
+      "about": "A Beaux-Arts palace built for the 1900 World’s Fair. Fine art inside a spectacular building.",
+      "hours": "Tue–Sun 10:00–18:00. Closed Monday."
     },
     "paulBert": {
       "name": "Bistrot Paul Bert",
@@ -130,7 +142,8 @@
       "lat": 48.8522292,
       "lng": 2.3848682,
       "note": "Steak in pepper sauce. Book. Closed Sun–Mon.",
-      "about": "A classic Paris bistro. The dish it is known for is steak in pepper sauce."
+      "about": "A classic Paris bistro. The dish it is known for is steak in pepper sauce.",
+      "hours": "Tue–Sat, lunch 12:00–14:00 and dinner 19:30–23:00. Closed Sunday and Monday."
     },
     "laRenommee": {
       "name": "La Renommée",
@@ -140,7 +153,8 @@
       "lat": 48.8612719,
       "lng": 2.343211,
       "note": "Filet au poivre. Book up to 30 days ahead. Dinner from 17:30.",
-      "about": "A small restaurant on Rue Saint-Honoré. Known for a serious filet au poivre."
+      "about": "A small restaurant on Rue Saint-Honoré. Known for a serious filet au poivre.",
+      "hours": "Monday dinner from 17:30."
     },
     "soane": {
       "name": "Sir John Soane's Museum",
@@ -150,7 +164,8 @@
       "lat": 51.517,
       "lng": -0.1175,
       "note": "Free timed ticket. Closed Tuesday. Lincoln's Inn Fields.",
-      "about": "An architect’s house, left as a packed museum. The picture room has walls that fold open, and there is a crypt underneath."
+      "about": "An architect’s house, left as a packed museum. The picture room has walls that fold open, and there is a crypt underneath.",
+      "hours": "Wed–Sun 10:00–17:00. Closed Monday and Tuesday. Last entry about 16:30."
     },
     "tamila": {
       "name": "Tamila",
@@ -160,7 +175,8 @@
       "lat": 51.5312,
       "lng": -0.1214,
       "note": "South Indian on Caledonian Road. Beli 9.5. Walk from the hotel.",
-      "about": "A South Indian restaurant near King’s Cross. Known for dosa and curries cooked in view of the room."
+      "about": "A South Indian restaurant near King’s Cross. Known for dosa and curries cooked in view of the room.",
+      "hours": "Open for lunch and dinner."
     },
     "skyGarden": {
       "name": "Sky Garden",
@@ -170,7 +186,8 @@
       "lat": 51.5112,
       "lng": -0.0837,
       "note": "Free timed ticket on the Walkie Talkie. Book ahead. Bring ID.",
-      "about": "A garden and open deck on top of the Walkie Talkie. The point is the view over the river and the City."
+      "about": "A garden and open deck on top of the Walkie Talkie. The point is the view over the river and the City.",
+      "hours": "Mon–Fri 10:00–18:00. Sat–Sun 11:00–21:00."
     },
     "stJames": {
       "name": "St James's Park",
@@ -180,7 +197,8 @@
       "lat": 51.5024,
       "lng": -0.1347,
       "note": "Lake, pelicans, palace view. Walk it after Buckingham.",
-      "about": "The royal park between Westminster and the palace. A lake, pelicans, and the long view to Buckingham."
+      "about": "The royal park between Westminster and the palace. A lake, pelicans, and the long view to Buckingham.",
+      "hours": "Pedestrian gates 05:00–midnight."
     },
     "sainteChapelle": {
       "name": "Sainte-Chapelle",
@@ -190,7 +208,8 @@
       "lat": 48.8554,
       "lng": 2.345,
       "note": "Book a timed ticket",
-      "about": "A royal chapel built to hold a relic of the Crown of Thorns. The upper room is almost entirely stained glass."
+      "about": "A royal chapel built to hold a relic of the Crown of Thorns. The upper room is almost entirely stained glass.",
+      "hours": "1 Oct–31 Mar, 09:00–17:00. Last entry 16:30."
     },
     "shakespeare": {
       "name": "Shakespeare and Company",
@@ -200,7 +219,8 @@
       "lat": 48.8527,
       "lng": 2.3471,
       "note": "Left bank, next to the hotel",
-      "about": "The famous English-language bookshop on the quay opposite Notre-Dame, with a reading room upstairs."
+      "about": "The famous English-language bookshop on the quay opposite Notre-Dame, with a reading room upstairs.",
+      "hours": "Mon–Wed 10:00–20:00. Thu–Sat 10:00–21:00. Sun 12:00–19:00."
     },
     "pantheon": {
       "name": "Panthéon",
@@ -210,7 +230,8 @@
       "lat": 48.8462218,
       "lng": 2.3464138,
       "note": "South of the hotel",
-      "about": "The great dome of the Latin Quarter. French writers and scientists are buried in the crypt."
+      "about": "The great dome of the Latin Quarter. French writers and scientists are buried in the crypt.",
+      "hours": "1 Oct–31 Mar, 10:00–18:00. Last entry 17:15. Opens at noon on the first Monday of the month."
     },
     "mouffetard": {
       "name": "Rue Mouffetard Market",
@@ -220,7 +241,8 @@
       "lat": 48.8404307,
       "lng": 2.3498002,
       "note": "Food street in the 5th",
-      "about": "One of the old market streets of the 5th, still lined with food shops."
+      "about": "One of the old market streets of the 5th, still lined with food shops.",
+      "hours": "The street is open all day."
     },
     "caveau": {
       "name": "Caveau de la Huchette",
@@ -230,7 +252,8 @@
       "lat": 48.8527634,
       "lng": 2.3462818,
       "note": "Jazz cellar, 5 minutes from the hotel",
-      "about": "A tiny jazz cellar in the Latin Quarter, in a medieval basement. Live bands, a small floor."
+      "about": "A tiny jazz cellar in the Latin Quarter, in a medieval basement. Live bands, a small floor.",
+      "hours": "Doors 21:00, music from 21:30, until about 02:00."
     },
     "louvre": {
       "name": "Louvre Museum",
@@ -240,7 +263,8 @@
       "lat": 48.8606111,
       "lng": 2.337644,
       "note": "Book a 09:00 timed entry",
-      "about": "The royal palace turned into the world’s largest art museum. The Mona Lisa, the Winged Victory, and the Venus de Milo."
+      "about": "The royal palace turned into the world’s largest art museum. The Mona Lisa, the Winged Victory, and the Venus de Milo.",
+      "hours": "09:00–18:00 on Mon, Thu, Sat and Sun. 09:00–21:00 on Wed and Fri. Closed Tuesday. Last entry one hour before close."
     },
     "orsay": {
       "name": "Musée d'Orsay",
@@ -250,7 +274,8 @@
       "lat": 48.86,
       "lng": 2.3266,
       "note": "Across the river from the Louvre",
-      "about": "Impressionist painting in a former railway station on the river. The clock and the great hall are part of the visit."
+      "about": "Impressionist painting in a former railway station on the river. The clock and the great hall are part of the visit.",
+      "hours": "Tue–Sun 09:30–18:00, Thursday until 21:45. Closed Monday. Last entry 17:00, or 21:00 on Thursday."
     },
     "crazyHorse": {
       "name": "Crazy Horse",
@@ -260,7 +285,8 @@
       "lat": 48.8656,
       "lng": 2.3018,
       "note": "12 Avenue George V · arrive 19:15",
-      "about": "Paris’s famous cabaret on Avenue George V. A tightly choreographed show of light, not a dinner theatre."
+      "about": "Paris’s famous cabaret on Avenue George V. A tightly choreographed show of light, not a dinner theatre.",
+      "hours": "The show is in the evening. This night it is 20:00."
     },
     "bac": {
       "name": "Rue du Bac",
@@ -270,7 +296,8 @@
       "lat": 48.8556843,
       "lng": 2.3252936,
       "note": "Left-bank shopping street",
-      "about": "A Left Bank shopping street of old shops, running south from the river."
+      "about": "A Left Bank shopping street of old shops, running south from the river.",
+      "hours": "The street is open all day."
     },
     "grandeEpicerie": {
       "name": "La Grande Épicerie de Paris",
@@ -280,7 +307,8 @@
       "lat": 48.8503167,
       "lng": 2.3239433,
       "note": "Food hall on Rue de Sèvres",
-      "about": "The food hall of Le Bon Marché. One of the great grocery halls in Paris."
+      "about": "The food hall of Le Bon Marché. One of the great grocery halls in Paris.",
+      "hours": "Open through the day and into the evening."
     },
     "artModerne": {
       "name": "Musée d'Art Moderne de Paris",
@@ -290,7 +318,8 @@
       "lat": 48.8643421,
       "lng": 2.2978208,
       "note": "Next to Trocadéro",
-      "about": "The city’s own modern-art museum, in a wing of the Palais de Tokyo, with a huge mural by Dufy."
+      "about": "The city’s own modern-art museum, in a wing of the Palais de Tokyo, with a huge mural by Dufy.",
+      "hours": "Tue–Sun 10:00–18:00, Thursday until 21:30. Closed Monday."
     },
     "trocadero": {
       "name": "Trocadéro",
@@ -300,7 +329,8 @@
       "lat": 48.8621498,
       "lng": 2.2884502,
       "note": "Best tower view",
-      "about": "The terrace across the river from the Eiffel Tower. This is the classic full-length view of it."
+      "about": "The terrace across the river from the Eiffel Tower. This is the classic full-length view of it.",
+      "hours": "The terrace is open all day."
     },
     "eiffel": {
       "name": "Eiffel Tower",
@@ -311,7 +341,8 @@
       "lng": 2.2944813,
       "note": "Book second floor or summit",
       "cycleLoop": true,
-      "about": "The iron tower built for the 1889 World’s Fair. Best known for the climb and for the lights after dark."
+      "about": "The iron tower built for the 1889 World’s Fair. Best known for the climb and for the lights after dark.",
+      "hours": "Every day 09:30–23:45 in late October. Last tickets about 45 minutes before close."
     },
     "sacreCoeur": {
       "name": "Sacré-Cœur",
@@ -321,7 +352,8 @@
       "lat": 48.8867,
       "lng": 2.3431,
       "note": "Montmartre",
-      "about": "The white basilica on the top of Montmartre. The steps and the view over the whole city are the point."
+      "about": "The white basilica on the top of Montmartre. The steps and the view over the whole city are the point.",
+      "hours": "Every day 06:30–22:30."
     },
     "tertre": {
       "name": "Place du Tertre",
@@ -331,7 +363,8 @@
       "lat": 48.8864,
       "lng": 2.3406,
       "note": "Montmartre square",
-      "about": "The painters’ square in front of Sacré-Cœur, still full of easels and portrait artists."
+      "about": "The painters’ square in front of Sacré-Cœur, still full of easels and portrait artists.",
+      "hours": "The square is open all day."
     },
     "picasso": {
       "name": "Musée Picasso",
@@ -341,7 +374,8 @@
       "lat": 48.85986,
       "lng": 2.36235,
       "note": "Hôtel Salé, Rue de Thorigny. Closed Monday.",
-      "about": "Picasso’s own collection, hung in a grand Marais mansion, the Hôtel Salé."
+      "about": "Picasso’s own collection, hung in a grand Marais mansion, the Hôtel Salé.",
+      "hours": "Tue–Sun 09:30–18:00. Closed Monday."
     },
     "rosiers": {
       "name": "Rue des Rosiers",
@@ -351,7 +385,8 @@
       "lat": 48.85715,
       "lng": 2.35905,
       "note": "The Marais food street. Walk it, do not stop for a meal.",
-      "about": "The old Jewish food street of the Marais. Famous for falafel."
+      "about": "The old Jewish food street of the Marais. Famous for falafel.",
+      "hours": "The street is open all day."
     },
     "mamiche": {
       "name": "Mamiche",
@@ -361,7 +396,8 @@
       "lat": 48.8800888,
       "lng": 2.3435419,
       "note": "Bakery on the way down from the hill",
-      "about": "A bakery known for a very good croissant, on the way down from Montmartre."
+      "about": "A bakery known for a very good croissant, on the way down from Montmartre.",
+      "hours": "A bakery, open from the morning."
     },
     "carnavalet": {
       "name": "Carnavalet Museum",
@@ -371,7 +407,8 @@
       "lat": 48.8570669,
       "lng": 2.3628579,
       "note": "Free · Paris history in the Marais",
-      "about": "The museum of the history of Paris, in two Marais mansions. The city from Roman times to now."
+      "about": "The museum of the history of Paris, in two Marais mansions. The city from Roman times to now.",
+      "hours": "Tue–Sun 10:00–18:00. Closed Monday. Last entry 17:15."
     },
     "falafel": {
       "name": "L'As du Fallafel",
@@ -381,7 +418,8 @@
       "lat": 48.8574067,
       "lng": 2.3591962,
       "note": "Rue des Rosiers",
-      "about": "The best-known falafel shop in Paris, on Rue des Rosiers. The queue is part of the reputation."
+      "about": "The best-known falafel shop in Paris, on Rue des Rosiers. The queue is part of the reputation.",
+      "hours": "Open from late morning until the evening."
     },
     "vosges": {
       "name": "Place des Vosges",
@@ -391,7 +429,8 @@
       "lat": 48.8556,
       "lng": 2.3655,
       "note": "Marais square",
-      "about": "The oldest planned square in Paris. Brick arcades around a quiet garden, in the heart of the Marais."
+      "about": "The oldest planned square in Paris. Brick arcades around a quiet garden, in the heart of the Marais.",
+      "hours": "The square and the arcades are open all day."
     },
     "badaboum": {
       "name": "Badaboum",
@@ -401,7 +440,8 @@
       "lat": 48.8536,
       "lng": 2.3758,
       "note": "Halloween party 23:30–07:00",
-      "about": "A nightclub in the 11th, in an old warehouse. Known for late, loud parties."
+      "about": "A nightclub in the 11th, in an old warehouse. Known for late, loud parties.",
+      "hours": "This night, doors at 23:30."
     },
     "saintLazare": {
       "name": "Gare Saint-Lazare",
@@ -411,7 +451,8 @@
       "lat": 48.8755,
       "lng": 2.3253,
       "note": "TER to Vernon-Giverny",
-      "about": "One of Paris’s grand old stations, under a big iron roof. Trains for Normandy leave from here."
+      "about": "One of Paris’s grand old stations, under a big iron roof. Trains for Normandy leave from here.",
+      "hours": "Open from the first train until the last."
     },
     "vernon": {
       "name": "Vernon-Giverny station",
@@ -421,7 +462,8 @@
       "lat": 49.0915,
       "lng": 1.4788,
       "note": "Shuttle to Monet’s gardens",
-      "about": "A small-town station on the Seine, the rail stop for Monet’s garden at Giverny."
+      "about": "A small-town station on the Seine, the rail stop for Monet’s garden at Giverny.",
+      "hours": "Open for the day's trains."
     },
     "giverny": {
       "name": "Monet's House and Gardens",
@@ -431,7 +473,8 @@
       "lat": 49.0753792,
       "lng": 1.5337035,
       "note": "Last day of the 2026 season",
-      "about": "Monet’s house and the garden he painted. The water-lily pond and the Japanese bridge are the famous part."
+      "about": "Monet’s house and the garden he painted. The water-lily pond and the Japanese bridge are the famous part.",
+      "hours": "10:00–18:00, last entry 17:30. The 2026 season ends on 1 Nov."
     },
     "saintMichel": {
       "name": "Saint-Michel–Notre-Dame",
@@ -441,7 +484,8 @@
       "lat": 48.8536,
       "lng": 2.3442,
       "note": "RER C to Versailles",
-      "about": "The riverside rail station at the edge of the Latin Quarter, where the RER crosses under the Seine."
+      "about": "The riverside rail station at the edge of the Latin Quarter, where the RER crosses under the Seine.",
+      "hours": "Open from the first train until the last."
     },
     "versaillesRiveGauche": {
       "name": "Versailles Château Rive Gauche",
@@ -451,7 +495,8 @@
       "lat": 48.8004,
       "lng": 2.1295,
       "note": "RER C terminus · 10 min walk to the palace",
-      "about": "The station at the gates of Versailles. The palace is a short walk up the avenue."
+      "about": "The station at the gates of Versailles. The palace is a short walk up the avenue.",
+      "hours": "Open for the day's trains."
     },
     "versailles": {
       "name": "Palace of Versailles",
@@ -461,7 +506,8 @@
       "lat": 48.804865,
       "lng": 2.120355,
       "note": "Book a Passport ticket",
-      "about": "The palace of the French kings. The Hall of Mirrors and the state apartments are the heart of it."
+      "about": "The palace of the French kings. The Hall of Mirrors and the state apartments are the heart of it.",
+      "hours": "Tue–Sun 09:00–18:30. Closed Monday."
     },
     "versaillesGardens": {
       "name": "Gardens of Versailles",
@@ -472,7 +518,8 @@
       "lng": 2.1095,
       "note": "Grand Canal and parterres",
       "cycleLoop": true,
-      "about": "The formal gardens behind the palace. Geometric parterres, fountains, and the long Grand Canal."
+      "about": "The formal gardens behind the palace. Geometric parterres, fountains, and the long Grand Canal.",
+      "hours": "From 08:00 until 18:30 in late October."
     },
     "garnier": {
       "name": "Palais Garnier",
@@ -482,7 +529,8 @@
       "lat": 48.8719697,
       "lng": 2.3316014,
       "note": "Self-guided opera visit",
-      "about": "The old Paris opera house. A marble staircase, a gilded auditorium, and a ceiling painted by Chagall."
+      "about": "The old Paris opera house. A marble staircase, a gilded auditorium, and a ceiling painted by Chagall.",
+      "hours": "Self-guided visit usually 10:00–17:00. A performance can close the house."
     },
     "arc": {
       "name": "Arc de Triomphe",
@@ -492,7 +540,8 @@
       "lat": 48.8737917,
       "lng": 2.2950275,
       "note": "Top of the Champs",
-      "about": "The triumphal arch at the top of the Champs-Élysées, built for Napoleon’s armies. The view from the top looks down every avenue."
+      "about": "The triumphal arch at the top of the Champs-Élysées, built for Napoleon’s armies. The view from the top looks down every avenue.",
+      "hours": "1 Oct–31 Mar, 10:00–22:30, Tuesday from 11:00. Last entry 45 minutes before close."
     },
     "zara": {
       "name": "Zara",
@@ -502,7 +551,8 @@
       "lat": 48.8712082,
       "lng": 2.3046964,
       "note": "Your bookmark on the Champs",
-      "about": "A big high-street clothes shop, here on the Champs-Élysées itself."
+      "about": "A big high-street clothes shop, here on the Champs-Élysées itself.",
+      "hours": "Open through the day."
     },
     "britishMuseum": {
       "name": "The British Museum",
@@ -512,7 +562,8 @@
       "lat": 51.5194133,
       "lng": -0.1269566,
       "note": "10 minutes from Bedford Way",
-      "about": "The national museum of world history. The Rosetta Stone, the Parthenon sculptures, and the Egyptian mummies."
+      "about": "The national museum of world history. The Rosetta Stone, the Parthenon sculptures, and the Egyptian mummies.",
+      "hours": "Daily 10:00–17:00, Friday until 20:30. Last entry 16:45, or 20:15 on Friday."
     },
     "nationalGallery": {
       "name": "The National Gallery",
@@ -522,7 +573,8 @@
       "lat": 51.508929,
       "lng": -0.128299,
       "note": "Trafalgar Square",
-      "about": "The national collection of European painting, on Trafalgar Square. Van Gogh, Turner, and Monet in one building."
+      "about": "The national collection of European painting, on Trafalgar Square. Van Gogh, Turner, and Monet in one building.",
+      "hours": "Daily 10:00–18:00, Friday until 21:00."
     },
     "darjeeling": {
       "name": "Darjeeling Express",
@@ -532,7 +584,8 @@
       "lat": 51.5119211,
       "lng": -0.1333642,
       "note": "36–40 Rupert Street, Soho. Bengali. Lunch until 14:15.",
-      "about": "A Bengali restaurant in Soho, run by an all-women kitchen. Known for home-style cooking, not a curry-house menu."
+      "about": "A Bengali restaurant in Soho, run by an all-women kitchen. Known for home-style cooking, not a curry-house menu.",
+      "hours": "Lunch Mon–Sat 12:00–14:15. Dinner Mon–Wed 18:00–21:00, Thu–Sat 17:00–21:00. Closed Sunday."
     },
     "oma": {
       "name": "OMA",
@@ -542,7 +595,8 @@
       "lat": 51.5053,
       "lng": -0.0901,
       "note": "Greek, 2–4 Bedale Street. Book. £60 if you cancel inside 24 hours.",
-      "about": "A Greek restaurant beside Borough Market. Known for charcoal cooking and a serious wine list."
+      "about": "A Greek restaurant beside Borough Market. Known for charcoal cooking and a serious wine list.",
+      "hours": "Evening service. Book ahead."
     },
     "gordons": {
       "name": "Gordon's Wine Bar",
@@ -552,7 +606,8 @@
       "lat": 51.507944,
       "lng": -0.123314,
       "note": "Villiers Street cellar",
-      "about": "London’s oldest wine bar, in a candlelit cellar under Villiers Street."
+      "about": "London’s oldest wine bar, in a candlelit cellar under Villiers Street.",
+      "hours": "Open from the afternoon until late."
     },
     "westminster": {
       "name": "Westminster Abbey",
@@ -562,7 +617,8 @@
       "lat": 51.4993695,
       "lng": -0.1272993,
       "note": "Next to Big Ben",
-      "about": "The abbey where kings and queens are crowned. Royal tombs and Poets’ Corner."
+      "about": "The abbey where kings and queens are crowned. Royal tombs and Poets’ Corner.",
+      "hours": "Sightseeing Mon–Fri 09:30–16:30, Saturday 09:00–16:00. Sundays are for services."
     },
     "bigBen": {
       "name": "Big Ben",
@@ -572,7 +628,8 @@
       "lat": 51.5007292,
       "lng": -0.1246254,
       "note": "Parliament Square",
-      "about": "The clock tower of the Houses of Parliament. The bell is Big Ben; the tower is the thing you see."
+      "about": "The clock tower of the Houses of Parliament. The bell is Big Ben; the tower is the thing you see.",
+      "hours": "Parliament Square is open all day. The tower is not a walk-in visit."
     },
     "dishoomKX": {
       "name": "Dishoom King's Cross",
@@ -582,7 +639,8 @@
       "lat": 51.536207,
       "lng": -0.125499,
       "note": "Near St Pancras",
-      "about": "A Bombay café at King’s Cross. Known for black daal and a room styled like an old Irani café."
+      "about": "A Bombay café at King’s Cross. Known for black daal and a room styled like an old Irani café.",
+      "hours": "Open from breakfast through dinner."
     },
     "leadenhall": {
       "name": "Leadenhall Market",
@@ -592,7 +650,8 @@
       "lat": 51.512766,
       "lng": -0.0835289,
       "note": "City market hall",
-      "about": "A covered Victorian market in the City, with a painted iron-and-glass roof under the towers."
+      "about": "A covered Victorian market in the City, with a painted iron-and-glass roof under the towers.",
+      "hours": "Open through the weekday. Quieter at the weekend."
     },
     "borough": {
       "name": "Borough Market",
@@ -602,7 +661,8 @@
       "lat": 51.5055826,
       "lng": -0.0904808,
       "note": "Southwark food market",
-      "about": "London’s best-known food market, in the railway arches by London Bridge."
+      "about": "London’s best-known food market, in the railway arches by London Bridge.",
+      "hours": "Closed Monday. Tue–Fri 10:00–17:00. Sat 09:00–17:00. Sun 10:00–16:00."
     },
     "tower": {
       "name": "Tower of London",
@@ -612,7 +672,8 @@
       "lat": 51.5081124,
       "lng": -0.0759493,
       "note": "East of the City",
-      "about": "The medieval fortress by the river. The Crown Jewels, the ravens, and the old walls."
+      "about": "The medieval fortress by the river. The Crown Jewels, the ravens, and the old walls.",
+      "hours": "In November, Tue–Sun 09:00–16:30, last entry 15:00. Closed Monday."
     },
     "nealsYard": {
       "name": "Neal's Yard",
@@ -622,7 +683,8 @@
       "lat": 51.5145931,
       "lng": -0.1265282,
       "note": "Covent Garden courtyard",
-      "about": "A tiny painted courtyard hidden off a lane in Covent Garden. The colours are the whole point."
+      "about": "A tiny painted courtyard hidden off a lane in Covent Garden. The colours are the whole point.",
+      "hours": "The courtyard is open all day."
     },
     "fortnum": {
       "name": "Fortnum & Mason",
@@ -632,7 +694,8 @@
       "lat": 51.5083687,
       "lng": -0.13831,
       "note": "Piccadilly",
-      "about": "The old Piccadilly grocer, trading since 1707. The food hall is the famous part."
+      "about": "The old Piccadilly grocer, trading since 1707. The food hall is the famous part.",
+      "hours": "Open through the day and into the evening."
     },
     "buckingham": {
       "name": "Buckingham Palace",
@@ -642,7 +705,8 @@
       "lat": 51.501364,
       "lng": -0.14189,
       "note": "St James's",
-      "about": "The King’s London palace. The façade and the Victoria Memorial in front of it."
+      "about": "The King’s London palace. The façade and the Victoria Memorial in front of it.",
+      "hours": "The gates and the memorial are outside, and open all day."
     },
     "hydePark": {
       "name": "Hyde Park",
@@ -653,7 +717,8 @@
       "lng": -0.1641135,
       "note": "Carriage drive and the Serpentine. The loop is about half an hour.",
       "cycleLoop": true,
-      "about": "The great royal park in the middle of the city. The Serpentine lake and the carriage drive around it."
+      "about": "The great royal park in the middle of the city. The Serpentine lake and the carriage drive around it.",
+      "hours": "Pedestrian gates 05:00–midnight."
     },
     "cluny": {
       "name": "Musée de Cluny",
@@ -663,7 +728,8 @@
       "lat": 48.8504,
       "lng": 2.3444,
       "note": "Medieval museum in the 5th",
-      "about": "The museum of the Middle Ages, in a townhouse built over Roman baths. The Lady and the Unicorn tapestries are the masterpiece."
+      "about": "The museum of the Middle Ages, in a townhouse built over Roman baths. The Lady and the Unicorn tapestries are the masterpiece.",
+      "hours": "Tue–Sun 09:30–18:15, Thursday until 21:00. Closed Monday."
     },
     "passages": {
       "name": "Passage des Panoramas",
@@ -673,7 +739,8 @@
       "lat": 48.8716,
       "lng": 2.3417,
       "note": "Covered arcade near the opera",
-      "about": "A 19th-century covered arcade, one of the last of its kind. Glass roof, old shopfronts, near the opera."
+      "about": "A 19th-century covered arcade, one of the last of its kind. Glass roof, old shopfronts, near the opera.",
+      "hours": "The arcade is open through the day. Shops keep their own hours."
     },
     "somerset": {
       "name": "Somerset House",
@@ -683,7 +750,8 @@
       "lat": 51.5111,
       "lng": -0.1171,
       "note": "Courtyard on the Strand",
-      "about": "A palace on the Strand, built around a huge courtyard, with a terrace that opens onto the river."
+      "about": "A palace on the Strand, built around a huge courtyard, with a terrace that opens onto the river.",
+      "hours": "The courtyard and the river terrace are open through the day."
     },
     "southBank": {
       "name": "South Bank",
@@ -693,7 +761,8 @@
       "lat": 51.5066,
       "lng": -0.115,
       "note": "River walk by the National Theatre",
-      "about": "The riverside walk on the south side of the Thames, past the National Theatre."
+      "about": "The riverside walk on the south side of the Thames, past the National Theatre.",
+      "hours": "The river path is open all day."
     },
     "coalDrops": {
       "name": "Coal Drops Yard",
@@ -703,7 +772,8 @@
       "lat": 51.5354,
       "lng": -0.1268,
       "note": "King's Cross yards and the canal",
-      "about": "Two Victorian coal warehouses at King’s Cross, turned into a brick yard over the canal."
+      "about": "Two Victorian coal warehouses at King’s Cross, turned into a brick yard over the canal.",
+      "hours": "The yard is open all day. Shops keep their own hours."
     },
     "southwark": {
       "name": "Southwark Cathedral",
@@ -713,7 +783,8 @@
       "lat": 51.5061,
       "lng": -0.0896,
       "note": "Next to Borough Market",
-      "about": "A medieval cathedral tucked beside Borough Market. Shakespeare’s brother is buried here."
+      "about": "A medieval cathedral tucked beside Borough Market. Shakespeare’s brother is buried here.",
+      "hours": "Open through the day. A service can close part of the church."
     },
     "globe": {
       "name": "Shakespeare's Globe",
@@ -723,7 +794,8 @@
       "lat": 51.5081,
       "lng": -0.0972,
       "note": "Bankside theatre",
-      "about": "A rebuilt wooden Elizabethan playhouse on Bankside, as close as we have to the theatre Shakespeare used."
+      "about": "A rebuilt wooden Elizabethan playhouse on Bankside, as close as we have to the theatre Shakespeare used.",
+      "hours": "The exhibition is open through the day. A play is a separate evening ticket."
     },
     "londonEye": {
       "name": "London Eye",
@@ -733,7 +805,8 @@
       "lat": 51.5033,
       "lng": -0.1195,
       "note": "Riverside wheel",
-      "about": "The giant observation wheel on the river, opposite Parliament. The ride is a slow circle over London."
+      "about": "The giant observation wheel on the river, opposite Parliament. The ride is a slow circle over London.",
+      "hours": "Rides run from late morning until the evening. First and last ride are on the day's board."
     },
     "va": {
       "name": "V&A",
@@ -743,7 +816,8 @@
       "lat": 51.4966,
       "lng": -0.1722,
       "note": "Next to the Natural History Museum",
-      "about": "The museum of art and design. The cast courts, full of huge plaster copies of famous sculpture, are the showpiece."
+      "about": "The museum of art and design. The cast courts, full of huge plaster copies of famous sculpture, are the showpiece.",
+      "hours": "Daily 10:00–17:45, Friday until 22:00."
     },
     "kensingtonGardens": {
       "name": "Kensington Gardens",
@@ -753,7 +827,8 @@
       "lat": 51.507,
       "lng": -0.1795,
       "note": "Albert Memorial, Round Pond, the Italian Gardens. The west half of the Hyde Park loop.",
-      "about": "The west half of Hyde Park. The Albert Memorial, the Round Pond, and the Italian Gardens."
+      "about": "The west half of Hyde Park. The Albert Memorial, the Round Pond, and the Italian Gardens.",
+      "hours": "Opens at 06:00 and closes at dusk."
     },
     "harrods": {
       "name": "Harrods",
@@ -763,7 +838,8 @@
       "lat": 51.4992104,
       "lng": -0.1629893,
       "note": "Food halls. Knightsbridge, a short walk from the V&A.",
-      "about": "The grand Knightsbridge department store. The food halls are the part worth the crowd."
+      "about": "The grand Knightsbridge department store. The food halls are the part worth the crowd.",
+      "hours": "Open through the day and into the evening."
     },
     "russellSq": {
       "name": "Russell Square station",
@@ -773,7 +849,8 @@
       "lat": 51.523,
       "lng": -0.1243,
       "note": "Piccadilly line to Heathrow",
-      "about": "A Bloomsbury Underground station on the Piccadilly line, the one that runs straight out to Heathrow."
+      "about": "A Bloomsbury Underground station on the Piccadilly line, the one that runs straight out to Heathrow.",
+      "hours": "Open from the first Piccadilly train until the last."
     },
     "luxembourg": {
       "name": "Jardin du Luxembourg",
@@ -783,7 +860,8 @@
       "lat": 48.8466,
       "lng": 2.3372,
       "note": "Formal garden south of the hotel",
-      "about": "The formal garden of the Luxembourg Palace. Gravel paths, green chairs, and the big round basin."
+      "about": "The formal garden of the Luxembourg Palace. Gravel paths, green chairs, and the big round basin.",
+      "hours": "Late October, from the last Sunday, 08:00–17:15. From 1 Nov, 08:00–17:00."
     },
     "tuileries": {
       "name": "Jardin des Tuileries",
@@ -793,7 +871,8 @@
       "lat": 48.8635,
       "lng": 2.3275,
       "note": "The garden you walk out of the Louvre into",
-      "about": "The royal garden between the Louvre and Place de la Concorde. A long central path of statues and fountains."
+      "about": "The royal garden between the Louvre and Place de la Concorde. A long central path of statues and fountains.",
+      "hours": "October 07:00–21:00. November 07:30–19:30."
     },
     "concorde": {
       "name": "Place de la Concorde",
@@ -803,7 +882,8 @@
       "lat": 48.8656,
       "lng": 2.3212,
       "note": "West end of the Tuileries",
-      "about": "The huge square at the end of the Tuileries. The Egyptian obelisk stands in the middle, with the Champs opening beyond it."
+      "about": "The huge square at the end of the Tuileries. The Egyptian obelisk stands in the middle, with the Champs opening beyond it.",
+      "hours": "The square is open all day."
     },
     "invalides": {
       "name": "Hôtel des Invalides",
@@ -813,7 +893,8 @@
       "lat": 48.8556,
       "lng": 2.3125,
       "note": "Dome and Napoleon's tomb",
-      "about": "A military hospital under a gold dome. Napoleon’s tomb is in the crypt beneath it."
+      "about": "A military hospital under a gold dome. Napoleon’s tomb is in the crypt beneath it.",
+      "hours": "Daily 10:00–18:00."
     },
     "stPauls": {
       "name": "St Paul's Cathedral",
@@ -823,7 +904,8 @@
       "lat": 51.5138,
       "lng": -0.0984,
       "note": "Wren's dome. Book a slot if you want to climb.",
-      "about": "Wren’s cathedral, built after the Great Fire. The dome is the landmark of the City."
+      "about": "Wren’s cathedral, built after the Great Fire. The dome is the landmark of the City.",
+      "hours": "Sightseeing Mon–Sat 08:30–16:30, Wednesday from 10:00. Last entry about 16:00. Closed to sightseeing on Sunday."
     },
     "tate": {
       "name": "Tate Modern",
@@ -833,7 +915,8 @@
       "lat": 51.5076,
       "lng": -0.0994,
       "note": "Free. Across the Millennium Bridge from St Paul's.",
-      "about": "Modern art in a former power station on Bankside. The Turbine Hall is the huge room you walk into first."
+      "about": "Modern art in a former power station on Bankside. The Turbine Hall is the huge room you walk into first.",
+      "hours": "Sun–Thu 10:00–18:00. Fri–Sat 10:00–21:00. Last entry 30 minutes before close."
     },
     "towerBridge": {
       "name": "Tower Bridge",
@@ -843,7 +926,8 @@
       "lat": 51.5055,
       "lng": -0.0754,
       "note": "Walk across after the Tower.",
-      "about": "The Victorian bridge beside the Tower, with two stone towers and a high walkway between them."
+      "about": "The Victorian bridge beside the Tower, with two stone towers and a high walkway between them.",
+      "hours": "The pavement is open all day. The high walkway is extra and runs through the day."
     },
     "nhm": {
       "name": "Natural History Museum",
@@ -853,7 +937,8 @@
       "lat": 51.4967,
       "lng": -0.1764,
       "note": "Dinosaurs. Book a free timed ticket.",
-      "about": "The museum of animals, fossils, and dinosaurs. Hintze Hall is the great room with the blue whale hanging in it."
+      "about": "The museum of animals, fossils, and dinosaurs. Hintze Hall is the great room with the blue whale hanging in it.",
+      "hours": "Daily 10:00–17:50. Last entry 17:30."
     }
   },
   "days": [
@@ -990,7 +1075,7 @@
         {
           "id": "cluny",
           "title": "Musée de Cluny",
-          "text": "Straight off the island, on the Left Bank. The Lady and the Unicorn. Go in now: it closes at 18:00. Closed Tuesday, so Wednesday works.",
+          "text": "Straight off the island, on the Left Bank. The Lady and the Unicorn. Go in now: it closes at 18:15. Closed Monday, so Wednesday works.",
           "from": "15:40",
           "to": "16:20"
         },
