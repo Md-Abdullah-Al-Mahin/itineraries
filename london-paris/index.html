@@ -534,7 +534,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v48</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v49</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -1095,19 +1095,14 @@
     function eventHops(day, index) {
       const events = day.events || [];
       const curr = events[index];
-      if (!curr) return { toHere: null, fromHere: null, fromName: null, toName: null };
+      if (!curr || curr.meal) return null;
       const stopBefore = events.slice(0, index).reverse().find((item) => !item.meal);
-      const stopAfter = events.slice(index + 1).find((item) => !item.meal);
-      if (curr.meal) return { toHere: null, fromHere: null, fromName: null, toName: null };
-      const toHop = stopBefore && stopBefore.id !== curr.id ? hopInfo(stopBefore.id, curr.id) : null;
-      const fromHop = stopAfter && stopAfter.id !== curr.id ? hopInfo(curr.id, stopAfter.id) : null;
+      if (!stopBefore || stopBefore.id === curr.id) return null;
+      const hop = hopInfo(stopBefore.id, curr.id);
       return {
-        toHere: toHop ? toHop.text : null,
-        toMode: toHop ? toHop.mode : null,
-        fromHere: fromHop ? fromHop.text : null,
-        fromMode: fromHop ? fromHop.mode : null,
-        fromName: stopBefore ? placeLabel(stopBefore.id, stopBefore.title) : null,
-        toName: stopAfter ? placeLabel(stopAfter.id, stopAfter.title) : null,
+        text: hop.text,
+        mode: hop.mode,
+        fromName: placeLabel(stopBefore.id, stopBefore.title),
       };
     }
 
@@ -1349,9 +1344,9 @@
           const shopMore = shopHere.length - shopShown.length;
           const hops = eventHops(day, i);
           const when = whenLabel(event);
-          const hopBits = [];
-          if (hops.toHere) hopBits.push(`<span class="hop ${hops.toMode}">To: ${esc(hops.toHere)} from ${esc(hops.fromName)}</span>`);
-          if (hops.fromHere) hopBits.push(`<span class="hop ${hops.fromMode}">From: ${esc(hops.fromHere)} to ${esc(hops.toName)}</span>`);
+          const hopHtml = hops
+            ? `<p class="hops"><span class="hop ${hops.mode}">${esc(hops.text)} from ${esc(hops.fromName)}</span></p>`
+            : "";
           const nearbyHtml = nearby.length
             ? `<p class="nearby"><em>15 min walk</em>${nearby.map((item) => `${esc(item.label)} · ${item.mins} min`).join("<br>")}${more > 0 ? `<br>+ ${more} more on the map` : ""}</p>`
             : "";
@@ -1364,7 +1359,7 @@
               <div>
                 <h3>${event.meal ? event.title : `${num}. ${event.title}`}</h3>
                 ${when ? `<p class="when">${when}</p>` : ""}
-                ${hopBits.length ? `<p class="hops">${hopBits.join("<br>")}</p>` : ""}
+                ${hopHtml}
                 <p>${event.text}</p>
                 ${nearbyHtml}
                 ${shopHtml}
