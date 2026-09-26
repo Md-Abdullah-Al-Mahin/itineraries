@@ -293,11 +293,11 @@
     .legend .leg.uber::before { background: var(--uber); }
     .legend .leg.cycle::before { background: var(--cycle); }
     .legend .leg.loop::before {
-      width: 8px;
-      height: 8px;
+      width: 7px;
+      height: 7px;
       border-radius: 50%;
-      background: transparent;
-      border: 2px solid var(--loop);
+      background: var(--loop);
+      border: 0;
     }
 
     .rec-marker {
@@ -534,7 +534,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v46</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v47</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -679,7 +679,7 @@
           { id: "sainteChapelle", title: "Sainte-Chapelle", text: "Royal chapel built for the Crown of Thorns. Go for the upper chapel’s stained glass. Book a timed ticket.", from: "11:45", to: "12:45" },
           { id: "notreDame", title: "Notre-Dame", text: "The cathedral, back after the fire. Façade, parvis, the Seine bridges. Go inside if the queue is short.", from: "12:55", to: "13:25" },
           { id: "notreDame", meal: "lunch", title: "Lunch", text: "One hour. Pick a nearby pin near the cathedral or the island.", from: "13:30", to: "14:30" },
-          { id: "ileSaintLouis", title: "Île Saint-Louis", text: "Walk rue Saint-Louis-en-l’Île. The blue ring means you can also cycle the quay the whole way around the island. Ice cream is a nearby pin, not a separate stop.", from: "14:40", to: "15:10" },
+          { id: "ileSaintLouis", title: "Île Saint-Louis", text: "Walk rue Saint-Louis-en-l’Île. The blue dot on the pin means you can also cycle the quay the whole way around the island. Ice cream is a nearby pin, not a separate stop.", from: "14:40", to: "15:10" },
           { id: "pantheon", title: "Panthéon", text: "Neoclassical mausoleum up the hill. Voltaire, Rousseau and Curie in the crypt. Climb the dome if it is open.", from: "15:25", to: "16:10" },
           { id: "luxembourg", title: "Jardin du Luxembourg", text: "Take a chair by the big basin and face the palace. One slow lap of the paths, then leave for Cluny.", from: "16:20", to: "16:55" },
           { id: "cluny", title: "Musée de Cluny", text: "Medieval museum, five minutes from the garden. The Lady and the Unicorn. Go straight in: it closes at 18:00. Closed Tuesday, so Wednesday works.", from: "17:05", to: "17:45" },
@@ -747,7 +747,7 @@
           { id: "versaillesRiveGauche", title: "Versailles Château Rive Gauche", text: "End of the line. Walk straight up Avenue de Paris to the palace gates.", from: "09:15", to: "09:25" },
           { id: "versailles", title: "Palace of Versailles", text: "Louis XIV’s château. Hall of Mirrors, King’s State Apartments, chapel. Passport ticket, go in as it opens.", from: "09:35", to: "12:30" },
           { id: "versailles", meal: "lunch", title: "Lunch", text: "One hour in town, by the gates or back toward the station. The nearby pins on this map are Paris restaurants, not Versailles.", from: "12:35", to: "13:35" },
-          { id: "versaillesGardens", title: "Gardens of Versailles", text: "Le Nôtre’s parterres, Grand Canal, fountains. Walk them, or hire a bike and ride the long loop out to the canal. The blue ring is that loop. Then the RER home.", from: "13:50", to: "16:15" },
+          { id: "versaillesGardens", title: "Gardens of Versailles", text: "Le Nôtre’s parterres, Grand Canal, fountains. Walk them, or hire a bike and ride the long loop out to the canal. The blue dot on the pin is that loop. Then the RER home.", from: "13:50", to: "16:15" },
           { id: "oratio", title: "Hotel Oratio", text: "Shower and change into what you will wear. Leave by 18:40. You do not come back until after the club. Giverny can start late.", from: "17:15", to: "18:35", pause: true },
           { id: "badaboum", title: "11th, before the club", text: "Metro toward Bastille, about 20 minutes. You are early on purpose. Walk Rue de Lappe and the streets around the club. Do not go back to the hotel.", from: "19:00", to: "19:25" },
           { id: "badaboum", meal: "dinner", title: "Dinner", text: "One hour in the 11th. Paul Bert is open tonight, Saturday, from 19:30, about 10 minutes away, if you want the steak. Otherwise a pin around the club.", from: "19:30", to: "20:30" },
@@ -1585,18 +1585,6 @@
         },
       });
       map.addLayer({
-        id: "stops-loop",
-        type: "circle",
-        source: "stops",
-        filter: ["==", ["get", "cycleLoop"], true],
-        paint: {
-          "circle-radius": 16,
-          "circle-color": "rgba(47, 125, 225, 0.12)",
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#2f7de1",
-        },
-      });
-      map.addLayer({
         id: "stops-halo",
         type: "circle",
         source: "stops",
@@ -1629,6 +1617,20 @@
         },
         paint: {
           "text-color": "#fffdf8",
+        },
+      });
+      map.addLayer({
+        id: "stops-loop",
+        type: "circle",
+        source: "stops",
+        filter: ["==", ["get", "cycleLoop"], true],
+        paint: {
+          "circle-radius": 4,
+          "circle-color": "#2f7de1",
+          "circle-stroke-width": 1.5,
+          "circle-stroke-color": "#fffdf8",
+          "circle-translate": [-8, -8],
+          "circle-translate-anchor": "viewport",
         },
       });
       map.addLayer({
