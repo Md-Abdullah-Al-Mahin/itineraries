@@ -32,10 +32,7 @@ CX261 lands at 07:35. Off the plane, immigration, and bags come first, then the 
 
 | Time | Plan |
 | --- | --- |
-| 07:35–08:05 | Off the plane, Terminal 2A. |
-| 08:05–08:50 | Immigration. |
-| 08:50–09:20 | Bags, then walk to the RER B station. |
-| 09:20–10:35 | RER B toward Saint-Michel, about 50 minutes, then a 15 minute walk to the hotel. |
+| 07:35–10:35 | CDG, Terminal 2A. Off the plane, immigration, bags, then RER B. At the hotel about 10:35. |
 | 10:35–11:05 | Hotel Oratio. Check in and drop bags. If the room is not ready, leave the bags and go. |
 | 11:10–11:35 | Shakespeare and Company. Three minutes from the hotel. |
 | 11:45–12:45 | Sainte-Chapelle. Book a timed ticket. Go for the upper chapel. |

@@ -628,10 +628,7 @@
         lede: "CX261 lands 07:35. Off the plane, immigration, and bags come first, then the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Dinner is one hour near the hotel. Jazz after, if you want it.",
         loop: ["cdg", "oratio", "shakespeare", "sainteChapelle", "notreDame", "ileSaintLouis", "pantheon", "luxembourg", "oratio"],
         events: [
-          { id: "cdg", title: "Off the plane · CX261", text: "Terminal 2A. Door open, off the plane, into the terminal.", from: "07:35", to: "08:05" },
-          { id: "cdg", title: "Immigration", text: "Passport control. This is the slow part, and it can run long.", from: "08:05", to: "08:50" },
-          { id: "cdg", title: "Bags", text: "Baggage claim, then walk to the RER B station in the terminal.", from: "08:50", to: "09:20" },
-          { id: "cdg", title: "RER B to the hotel", text: "Train toward Saint-Michel, about 50 minutes. Then a 15 minute walk to rue des Bernardins.", from: "09:20", to: "10:35" },
+          { id: "cdg", title: "Arrive CDG · CX261", text: "Terminal 2A. Off the plane, immigration, bags, then RER B. At the hotel about 10:35.", from: "07:35", to: "10:35" },
           { id: "oratio", title: "Hotel Oratio", text: "Check in and drop bags. If the room is not ready, leave the bags and go. Breakfast was on the flight.", from: "10:35", to: "11:05" },
           { id: "shakespeare", title: "Shakespeare and Company", text: "English-language bookshop on the Seine, three minutes from the hotel. Browse the stalls and peek at the reading room upstairs.", from: "11:10", to: "11:35" },
           { id: "sainteChapelle", title: "Sainte-Chapelle", text: "Royal chapel built for the Crown of Thorns. Go for the upper chapel’s stained glass. Book a timed ticket.", from: "11:45", to: "12:45" },
@@ -1036,7 +1033,7 @@
         || (fromId === "versailles" && toId === "oratio")
       ) return "train";
       if (fromId === "nord" && toId === "stpancras") return "train";
-      if ((fromId === "cdg" && toId === "oratio") || (fromId === "royal" && toId === "lhr") || (fromId === "russellSq" && toId === "lhr")) return "train";
+      if ((fromId === "royal" && toId === "lhr") || (fromId === "russellSq" && toId === "lhr")) return "train";
       return "city";
     }
 
