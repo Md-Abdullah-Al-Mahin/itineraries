@@ -15,14 +15,14 @@ This is the written copy of the map. When the plan changes, update this file and
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
 | 4 Nov | Darjeeling Express, 36–40 Rupert Street, 12:10. Lunch, one hour. Not the long dinner. |
-| 6 Nov | OMA, 2–4 Bedale Street, 18:30. The London dinner to book. Greek. |
+| 5 Nov | OMA, 2–4 Bedale Street, 18:30. The London dinner to book. Greek. |
 | 7 Nov | CX250 from Heathrow Terminal 3, 17:50, seat 59J. Dinner is on the plane. |
 
 ## How meals work
 
 Breakfast is half an hour, usually at the hotel. Lunch is one hour. Dinner is one hour. Those meals are not a fixed restaurant, and they are not a numbered pin. On the map they are the warm dots within a 15 minute walk of wherever you are. Dinner is where the day already is. You go home after, about 21:30 to 22:00. You do not go back to the hotel and then eat. The 5th arrondissement, after Giverny, is the exception, because that neighborhood is actually good and Saint-Lazare is not a dinner.
 
-Two dinners are the long ones, and those are numbered pins. Each is two hours. La Renommée on Monday 2 November, 18:00–20:00, filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead. There is a card hold, and €50 a person if you cancel inside 24 hours. Monday is dinner only, from 17:30, and this table is at 18:00. OMA on Friday 6 November, 18:30–20:30, Greek at 2–4 Bedale Street, a 10 minute walk from Tate Modern. Book ahead. £60 a head if you cancel inside 24 hours. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
+Two dinners are the long ones, and those are numbered pins. Each is two hours. La Renommée on Monday 2 November, 18:00–20:00, filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead. There is a card hold, and €50 a person if you cancel inside 24 hours. Monday is dinner only, from 17:30, and this table is at 18:00. OMA on Thursday 5 November, 18:30–20:30, Greek at 2–4 Bedale Street, a 10 minute walk back from Tate Modern, on the same bank as lunch. Book ahead. £60 a head if you cancel inside 24 hours. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
 
 Purple dots on the map are optional sights within a 20 minute walk. They are not on that day’s plan.
 
@@ -139,7 +139,7 @@ Versailles and Orsay are closed. This is the Paris dinner to book. The passages 
 
 ## Tuesday 3 November · Paris to London, British Museum
 
-Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. After lunch the day stays out: Covent Garden, Somerset House, the South Bank. Dinner is on the bank. Home about 21:45. Darjeeling Express is lunch tomorrow. OMA is Friday.
+Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. After lunch the day stays out: Covent Garden, Somerset House, then the river only as far as the National Theatre. Bankside is Thursday. Dinner is on this stretch. Home about 21:45. Darjeeling Express is lunch tomorrow. OMA is Thursday.
 
 | Time | Plan |
 | --- | --- |
@@ -152,14 +152,14 @@ Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be a
 | 12:35–13:35 | Lunch. One hour near the museum, then walk to Covent Garden. |
 | 13:50–14:35 | Neal’s Yard. Step into the painted courtyard and walk the lanes. A short look, then move on. |
 | 14:55–16:00 | Somerset House. Cross the courtyard to the river terrace. One room of the Courtauld if you want a picture. |
-| 16:15–18:15 | South Bank. Cross Waterloo Bridge and walk the river path past the National Theatre, as far as the Millennium Bridge. Tate is Friday, so you do not go in. |
-| 18:30–19:30 | Dinner. One hour on the bank. |
-| 19:45–21:15 | South Bank after dark. One drink, or the rest of the path. |
+| 16:15–18:15 | South Bank. Cross Waterloo Bridge and walk past the National Theatre and Gabriel's Wharf. Stop there. Do not continue to the Millennium Bridge. |
+| 18:30–19:30 | Dinner. One hour on this stretch of the bank. |
+| 19:45–21:15 | South Bank after dark. One drink on this part of the river. Do not walk on to the Tate. |
 | 21:45 | Hotel. |
 
 ## Wednesday 4 November · Soane, Darjeeling Express, the palace
 
-One walk south from the hotel through Soane’s and the National Gallery. Lunch is Darjeeling Express, one hour in Soho, then Whitehall. The London Eye is across the bridge from Big Ben, so it is today. Then the Abbey, the park, and the palace. King’s Cross after that. Dinner there is a normal hour, and not Indian. OMA on Friday is the meal to book.
+One walk south from the hotel through Soane’s and the National Gallery. Lunch is Darjeeling Express, one hour in Soho, then Whitehall. The London Eye is across the bridge from Big Ben, so it is today. Then the Abbey, the park, and the palace. Dinner stays down here. You arrived at King’s Cross yesterday, so you do not go back for Coal Drops. OMA is Thursday.
 
 | Time | Plan |
 | --- | --- |
@@ -171,44 +171,43 @@ One walk south from the hotel through Soane’s and the National Gallery. Lunch 
 | 14:00–14:25 | London Eye. Across Westminster Bridge. Look from the path. Ride it only if you already have a ticket. |
 | 14:35–15:45 | Westminster Abbey. Back across the bridge. |
 | 15:55–16:30 | St James’s Park. The walk to the palace. |
-| 16:40–17:10 | Buckingham Palace. The façade. Tube north after, not back to the hotel. |
-| 17:45–18:45 | Coal Drops Yard. Walk the two brick yards and the canal. |
-| 19:00–20:00 | Dinner. One hour around Coal Drops. Not another Indian. |
-| 20:45 | Hotel. Tube from King’s Cross. |
+| 16:40–17:30 | Buckingham Palace. The façade. Dinner is near here, not King’s Cross. |
+| 18:00–19:00 | Dinner. One hour near the palace or the park. Not Soho. |
+| 19:45 | Hotel. Tube from Victoria or Green Park. |
 
-## Thursday 5 November · Sky Garden, the Tower, Borough
+## Thursday 5 November · City, Bankside, OMA
 
-Lunch is the market, then the cathedral and the Globe. The Eye was yesterday, from Big Ben, so you do not walk west for it. Dinner is here. Home from London Bridge about 21:15.
+The east side is one day. St Paul’s, Sky Garden, the Tower, then the south bank west through the market, the cathedral, the Globe, and the Tate. The Eye was yesterday. OMA is dinner on that same bank. You do not come back here tomorrow.
 
 | Time | Plan |
 | --- | --- |
-| 08:30–09:00 | Breakfast. Book the Sky Garden slot before you leave. Bring ID. |
-| 09:50–10:40 | Sky Garden. Indoor gardens, then the open deck. Photos, then leave. Free timed ticket. Bring ID. |
-| 10:55–12:40 | Tower of London. Book a ticket. Crown Jewels, ravens, a Yeoman Warder tour if the time works. |
-| 12:50–13:10 | Tower Bridge. Walk across. The high-level walkway is extra. |
-| 13:25–14:25 | Borough Market. This is lunch. One hour. The market is closed Monday, so Thursday works. |
-| 14:35–15:10 | Southwark Cathedral. The nave, the Shakespeare memorial, and the courtyard. About twenty minutes. |
-| 15:20–16:20 | Shakespeare’s Globe. See the wooden theatre from the yard, or the exhibition if you go in. The Eye was yesterday. |
-| 16:30–17:45 | Clink Street. The bank between the Globe and the cathedral. Do not walk west. |
-| 18:00–19:00 | Dinner. One hour by the Globe or the cathedral. The market stalls are done for the day. |
-| 19:15–20:45 | Bankside. This part of the river only. Tate is tomorrow, so you do not go in, and you do not walk west to the wheel. |
+| 08:30–09:00 | Breakfast. Book the Sky Garden slot for about 10:45. Bring ID. |
+| 09:35–10:20 | St Paul’s. The nave. The dome only if you booked the climb. Sky Garden is a walk east, so this is the visit. |
+| 10:45–11:30 | Sky Garden. Indoor gardens, then the open deck. Photos, then leave. Free timed ticket. Bring ID. |
+| 11:50–13:20 | Tower of London. Book a ticket. Crown Jewels, ravens, a Yeoman Warder tour if the time works. |
+| 13:30–13:45 | Tower Bridge. Walk across to the south bank. The high-level walkway is extra. |
+| 14:00–15:00 | Borough Market. This is lunch. One hour. The market is closed Monday, so Thursday works. |
+| 15:10–15:35 | Southwark Cathedral. The nave, the Shakespeare memorial, and the courtyard. Clink Street is the lane on the way to the Globe. |
+| 15:45–16:25 | Shakespeare’s Globe. The wooden theatre from the yard, or the exhibition if you go in. Keep going west. |
+| 16:40–17:40 | Tate Modern. The Turbine Hall, then one floor of the free collection. You are already here. Stop at the Tate. The Eye was yesterday. |
+| 18:30–20:30 | OMA. 2–4 Bedale Street, by the market. Greek. Two hours. Book ahead. £60 a head if you cancel inside 24 hours. A 10 minute walk back along the bank. |
 | 21:15 | Hotel. Northern line from London Bridge. |
 
-## Friday 6 November · Natural History Museum, St Paul’s, Tate
+## Friday 6 November · South Kensington
 
-Last full day. Dinosaurs, the V&A, St Paul’s, Tate Modern. OMA is the London dinner to book, a 10 minute walk from the Tate. Home about 21:15 to pack. The flight is 17:50 tomorrow.
+Last full day, and it stays in the parks and the museums. Ride the Hyde Park loop, dinosaurs, the V&A, Kensington Gardens, then the Harrods food halls. St Paul’s, the Tate, and OMA were yesterday. Dinner is here. Home about 19:45 to pack. The flight is 17:50 tomorrow.
 
 | Time | Plan |
 | --- | --- |
 | 08:30–09:00 | Breakfast. Book the free Natural History slot. Cycle through the parks, or take the tube to South Kensington. |
-| 09:25–09:35 | Hyde Park. The loop is the carriage drive and the Serpentine, about half an hour if you ride the whole ring. This morning you only need the path south to the museum, unless you left early. |
-| 09:45–11:45 | Natural History Museum. Hintze Hall and the blue whale, then the dinosaur gallery. Leave the rest. |
-| 12:00–13:00 | Lunch. One hour in South Kensington. |
-| 13:10–14:00 | V&A. The cast courts, the huge plaster copies. One wing, then the tube east. |
-| 14:30–15:20 | St Paul’s. The nave. The dome only if you booked the climb. |
-| 15:40–17:20 | Tate Modern. The Turbine Hall, then one floor of the free collection. Dinner is a 10 minute walk east. |
-| 18:30–20:30 | OMA. 2–4 Bedale Street, by Borough Market. Greek. Two hours. Book ahead. £60 a head if you cancel inside 24 hours. |
-| 21:15 | Hotel, to pack. Checkout is in the morning. |
+| 09:25–10:00 | Hyde Park. Ride the loop: the carriage drive and the Serpentine, about half an hour. The museums are on the south edge. |
+| 10:15–12:05 | Natural History Museum. Hintze Hall and the blue whale, then the dinosaur gallery. Leave the rest. |
+| 12:10–13:10 | Lunch. One hour in South Kensington. |
+| 13:20–14:20 | V&A. The cast courts, the huge plaster copies. One wing. |
+| 14:35–15:35 | Kensington Gardens. The Albert Memorial, the Round Pond, the Italian Gardens. |
+| 15:50–16:50 | Harrods. The food halls, not the whole store. |
+| 18:00–19:00 | Dinner. One hour in South Kensington or Knightsbridge. |
+| 19:45 | Hotel, to pack. Checkout is in the morning. |
 
 ## Saturday 7 November · Fly home
 

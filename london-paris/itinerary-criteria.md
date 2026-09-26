@@ -5,10 +5,10 @@ Add a line here whenever a new rule comes in.
 ## Pins
 
 - Numbered pins are that day's itinerary only: sights, the hotel, stations, and anything already booked (Crazy Horse, Eurostar, flights).
-- Restaurants, bars and pubs, bakeries and sweet shops, and street food get a fixed amber dot when they are within a 15 minute walk of a numbered stop where you actually spend time (a sight or the hotel). They are not part of the route.
-- Random attractions get a different pin, an open ring, when they are within a 20 minute walk of those same stops. They are optional. They are not on that day's itinerary.
+- Restaurants, bars and pubs, bakeries and sweet shops, and street food get a terracotta dot when they are within a 15 minute walk of a numbered stop where you actually spend time (a sight or the hotel). They are not part of the route.
+- Random attractions get a filled purple dot when they are within a 20 minute walk of those same stops. They are optional. They are not on that day's itinerary.
 - Airports and stations do not grow nearby pins. The overall map and the Heathrow morning do not either. On 3 Nov the nearby pins are London only, because Paris is just the departure.
-- Shopping streets and stores from the shopping list get a green dot when they are within a 10 minute walk of a numbered stop where you spend time. Farther than that, they stay off that day's map. They are not numbered stops.
+- Shopping streets and stores from the shopping list get a pink dot when they are within a 10 minute walk of a numbered stop where you spend time. Farther than that, they stay off that day's map. They are not numbered stops. Harrods on 6 Nov is a numbered stop, so it is not also a pink dot.
 - A walk minute is about 80 metres. 10 minutes is 0.8 km. 15 minutes is 1.2 km. 20 minutes is 1.6 km.
 - Names on the map wait for zoom. The numbered stops appear first. Food, shops, and optional sights appear only when you zoom in further. The dots stay visible either way.
 - The line between stops is colored by how to travel: green walk, blue public transport, orange when a car is worth considering, violet when a bike is the better way. A small blue dot on the top-left of a pin means you can cycle a loop around that place. Those are Île Saint-Louis, the quais around Île de la Cité, the avenues around the Champ de Mars, the Versailles gardens, and Hyde Park’s carriage drive. Luxembourg, the Tuileries, and St James’s Park stay unmarked, because bikes are not allowed on those paths.
@@ -17,6 +17,7 @@ Add a line here whenever a new rule comes in.
 ## How a day is built
 
 - The path is not a loop. Draw the day in order, including the trip back. Every day ends at the hotel you sleep in. 7 Nov ends at Heathrow, because that is the flight to Hong Kong.
+- When a day is already in a neighborhood, do the sights there the same day. Do not leave and come back the next day unless a closure or a booking forces it. The Eye is with Big Ben on 4 Nov. Bankside is one Thursday: St Paul’s, Sky Garden, the Tower, Borough, the Globe, the Tate, and OMA. Tuesday’s river walk stops at the National Theatre so Thursday is the first time on that bank. Wednesday stays in Westminster for dinner, because St Pancras was the day before. Friday stays in Hyde Park and South Kensington.
 - Do not come back to the hotel in the middle of the day. A return is only for something that needs the room: check-in on arrival, a shower and a change before Crazy Horse, a shower and a change before Badaboum (you leave dressed and do not come back until after the club), packing the night before Eurostar or the flight, and the fly-out morning, because the bags are there. A quiet afternoon at the hotel is not a plan. Getting home about 22:00 is fine.
 - 28 Oct does not start at 09:30. Landing is 07:35. The morning is off the plane, immigration, bags, then RER B and a walk. The hotel is about 10:35. The first sight is after 11:00.
 - Versailles is Saturday 31 Oct. It is not on the same day as Crazy Horse. The palace is closed Monday.
@@ -26,7 +27,7 @@ Add a line here whenever a new rule comes in.
 - Palais Garnier has to happen this trip. The house closes in summer 2027.
 - Sir John Soane's Museum is closed Tuesday, so it is Wednesday in London. The British Museum is the Tuesday afternoon, after the train.
 - Du Pain et des Idées is closed at the weekend, and no day's sights pass within a 15 minute walk of it, so it is not on the map. It is a separate metro ride north if you still want the pastry.
-- Berthillon and Gordon's stay amber pins. Paul Bert is a little farther than a 15 minute walk from the Marais, so it does not appear unless that dinner becomes the numbered one.
+- Berthillon and Gordon's stay terracotta pins. Paul Bert is a little farther than a 15 minute walk from the Marais, so it does not appear unless that dinner becomes the numbered one.
 
 ## Meals
 
@@ -38,9 +39,9 @@ Add a line here whenever a new rule comes in.
 - Halloween night, 31 Oct, is Badaboum. Hotel only to shower and change, then dinner in the 11th. Paul Bert is open that Saturday from 19:30. Stay out until doors at 23:30, then home. Giverny the next morning can start late.
 - Two dinners are numbered pins, and those are the long ones, 1.5 to 2 hours:
   - Paris dinner: La Renommée, Monday 2 Nov, 18:00–20:00. Filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead.
-  - London dinner: OMA, Friday 6 Nov, 18:30–20:30. Greek, 2–4 Bedale Street, a 10 minute walk from Tate Modern. Book ahead. £60 a head if you cancel inside 24 hours. Not Indian.
+  - London dinner: OMA, Thursday 5 Nov, 18:30–20:30. Greek, 2–4 Bedale Street, a 10 minute walk from Tate Modern, the same evening as Borough and the Tate. Book ahead. £60 a head if you cancel inside 24 hours. Not Indian.
 - Darjeeling Express is Wednesday 4 Nov lunch, 12:10–13:10, at 36–40 Rupert Street. One hour, after the National Gallery. Lunch service ends at 14:15. It is not the long dinner.
 - 30 Oct has no Seine dinner. Dinner that night is one hour by the tower, after the lights, then the metro home about 21:15.
 - 29 Oct dinner is 21:30–22:30, one hour after Crazy Horse, near the show, not the hotel. Home about 23:15. A mid-afternoon dinner is too early.
-- The London Eye is 4 Nov, across the bridge from Big Ben. 5 Nov does not walk west to it again. That night’s dinner stays by the Globe. 3 Nov dinner stays on the South Bank east of Waterloo. 6 Nov dinner is OMA, then home to pack.
+- The London Eye is 4 Nov, across the bridge from Big Ben. 5 Nov stops at the Tate and does not walk on to the wheel. 3 Nov dinner stays by the National Theatre, not Bankside. 4 Nov dinner stays by the palace. 5 Nov dinner is OMA. 6 Nov dinner is in South Kensington, then home to pack.
 - 7 Nov has breakfast and lunch only. Dinner is the flight. Checkout is in the morning, before lunch. Leave the hotel at 13:00. Russell Square is a few minutes with bags, the Piccadilly ride to Heathrow Terminals 2 & 3 is about 55 minutes, and the subway into Terminal 3 is about 10 minutes. Check-in is about 14:30. That block is check-in, bag drop, and security.
