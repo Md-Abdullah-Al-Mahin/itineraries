@@ -16,7 +16,7 @@ Add a line here whenever a new rule comes in.
 - The path is not a loop. Draw the day in order, including the trip back. Every day ends at the hotel you sleep in. 7 Nov ends at Heathrow, because that is the flight to Hong Kong.
 - 28 Oct does not start at 09:30. Landing is 07:35. The morning is off the plane, immigration, bags, then RER B and a walk. The hotel is about 10:35. The first sight is after 11:00.
 - Versailles is Saturday 31 Oct. It is not on the same day as Crazy Horse. The palace is closed Monday.
-- Crazy Horse stays Thursday 29 Oct at 20:00. That day is Montmartre and the Marais, then the show. Dinner is after, not before.
+- 29 Oct is a full city day, not a short one. Montmartre in the morning, the Marais through the afternoon, hotel only long enough to change for Crazy Horse at 20:00.
 - Giverny stays Sunday 1 Nov. That is the last day of the 2026 season.
 - The Louvre is Monday 2 Nov, because Orsay and Versailles are shut that day.
 - Palais Garnier has to happen this trip. The house closes in summer 2027.

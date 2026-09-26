@@ -47,16 +47,19 @@ Du Pain et des Idées is closed at the weekend, and it is a 25 minute metro nort
 
 ## Thursday 29 October · Montmartre, the Marais, Crazy Horse
 
-Versailles is Saturday, so this day stays in the city. The hill, lunch on the way down, the Marais, then time to change before Crazy Horse at 20:00. Dinner is after the show.
+Versailles is Saturday, so this day stays in the city. The hill and its streets, lunch after noon, then the Marais until it is time to change. Crazy Horse is at 20:00. Dinner is after the show.
 
 | Time | Plan |
 | --- | --- |
 | 08:15–08:45 | Breakfast, then metro to Anvers or Abbesses. |
-| 09:30–11:40 | Sacré-Cœur. Steps, terrace, inside if you want. |
+| 09:30–10:40 | Sacré-Cœur. Steps, terrace, inside if you want. |
+| 10:45–11:45 | Montmartre streets. Place du Tertre and the lanes behind it. |
 | 12:00–13:00 | Lunch. One hour on the way down. Mamiche and the other nearby pins. |
-| 13:20–14:50 | Carnavalet. Free museum of the history of Paris. |
-| 15:00–15:40 | Place des Vosges, then metro home. The afternoon has to stay free for the show. |
-| 16:10–18:40 | Hotel. Shower and change. Leave by 18:45. |
+| 13:25–14:40 | Carnavalet. Free museum of the history of Paris. |
+| 14:50–15:50 | Musée Picasso. One hour, five minutes from Carnavalet. |
+| 16:00–16:25 | Rue des Rosiers. Walk the street. Not a second meal. |
+| 16:35–17:10 | Place des Vosges, then metro home. |
+| 17:35–18:40 | Hotel. Shower and change. Leave by 18:45. |
 | 19:10–21:15 | Crazy Horse, 20:00. 12 Avenue George V. Metro home after. |
 | 21:40–22:40 | Dinner. One hour near the hotel. |
 
