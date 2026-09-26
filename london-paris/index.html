@@ -532,7 +532,7 @@
     const places = {
       cdg: { name: "Paris Charles de Gaulle", label: "CDG", kind: "transit", city: "Paris", lat: 49.0097, lng: 2.5479, note: "Terminal 2A" },
       oratio: { name: "Hotel Oratio", label: "Hotel Oratio", kind: "hotel", city: "Paris", lat: 48.848751, lng: 2.34961, note: "42 rue des Bernardins, 75005" },
-      nord: { name: "Paris Gare du Nord", label: "Gare du Nord", kind: "transit", city: "Paris", lat: 48.8809, lng: 2.3553, note: "Eurostar · be there 07:32" },
+      nord: { name: "Paris Gare du Nord", label: "Gare du Nord", kind: "transit", city: "Paris", lat: 48.8809, lng: 2.3553, note: "Eurostar · be there 06:30" },
       stpancras: { name: "London St Pancras International", label: "St Pancras", kind: "transit", city: "London", lat: 51.5314, lng: -0.1261, note: "Eurostar arrival 10:00" },
       royal: { name: "Royal National Hotel", label: "Royal National", kind: "hotel", city: "London", lat: 51.523473, lng: -0.127234, note: "38–51 Bedford Way, Bloomsbury" },
       lhr: { name: "London Heathrow", label: "Heathrow", kind: "transit", city: "London", lat: 51.4706, lng: -0.4581, note: "Terminal 3" },
@@ -615,7 +615,7 @@
         events: [
           { id: "cdg", title: "Arrive CDG · CX261", text: "Charles de Gaulle, Terminal 2A. Off the plane, immigration, bags, then RER B toward Saint-Michel.", from: "07:35", to: "10:35" },
           { id: "oratio", title: "Hotel Oratio, Paris", text: "Small Left Bank hotel at 42 rue des Bernardins. This is the start and end of every Paris day.", from: "28 Oct 10:35", to: "3 Nov 06:30" },
-          { id: "nord", title: "Eurostar 9013 from Gare du Nord", text: "Paris’s Eurostar station. Clear security, find coach 7 seat 31.", from: "07:32", to: "08:32" },
+          { id: "nord", title: "Eurostar 9013 from Gare du Nord", text: "Be there at 06:30, two hours before the train. Security, then passport control out of France and into the UK, both at this station. Coach 7 seat 31. Train leaves 08:32.", from: "06:30", to: "08:32" },
           { id: "stpancras", title: "Arrive St Pancras", text: "Victorian terminus on Euston Road. Walk south into Bloomsbury, or one Piccadilly stop to Russell Square.", from: "10:00", to: "10:20" },
           { id: "royal", title: "Royal National Hotel, London", text: "Big Bloomsbury hotel at 38–51 Bedford Way. This is the start and end of every London day.", from: "3 Nov 10:35", to: "7 Nov 14:30" },
           { id: "lhr", title: "Leave LHR · CX250", text: "Heathrow Terminal 3. Cathay to Hong Kong, seat 59J.", from: "16:00", to: "17:50" },
@@ -746,7 +746,7 @@
           { id: "garnier", title: "Palais Garnier", text: "The opera house, and the visit to do before it closes in summer 2027. Self-guided: grand staircase, auditorium, Chagall ceiling. Book online. No tickets at the door.", from: "15:35", to: "16:45" },
           { id: "oratio", title: "Hotel Oratio", text: "Change. La Renommée is back toward Saint-Honoré, about 15 minutes from the opera.", from: "17:05", to: "17:45", pause: true },
           { id: "laRenommee", title: "La Renommée · dinner", text: "The Paris dinner to book, and the only long dinner in the city. Filet au poivre at 95 Rue Saint-Honoré. Two hours, from 18:00. The kitchen opens at 17:30, but dinner is not before 6. Reserve up to 30 days ahead. Card hold, €50 a head if you cancel inside 24 hours.", from: "18:00", to: "20:00", pause: true },
-          { id: "oratio", title: "Hotel Oratio · pack", text: "Pack. Be at Gare du Nord at 07:32 tomorrow.", from: "20:20", to: "evening", pause: true },
+          { id: "oratio", title: "Hotel Oratio · pack", text: "Pack. Be at Gare du Nord at 06:30 tomorrow. The ticket’s 07:32 is too tight once passport control is in the line.", from: "20:20", to: "evening", pause: true },
         ],
       },
       {
@@ -754,12 +754,12 @@
         label: "3 Nov",
         title: "Paris to London · British Museum",
         kicker: "Tuesday · travel day",
-        lede: "Eurostar into St Pancras at 10:00. Breakfast is a short one before the train. Drop bags, the British Museum, then an hour for lunch. Dinner is one hour near the hotel. Tamila, the London dinner to book, is tomorrow. Soane’s is closed today.",
+        lede: "Eurostar into St Pancras at 10:00. Be at Gare du Nord at 06:30 so security and passport control have room. Breakfast is a short one before the taxi. Drop bags, the British Museum, lunch after noon. Dinner is one hour near the hotel. Tamila is tomorrow. Soane’s is closed today.",
         loop: ["oratio", "nord", "stpancras", "royal", "britishMuseum", "royal"],
         events: [
-          { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Short. The train will not wait. Bags down, taxi or RER B.", from: "06:15", to: "06:40" },
-          { id: "oratio", title: "Leave Hotel Oratio", text: "Ticket says be at Gare du Nord at 07:32.", from: "06:45", to: "07:00" },
-          { id: "nord", title: "Gare du Nord · Eurostar 9013", text: "Check in, passport, find coach 7 seat 31. Train leaves 08:32.", from: "07:20", to: "08:32" },
+          { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Short. Bags down. Taxi to Gare du Nord, about 20 minutes.", from: "05:40", to: "06:05" },
+          { id: "oratio", title: "Leave Hotel Oratio", text: "Out by 06:10. The station block is long because of security and passport control.", from: "06:10", to: "06:20" },
+          { id: "nord", title: "Gare du Nord · Eurostar 9013", text: "Two hours before departure. Ticket check, security, then leaving France and entering the UK, both here. Find coach 7 seat 31. Train leaves 08:32. St Pancras is just the walk out.", from: "06:30", to: "08:32" },
           { id: "stpancras", title: "St Pancras", text: "Gothic revival station. Walk south to Bedford Way.", from: "10:00", to: "10:20" },
           { id: "royal", title: "Royal National Hotel", text: "Check in, drop bags. 38–51 Bedford Way. The museum is ten minutes south.", from: "10:35", to: "11:15" },
           { id: "britishMuseum", title: "British Museum", text: "Rosetta Stone, Parthenon sculptures, mummies. Great Court and a shortlist, not the whole place. Free.", from: "11:30", to: "12:30" },

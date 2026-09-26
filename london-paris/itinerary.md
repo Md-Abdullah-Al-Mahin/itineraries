@@ -12,7 +12,7 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 29 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Not the same day as Versailles. |
 | 2 Nov | Louvre timed entry at 09:00. La Renommée at 18:00, the Paris dinner to book. |
-| 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 07:32. Coach 7, seat 31. |
+| 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
 | 4 Nov | Tamila, 8 Caledonian Road, 18:30. The London dinner to book. |
 | 7 Nov | CX250 from Heathrow Terminal 3, 17:50, seat 59J. Dinner is on the plane. |
@@ -129,17 +129,17 @@ Versailles and Orsay are closed. This is the Paris dinner to book. Pack after. T
 | 15:35–16:45 | Palais Garnier. Book online. No tickets at the door. The house closes in summer 2027 until about 2032. |
 | 17:05–17:45 | Hotel. Change. The restaurant is about 15 minutes from the opera, back toward Saint-Honoré. |
 | 18:00–20:00 | La Renommée. 95 Rue Saint-Honoré. Filet au poivre. Two hours. |
-| 20:20 | Pack. Be at Gare du Nord at 07:32 tomorrow. |
+| 20:20 | Pack. Be at Gare du Nord at 06:30 tomorrow. |
 
 ## Tuesday 3 November · Paris to London, British Museum
 
-Soane’s is closed on Tuesdays, so the museum today is the British Museum. Tamila is tomorrow night.
+Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. Tamila is tomorrow night.
 
 | Time | Plan |
 | --- | --- |
-| 06:15–06:40 | Breakfast. Short. The train will not wait. |
-| 06:45–07:00 | Leave Oratio. Taxi or RER B. |
-| 07:20–08:32 | Gare du Nord, Eurostar 9013. Coach 7, seat 31. |
+| 05:40–06:05 | Breakfast. Short. |
+| 06:10–06:20 | Leave Oratio. Taxi, about 20 minutes. |
+| 06:30–08:32 | Gare du Nord, Eurostar 9013. Security, then passport control out of France and into the UK. Coach 7, seat 31. Train at 08:32. |
 | 10:00–10:20 | St Pancras. Walk south to Bedford Way. |
 | 10:35–11:15 | Royal National Hotel. Check in, drop bags. |
 | 11:30–12:30 | British Museum. Rosetta Stone, Parthenon sculptures, mummies. Free. A shortlist, not the whole place. |

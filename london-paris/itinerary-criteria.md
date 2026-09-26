@@ -27,6 +27,7 @@ Add a line here whenever a new rule comes in.
 ## Meals
 
 - Breakfast is 30 minutes, at the hotel or an amber pin beside it. It is not a numbered stop. The arrival morning skips it, because breakfast was on the flight. The Eurostar morning is shorter than 30 minutes.
+- Eurostar morning, 3 Nov: be at Gare du Nord at 06:30 for the 08:32 train. That block covers security plus passport control out of France and into the UK, both at the station. The ticket’s 07:32 is too tight. St Pancras is the walk out.
 - Lunch is 1 hour and starts at 12:00 or later. Dinner is 1 hour and starts at 18:00 or later. The restaurant itself stays an unnumbered pin, chosen when you are there. La Renommée opens at 17:30 on Monday, and the booking is still 18:00.
 - After a one-hour dinner, the evening can hold something else. Jazz on 28 Oct is that kind of extra.
 - Halloween night, 31 Oct, is Badaboum. It is on the plan: dinner at the hotel, club from 23:30, then home. Giverny the next morning can start late.
