@@ -17,7 +17,7 @@ Add a line here whenever a new rule comes in.
 ## How a day is built
 
 - The path is not a loop. Draw the day in order, including the trip back. Every day ends at the hotel you sleep in. 7 Nov ends at Heathrow, because that is the flight to Hong Kong.
-- Do not come back to the hotel in the middle of the day. Stay out until dinner. A return is only for something that needs the room: check-in on arrival, a shower and a change before Crazy Horse or before Badaboum, packing the night before Eurostar or the flight, and the fly-out morning, because the bags are there. A quiet afternoon at the hotel is not a plan.
+- Do not come back to the hotel in the middle of the day. A return is only for something that needs the room: check-in on arrival, a shower and a change before Crazy Horse, a shower and a change before Badaboum (you leave dressed and do not come back until after the club), packing the night before Eurostar or the flight, and the fly-out morning, because the bags are there. A quiet afternoon at the hotel is not a plan. Getting home about 22:00 is fine.
 - 28 Oct does not start at 09:30. Landing is 07:35. The morning is off the plane, immigration, bags, then RER B and a walk. The hotel is about 10:35. The first sight is after 11:00.
 - Versailles is Saturday 31 Oct. It is not on the same day as Crazy Horse. The palace is closed Monday.
 - 29 Oct is a full city day, not a short one. Montmartre in the morning, the Marais through the afternoon, hotel only long enough to change for Crazy Horse at 20:00.
@@ -33,11 +33,13 @@ Add a line here whenever a new rule comes in.
 - Breakfast is 30 minutes, at the hotel or an amber pin beside it. It is not a numbered stop. The arrival morning skips it, because breakfast was on the flight. The Eurostar morning is shorter than 30 minutes.
 - Eurostar morning, 3 Nov: be at Gare du Nord at 06:30 for the 08:32 train. That block covers security plus passport control out of France and into the UK, both at the station. The ticket’s 07:32 is too tight. St Pancras is the walk out.
 - Lunch is 1 hour and starts at 12:00 or later. Dinner is 1 hour and starts at 18:00 or later. The restaurant itself stays an unnumbered pin, chosen when you are there. La Renommée opens at 17:30 on Monday, and the booking is still 18:00.
-- After a one-hour dinner, the evening can hold something else. Jazz on 28 Oct is that kind of extra.
-- Halloween night, 31 Oct, is Badaboum. It is on the plan: dinner at the hotel, club from 23:30, then home. Giverny the next morning can start late.
+- Dinner is where the day already is. Then you go home, about 21:30–22:00. You do not go back to the hotel and eat afterwards. The exception is 1 Nov: the 5th is actually a good neighborhood, Saint-Lazare is not a dinner, and the Louvre is at 09:00.
+- After a one-hour dinner, the evening can hold something else. Jazz on 28 Oct is that: Mouffetard for dinner, Caveau from 21:00, home about 22:45.
+- Halloween night, 31 Oct, is Badaboum. Hotel only to shower and change, then dinner in the 11th. Paul Bert is open that Saturday from 19:30. Stay out until doors at 23:30, then home. Giverny the next morning can start late.
 - Two dinners are numbered pins, and those are the long ones, 1.5 to 2 hours:
   - Paris dinner: La Renommée, Monday 2 Nov, 18:00–20:00. Filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead.
-  - London dinner: Tamila, Wednesday 4 Nov, 18:30–20:30. South Indian, Beli 9.5, about 15 minutes north of the hotel.
-- 30 Oct has no Seine dinner. Dinner that night is one hour after 18:00, near the hotel.
-- 29 Oct dinner is 21:40–22:40, one hour after Crazy Horse, near the hotel. A mid-afternoon dinner is too early.
+  - London dinner: Tamila, Wednesday 4 Nov, 19:00–21:00. South Indian, Beli 9.5, a 10 minute walk from Coal Drops. Darjeeling Express is the other famous Indian room, Rupert Street in Soho, but Wednesday dinner there ends at 21:00 and that day already finishes at King’s Cross.
+- 30 Oct has no Seine dinner. Dinner that night is one hour by the tower, after the lights, then the metro home about 21:15.
+- 29 Oct dinner is 21:30–22:30, one hour after Crazy Horse, near the show, not the hotel. Home about 23:15. A mid-afternoon dinner is too early.
+- 3 Nov, 5 Nov, and 6 Nov dinners stay on the South Bank, by the Eye, and on Bankside. Home after, about 21:15–21:45. 6 Nov packing starts when you get back, not before dinner.
 - 7 Nov has breakfast and lunch only. Dinner is the flight. Checkout is in the morning, before lunch. Leave the hotel at 13:00. Russell Square is a few minutes with bags, the Piccadilly ride to Heathrow Terminals 2 & 3 is about 55 minutes, and the subway into Terminal 3 is about 10 minutes. Check-in is about 14:30. That block is check-in, bag drop, and security.

@@ -534,7 +534,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v45</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v46</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -670,8 +670,8 @@
         label: "28 Oct",
         title: "Arrive · islands and the 5th",
         kicker: "Wednesday · Paris day 1",
-        lede: "CX261 lands 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Stay out until dinner. The hotel is only for the night.",
-        loop: ["cdg", "oratio", "shakespeare", "sainteChapelle", "notreDame", "ileSaintLouis", "pantheon", "luxembourg", "cluny", "mouffetard", "oratio"],
+        lede: "CX261 lands 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Dinner is on Mouffetard, then jazz. Home after that, about 22:45.",
+        loop: ["cdg", "oratio", "shakespeare", "sainteChapelle", "notreDame", "ileSaintLouis", "pantheon", "luxembourg", "cluny", "mouffetard", "caveau", "oratio"],
         events: [
           { id: "cdg", title: "Arrive CDG · CX261", text: "Terminal 2A. Off the plane, immigration, bags. Consider a car with the bags, or RER B. At the hotel about 10:35.", from: "07:35", to: "10:35" },
           { id: "oratio", title: "Hotel Oratio", text: "Check in and drop bags. If the room is not ready, leave the bags and go. Breakfast was on the flight.", from: "10:35", to: "11:05" },
@@ -683,8 +683,10 @@
           { id: "pantheon", title: "Panthéon", text: "Neoclassical mausoleum up the hill. Voltaire, Rousseau and Curie in the crypt. Climb the dome if it is open.", from: "15:25", to: "16:10" },
           { id: "luxembourg", title: "Jardin du Luxembourg", text: "Take a chair by the big basin and face the palace. One slow lap of the paths, then leave for Cluny.", from: "16:20", to: "16:55" },
           { id: "cluny", title: "Musée de Cluny", text: "Medieval museum, five minutes from the garden. The Lady and the Unicorn. Go straight in: it closes at 18:00. Closed Tuesday, so Wednesday works.", from: "17:05", to: "17:45" },
-          { id: "mouffetard", title: "Rue Mouffetard", text: "The market street down the hill. Walk it, then dinner. The hotel is only for the night.", from: "18:00", to: "18:40" },
-          { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour. Any nearby pin within a 15 minute walk of the hotel. Caveau is there if you want jazz after.", from: "19:00", to: "20:00" },
+          { id: "mouffetard", title: "Rue Mouffetard", text: "The market street down the hill. Walk it, then eat here. You do not go back to the hotel for dinner.", from: "18:00", to: "18:25" },
+          { id: "mouffetard", meal: "dinner", title: "Dinner", text: "One hour on this street. The pins are the meal. Then walk back through the Latin Quarter.", from: "18:30", to: "19:30" },
+          { id: "caveau", title: "Caveau de la Huchette", text: "Walk back through the Latin Quarter. Doors at 21:00, music from 21:30. No reservation. One set is enough. The hotel is five minutes after.", from: "19:45", to: "22:30" },
+          { id: "oratio", title: "Hotel Oratio", text: "Home. About 22:45.", from: "22:45", to: "evening", pause: true },
         ],
       },
       {
@@ -692,7 +694,7 @@
         label: "29 Oct",
         title: "Montmartre · Marais · Crazy Horse",
         kicker: "Thursday · Paris day 2",
-        lede: "Versailles is Saturday, so this day stays in the city. The hill and its streets, lunch after noon, then the Marais until it is time to change. Crazy Horse is at 20:00. Dinner is after the show.",
+        lede: "Versailles is Saturday, so this day stays in the city. The hill and its streets, lunch after noon, then the Marais until it is time to change. Crazy Horse is at 20:00. Dinner is after the show, near George V, then home. This night is later than 10 because the show ends after 21:00.",
         loop: ["oratio", "sacreCoeur", "tertre", "carnavalet", "picasso", "rosiers", "vosges", "oratio", "crazyHorse", "oratio"],
         events: [
           { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour, then metro to Anvers or Abbesses and walk up the butte.", from: "08:15", to: "08:45" },
@@ -705,8 +707,9 @@
           { id: "rosiers", title: "Rue des Rosiers", text: "The short food street of the Marais. Walk it. Lunch was already at noon, so this is the street, not a second meal.", from: "16:00", to: "16:25" },
           { id: "vosges", title: "Place des Vosges", text: "Oldest planned square in Paris. Red brick, arcades, a short sit. Cycle through the Marais to the hotel, or take the metro.", from: "16:35", to: "17:10" },
           { id: "oratio", title: "Hotel Oratio", text: "Shower and change. Leave by 18:45 so you are at the door for 19:10.", from: "17:35", to: "18:40", pause: true },
-          { id: "crazyHorse", title: "Crazy Horse · 20:00", text: "Cabaret on Avenue George V. Nude revue, tight lighting, about an hour. Doors before 20:00. Consider a car home, or the metro, then dinner.", from: "19:10", to: "21:15" },
-          { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour after the show, near the hotel. Any nearby pin within a 15 minute walk.", from: "21:40", to: "22:40" },
+          { id: "crazyHorse", title: "Crazy Horse · 20:00", text: "Cabaret on Avenue George V. Nude revue, tight lighting, about an hour. Doors before 20:00. Dinner is nearby, not back at the hotel.", from: "19:10", to: "21:15" },
+          { id: "crazyHorse", meal: "dinner", title: "Dinner", text: "One hour after the show, around Alma and George V. The pins near the cabaret. Then a car or the metro home.", from: "21:30", to: "22:30" },
+          { id: "oratio", title: "Hotel Oratio", text: "Home about 23:15. Consider a car, or the metro.", from: "23:15", to: "evening", pause: true },
         ],
       },
       {
@@ -714,7 +717,7 @@
         label: "30 Oct",
         title: "Orsay · river · Eiffel",
         kicker: "Friday · Paris day 3",
-        lede: "Orsay is closed Monday, so it is today. Breakfast, the museum, lunch after noon, then Invalides and the Petit Palais. The tower is the afternoon. No Seine dinner, and no stop at the hotel until dinner.",
+        lede: "Orsay is closed Monday, so it is today. Breakfast, the museum, lunch after noon, then Invalides and the Petit Palais. Stay for the tower lights. Dinner is there, then the metro home about 21:15. No Seine dinner, and no hotel stop before that.",
         loop: ["oratio", "orsay", "invalides", "alexandre", "petitPalais", "trocadero", "eiffel", "oratio"],
         events: [
           { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour at the hotel, then the left bank toward Orsay.", from: "08:00", to: "08:30" },
@@ -725,8 +728,9 @@
           { id: "alexandre", title: "Pont Alexandre III", text: "Walk the bridge end to end. The gold statues and the view of the tower are the stop. The Petit Palais is on the right-bank end.", from: "14:15", to: "14:30" },
           { id: "petitPalais", title: "Petit Palais", text: "Free city art museum. Permanent collection, no reservation. Closed Monday, so Friday is the day.", from: "14:35", to: "15:20" },
           { id: "trocadero", title: "Trocadéro", text: "Esplanade with the postcard Eiffel view. Photos from the terrace, then walk down through the Champ de Mars.", from: "15:35", to: "16:05" },
-          { id: "eiffel", title: "Eiffel Tower", text: "Book a second-floor or summit slot. Stay for the light coming on, then metro home. No dinner cruise.", from: "16:20", to: "18:15" },
-          { id: "oratio", meal: "dinner", title: "Dinner", text: "Metro home from the tower. One hour after 6. Any nearby pin within a 15 minute walk of the hotel.", from: "19:00", to: "20:00" },
+          { id: "eiffel", title: "Eiffel Tower", text: "Book a second-floor or summit slot. Stay for the lights. Late October is dark by about 18:30, and the tower sparkles on the hour. No dinner cruise.", from: "16:20", to: "19:00" },
+          { id: "eiffel", meal: "dinner", title: "Dinner", text: "One hour around the tower and Trocadéro. The pins here, not the hotel. Then the metro home.", from: "19:15", to: "20:15" },
+          { id: "oratio", title: "Hotel Oratio", text: "Home about 21:15. 25 minutes on the metro.", from: "21:15", to: "evening", pause: true },
         ],
       },
       {
@@ -734,7 +738,7 @@
         label: "31 Oct",
         title: "Versailles · Halloween",
         kicker: "Saturday · Paris day 4",
-        lede: "The palace in the day. Crazy Horse was Thursday. Dinner is one hour at the hotel after 6, then Badaboum for Halloween. The party starts at 23:30. You come home after. Giverny is tomorrow, so the morning can start late.",
+        lede: "The palace in the day. Crazy Horse was Thursday. The hotel is a shower and a change, then you leave dressed. Dinner is in the 11th, near the club, and you stay out until doors at 23:30. You come home after. Giverny is tomorrow, so the morning can start late.",
         loop: ["oratio", "saintMichel", "versaillesRiveGauche", "versailles", "versaillesGardens", "versaillesRiveGauche", "saintMichel", "oratio", "badaboum", "oratio"],
         events: [
           { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour. Coffee and something from a nearby pin, then out the door.", from: "07:30", to: "08:00" },
@@ -744,9 +748,10 @@
           { id: "versailles", title: "Palace of Versailles", text: "Louis XIV’s château. Hall of Mirrors, King’s State Apartments, chapel. Passport ticket, go in as it opens.", from: "09:35", to: "12:30" },
           { id: "versailles", meal: "lunch", title: "Lunch", text: "One hour in town, by the gates or back toward the station. The nearby pins on this map are Paris restaurants, not Versailles.", from: "12:35", to: "13:35" },
           { id: "versaillesGardens", title: "Gardens of Versailles", text: "Le Nôtre’s parterres, Grand Canal, fountains. Walk them, or hire a bike and ride the long loop out to the canal. The blue ring is that loop. Then the RER home.", from: "13:50", to: "16:15" },
-          { id: "oratio", title: "Hotel Oratio", text: "Shower. Giverny is tomorrow, and the morning can start late.", from: "17:15", to: "18:45", pause: true },
-          { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour near the hotel, after 6. Then rest before the club.", from: "19:00", to: "20:00" },
-          { id: "oratio", title: "Hotel Oratio", text: "Change. Metro toward Bastille, about 20 minutes.", from: "22:45", to: "23:05" },
+          { id: "oratio", title: "Hotel Oratio", text: "Shower and change into what you will wear. Leave by 18:40. You do not come back until after the club. Giverny can start late.", from: "17:15", to: "18:35", pause: true },
+          { id: "badaboum", title: "11th, before the club", text: "Metro toward Bastille, about 20 minutes. You are early on purpose. Walk Rue de Lappe and the streets around the club. Do not go back to the hotel.", from: "19:00", to: "19:25" },
+          { id: "badaboum", meal: "dinner", title: "Dinner", text: "One hour in the 11th. Paul Bert is open tonight, Saturday, from 19:30, about 10 minutes away, if you want the steak. Otherwise a pin around the club.", from: "19:30", to: "20:30" },
+          { id: "badaboum", title: "Stay out", text: "A bar or the same streets until doors. You are already dressed. The hotel is for after.", from: "20:45", to: "23:05" },
           { id: "badaboum", title: "Badaboum · Halloween", text: "Club on Rue des Taillandiers. Doors at 23:30, and it runs until morning. Stay as long as you want. Consider a car home. The metro is about 20 minutes if it is still running.", from: "23:15", to: "02:30" },
           { id: "oratio", title: "Hotel Oratio", text: "Home. Sleep. Giverny can wait until late morning.", from: "02:50", to: "03:10" },
         ],
@@ -756,7 +761,7 @@
         label: "1 Nov",
         title: "Giverny",
         kicker: "Sunday · Paris day 5",
-        lede: "Last open day of Monet’s house and gardens. Breakfast, then the TER from Saint-Lazare. Lunch is an hour at Giverny. Dinner is one hour near the hotel, then an early night. The Louvre is 09:00 tomorrow.",
+        lede: "Last open day of Monet’s house and gardens. Breakfast, then the TER from Saint-Lazare. Lunch is an hour at Giverny. This is the night dinner stays in the 5th: that neighborhood is the good one, and Saint-Lazare is not a dinner. Bed after. The Louvre is 09:00 tomorrow.",
         loop: ["oratio", "saintLazare", "vernon", "giverny", "vernon", "saintLazare", "oratio"],
         events: [
           { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour. Later if the night ran late. Then metro to Saint-Lazare: Line 10 to Odéon, Line 4 north.", from: "09:15", to: "09:45" },
@@ -768,8 +773,8 @@
           { id: "giverny", title: "Gardens", text: "The pond and a last walk. Be on a 16:20 shuttle.", from: "13:30", to: "16:10" },
           { id: "vernon", title: "Vernon-Giverny · return", text: "Shuttle back for the Paris train.", from: "16:40", to: "16:50" },
           { id: "saintLazare", title: "Gare Saint-Lazare · return", text: "Off the TER. Metro Line 4 south, then 10 to Maubert.", from: "17:40", to: "17:45" },
-          { id: "oratio", title: "Hotel Oratio", text: "Drop your bag. Louvre is a 09:00 timed entry tomorrow.", from: "18:10", to: "18:45", pause: true },
-          { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour near the hotel, then an early night.", from: "19:00", to: "20:00" },
+          { id: "oratio", title: "Hotel Oratio", text: "Drop the day-trip bag and go straight out to eat. You are not sitting the evening here.", from: "18:10", to: "18:25" },
+          { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour in the 5th. Mouffetard or a pin around the hotel. This is the exception, because this neighborhood is actually good and the station is not. Then bed. The Louvre is at 09:00.", from: "18:30", to: "19:30" },
         ],
       },
       {
@@ -798,7 +803,7 @@
         label: "3 Nov",
         title: "Paris to London · British Museum",
         kicker: "Tuesday · travel day",
-        lede: "Eurostar into St Pancras at 10:00. Be at Gare du Nord at 06:30 so security and passport control have room. Breakfast is a short one before the taxi. Drop bags, the British Museum, lunch after noon, then Covent Garden and the river. Dinner is one hour near the hotel. Soane’s is closed today.",
+        lede: "Eurostar into St Pancras at 10:00. Be at Gare du Nord at 06:30 so security and passport control have room. Breakfast is a short one before the taxi. Drop bags, the British Museum, lunch after noon, then Covent Garden and the river. Dinner is on the South Bank. Home about 21:45. Soane’s is closed today. Tamila is tomorrow night.",
         loop: ["oratio", "nord", "stpancras", "royal", "britishMuseum", "nealsYard", "somerset", "southBank", "royal"],
         events: [
           { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Short. Bags down. Taxi to Gare du Nord, about 20 minutes.", from: "05:40", to: "06:05" },
@@ -810,8 +815,10 @@
           { id: "britishMuseum", meal: "lunch", title: "Lunch", text: "One hour near the museum, then walk down to Covent Garden.", from: "12:35", to: "13:35" },
           { id: "nealsYard", title: "Neal's Yard", text: "Step into the painted courtyard and walk the lanes around it. A short look is enough, then continue toward Somerset House.", from: "13:50", to: "14:35" },
           { id: "somerset", title: "Somerset House", text: "Cross the courtyard to the river terrace. Go into the Courtauld for one room if you want a picture. Otherwise the building and the view are the visit.", from: "14:55", to: "16:00" },
-          { id: "southBank", title: "South Bank", text: "Cross Waterloo Bridge and walk the river path past the National Theatre. Stay on the bank. No museum on this stretch.", from: "16:15", to: "17:45" },
-          { id: "royal", meal: "dinner", title: "Dinner", text: "Tube home. One hour. Any nearby pin around the hotel. Tamila is tomorrow night, the one to book.", from: "18:30", to: "19:30" },
+          { id: "southBank", title: "South Bank", text: "Cross Waterloo Bridge and walk the river path past the National Theatre, as far as the Millennium Bridge. Tate is Friday, so you do not go in.", from: "16:15", to: "18:15" },
+          { id: "southBank", meal: "dinner", title: "Dinner", text: "One hour on the bank. The pins here, not Bloomsbury. Tamila is tomorrow night, the one to book.", from: "18:30", to: "19:30" },
+          { id: "southBank", title: "South Bank after dark", text: "Stay out. One drink, or the rest of the river path. Then the tube home.", from: "19:45", to: "21:15" },
+          { id: "royal", title: "Royal National Hotel", text: "Home about 21:45.", from: "21:45", to: "evening", pause: true },
         ],
       },
       {
@@ -819,7 +826,7 @@
         label: "4 Nov",
         title: "Soane · Westminster · palace",
         kicker: "Wednesday · London day 1",
-        lede: "Breakfast, then one walk south: Soane’s, the National Gallery, an hour for lunch at Trafalgar, Big Ben, the Abbey, the park, Buckingham. King’s Cross before dinner. Tamila is the London meal to book, 18:30–20:30. The hotel is after that.",
+        lede: "Breakfast, then one walk south: Soane’s, the National Gallery, an hour for lunch at Trafalgar, Big Ben, the Abbey, the park, Buckingham. King’s Cross before dinner. Tamila is the London meal to book, 19:00–21:00, ten minutes from Coal Drops. The hotel is after that, about 21:20.",
         loop: ["royal", "soane", "nationalGallery", "bigBen", "westminster", "stJames", "buckingham", "coalDrops", "tamila", "royal"],
         events: [
           { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour, then walk south through Bloomsbury toward Lincoln’s Inn Fields.", from: "08:15", to: "08:45" },
@@ -831,9 +838,9 @@
           { id: "westminster", title: "Westminster Abbey", text: "Coronations, royal tombs, Poets’ Corner. Next door to Big Ben.", from: "13:40", to: "14:50" },
           { id: "stJames", title: "St James's Park", text: "Lake, pelicans, the palace from the bridge. This is the walk between the Abbey and Buckingham.", from: "15:00", to: "15:35" },
           { id: "buckingham", title: "Buckingham Palace", text: "The façade and the Victoria Memorial. Guard change is mornings and not every day. This slot is the building. Tube north to King’s Cross after, not back to the hotel.", from: "15:45", to: "16:15" },
-          { id: "coalDrops", title: "Coal Drops Yard", text: "Walk the two brick yards and the canal between them. A look at the shops, then the 10 minute walk to Tamila. You do not go back to the hotel first.", from: "16:50", to: "18:15" },
-          { id: "tamila", title: "Tamila · dinner", text: "The London dinner to book, and the only long dinner in the city. South Indian, Beli 9.5, at 8 Caledonian Road. Two hours, then home.", from: "18:30", to: "20:30", pause: true },
-          { id: "royal", title: "Royal National Hotel", text: "Home.", from: "20:45", to: "evening", pause: true },
+          { id: "coalDrops", title: "Coal Drops Yard", text: "Walk the two brick yards and the canal between them. A look at the shops, then the 10 minute walk to Tamila. You do not go back to the hotel first.", from: "16:50", to: "18:40" },
+          { id: "tamila", title: "Tamila · dinner", text: "The London dinner to book, and the only long dinner in the city. South Indian, Beli 9.5, at 8 Caledonian Road. Two hours, then home. This is the one that sits where the day already is.", from: "19:00", to: "21:00", pause: true },
+          { id: "royal", title: "Royal National Hotel", text: "Home about 21:20.", from: "21:20", to: "evening", pause: true },
         ],
       },
       {
@@ -841,7 +848,7 @@
         label: "5 Nov",
         title: "Sky Garden · Tower · Borough",
         kicker: "Thursday · London day 2",
-        lede: "Breakfast, Sky Garden, the Tower, a walk across Tower Bridge. Lunch is an hour at Borough Market, then the cathedral, the Globe, and the river to the Eye. Dinner is one hour back near the hotel.",
+        lede: "Breakfast, Sky Garden, the Tower, a walk across Tower Bridge. Lunch is an hour at Borough Market, then the cathedral, the Globe, and the river to the Eye. Dinner is there. Home about 21:45, not before.",
         loop: ["royal", "skyGarden", "tower", "towerBridge", "borough", "southwark", "globe", "londonEye", "royal"],
         events: [
           { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Book the Sky Garden slot before you leave.", from: "08:30", to: "09:00" },
@@ -852,8 +859,10 @@
           { id: "borough", title: "Borough Market · lunch", text: "This is lunch. One hour of stalls under the railway. The market is closed Monday, so Thursday works.", from: "13:25", to: "14:25" },
           { id: "southwark", title: "Southwark Cathedral", text: "The nave, the Shakespeare memorial, and the courtyard. About twenty minutes beside the market, then walk on to the Globe.", from: "14:35", to: "15:10" },
           { id: "globe", title: "Shakespeare's Globe", text: "See the round wooden theatre from the yard, or go into the exhibition if you want the inside. Then walk west along the river.", from: "15:20", to: "16:10" },
-          { id: "londonEye", title: "London Eye", text: "Look at the wheel from the river path. Ride it only if you already have a ticket. Otherwise stay on the bank until it is time to go home.", from: "16:30", to: "18:00" },
-          { id: "royal", meal: "dinner", title: "Dinner", text: "Tube home. One hour. Any nearby pin around the hotel.", from: "19:00", to: "20:00" },
+          { id: "londonEye", title: "London Eye", text: "Look at the wheel from the river path. Ride it only if you already have a ticket. Stay for the river after dark.", from: "16:30", to: "18:15" },
+          { id: "londonEye", meal: "dinner", title: "Dinner", text: "One hour on this bank. The market stalls are done for the day, so this is a pin by the river, not Borough and not the hotel.", from: "18:30", to: "19:30" },
+          { id: "londonEye", title: "River after dark", text: "Stay on the bank. Then the tube home.", from: "19:45", to: "21:15" },
+          { id: "royal", title: "Royal National Hotel", text: "Home about 21:45.", from: "21:45", to: "evening", pause: true },
         ],
       },
       {
@@ -861,7 +870,7 @@
         label: "6 Nov",
         title: "Natural History · St Paul's · Tate",
         kicker: "Friday · London day 3",
-        lede: "Last full day. Breakfast, dinosaurs, an hour for lunch in South Kensington, then the V&A, St Paul’s, and Tate Modern. The hotel is only for dinner and packing. The flight is 17:50 tomorrow.",
+        lede: "Last full day. Breakfast, dinosaurs, an hour for lunch in South Kensington, then the V&A, St Paul’s, and Tate Modern. Dinner is on Bankside. Home about 21:15 to pack. The flight is 17:50 tomorrow, so the packing can wait until then.",
         loop: ["royal", "nhm", "va", "stPauls", "tate", "royal"],
         events: [
           { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Book the free Natural History slot. Cycle through the parks, or take the tube to South Kensington.", from: "08:30", to: "09:00" },
@@ -870,8 +879,10 @@
           { id: "nhm", meal: "lunch", title: "Lunch", text: "One hour after noon in South Kensington. The V&A is next door.", from: "12:00", to: "13:00" },
           { id: "va", title: "V&A", text: "One wing. The cast courts, the huge plaster copies of famous sculpture, are the quick hit. Free. Then the tube east to St Paul's.", from: "13:10", to: "14:00" },
           { id: "stPauls", title: "St Paul's Cathedral", text: "The nave first. Climb to the Whispering Gallery and the dome only if you booked it. If not, the cathedral floor is the visit.", from: "14:30", to: "15:20" },
-          { id: "tate", title: "Tate Modern", text: "The Turbine Hall first, then one floor of the free collection. Across the Millennium Bridge. Then home to pack.", from: "15:40", to: "16:40" },
-          { id: "royal", meal: "dinner", title: "Dinner", text: "Tube home. One hour near the hotel, then pack. CX250 is 17:50 tomorrow from Heathrow T3.", from: "18:00", to: "19:00" },
+          { id: "tate", title: "Tate Modern", text: "The Turbine Hall first, then one floor of the free collection. Across the Millennium Bridge. You are not going home yet.", from: "15:40", to: "17:30" },
+          { id: "tate", meal: "dinner", title: "Dinner", text: "One hour on Bankside. OMA, by Borough Market, is the pin if you want a table. Book it. Otherwise any pin here, not the hotel.", from: "18:00", to: "19:00" },
+          { id: "tate", title: "Millennium Bridge", text: "Walk back across the bridge at night. St Paul’s from the river, then the tube home to pack.", from: "19:15", to: "20:15" },
+          { id: "royal", title: "Royal National Hotel · pack", text: "Home about 21:15. Pack. CX250 is 17:50 tomorrow from Heathrow T3. Checkout is in the morning.", from: "21:15", to: "evening", pause: true },
         ],
       },
       {
@@ -998,6 +1009,7 @@
         "ileSaintLouis|pantheon": "13 min walk",
         "pantheon|mouffetard": "9 min walk",
         "mouffetard|oratio": "12 min walk",
+        "mouffetard|caveau": "15 min walk",
         "oratio|caveau": "5 min walk",
         "caveau|oratio": "5 min walk",
         "oratio|louvre": "15 min walk",
