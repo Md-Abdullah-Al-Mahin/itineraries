@@ -534,7 +534,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v50</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v51</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -571,7 +571,7 @@
       stpancras: { name: "London St Pancras International", label: "St Pancras", kind: "transit", city: "London", lat: 51.5314, lng: -0.1261, note: "Eurostar arrival 10:00" },
       royal: { name: "Royal National Hotel", label: "Royal National", kind: "hotel", city: "London", lat: 51.523473, lng: -0.127234, note: "38–51 Bedford Way, Bloomsbury" },
       lhr: { name: "London Heathrow", label: "Heathrow", kind: "transit", city: "London", lat: 51.4706, lng: -0.4581, note: "Terminal 3" },
-      notreDame: { name: "Notre-Dame", label: "Notre-Dame", kind: "paris", city: "Paris", lat: 48.8527288, lng: 2.3505635, note: "10 minutes from the hotel" },
+      notreDame: { name: "Notre-Dame", label: "Notre-Dame", kind: "paris", city: "Paris", lat: 48.8527288, lng: 2.3505635, note: "10 minutes from the hotel", cycleLoop: true },
       ileSaintLouis: { name: "Île Saint-Louis", label: "Île Saint-Louis", kind: "paris", city: "Paris", lat: 48.8515572, lng: 2.3574207, note: "Walk east from Notre-Dame", cycleLoop: true },
       berthillon: { name: "Berthillon", label: "Berthillon", kind: "paris", city: "Paris", lat: 48.8517135, lng: 2.3567206, note: "Ice cream on Île Saint-Louis. Closed Mon–Tue." },
       duPain: { name: "Du Pain et des Idées", label: "Du Pain et des Idées", kind: "paris", city: "Paris", lat: 48.871197, lng: 2.362886, note: "Pistachio-chocolate escargot. Closed weekends." },
@@ -595,7 +595,7 @@
       grandeEpicerie: { name: "La Grande Épicerie de Paris", label: "Grande Épicerie", kind: "paris", city: "Paris", lat: 48.8503167, lng: 2.3239433, note: "Food hall on Rue de Sèvres" },
       artModerne: { name: "Musée d'Art Moderne de Paris", label: "Art Moderne", kind: "paris", city: "Paris", lat: 48.8643421, lng: 2.2978208, note: "Next to Trocadéro" },
       trocadero: { name: "Trocadéro", label: "Trocadéro", kind: "paris", city: "Paris", lat: 48.8621498, lng: 2.2884502, note: "Best tower view" },
-      eiffel: { name: "Eiffel Tower", label: "Eiffel Tower", kind: "paris", city: "Paris", lat: 48.8583701, lng: 2.2944813, note: "Book second floor or summit" },
+      eiffel: { name: "Eiffel Tower", label: "Eiffel Tower", kind: "paris", city: "Paris", lat: 48.8583701, lng: 2.2944813, note: "Book second floor or summit", cycleLoop: true },
       sacreCoeur: { name: "Sacré-Cœur", label: "Sacré-Cœur", kind: "paris", city: "Paris", lat: 48.8867, lng: 2.3431, note: "Montmartre" },
       tertre: { name: "Place du Tertre", label: "Tertre", kind: "paris", city: "Paris", lat: 48.8864, lng: 2.3406, note: "Montmartre square" },
       picasso: { name: "Musée Picasso", label: "Picasso", kind: "paris", city: "Paris", lat: 48.85986, lng: 2.36235, note: "Hôtel Salé, Rue de Thorigny. Closed Monday." },
@@ -629,7 +629,7 @@
       nealsYard: { name: "Neal's Yard", label: "Neal's Yard", kind: "london", city: "London", lat: 51.5145931, lng: -0.1265282, note: "Covent Garden courtyard" },
       fortnum: { name: "Fortnum & Mason", label: "Fortnum", kind: "london", city: "London", lat: 51.5083687, lng: -0.13831, note: "Piccadilly" },
       buckingham: { name: "Buckingham Palace", label: "Buckingham", kind: "london", city: "London", lat: 51.501364, lng: -0.14189, note: "St James's" },
-      hydePark: { name: "Hyde Park", label: "Hyde Park", kind: "london", city: "London", lat: 51.5073638, lng: -0.1641135, note: "West of the palace" },
+      hydePark: { name: "Hyde Park", label: "Hyde Park", kind: "london", city: "London", lat: 51.5073638, lng: -0.1641135, note: "Carriage drive and the Serpentine. The loop is about half an hour.", cycleLoop: true },
       cluny: { name: "Musée de Cluny", label: "Cluny", kind: "paris", city: "Paris", lat: 48.8504, lng: 2.3444, note: "Medieval museum in the 5th" },
       passages: { name: "Passage des Panoramas", label: "Passages", kind: "paris", city: "Paris", lat: 48.8716, lng: 2.3417, note: "Covered arcade near the opera" },
       somerset: { name: "Somerset House", label: "Somerset House", kind: "london", city: "London", lat: 51.5111, lng: -0.1171, note: "Courtyard on the Strand" },
@@ -679,7 +679,7 @@
           { id: "oratio", title: "Hotel Oratio", text: "Check in and drop bags. If the room is not ready, leave the bags and go. Breakfast was on the flight.", from: "10:35", to: "11:05" },
           { id: "shakespeare", title: "Shakespeare and Company", text: "English-language bookshop on the Seine, three minutes from the hotel. Browse the stalls and peek at the reading room upstairs.", from: "11:10", to: "11:35" },
           { id: "sainteChapelle", title: "Sainte-Chapelle", text: "Royal chapel built for the Crown of Thorns. Go for the upper chapel’s stained glass. Book a timed ticket.", from: "11:45", to: "12:45" },
-          { id: "notreDame", title: "Notre-Dame", text: "The cathedral, back after the fire. Façade, parvis, the Seine bridges. Go inside if the queue is short.", from: "12:55", to: "13:25" },
+          { id: "notreDame", title: "Notre-Dame", text: "The cathedral, back after the fire. Façade, parvis, the Seine bridges. Go inside if the queue is short. The blue dot is the other island: you can cycle the quay the whole way around Île de la Cité.", from: "12:55", to: "13:25" },
           { id: "notreDame", meal: "lunch", title: "Lunch", text: "One hour. Pick a nearby pin near the cathedral or the island.", from: "13:30", to: "14:30" },
           { id: "ileSaintLouis", title: "Île Saint-Louis", text: "Walk rue Saint-Louis-en-l’Île. The blue dot on the pin means you can also cycle the quay the whole way around the island. Ice cream is a nearby pin, not a separate stop.", from: "14:40", to: "15:10" },
           { id: "pantheon", title: "Panthéon", text: "Neoclassical mausoleum up the hill. Voltaire, Rousseau and Curie in the crypt. Climb the dome if it is open.", from: "15:25", to: "16:10" },
@@ -730,7 +730,7 @@
           { id: "alexandre", title: "Pont Alexandre III", text: "Walk the bridge end to end. The gold statues and the view of the tower are the stop. The Petit Palais is on the right-bank end.", from: "14:15", to: "14:30" },
           { id: "petitPalais", title: "Petit Palais", text: "Free city art museum. Permanent collection, no reservation. Closed Monday, so Friday is the day.", from: "14:35", to: "15:20" },
           { id: "trocadero", title: "Trocadéro", text: "Esplanade with the postcard Eiffel view. Photos from the terrace, then walk down through the Champ de Mars.", from: "15:35", to: "16:05" },
-          { id: "eiffel", title: "Eiffel Tower", text: "Book a second-floor or summit slot. Stay for the lights. Late October is dark by about 18:30, and the tower sparkles on the hour. No dinner cruise.", from: "16:20", to: "19:00" },
+          { id: "eiffel", title: "Eiffel Tower", text: "Book a second-floor or summit slot. Stay for the lights. Late October is dark by about 18:30, and the tower sparkles on the hour. The blue dot is the avenues around the Champ de Mars: one lap of the lawns, not the grass. No dinner cruise.", from: "16:20", to: "19:00" },
           { id: "eiffel", meal: "dinner", title: "Dinner", text: "One hour around the tower and Trocadéro. The pins here, not the hotel. Then the metro home.", from: "19:15", to: "20:15" },
           { id: "oratio", title: "Hotel Oratio", text: "Home about 21:15. 25 minutes on the metro.", from: "21:15", to: "evening", pause: true },
         ],
@@ -873,10 +873,11 @@
         title: "Natural History · St Paul's · Tate",
         kicker: "Friday · London day 3",
         lede: "Last full day. Breakfast, dinosaurs, an hour for lunch in South Kensington, then the V&A, St Paul’s, and Tate Modern. OMA is the London dinner to book, Greek, ten minutes from the Tate, 18:30–20:30. Home after that to pack. The flight is 17:50 tomorrow.",
-        loop: ["royal", "nhm", "va", "stPauls", "tate", "oma", "royal"],
+        loop: ["royal", "hydePark", "nhm", "va", "stPauls", "tate", "oma", "royal"],
         events: [
           { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Book the free Natural History slot. Cycle through the parks, or take the tube to South Kensington.", from: "08:30", to: "09:00" },
-          { id: "royal", title: "Royal National Hotel", text: "Out the door.", from: "09:05", to: "09:15" },
+          { id: "royal", title: "Royal National Hotel", text: "Out the door. Cycle through Bloomsbury toward the park, or take the tube if you are running late.", from: "09:05", to: "09:15" },
+          { id: "hydePark", title: "Hyde Park", text: "The blue dot is the loop: the carriage drive and the Serpentine, about half an hour if you ride the whole ring. This morning you only need the path south to the museum, unless you left early.", from: "09:25", to: "09:35" },
           { id: "nhm", title: "Natural History Museum", text: "Hintze Hall and the blue whale, then the dinosaur gallery. Book the free slot. Leave the rest of the building.", from: "09:45", to: "11:45" },
           { id: "nhm", meal: "lunch", title: "Lunch", text: "One hour after noon in South Kensington. The V&A is next door.", from: "12:00", to: "13:00" },
           { id: "va", title: "V&A", text: "One wing. The cast courts, the huge plaster copies of famous sculpture, are the quick hit. Free. Then the tube east to St Paul's.", from: "13:10", to: "14:00" },
@@ -968,6 +969,8 @@
         "badaboum|oratio": ["uber", "Consider a car. The metro is about 20 min if it is still running"],
         "petitPalais|trocadero": ["cycle", "15 min cycle along the river, or the metro"],
         "vosges|oratio": ["cycle", "15 min cycle through the Marais, or 20 min on the metro"],
+        "royal|hydePark": ["cycle", "15 min cycle through Bloomsbury, or the tube"],
+        "hydePark|nhm": ["cycle", "10 min cycle across the park to South Kensington"],
         "royal|nhm": ["cycle", "25 min cycle through the parks, or the tube to South Kensington"],
       };
       if (prefer[key]) return { mode: prefer[key][0], text: prefer[key][1] };

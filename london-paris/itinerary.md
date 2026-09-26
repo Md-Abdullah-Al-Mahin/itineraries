@@ -36,7 +36,7 @@ CX261 lands at 07:35. Off the plane, immigration, and bags come first. Consider 
 | 10:35–11:05 | Hotel Oratio. Check in and drop bags. If the room is not ready, leave the bags and go. |
 | 11:10–11:35 | Shakespeare and Company. Three minutes from the hotel. |
 | 11:45–12:45 | Sainte-Chapelle. Book a timed ticket. Go for the upper chapel. |
-| 12:55–13:25 | Notre-Dame. Façade, parvis, the bridges. Go inside if the queue is short. |
+| 12:55–13:25 | Notre-Dame. Façade, parvis, the bridges. Go inside if the queue is short. You can also cycle the quay the whole way around Île de la Cité. |
 | 13:30–14:30 | Lunch. One hour. A nearby pin near the cathedral or the island. |
 | 14:40–15:10 | Île Saint-Louis. Walk rue Saint-Louis-en-l’Île, or cycle the quay the whole way around the island. Berthillon is a nearby pin, and it is open on Wednesday. |
 | 15:25–16:10 | Panthéon. Crypt, and the dome if it is open. |
@@ -82,7 +82,7 @@ Orsay is closed Monday, so it is today. No Seine dinner. Stay for the tower ligh
 | 14:15–14:30 | Pont Alexandre III. Walk it end to end for the gold statues and the tower view. |
 | 14:35–15:20 | Petit Palais. Free. Closed Monday, so today works. |
 | 15:35–16:05 | Trocadéro. Cycle along the river from the Petit Palais, or take the metro. Then down through the Champ de Mars. |
-| 16:20–19:00 | Eiffel Tower. Book a second-floor or summit slot. Stay for the lights. Dark by about 18:30, and the tower sparkles on the hour. |
+| 16:20–19:00 | Eiffel Tower. Book a second-floor or summit slot. Stay for the lights. Dark by about 18:30, and the tower sparkles on the hour. One lap of the avenues around the Champ de Mars if you want it. |
 | 19:15–20:15 | Dinner. One hour around the tower and Trocadéro. |
 | 21:15 | Hotel. 25 minutes on the metro. |
 
@@ -200,6 +200,7 @@ Last full day. Dinosaurs, the V&A, St Paul’s, Tate Modern. OMA is the London d
 | Time | Plan |
 | --- | --- |
 | 08:30–09:00 | Breakfast. Book the free Natural History slot. Cycle through the parks, or take the tube to South Kensington. |
+| 09:25–09:35 | Hyde Park. The loop is the carriage drive and the Serpentine, about half an hour if you ride the whole ring. This morning you only need the path south to the museum, unless you left early. |
 | 09:45–11:45 | Natural History Museum. Hintze Hall and the blue whale, then the dinosaur gallery. Leave the rest. |
 | 12:00–13:00 | Lunch. One hour in South Kensington. |
 | 13:10–14:00 | V&A. The cast courts, the huge plaster copies. One wing, then the tube east. |
