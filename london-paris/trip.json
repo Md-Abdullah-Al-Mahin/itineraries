@@ -8,7 +8,7 @@
       "lat": 49.0097,
       "lng": 2.5479,
       "note": "Terminal 2A",
-      "about": "Paris airport. You land at Terminal 2A."
+      "about": "Paris’s main airport. Terminal 2 is the big international side, a cluster of terminals under one long roof."
     },
     "oratio": {
       "name": "Hotel Oratio",
@@ -18,7 +18,7 @@
       "lat": 48.848751,
       "lng": 2.34961,
       "note": "42 rue des Bernardins, 75005",
-      "about": "Small hotel on the Left Bank, in the 5th. Home for the Paris nights."
+      "about": "A small Left Bank hotel in the 5th, on a quiet street a few minutes from the Seine."
     },
     "nord": {
       "name": "Paris Gare du Nord",
@@ -28,7 +28,7 @@
       "lat": 48.8809,
       "lng": 2.3553,
       "note": "Eurostar · be there 06:30",
-      "about": "The station the Eurostar leaves from, in the north of Paris."
+      "about": "Paris’s great northern station, a vast 19th-century train shed. The Eurostar leaves from here."
     },
     "stpancras": {
       "name": "London St Pancras International",
@@ -38,7 +38,7 @@
       "lat": 51.5314,
       "lng": -0.1261,
       "note": "Eurostar arrival 10:00",
-      "about": "The London station the Eurostar arrives at, next to King's Cross."
+      "about": "London’s Gothic station, with the red-brick clock tower and the huge iron roof over the trains."
     },
     "royal": {
       "name": "Royal National Hotel",
@@ -48,7 +48,7 @@
       "lat": 51.523473,
       "lng": -0.127234,
       "note": "38–51 Bedford Way, Bloomsbury",
-      "about": "Large hotel in Bloomsbury. Home for the London nights."
+      "about": "A big old hotel in Bloomsbury, a short walk from the British Museum."
     },
     "lhr": {
       "name": "London Heathrow",
@@ -58,7 +58,7 @@
       "lat": 51.4706,
       "lng": -0.4581,
       "note": "Terminal 3",
-      "about": "London airport. The flight home leaves from Terminal 3."
+      "about": "London’s main airport. Terminal 3 is one of the original buildings, now the long-haul terminal."
     },
     "notreDame": {
       "name": "Notre-Dame",
@@ -69,7 +69,7 @@
       "lng": 2.3505635,
       "note": "10 minutes from the hotel",
       "cycleLoop": true,
-      "about": "Medieval cathedral on the island in the Seine, with the towers and the rebuilt spire."
+      "about": "The medieval cathedral on the island in the Seine. The towers, the rose windows, and the rebuilt spire are the sight."
     },
     "ileSaintLouis": {
       "name": "Île Saint-Louis",
@@ -80,7 +80,7 @@
       "lng": 2.3574207,
       "note": "Walk east from Notre-Dame",
       "cycleLoop": true,
-      "about": "The small island just east of Notre-Dame. Quiet streets and the quay around the edge."
+      "about": "The smaller, quieter island next to Notre-Dame. One main street, and a quay you can walk the whole way around."
     },
     "berthillon": {
       "name": "Berthillon",
@@ -90,7 +90,7 @@
       "lat": 48.8517135,
       "lng": 2.3567206,
       "note": "Ice cream on Île Saint-Louis. Closed Mon–Tue.",
-      "about": "The famous ice-cream shop on Île Saint-Louis. Closed Monday and Tuesday."
+      "about": "The island’s famous ice-cream shop. Known for sharp fruit sorbets, not just vanilla."
     },
     "duPain": {
       "name": "Du Pain et des Idées",
@@ -100,7 +100,7 @@
       "lat": 48.871197,
       "lng": 2.362886,
       "note": "Pistachio-chocolate escargot. Closed weekends.",
-      "about": "A bakery known for the pistachio-chocolate escargot. Closed at the weekend."
+      "about": "A bakery famous for the pistachio-chocolate escargot, a spiral pastry, not a snail."
     },
     "alexandre": {
       "name": "Pont Alexandre III",
@@ -110,7 +110,7 @@
       "lat": 48.8638,
       "lng": 2.3136,
       "note": "Walk the bridge on the way to the Petit Palais.",
-      "about": "The ornate bridge over the Seine, between the Invalides and the Petit Palais."
+      "about": "The most ornate bridge in Paris. Gilded statues and lamp posts over the Seine."
     },
     "petitPalais": {
       "name": "Petit Palais",
@@ -120,7 +120,7 @@
       "lat": 48.866042,
       "lng": 2.31535,
       "note": "Free permanent collection. Closed Monday.",
-      "about": "A fine-arts museum in a Beaux-Arts palace. The permanent collection is free. Closed Monday."
+      "about": "A Beaux-Arts palace built for the 1900 World’s Fair. Fine art inside a spectacular building."
     },
     "paulBert": {
       "name": "Bistrot Paul Bert",
@@ -130,7 +130,7 @@
       "lat": 48.8522292,
       "lng": 2.3848682,
       "note": "Steak in pepper sauce. Book. Closed Sun–Mon.",
-      "about": "A classic bistro. Steak in pepper sauce. Closed Sunday and Monday."
+      "about": "A classic Paris bistro. The dish it is known for is steak in pepper sauce."
     },
     "laRenommee": {
       "name": "La Renommée",
@@ -140,7 +140,7 @@
       "lat": 48.8612719,
       "lng": 2.343211,
       "note": "Filet au poivre. Book up to 30 days ahead. Dinner from 17:30.",
-      "about": "A small restaurant on Rue Saint-Honoré. Filet au poivre. The long Paris dinner."
+      "about": "A small restaurant on Rue Saint-Honoré. Known for a serious filet au poivre."
     },
     "soane": {
       "name": "Sir John Soane's Museum",
@@ -150,7 +150,7 @@
       "lat": 51.517,
       "lng": -0.1175,
       "note": "Free timed ticket. Closed Tuesday. Lincoln's Inn Fields.",
-      "about": "A house museum packed with art, paintings, and a crypt. Free, closed Tuesday."
+      "about": "An architect’s house, left as a packed museum. The picture room has walls that fold open, and there is a crypt underneath."
     },
     "tamila": {
       "name": "Tamila",
@@ -160,7 +160,7 @@
       "lat": 51.5312,
       "lng": -0.1214,
       "note": "South Indian on Caledonian Road. Beli 9.5. Walk from the hotel.",
-      "about": "South Indian restaurant on Caledonian Road, near King's Cross."
+      "about": "A South Indian restaurant near King’s Cross. Known for dosa and curries cooked in view of the room."
     },
     "skyGarden": {
       "name": "Sky Garden",
@@ -170,7 +170,7 @@
       "lat": 51.5112,
       "lng": -0.0837,
       "note": "Free timed ticket on the Walkie Talkie. Book ahead. Bring ID.",
-      "about": "A public garden and viewing deck on top of the Walkie Talkie, in the City."
+      "about": "A garden and open deck on top of the Walkie Talkie. The point is the view over the river and the City."
     },
     "stJames": {
       "name": "St James's Park",
@@ -180,7 +180,7 @@
       "lat": 51.5024,
       "lng": -0.1347,
       "note": "Lake, pelicans, palace view. Walk it after Buckingham.",
-      "about": "The royal park between Westminster and Buckingham Palace. Lake and pelicans."
+      "about": "The royal park between Westminster and the palace. A lake, pelicans, and the long view to Buckingham."
     },
     "sainteChapelle": {
       "name": "Sainte-Chapelle",
@@ -190,7 +190,7 @@
       "lat": 48.8554,
       "lng": 2.345,
       "note": "Book a timed ticket",
-      "about": "A royal chapel almost entirely of stained glass, inside the Palais de la Cité."
+      "about": "A royal chapel built to hold a relic of the Crown of Thorns. The upper room is almost entirely stained glass."
     },
     "shakespeare": {
       "name": "Shakespeare and Company",
@@ -200,7 +200,7 @@
       "lat": 48.8527,
       "lng": 2.3471,
       "note": "Left bank, next to the hotel",
-      "about": "The English-language bookshop on the quay opposite Notre-Dame."
+      "about": "The famous English-language bookshop on the quay opposite Notre-Dame, with a reading room upstairs."
     },
     "pantheon": {
       "name": "Panthéon",
@@ -210,7 +210,7 @@
       "lat": 48.8462218,
       "lng": 2.3464138,
       "note": "South of the hotel",
-      "about": "The domed monument in the Latin Quarter, where French writers and scientists are buried."
+      "about": "The great dome of the Latin Quarter. French writers and scientists are buried in the crypt."
     },
     "mouffetard": {
       "name": "Rue Mouffetard Market",
@@ -220,7 +220,7 @@
       "lat": 48.8404307,
       "lng": 2.3498002,
       "note": "Food street in the 5th",
-      "about": "A market street in the 5th, full of food shops."
+      "about": "One of the old market streets of the 5th, still lined with food shops."
     },
     "caveau": {
       "name": "Caveau de la Huchette",
@@ -230,7 +230,7 @@
       "lat": 48.8527634,
       "lng": 2.3462818,
       "note": "Jazz cellar, 5 minutes from the hotel",
-      "about": "A small jazz cellar in the Latin Quarter. Live music from 21:30."
+      "about": "A tiny jazz cellar in the Latin Quarter, in a medieval basement. Live bands, a small floor."
     },
     "louvre": {
       "name": "Louvre Museum",
@@ -240,7 +240,7 @@
       "lat": 48.8606111,
       "lng": 2.337644,
       "note": "Book a 09:00 timed entry",
-      "about": "The huge art museum in the old palace. Mona Lisa, Winged Victory, Venus de Milo."
+      "about": "The royal palace turned into the world’s largest art museum. The Mona Lisa, the Winged Victory, and the Venus de Milo."
     },
     "orsay": {
       "name": "Musée d'Orsay",
@@ -250,7 +250,7 @@
       "lat": 48.86,
       "lng": 2.3266,
       "note": "Across the river from the Louvre",
-      "about": "The museum of Impressionist painting, in a former train station on the river."
+      "about": "Impressionist painting in a former railway station on the river. The clock and the great hall are part of the visit."
     },
     "crazyHorse": {
       "name": "Crazy Horse",
@@ -260,7 +260,7 @@
       "lat": 48.8656,
       "lng": 2.3018,
       "note": "12 Avenue George V · arrive 19:15",
-      "about": "A cabaret on Avenue George V. The booked show."
+      "about": "Paris’s famous cabaret on Avenue George V. A tightly choreographed show of light, not a dinner theatre."
     },
     "bac": {
       "name": "Rue du Bac",
@@ -270,7 +270,7 @@
       "lat": 48.8556843,
       "lng": 2.3252936,
       "note": "Left-bank shopping street",
-      "about": "A Left Bank shopping street running south from the river."
+      "about": "A Left Bank shopping street of old shops, running south from the river."
     },
     "grandeEpicerie": {
       "name": "La Grande Épicerie de Paris",
@@ -280,7 +280,7 @@
       "lat": 48.8503167,
       "lng": 2.3239433,
       "note": "Food hall on Rue de Sèvres",
-      "about": "The food hall of Le Bon Marché, on Rue de Sèvres."
+      "about": "The food hall of Le Bon Marché. One of the great grocery halls in Paris."
     },
     "artModerne": {
       "name": "Musée d'Art Moderne de Paris",
@@ -290,7 +290,7 @@
       "lat": 48.8643421,
       "lng": 2.2978208,
       "note": "Next to Trocadéro",
-      "about": "The city's modern-art museum, next to the Palais de Tokyo."
+      "about": "The city’s own modern-art museum, in a wing of the Palais de Tokyo, with a huge mural by Dufy."
     },
     "trocadero": {
       "name": "Trocadéro",
@@ -300,7 +300,7 @@
       "lat": 48.8621498,
       "lng": 2.2884502,
       "note": "Best tower view",
-      "about": "The terrace across the river from the Eiffel Tower. The view is the point."
+      "about": "The terrace across the river from the Eiffel Tower. This is the classic full-length view of it."
     },
     "eiffel": {
       "name": "Eiffel Tower",
@@ -311,7 +311,7 @@
       "lng": 2.2944813,
       "note": "Book second floor or summit",
       "cycleLoop": true,
-      "about": "The iron tower on the Champ de Mars. You can go up, or stay for the lights."
+      "about": "The iron tower built for the 1889 World’s Fair. Best known for the climb and for the lights after dark."
     },
     "sacreCoeur": {
       "name": "Sacré-Cœur",
@@ -321,7 +321,7 @@
       "lat": 48.8867,
       "lng": 2.3431,
       "note": "Montmartre",
-      "about": "The white basilica on the hill of Montmartre."
+      "about": "The white basilica on the top of Montmartre. The steps and the view over the whole city are the point."
     },
     "tertre": {
       "name": "Place du Tertre",
@@ -331,7 +331,7 @@
       "lat": 48.8864,
       "lng": 2.3406,
       "note": "Montmartre square",
-      "about": "The painters' square in front of Sacré-Cœur."
+      "about": "The painters’ square in front of Sacré-Cœur, still full of easels and portrait artists."
     },
     "picasso": {
       "name": "Musée Picasso",
@@ -341,7 +341,7 @@
       "lat": 48.85986,
       "lng": 2.36235,
       "note": "Hôtel Salé, Rue de Thorigny. Closed Monday.",
-      "about": "Picasso's own collection, in a Marais mansion. Closed Monday."
+      "about": "Picasso’s own collection, hung in a grand Marais mansion, the Hôtel Salé."
     },
     "rosiers": {
       "name": "Rue des Rosiers",
@@ -351,7 +351,7 @@
       "lat": 48.85715,
       "lng": 2.35905,
       "note": "The Marais food street. Walk it, do not stop for a meal.",
-      "about": "The food street of the Marais, known for falafel."
+      "about": "The old Jewish food street of the Marais. Famous for falafel."
     },
     "mamiche": {
       "name": "Mamiche",
@@ -361,7 +361,7 @@
       "lat": 48.8800888,
       "lng": 2.3435419,
       "note": "Bakery on the way down from the hill",
-      "about": "A bakery on the way down from Montmartre."
+      "about": "A bakery known for a very good croissant, on the way down from Montmartre."
     },
     "carnavalet": {
       "name": "Carnavalet Museum",
@@ -371,7 +371,7 @@
       "lat": 48.8570669,
       "lng": 2.3628579,
       "note": "Free · Paris history in the Marais",
-      "about": "The museum of the history of Paris, in the Marais. Free. Closed Monday."
+      "about": "The museum of the history of Paris, in two Marais mansions. The city from Roman times to now."
     },
     "falafel": {
       "name": "L'As du Fallafel",
@@ -381,7 +381,7 @@
       "lat": 48.8574067,
       "lng": 2.3591962,
       "note": "Rue des Rosiers",
-      "about": "The best-known falafel shop on Rue des Rosiers."
+      "about": "The best-known falafel shop in Paris, on Rue des Rosiers. The queue is part of the reputation."
     },
     "vosges": {
       "name": "Place des Vosges",
@@ -391,7 +391,7 @@
       "lat": 48.8556,
       "lng": 2.3655,
       "note": "Marais square",
-      "about": "The oldest planned square in Paris, arcades around a garden, in the Marais."
+      "about": "The oldest planned square in Paris. Brick arcades around a quiet garden, in the heart of the Marais."
     },
     "badaboum": {
       "name": "Badaboum",
@@ -401,7 +401,7 @@
       "lat": 48.8536,
       "lng": 2.3758,
       "note": "Halloween party 23:30–07:00",
-      "about": "A club in the 11th. The Halloween night."
+      "about": "A nightclub in the 11th, in an old warehouse. Known for late, loud parties."
     },
     "saintLazare": {
       "name": "Gare Saint-Lazare",
@@ -411,7 +411,7 @@
       "lat": 48.8755,
       "lng": 2.3253,
       "note": "TER to Vernon-Giverny",
-      "about": "The station for the train out to Giverny."
+      "about": "One of Paris’s grand old stations, under a big iron roof. Trains for Normandy leave from here."
     },
     "vernon": {
       "name": "Vernon-Giverny station",
@@ -421,7 +421,7 @@
       "lat": 49.0915,
       "lng": 1.4788,
       "note": "Shuttle to Monet’s gardens",
-      "about": "The station nearest Monet's garden. A shuttle runs to the house."
+      "about": "A small-town station on the Seine, the rail stop for Monet’s garden at Giverny."
     },
     "giverny": {
       "name": "Monet's House and Gardens",
@@ -431,7 +431,7 @@
       "lat": 49.0753792,
       "lng": 1.5337035,
       "note": "Last day of the 2026 season",
-      "about": "Monet's house and the water-lily garden, outside Paris."
+      "about": "Monet’s house and the garden he painted. The water-lily pond and the Japanese bridge are the famous part."
     },
     "saintMichel": {
       "name": "Saint-Michel–Notre-Dame",
@@ -441,7 +441,7 @@
       "lat": 48.8536,
       "lng": 2.3442,
       "note": "RER C to Versailles",
-      "about": "The RER station by the river, where you catch the train to Versailles."
+      "about": "The riverside rail station at the edge of the Latin Quarter, where the RER crosses under the Seine."
     },
     "versaillesRiveGauche": {
       "name": "Versailles Château Rive Gauche",
@@ -451,7 +451,7 @@
       "lat": 48.8004,
       "lng": 2.1295,
       "note": "RER C terminus · 10 min walk to the palace",
-      "about": "The station at the end of the RER C line, a short walk from the palace."
+      "about": "The station at the gates of Versailles. The palace is a short walk up the avenue."
     },
     "versailles": {
       "name": "Palace of Versailles",
@@ -461,7 +461,7 @@
       "lat": 48.804865,
       "lng": 2.120355,
       "note": "Book a Passport ticket",
-      "about": "The royal palace outside Paris. Hall of Mirrors, the state rooms."
+      "about": "The palace of the French kings. The Hall of Mirrors and the state apartments are the heart of it."
     },
     "versaillesGardens": {
       "name": "Gardens of Versailles",
@@ -472,7 +472,7 @@
       "lng": 2.1095,
       "note": "Grand Canal and parterres",
       "cycleLoop": true,
-      "about": "The formal gardens and the Grand Canal behind the palace."
+      "about": "The formal gardens behind the palace. Geometric parterres, fountains, and the long Grand Canal."
     },
     "garnier": {
       "name": "Palais Garnier",
@@ -482,7 +482,7 @@
       "lat": 48.8719697,
       "lng": 2.3316014,
       "note": "Self-guided opera visit",
-      "about": "The old opera house. Marble staircase, the auditorium, the Chagall ceiling."
+      "about": "The old Paris opera house. A marble staircase, a gilded auditorium, and a ceiling painted by Chagall."
     },
     "arc": {
       "name": "Arc de Triomphe",
@@ -492,7 +492,7 @@
       "lat": 48.8737917,
       "lng": 2.2950275,
       "note": "Top of the Champs",
-      "about": "The war memorial at the top of the Champs-Élysées. You can climb it."
+      "about": "The triumphal arch at the top of the Champs-Élysées, built for Napoleon’s armies. The view from the top looks down every avenue."
     },
     "zara": {
       "name": "Zara",
@@ -502,7 +502,7 @@
       "lat": 48.8712082,
       "lng": 2.3046964,
       "note": "Your bookmark on the Champs",
-      "about": "A clothes shop on the Champs-Élysées."
+      "about": "A big high-street clothes shop, here on the Champs-Élysées itself."
     },
     "britishMuseum": {
       "name": "The British Museum",
@@ -512,7 +512,7 @@
       "lat": 51.5194133,
       "lng": -0.1269566,
       "note": "10 minutes from Bedford Way",
-      "about": "The national museum of world history. Rosetta Stone, Parthenon sculptures, mummies. Free."
+      "about": "The national museum of world history. The Rosetta Stone, the Parthenon sculptures, and the Egyptian mummies."
     },
     "nationalGallery": {
       "name": "The National Gallery",
@@ -522,7 +522,7 @@
       "lat": 51.508929,
       "lng": -0.128299,
       "note": "Trafalgar Square",
-      "about": "The national collection of European painting, on Trafalgar Square. Free."
+      "about": "The national collection of European painting, on Trafalgar Square. Van Gogh, Turner, and Monet in one building."
     },
     "darjeeling": {
       "name": "Darjeeling Express",
@@ -532,7 +532,7 @@
       "lat": 51.5119211,
       "lng": -0.1333642,
       "note": "36–40 Rupert Street, Soho. Bengali. Lunch until 14:15.",
-      "about": "A Bengali restaurant in Soho, with an all-women kitchen. Lunch until 14:15."
+      "about": "A Bengali restaurant in Soho, run by an all-women kitchen. Known for home-style cooking, not a curry-house menu."
     },
     "oma": {
       "name": "OMA",
@@ -542,7 +542,7 @@
       "lat": 51.5053,
       "lng": -0.0901,
       "note": "Greek, 2–4 Bedale Street. Book. £60 if you cancel inside 24 hours.",
-      "about": "A Greek restaurant on Bedale Street, by Borough Market. The long London dinner."
+      "about": "A Greek restaurant beside Borough Market. Known for charcoal cooking and a serious wine list."
     },
     "gordons": {
       "name": "Gordon's Wine Bar",
@@ -552,7 +552,7 @@
       "lat": 51.507944,
       "lng": -0.123314,
       "note": "Villiers Street cellar",
-      "about": "A candlelit wine bar in a cellar on Villiers Street."
+      "about": "London’s oldest wine bar, in a candlelit cellar under Villiers Street."
     },
     "westminster": {
       "name": "Westminster Abbey",
@@ -562,7 +562,7 @@
       "lat": 51.4993695,
       "lng": -0.1272993,
       "note": "Next to Big Ben",
-      "about": "The abbey where kings and queens are crowned. Royal tombs and Poets' Corner."
+      "about": "The abbey where kings and queens are crowned. Royal tombs and Poets’ Corner."
     },
     "bigBen": {
       "name": "Big Ben",
@@ -572,7 +572,7 @@
       "lat": 51.5007292,
       "lng": -0.1246254,
       "note": "Parliament Square",
-      "about": "The clock tower at the Houses of Parliament, on Parliament Square."
+      "about": "The clock tower of the Houses of Parliament. The bell is Big Ben; the tower is the thing you see."
     },
     "dishoomKX": {
       "name": "Dishoom King's Cross",
@@ -582,7 +582,7 @@
       "lat": 51.536207,
       "lng": -0.125499,
       "note": "Near St Pancras",
-      "about": "A Bombay café at King's Cross."
+      "about": "A Bombay café at King’s Cross. Known for black daal and a room styled like an old Irani café."
     },
     "leadenhall": {
       "name": "Leadenhall Market",
@@ -592,7 +592,7 @@
       "lat": 51.512766,
       "lng": -0.0835289,
       "note": "City market hall",
-      "about": "A covered Victorian market in the City, under the towers."
+      "about": "A covered Victorian market in the City, with a painted iron-and-glass roof under the towers."
     },
     "borough": {
       "name": "Borough Market",
@@ -602,7 +602,7 @@
       "lat": 51.5055826,
       "lng": -0.0904808,
       "note": "Southwark food market",
-      "about": "The food market under the railway at London Bridge. Closed Monday."
+      "about": "London’s best-known food market, in the railway arches by London Bridge."
     },
     "tower": {
       "name": "Tower of London",
@@ -612,7 +612,7 @@
       "lat": 51.5081124,
       "lng": -0.0759493,
       "note": "East of the City",
-      "about": "The medieval fortress by the river. Crown Jewels, ravens, and the walls."
+      "about": "The medieval fortress by the river. The Crown Jewels, the ravens, and the old walls."
     },
     "nealsYard": {
       "name": "Neal's Yard",
@@ -622,7 +622,7 @@
       "lat": 51.5145931,
       "lng": -0.1265282,
       "note": "Covent Garden courtyard",
-      "about": "A small painted courtyard in Covent Garden, off a lane of shops."
+      "about": "A tiny painted courtyard hidden off a lane in Covent Garden. The colours are the whole point."
     },
     "fortnum": {
       "name": "Fortnum & Mason",
@@ -632,7 +632,7 @@
       "lat": 51.5083687,
       "lng": -0.13831,
       "note": "Piccadilly",
-      "about": "The old food shop and department store on Piccadilly."
+      "about": "The old Piccadilly grocer, trading since 1707. The food hall is the famous part."
     },
     "buckingham": {
       "name": "Buckingham Palace",
@@ -642,7 +642,7 @@
       "lat": 51.501364,
       "lng": -0.14189,
       "note": "St James's",
-      "about": "The King's London residence. The façade and the Victoria Memorial."
+      "about": "The King’s London palace. The façade and the Victoria Memorial in front of it."
     },
     "hydePark": {
       "name": "Hyde Park",
@@ -653,7 +653,7 @@
       "lng": -0.1641135,
       "note": "Carriage drive and the Serpentine. The loop is about half an hour.",
       "cycleLoop": true,
-      "about": "The big royal park. The carriage drive loops the Serpentine."
+      "about": "The great royal park in the middle of the city. The Serpentine lake and the carriage drive around it."
     },
     "cluny": {
       "name": "Musée de Cluny",
@@ -663,7 +663,7 @@
       "lat": 48.8504,
       "lng": 2.3444,
       "note": "Medieval museum in the 5th",
-      "about": "The museum of the Middle Ages, in a townhouse in the Latin Quarter."
+      "about": "The museum of the Middle Ages, in a townhouse built over Roman baths. The Lady and the Unicorn tapestries are the masterpiece."
     },
     "passages": {
       "name": "Passage des Panoramas",
@@ -673,7 +673,7 @@
       "lat": 48.8716,
       "lng": 2.3417,
       "note": "Covered arcade near the opera",
-      "about": "A 19th-century covered shopping arcade, near the opera."
+      "about": "A 19th-century covered arcade, one of the last of its kind. Glass roof, old shopfronts, near the opera."
     },
     "somerset": {
       "name": "Somerset House",
@@ -683,7 +683,7 @@
       "lat": 51.5111,
       "lng": -0.1171,
       "note": "Courtyard on the Strand",
-      "about": "A grand courtyard building on the Strand, with a terrace on the river."
+      "about": "A palace on the Strand, built around a huge courtyard, with a terrace that opens onto the river."
     },
     "southBank": {
       "name": "South Bank",
@@ -693,7 +693,7 @@
       "lat": 51.5066,
       "lng": -0.115,
       "note": "River walk by the National Theatre",
-      "about": "The river path on the south side, by the National Theatre."
+      "about": "The riverside walk on the south side of the Thames, past the National Theatre."
     },
     "coalDrops": {
       "name": "Coal Drops Yard",
@@ -703,7 +703,7 @@
       "lat": 51.5354,
       "lng": -0.1268,
       "note": "King's Cross yards and the canal",
-      "about": "Two converted coal warehouses and a canal, at King's Cross."
+      "about": "Two Victorian coal warehouses at King’s Cross, turned into a brick yard over the canal."
     },
     "southwark": {
       "name": "Southwark Cathedral",
@@ -713,7 +713,7 @@
       "lat": 51.5061,
       "lng": -0.0896,
       "note": "Next to Borough Market",
-      "about": "The medieval cathedral next to Borough Market."
+      "about": "A medieval cathedral tucked beside Borough Market. Shakespeare’s brother is buried here."
     },
     "globe": {
       "name": "Shakespeare's Globe",
@@ -723,7 +723,7 @@
       "lat": 51.5081,
       "lng": -0.0972,
       "note": "Bankside theatre",
-      "about": "A rebuilt wooden Elizabethan theatre on Bankside."
+      "about": "A rebuilt wooden Elizabethan playhouse on Bankside, as close as we have to the theatre Shakespeare used."
     },
     "londonEye": {
       "name": "London Eye",
@@ -733,7 +733,7 @@
       "lat": 51.5033,
       "lng": -0.1195,
       "note": "Riverside wheel",
-      "about": "The big observation wheel on the river, opposite Parliament."
+      "about": "The giant observation wheel on the river, opposite Parliament. The ride is a slow circle over London."
     },
     "va": {
       "name": "V&A",
@@ -743,7 +743,7 @@
       "lat": 51.4966,
       "lng": -0.1722,
       "note": "Next to the Natural History Museum",
-      "about": "The museum of art and design, next door to the Natural History Museum. Free."
+      "about": "The museum of art and design. The cast courts, full of huge plaster copies of famous sculpture, are the showpiece."
     },
     "kensingtonGardens": {
       "name": "Kensington Gardens",
@@ -753,7 +753,7 @@
       "lat": 51.507,
       "lng": -0.1795,
       "note": "Albert Memorial, Round Pond, the Italian Gardens. The west half of the Hyde Park loop.",
-      "about": "The west half of Hyde Park. Albert Memorial, the Round Pond, the Italian Gardens."
+      "about": "The west half of Hyde Park. The Albert Memorial, the Round Pond, and the Italian Gardens."
     },
     "harrods": {
       "name": "Harrods",
@@ -763,7 +763,7 @@
       "lat": 51.4992104,
       "lng": -0.1629893,
       "note": "Food halls. Knightsbridge, a short walk from the V&A.",
-      "about": "The Knightsbridge department store. The food halls are the part worth seeing."
+      "about": "The grand Knightsbridge department store. The food halls are the part worth the crowd."
     },
     "russellSq": {
       "name": "Russell Square station",
@@ -773,7 +773,7 @@
       "lat": 51.523,
       "lng": -0.1243,
       "note": "Piccadilly line to Heathrow",
-      "about": "The Piccadilly line station a few minutes from the hotel, for the airport."
+      "about": "A Bloomsbury Underground station on the Piccadilly line, the one that runs straight out to Heathrow."
     },
     "luxembourg": {
       "name": "Jardin du Luxembourg",
@@ -783,7 +783,7 @@
       "lat": 48.8466,
       "lng": 2.3372,
       "note": "Formal garden south of the hotel",
-      "about": "The formal garden of the palace in the 6th. Gravel paths, chairs, and the basin."
+      "about": "The formal garden of the Luxembourg Palace. Gravel paths, green chairs, and the big round basin."
     },
     "tuileries": {
       "name": "Jardin des Tuileries",
@@ -793,7 +793,7 @@
       "lat": 48.8635,
       "lng": 2.3275,
       "note": "The garden you walk out of the Louvre into",
-      "about": "The formal garden between the Louvre and Place de la Concorde."
+      "about": "The royal garden between the Louvre and Place de la Concorde. A long central path of statues and fountains."
     },
     "concorde": {
       "name": "Place de la Concorde",
@@ -803,7 +803,7 @@
       "lat": 48.8656,
       "lng": 2.3212,
       "note": "West end of the Tuileries",
-      "about": "The huge square at the west end of the Tuileries, with the obelisk."
+      "about": "The huge square at the end of the Tuileries. The Egyptian obelisk stands in the middle, with the Champs opening beyond it."
     },
     "invalides": {
       "name": "Hôtel des Invalides",
@@ -813,7 +813,7 @@
       "lat": 48.8556,
       "lng": 2.3125,
       "note": "Dome and Napoleon's tomb",
-      "about": "The military hospital with the gold dome. Napoleon's tomb is underneath."
+      "about": "A military hospital under a gold dome. Napoleon’s tomb is in the crypt beneath it."
     },
     "stPauls": {
       "name": "St Paul's Cathedral",
@@ -823,7 +823,7 @@
       "lat": 51.5138,
       "lng": -0.0984,
       "note": "Wren's dome. Book a slot if you want to climb.",
-      "about": "Wren's cathedral in the City. The dome is the landmark. The climb is extra."
+      "about": "Wren’s cathedral, built after the Great Fire. The dome is the landmark of the City."
     },
     "tate": {
       "name": "Tate Modern",
@@ -833,7 +833,7 @@
       "lat": 51.5076,
       "lng": -0.0994,
       "note": "Free. Across the Millennium Bridge from St Paul's.",
-      "about": "The modern-art museum in a former power station on Bankside. The collection is free."
+      "about": "Modern art in a former power station on Bankside. The Turbine Hall is the huge room you walk into first."
     },
     "towerBridge": {
       "name": "Tower Bridge",
@@ -843,7 +843,7 @@
       "lat": 51.5055,
       "lng": -0.0754,
       "note": "Walk across after the Tower.",
-      "about": "The Victorian bridge next to the Tower, with the two stone towers."
+      "about": "The Victorian bridge beside the Tower, with two stone towers and a high walkway between them."
     },
     "nhm": {
       "name": "Natural History Museum",
@@ -853,7 +853,7 @@
       "lat": 51.4967,
       "lng": -0.1764,
       "note": "Dinosaurs. Book a free timed ticket.",
-      "about": "The museum of animals, fossils, and dinosaurs in South Kensington. Hintze Hall has the blue whale. Free."
+      "about": "The museum of animals, fossils, and dinosaurs. Hintze Hall is the great room with the blue whale hanging in it."
     }
   },
   "days": [
