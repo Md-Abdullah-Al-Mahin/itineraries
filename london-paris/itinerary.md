@@ -198,12 +198,12 @@ Last full day. Dinosaurs, the V&A, St Paul’s, Tate Modern. The hotel is only f
 
 ## Saturday 7 November · Fly home
 
-No dinner on the ground. That is the flight. Be at Terminal 3 by 14:15. Check-in, bag drop, and security need the time. The tube is about 50 minutes, then a walk from the station into the terminal.
+No dinner on the ground. That is the flight. Leave the hotel at 13:00. The station is a few minutes with bags. The Piccadilly ride is 56 minutes, then about 10 minutes from the airport station into Terminal 3. Check-in is about 14:30.
 
 | Time | Plan |
 | --- | --- |
 | 09:00–09:30 | Breakfast. Then bags. |
 | 09:30–11:45 | Finish packing and check out. This is the last hotel time. |
 | 12:00–13:00 | Lunch. One hour near the hotel, bags with you. Last meal on the ground. Leave as soon as you finish. |
-| 13:10 | Russell Square. Piccadilly line, direct. Stay on until Heathrow Terminals 2 & 3. About 50 minutes, then walk into Terminal 3. |
-| 14:15–17:50 | Heathrow T3, CX250. Seat 59J. Check-in, bag drop, security, then the gate. Flight at 17:50. |
+| 13:10–13:22 | Russell Square. About 6 minutes from the hotel. Piccadilly line to Heathrow Terminals 2 & 3. The 13:22 reaches the airport station at 14:18. Skip a train that goes via Terminal 4. |
+| 14:30–17:50 | Heathrow T3, CX250. Seat 59J. The subway from the station takes about 10 minutes, then check-in, bag drop, security, and the gate. Flight at 17:50. |
