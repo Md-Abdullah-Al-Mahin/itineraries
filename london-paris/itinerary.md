@@ -11,7 +11,6 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct | CX261 into Paris Charles de Gaulle, Terminal 2A, 07:35. Off the plane, immigration, bags, then RER B. Hotel about 10:35. |
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 29 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Not the same day as Versailles. |
-| 30 Oct | Bateaux Parisiens dinner cruise, 20:30, Port de la Bourdonnais. That is dinner. No second sitting. |
 | 2 Nov | Louvre timed entry at 09:00. La Renommée at 18:00, the Paris dinner to book. |
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 07:32. Coach 7, seat 31. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
@@ -63,7 +62,7 @@ Versailles is Saturday, so this day stays in the city. The hill, lunch on the wa
 
 ## Friday 30 October · Orsay, the river, the Eiffel Tower
 
-Orsay is closed Monday, so it is today. Dinner is the cruise. There is no second sitting.
+Orsay is closed Monday, so it is today. No Seine dinner. Dinner is one hour back at the hotel, after 6.
 
 | Time | Plan |
 | --- | --- |
@@ -75,8 +74,9 @@ Orsay is closed Monday, so it is today. Dinner is the cruise. There is no second
 | 14:15–14:30 | Pont Alexandre III. |
 | 14:35–15:20 | Petit Palais. Free. Closed Monday, so today works. |
 | 15:35–16:05 | Trocadéro, then down through the Champ de Mars. |
-| 16:20–19:50 | Eiffel Tower. Book a second-floor or summit slot. Stay for the light. The boat is next door. |
-| 20:15–23:00 | Bateaux Parisiens, 20:30. Dinner cruise from Port de la Bourdonnais. Taxi home. |
+| 16:20–18:15 | Eiffel Tower. Book a second-floor or summit slot. Stay for the light coming on, then metro home. |
+| 18:40–18:55 | Hotel. |
+| 19:00–20:00 | Dinner. One hour after 6, any nearby pin within 15 minutes of the hotel. |
 
 ## Saturday 31 October · Versailles
 

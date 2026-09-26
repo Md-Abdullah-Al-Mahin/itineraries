@@ -665,8 +665,8 @@
         label: "30 Oct",
         title: "Orsay · river · Eiffel",
         kicker: "Friday · Paris day 3",
-        lede: "Orsay is closed Monday, so it is today. Breakfast, the museum, then an hour for lunch before Invalides and the Petit Palais. The tower is the afternoon. Dinner is the cruise already booked for 20:30, so there is no second sitting.",
-        loop: ["oratio", "orsay", "invalides", "alexandre", "petitPalais", "trocadero", "eiffel", "bateaux", "oratio"],
+        lede: "Orsay is closed Monday, so it is today. Breakfast, the museum, lunch after noon, then Invalides and the Petit Palais. The tower is the afternoon. No Seine dinner. Dinner is one hour back at the hotel, after 6.",
+        loop: ["oratio", "orsay", "invalides", "alexandre", "petitPalais", "trocadero", "eiffel", "oratio"],
         events: [
           { id: "oratio", meal: "breakfast", title: "Breakfast", text: "Half an hour at the hotel, then the left bank toward Orsay.", from: "08:00", to: "08:30" },
           { id: "oratio", title: "Hotel Oratio", text: "Leave west along the river.", from: "08:35", to: "08:50" },
@@ -676,8 +676,9 @@
           { id: "alexandre", title: "Pont Alexandre III", text: "The gold bridge. Walk it for the photos. The Petit Palais is on the right-bank end.", from: "14:15", to: "14:30" },
           { id: "petitPalais", title: "Petit Palais", text: "Free city art museum. Permanent collection, no reservation. Closed Monday, so Friday is the day.", from: "14:35", to: "15:20" },
           { id: "trocadero", title: "Trocadéro", text: "Esplanade with the postcard Eiffel view. Photos from the terrace, then walk down through the Champ de Mars.", from: "15:35", to: "16:05" },
-          { id: "eiffel", title: "Eiffel Tower", text: "Book a second-floor or summit slot. Stay for the light. The cruise boards next door.", from: "16:20", to: "19:50" },
-          { id: "bateaux", title: "Bateaux Parisiens · dinner", text: "This is dinner. The cruise is already booked for 20:30 from Port de la Bourdonnais, about two and a half hours, then a taxi home.", from: "20:15", to: "23:00" },
+          { id: "eiffel", title: "Eiffel Tower", text: "Book a second-floor or summit slot. Stay for the light coming on, then metro home. No dinner cruise.", from: "16:20", to: "18:15" },
+          { id: "oratio", title: "Hotel Oratio", text: "Back from the tower.", from: "18:40", to: "18:55" },
+          { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour after 6. Any nearby pin within a 15 minute walk of the hotel.", from: "19:00", to: "20:00" },
         ],
       },
       {
@@ -981,7 +982,7 @@
         "nealsYard|fortnum": "15 min walk",
         "fortnum|buckingham": "15 min walk",
         "buckingham|hydePark": "15 min walk",
-        "eiffel|bateaux": "5 min walk",
+        "eiffel|oratio": "25 min metro",
       };
       if (known[key]) return known[key];
       const km = kmBetween(places[fromId], places[toId]);

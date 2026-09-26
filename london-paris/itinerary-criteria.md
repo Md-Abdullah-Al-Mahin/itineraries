@@ -4,7 +4,7 @@ Add a line here whenever a new rule comes in.
 
 ## Pins
 
-- Numbered pins are that day's itinerary only: sights, the hotel, stations, and anything already booked (Crazy Horse, the Seine dinner cruise, Eurostar, flights).
+- Numbered pins are that day's itinerary only: sights, the hotel, stations, and anything already booked (Crazy Horse, Eurostar, flights).
 - Restaurants, bars and pubs, bakeries and sweet shops, and street food get a fixed amber dot when they are within a 15 minute walk of a numbered stop where you actually spend time (a sight or the hotel). They are not part of the route.
 - Random attractions get a different pin, an open ring, when they are within a 20 minute walk of those same stops. They are optional. They are not on that day's itinerary.
 - Airports and stations do not grow nearby pins. The overall map and the Heathrow morning do not either. On 3 Nov the nearby pins are London only, because Paris is just the departure.
@@ -32,6 +32,6 @@ Add a line here whenever a new rule comes in.
 - Two dinners are numbered pins, and those are the long ones, 1.5 to 2 hours:
   - Paris dinner: La Renommée, Monday 2 Nov, 18:00–20:00. Filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead.
   - London dinner: Tamila, Wednesday 4 Nov, 18:30–20:30. South Indian, Beli 9.5, about 15 minutes north of the hotel.
-- 30 Oct dinner is the cruise already booked, so that night has no second sitting and it is not cut to one hour.
+- 30 Oct has no Seine dinner. Dinner that night is one hour after 18:00, near the hotel.
 - 29 Oct dinner is 21:40–22:40, one hour after Crazy Horse, near the hotel. A mid-afternoon dinner is too early.
 - 7 Nov has breakfast and lunch only. Dinner is the flight.
