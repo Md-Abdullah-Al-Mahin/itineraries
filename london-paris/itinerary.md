@@ -28,23 +28,23 @@ Purple dots on the map are optional sights within a 20 minute walk. They are not
 
 ## Wednesday 28 October · Arrive, islands and the 5th
 
-CX261 lands at 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Stay out through Cluny. Dinner is on Mouffetard, then jazz. Home about 22:45.
+CX261 lands at 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. One line after that. The islands first: the bookshop, Notre-Dame, Île Saint-Louis, then Sainte-Chapelle on the way off the island. Then south through Cluny, the Luxembourg, the Panthéon, and Mouffetard for dinner. The jazz cellar is on the walk home. Home about 22:45.
 
 | Time | Plan |
 | --- | --- |
 | 07:35–10:35 | CDG, Terminal 2A. Off the plane, immigration, bags. Consider a car with the bags, or RER B. At the hotel about 10:35. |
 | 10:35–11:05 | Hotel Oratio. Check in and drop bags. If the room is not ready, leave the bags and go. |
-| 11:10–11:35 | Shakespeare and Company. Three minutes from the hotel. |
-| 11:45–12:45 | Sainte-Chapelle. Book a timed ticket. Go for the upper chapel. |
-| 12:55–13:25 | Notre-Dame. Façade, parvis, the bridges. Go inside if the queue is short. You can also cycle the quay the whole way around Île de la Cité. |
-| 13:30–14:30 | Lunch. One hour. A nearby pin near the cathedral or the island. |
-| 14:40–15:10 | Île Saint-Louis. Walk rue Saint-Louis-en-l’Île, or cycle the quay the whole way around the island. Berthillon is a nearby pin, and it is open on Wednesday. |
-| 15:25–16:10 | Panthéon. Crypt, and the dome if it is open. |
-| 16:20–16:55 | Jardin du Luxembourg. Take a chair by the big basin, face the palace, one slow lap. Then Cluny. |
-| 17:05–17:45 | Musée de Cluny. The Lady and the Unicorn. It closes at 18:00. Closed Tuesday, so today works. |
-| 18:00–18:25 | Rue Mouffetard. Walk the market street. Dinner is here, not back at the hotel. |
+| 11:10–11:35 | Shakespeare and Company. Three minutes from the hotel. Notre-Dame is the next doorway. |
+| 11:45–12:25 | Notre-Dame. Façade, parvis, the bridges. Go inside if the queue is short. Stay on the islands. |
+| 12:35–13:05 | Île Saint-Louis. Walk the street, or cycle the quay around the island. Berthillon is a nearby pin, and it is open on Wednesday. |
+| 13:10–14:10 | Lunch. One hour on the island. |
+| 14:25–15:25 | Sainte-Chapelle. The west end of the island, on the way off it. Book a timed ticket for this hour. |
+| 15:40–16:20 | Musée de Cluny. Straight off the island. The Lady and the Unicorn. It closes at 18:00. |
+| 16:30–17:05 | Jardin du Luxembourg. A chair by the big basin, one lap, then on to the Panthéon. |
+| 17:15–17:55 | Panthéon. Crypt, and the dome if it is open. Mouffetard is downhill. |
+| 18:05–18:25 | Rue Mouffetard. Walk the market street. Dinner is here, not back at the hotel. |
 | 18:30–19:30 | Dinner. One hour on Mouffetard. |
-| 19:45–22:30 | Caveau de la Huchette. Walk back through the Latin Quarter. Doors at 21:00, music from 21:30. One set. |
+| 19:45–22:30 | Caveau de la Huchette. On the way home. Doors at 21:00, music from 21:30. One set. |
 | 22:45 | Hotel. |
 
 Du Pain et des Idées is closed at the weekend, and it is a 25 minute metro north of this walk, so it is not on today.

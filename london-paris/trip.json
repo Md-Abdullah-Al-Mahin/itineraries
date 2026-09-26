@@ -921,17 +921,17 @@
       "label": "28 Oct",
       "title": "Arrive · islands and the 5th",
       "kicker": "Wednesday · Paris day 1",
-      "lede": "CX261 lands 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Dinner is on Mouffetard, then jazz. Home after that, about 22:45.",
+      "lede": "CX261 lands 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. One line after that: the bookshop, Notre-Dame, Île Saint-Louis, then Sainte-Chapelle on the way off the island. South from there through Cluny, the Luxembourg, the Panthéon, and Mouffetard for dinner. The jazz cellar is on the walk home.",
       "loop": [
         "cdg",
         "oratio",
         "shakespeare",
-        "sainteChapelle",
         "notreDame",
         "ileSaintLouis",
-        "pantheon",
-        "luxembourg",
+        "sainteChapelle",
         "cluny",
+        "luxembourg",
+        "pantheon",
         "mouffetard",
         "caveau",
         "oratio"
@@ -954,79 +954,79 @@
         {
           "id": "shakespeare",
           "title": "Shakespeare and Company",
-          "text": "English-language bookshop on the Seine, three minutes from the hotel. Browse the stalls and peek at the reading room upstairs.",
+          "text": "English-language bookshop on the Seine, three minutes from the hotel. Browse the stalls and peek at the reading room upstairs. Notre-Dame is the next doorway along the quay.",
           "from": "11:10",
           "to": "11:35"
         },
         {
-          "id": "sainteChapelle",
-          "title": "Sainte-Chapelle",
-          "text": "Royal chapel built for the Crown of Thorns. Go for the upper chapel’s stained glass. Book a timed ticket.",
-          "from": "11:45",
-          "to": "12:45"
-        },
-        {
           "id": "notreDame",
           "title": "Notre-Dame",
-          "text": "The cathedral, back after the fire. Façade, parvis, the Seine bridges. Go inside if the queue is short. The blue dot is the other island: you can cycle the quay the whole way around Île de la Cité.",
-          "from": "12:55",
-          "to": "13:25"
-        },
-        {
-          "id": "notreDame",
-          "meal": "lunch",
-          "title": "Lunch",
-          "text": "One hour. Pick a nearby pin near the cathedral or the island.",
-          "from": "13:30",
-          "to": "14:30"
+          "text": "The cathedral, back after the fire. Façade, parvis, the Seine bridges. Go inside if the queue is short. Stay on the islands: Saint-Louis is the next one east. You can cycle the quay the whole way around Île de la Cité.",
+          "from": "11:45",
+          "to": "12:25"
         },
         {
           "id": "ileSaintLouis",
           "title": "Île Saint-Louis",
-          "text": "Walk rue Saint-Louis-en-l’Île. The blue dot on the pin means you can also cycle the quay the whole way around the island. Ice cream is a nearby pin, not a separate stop.",
-          "from": "14:40",
-          "to": "15:10"
+          "text": "Walk rue Saint-Louis-en-l’Île, or cycle the quay the whole way around the island. Ice cream is a nearby pin, not a separate stop. Lunch is here. The chapel is on the way back, along the other side of the Cité.",
+          "from": "12:35",
+          "to": "13:05"
         },
         {
-          "id": "pantheon",
-          "title": "Panthéon",
-          "text": "Neoclassical mausoleum up the hill. Voltaire, Rousseau and Curie in the crypt. Climb the dome if it is open.",
-          "from": "15:25",
-          "to": "16:10"
+          "id": "ileSaintLouis",
+          "meal": "lunch",
+          "title": "Lunch",
+          "text": "One hour on the island. A nearby pin, then walk back along the quay.",
+          "from": "13:10",
+          "to": "14:10"
         },
         {
-          "id": "luxembourg",
-          "title": "Jardin du Luxembourg",
-          "text": "Take a chair by the big basin and face the palace. One slow lap of the paths, then leave for Cluny.",
-          "from": "16:20",
-          "to": "16:55"
+          "id": "sainteChapelle",
+          "title": "Sainte-Chapelle",
+          "text": "The west end of the island, so this is the way off it, not a separate trip. Upper chapel, the stained glass. Book a timed ticket for this hour.",
+          "from": "14:25",
+          "to": "15:25"
         },
         {
           "id": "cluny",
           "title": "Musée de Cluny",
-          "text": "Medieval museum, five minutes from the garden. The Lady and the Unicorn. Go straight in: it closes at 18:00. Closed Tuesday, so Wednesday works.",
-          "from": "17:05",
-          "to": "17:45"
+          "text": "Straight off the island, on the Left Bank. The Lady and the Unicorn. Go in now: it closes at 18:00. Closed Tuesday, so Wednesday works.",
+          "from": "15:40",
+          "to": "16:20"
+        },
+        {
+          "id": "luxembourg",
+          "title": "Jardin du Luxembourg",
+          "text": "The garden is the next walk, west from Cluny. A chair by the big basin, one lap, then on toward the Panthéon. Do not come back this way.",
+          "from": "16:30",
+          "to": "17:05"
+        },
+        {
+          "id": "pantheon",
+          "title": "Panthéon",
+          "text": "The dome on the hill, a short walk east from the garden. Voltaire, Rousseau and Curie in the crypt. Climb the dome if it is open. Mouffetard is downhill from here.",
+          "from": "17:15",
+          "to": "17:55"
         },
         {
           "id": "mouffetard",
           "title": "Rue Mouffetard",
-          "text": "The market street down the hill. Walk it, then eat here. You do not go back to the hotel for dinner.",
-          "from": "18:00",
+          "text": "The market street down the hill from the Panthéon. Walk it, then eat here. You do not go back to the hotel for dinner.",
+          "from": "18:05",
           "to": "18:25"
         },
         {
           "id": "mouffetard",
           "meal": "dinner",
           "title": "Dinner",
-          "text": "One hour on this street. The pins are the meal. Then walk back through the Latin Quarter.",
+          "text": "One hour on this street. The pins are the meal. The jazz cellar is on the walk back.",
           "from": "18:30",
           "to": "19:30"
         },
         {
           "id": "caveau",
           "title": "Caveau de la Huchette",
-          "text": "Walk back through the Latin Quarter. Doors at 21:00, music from 21:30. No reservation. One set is enough. The hotel is five minutes after.",
+          "text": "On the way home through the Latin Quarter, not a new neighborhood. Doors at 21:00, music from 21:30. No reservation. One set is enough. The hotel is five minutes after.",
           "from": "19:45",
           "to": "22:30"
         },
@@ -2197,7 +2197,12 @@
       "nealsYard|fortnum": "15 min walk",
       "fortnum|buckingham": "15 min walk",
       "buckingham|hydePark": "15 min walk",
-      "eiffel|oratio": "25 min metro"
+      "eiffel|oratio": "25 min metro",
+      "shakespeare|notreDame": "4 min walk along the quay",
+      "ileSaintLouis|sainteChapelle": "12 min walk back along the island",
+      "sainteChapelle|cluny": "10 min walk",
+      "cluny|luxembourg": "8 min walk",
+      "luxembourg|pantheon": "8 min walk"
     }
   }
 }

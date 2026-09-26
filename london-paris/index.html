@@ -545,7 +545,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v56</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v57</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -1286,7 +1286,7 @@
         .catch(() => {});
     }
 
-    fetch("trip.json?v=56")
+    fetch("trip.json?v=57")
       .then((response) => {
         if (!response.ok) throw new Error("trip.json");
         return response.json();
