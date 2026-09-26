@@ -11,6 +11,7 @@ Add a line here whenever a new rule comes in.
 - Shopping streets and stores from the shopping list get a green dot when they are within a 10 minute walk of a numbered stop where you spend time. Farther than that, they stay off that day's map. They are not numbered stops.
 - A walk minute is about 80 metres. 10 minutes is 0.8 km. 15 minutes is 1.2 km. 20 minutes is 1.6 km.
 - Names on the map wait for zoom. The numbered stops appear first. Food, shops, and optional sights appear only when you zoom in further. The dots stay visible either way.
+- The line between stops is colored by how to travel: green walk, blue public transport, orange when a car is worth considering, teal when a bike is the better way. A blue ring on a pin means you can cycle a loop around that place. Île Saint-Louis and the Versailles gardens are those.
 - A place that already has a numbered pin on any day does not also appear as a nearby pin.
 
 ## How a day is built

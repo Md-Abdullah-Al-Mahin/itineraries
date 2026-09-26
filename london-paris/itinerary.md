@@ -8,7 +8,7 @@ This is the written copy of the map. When the plan changes, update this file and
 
 | When | What |
 | --- | --- |
-| 28 Oct | CX261 into Paris Charles de Gaulle, Terminal 2A, 07:35. Off the plane, immigration, bags, then RER B. Hotel about 10:35. |
+| 28 Oct | CX261 into Paris Charles de Gaulle, Terminal 2A, 07:35. Off the plane, immigration, bags. Consider a car with the bags, or RER B. Hotel about 10:35. |
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 29 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Not the same day as Versailles. |
 | 2 Nov | Louvre timed entry at 09:00. La Renommée at 18:00, the Paris dinner to book. |
@@ -27,17 +27,17 @@ Purple dots on the map are optional sights within a 20 minute walk. They are not
 
 ## Wednesday 28 October · Arrive, islands and the 5th
 
-CX261 lands at 07:35. Off the plane, immigration, and bags come first, then the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Stay out through Cluny and Mouffetard. Dinner is one hour near the hotel. Jazz after, if you want it.
+CX261 lands at 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Stay out through Cluny and Mouffetard. Dinner is one hour near the hotel. Jazz after, if you want it.
 
 | Time | Plan |
 | --- | --- |
-| 07:35–10:35 | CDG, Terminal 2A. Off the plane, immigration, bags, then RER B. At the hotel about 10:35. |
+| 07:35–10:35 | CDG, Terminal 2A. Off the plane, immigration, bags. Consider a car with the bags, or RER B. At the hotel about 10:35. |
 | 10:35–11:05 | Hotel Oratio. Check in and drop bags. If the room is not ready, leave the bags and go. |
 | 11:10–11:35 | Shakespeare and Company. Three minutes from the hotel. |
 | 11:45–12:45 | Sainte-Chapelle. Book a timed ticket. Go for the upper chapel. |
 | 12:55–13:25 | Notre-Dame. Façade, parvis, the bridges. Go inside if the queue is short. |
 | 13:30–14:30 | Lunch. One hour. A nearby pin near the cathedral or the island. |
-| 14:40–15:10 | Île Saint-Louis. Walk rue Saint-Louis-en-l’Île. Berthillon is a nearby pin, and it is open on Wednesday. |
+| 14:40–15:10 | Île Saint-Louis. Walk rue Saint-Louis-en-l’Île, or cycle the quay the whole way around the island. Berthillon is a nearby pin, and it is open on Wednesday. |
 | 15:25–16:10 | Panthéon. Crypt, and the dome if it is open. |
 | 16:20–16:55 | Jardin du Luxembourg. Take a chair by the big basin, face the palace, one slow lap. Then Cluny. |
 | 17:05–17:45 | Musée de Cluny. The Lady and the Unicorn. It closes at 18:00. Closed Tuesday, so today works. |
@@ -59,9 +59,9 @@ Versailles is Saturday, so this day stays in the city. The hill and its streets,
 | 13:25–14:40 | Carnavalet. Free museum of the history of Paris. |
 | 14:50–15:50 | Musée Picasso. One hour, five minutes from Carnavalet. |
 | 16:00–16:25 | Rue des Rosiers. Walk the street. Not a second meal. |
-| 16:35–17:10 | Place des Vosges, then metro home. |
+| 16:35–17:10 | Place des Vosges. Cycle through the Marais to the hotel, or take the metro. |
 | 17:35–18:40 | Hotel. Shower and change. Leave by 18:45. |
-| 19:10–21:15 | Crazy Horse, 20:00. 12 Avenue George V. Metro home after. |
+| 19:10–21:15 | Crazy Horse, 20:00. 12 Avenue George V. Consider a car home, or the metro. |
 | 21:40–22:40 | Dinner. One hour near the hotel. |
 
 ## Friday 30 October · Orsay, the river, the Eiffel Tower
@@ -77,7 +77,7 @@ Orsay is closed Monday, so it is today. No Seine dinner. Stay out through the to
 | 13:15–14:05 | Hôtel des Invalides. The dome and Napoleon’s tomb. |
 | 14:15–14:30 | Pont Alexandre III. Walk it end to end for the gold statues and the tower view. |
 | 14:35–15:20 | Petit Palais. Free. Closed Monday, so today works. |
-| 15:35–16:05 | Trocadéro, then down through the Champ de Mars. |
+| 15:35–16:05 | Trocadéro. Cycle along the river from the Petit Palais, or take the metro. Then down through the Champ de Mars. |
 | 16:20–18:15 | Eiffel Tower. Book a second-floor or summit slot. Stay for the light coming on, then metro home. |
 | 19:00–20:00 | Dinner. Metro home from the tower. One hour after 6, any nearby pin within 15 minutes of the hotel. |
 
@@ -92,12 +92,12 @@ The palace in the day. Crazy Horse was Thursday. Dinner is one hour at the hotel
 | 09:15–09:25 | Versailles station. Walk up Avenue de Paris to the gates. |
 | 09:35–12:30 | Palace of Versailles. Passport ticket. Hall of Mirrors, state apartments, chapel. |
 | 12:35–13:35 | Lunch. One hour in town, by the gates or back toward the station. |
-| 13:50–16:15 | Gardens. Parterres, Grand Canal, fountains. Then RER C home, about 50 minutes. |
+| 13:50–16:15 | Gardens. Parterres, Grand Canal, fountains. Walk them, or hire a bike and ride the long loop out to the canal. Then RER C home, about 50 minutes. |
 | 17:15 | Hotel. Shower. The morning tomorrow can start late. |
 | 19:00–20:00 | Dinner. One hour near the hotel, after 6. Then rest. |
 | 22:45 | Change. Metro toward Bastille, about 20 minutes. |
 | 23:15–02:30 | Badaboum, Rue des Taillandiers. Doors at 23:30. It runs until morning if you want to stay. |
-| 02:50 | Metro home. |
+| 02:50 | Consider a car home. The metro is about 20 minutes if it is still running. |
 
 ## Sunday 1 November · Giverny
 
@@ -188,7 +188,7 @@ Last full day. Dinosaurs, the V&A, St Paul’s, Tate Modern. The hotel is only f
 
 | Time | Plan |
 | --- | --- |
-| 08:30–09:00 | Breakfast. Book the free Natural History slot. |
+| 08:30–09:00 | Breakfast. Book the free Natural History slot. Cycle through the parks, or take the tube to South Kensington. |
 | 09:45–11:45 | Natural History Museum. Hintze Hall and the blue whale, then the dinosaur gallery. Leave the rest. |
 | 12:00–13:00 | Lunch. One hour in South Kensington. |
 | 13:10–14:00 | V&A. The cast courts, the huge plaster copies. One wing, then the tube east. |

@@ -22,6 +22,11 @@
       --eat: #c0562a;
       --option: #5c4d7a;
       --shop: #c23b73;
+      --walk: #2f7d46;
+      --ride: #2d4a6f;
+      --uber: #c47b2a;
+      --cycle: #0e7c8a;
+      --loop: #2f7de1;
     }
 
     * { box-sizing: border-box; }
@@ -174,6 +179,11 @@
       line-height: 1.45;
     }
 
+    .hops .walk { color: var(--walk); }
+    .hops .transit { color: var(--ride); }
+    .hops .uber { color: var(--uber); }
+    .hops .cycle { color: var(--cycle); }
+
     .event p {
       margin: 0;
       font-family: "Avenir Next", "Helvetica Neue", sans-serif;
@@ -273,6 +283,22 @@
     .legend .eat::before { background: #c47858; }
     .legend .option::before { background: var(--option); }
     .legend .shop::before { background: var(--shop); }
+    .legend .leg::before {
+      width: 14px;
+      height: 3px;
+      border-radius: 2px;
+    }
+    .legend .leg.walk::before { background: var(--walk); }
+    .legend .leg.transit::before { background: var(--ride); }
+    .legend .leg.uber::before { background: var(--uber); }
+    .legend .leg.cycle::before { background: var(--cycle); }
+    .legend .leg.loop::before {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: transparent;
+      border: 2px solid var(--loop);
+    }
 
     .rec-marker {
       position: relative;
@@ -508,7 +534,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v44</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v45</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -523,6 +549,11 @@
         <span class="eat">Food · 15 min</span>
         <span class="shop">Shops · 10 min</span>
         <span class="option">Optional · 20 min</span>
+        <span class="leg walk">Walk</span>
+        <span class="leg transit">Transit</span>
+        <span class="leg uber">Consider a car</span>
+        <span class="leg cycle">Cycle</span>
+        <span class="leg loop">Cycle around</span>
       </div>
     </div>
   </div>
@@ -541,7 +572,7 @@
       royal: { name: "Royal National Hotel", label: "Royal National", kind: "hotel", city: "London", lat: 51.523473, lng: -0.127234, note: "38–51 Bedford Way, Bloomsbury" },
       lhr: { name: "London Heathrow", label: "Heathrow", kind: "transit", city: "London", lat: 51.4706, lng: -0.4581, note: "Terminal 3" },
       notreDame: { name: "Notre-Dame", label: "Notre-Dame", kind: "paris", city: "Paris", lat: 48.8527288, lng: 2.3505635, note: "10 minutes from the hotel" },
-      ileSaintLouis: { name: "Île Saint-Louis", label: "Île Saint-Louis", kind: "paris", city: "Paris", lat: 48.8515572, lng: 2.3574207, note: "Walk east from Notre-Dame" },
+      ileSaintLouis: { name: "Île Saint-Louis", label: "Île Saint-Louis", kind: "paris", city: "Paris", lat: 48.8515572, lng: 2.3574207, note: "Walk east from Notre-Dame", cycleLoop: true },
       berthillon: { name: "Berthillon", label: "Berthillon", kind: "paris", city: "Paris", lat: 48.8517135, lng: 2.3567206, note: "Ice cream on Île Saint-Louis. Closed Mon–Tue." },
       duPain: { name: "Du Pain et des Idées", label: "Du Pain et des Idées", kind: "paris", city: "Paris", lat: 48.871197, lng: 2.362886, note: "Pistachio-chocolate escargot. Closed weekends." },
       alexandre: { name: "Pont Alexandre III", label: "Alexandre III", kind: "paris", city: "Paris", lat: 48.8638, lng: 2.3136, note: "Walk the bridge on the way to the Petit Palais." },
@@ -580,7 +611,7 @@
       saintMichel: { name: "Saint-Michel–Notre-Dame", label: "Saint-Michel", kind: "transit", city: "Paris", lat: 48.8536, lng: 2.3442, note: "RER C to Versailles" },
       versaillesRiveGauche: { name: "Versailles Château Rive Gauche", label: "Versailles RER", kind: "transit", city: "Paris", lat: 48.8004, lng: 2.1295, note: "RER C terminus · 10 min walk to the palace" },
       versailles: { name: "Palace of Versailles", label: "Versailles", kind: "paris", city: "Paris", lat: 48.804865, lng: 2.120355, note: "Book a Passport ticket" },
-      versaillesGardens: { name: "Gardens of Versailles", label: "Gardens", kind: "paris", city: "Paris", lat: 48.8094, lng: 2.1095, note: "Grand Canal and parterres" },
+      versaillesGardens: { name: "Gardens of Versailles", label: "Gardens", kind: "paris", city: "Paris", lat: 48.8094, lng: 2.1095, note: "Grand Canal and parterres", cycleLoop: true },
       garnier: { name: "Palais Garnier", label: "Garnier", kind: "paris", city: "Paris", lat: 48.8719697, lng: 2.3316014, note: "Self-guided opera visit" },
       arc: { name: "Arc de Triomphe", label: "Arc de Triomphe", kind: "paris", city: "Paris", lat: 48.8737917, lng: 2.2950275, note: "Top of the Champs" },
       zara: { name: "Zara", label: "Zara Champs", kind: "paris", city: "Paris", lat: 48.8712082, lng: 2.3046964, note: "Your bookmark on the Champs" },
@@ -626,7 +657,7 @@
         lede: "Land in Paris on 28 Oct. Numbered pins are the plan. Warm dots are restaurants, bars, and bakeries within a 15 minute walk of a stop. Pink dots are shopping streets and stores within 10 minutes, on each day, not on the overall map. Purple dots are random sights within 20 minutes, not on that day's plan. Eurostar on 3 Nov, fly out of Heathrow on 7 Nov.",
         loop: ["cdg", "oratio", "nord", "stpancras", "royal", "lhr"],
         events: [
-          { id: "cdg", title: "Arrive CDG · CX261", text: "Charles de Gaulle, Terminal 2A. Off the plane, immigration, bags, then RER B toward Saint-Michel.", from: "07:35", to: "10:35" },
+          { id: "cdg", title: "Arrive CDG · CX261", text: "Charles de Gaulle, Terminal 2A. Off the plane, immigration, bags. Consider a car with the bags, or RER B toward Saint-Michel.", from: "07:35", to: "10:35" },
           { id: "oratio", title: "Hotel Oratio, Paris", text: "Small Left Bank hotel at 42 rue des Bernardins. This is the start and end of every Paris day.", from: "28 Oct 10:35", to: "3 Nov 06:30" },
           { id: "nord", title: "Eurostar 9013 from Gare du Nord", text: "Be there at 06:30, two hours before the train. Security, then passport control out of France and into the UK, both at this station. Coach 7 seat 31. Train leaves 08:32.", from: "06:30", to: "08:32" },
           { id: "stpancras", title: "Arrive St Pancras", text: "Victorian terminus on Euston Road. Walk south into Bloomsbury, or one Piccadilly stop to Russell Square.", from: "10:00", to: "10:20" },
@@ -639,16 +670,16 @@
         label: "28 Oct",
         title: "Arrive · islands and the 5th",
         kicker: "Wednesday · Paris day 1",
-        lede: "CX261 lands 07:35. Off the plane, immigration, and bags come first, then the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Stay out until dinner. The hotel is only for the night.",
+        lede: "CX261 lands 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. Stay out until dinner. The hotel is only for the night.",
         loop: ["cdg", "oratio", "shakespeare", "sainteChapelle", "notreDame", "ileSaintLouis", "pantheon", "luxembourg", "cluny", "mouffetard", "oratio"],
         events: [
-          { id: "cdg", title: "Arrive CDG · CX261", text: "Terminal 2A. Off the plane, immigration, bags, then RER B. At the hotel about 10:35.", from: "07:35", to: "10:35" },
+          { id: "cdg", title: "Arrive CDG · CX261", text: "Terminal 2A. Off the plane, immigration, bags. Consider a car with the bags, or RER B. At the hotel about 10:35.", from: "07:35", to: "10:35" },
           { id: "oratio", title: "Hotel Oratio", text: "Check in and drop bags. If the room is not ready, leave the bags and go. Breakfast was on the flight.", from: "10:35", to: "11:05" },
           { id: "shakespeare", title: "Shakespeare and Company", text: "English-language bookshop on the Seine, three minutes from the hotel. Browse the stalls and peek at the reading room upstairs.", from: "11:10", to: "11:35" },
           { id: "sainteChapelle", title: "Sainte-Chapelle", text: "Royal chapel built for the Crown of Thorns. Go for the upper chapel’s stained glass. Book a timed ticket.", from: "11:45", to: "12:45" },
           { id: "notreDame", title: "Notre-Dame", text: "The cathedral, back after the fire. Façade, parvis, the Seine bridges. Go inside if the queue is short.", from: "12:55", to: "13:25" },
           { id: "notreDame", meal: "lunch", title: "Lunch", text: "One hour. Pick a nearby pin near the cathedral or the island.", from: "13:30", to: "14:30" },
-          { id: "ileSaintLouis", title: "Île Saint-Louis", text: "Quiet residential island next door. Walk rue Saint-Louis-en-l’Île. Ice cream is a nearby pin, not a separate stop.", from: "14:40", to: "15:10" },
+          { id: "ileSaintLouis", title: "Île Saint-Louis", text: "Walk rue Saint-Louis-en-l’Île. The blue ring means you can also cycle the quay the whole way around the island. Ice cream is a nearby pin, not a separate stop.", from: "14:40", to: "15:10" },
           { id: "pantheon", title: "Panthéon", text: "Neoclassical mausoleum up the hill. Voltaire, Rousseau and Curie in the crypt. Climb the dome if it is open.", from: "15:25", to: "16:10" },
           { id: "luxembourg", title: "Jardin du Luxembourg", text: "Take a chair by the big basin and face the palace. One slow lap of the paths, then leave for Cluny.", from: "16:20", to: "16:55" },
           { id: "cluny", title: "Musée de Cluny", text: "Medieval museum, five minutes from the garden. The Lady and the Unicorn. Go straight in: it closes at 18:00. Closed Tuesday, so Wednesday works.", from: "17:05", to: "17:45" },
@@ -672,9 +703,9 @@
           { id: "carnavalet", title: "Carnavalet", text: "Free museum of Paris history in two Marais mansions. Revolution rooms, reconstructed interiors upstairs.", from: "13:25", to: "14:40" },
           { id: "picasso", title: "Musée Picasso", text: "Picasso’s own collection in a Marais mansion, five minutes from Carnavalet. One hour. Closed Monday, so Thursday works.", from: "14:50", to: "15:50" },
           { id: "rosiers", title: "Rue des Rosiers", text: "The short food street of the Marais. Walk it. Lunch was already at noon, so this is the street, not a second meal.", from: "16:00", to: "16:25" },
-          { id: "vosges", title: "Place des Vosges", text: "Oldest planned square in Paris. Red brick, arcades, a short sit, then metro home.", from: "16:35", to: "17:10" },
+          { id: "vosges", title: "Place des Vosges", text: "Oldest planned square in Paris. Red brick, arcades, a short sit. Cycle through the Marais to the hotel, or take the metro.", from: "16:35", to: "17:10" },
           { id: "oratio", title: "Hotel Oratio", text: "Shower and change. Leave by 18:45 so you are at the door for 19:10.", from: "17:35", to: "18:40", pause: true },
-          { id: "crazyHorse", title: "Crazy Horse · 20:00", text: "Cabaret on Avenue George V. Nude revue, tight lighting, about an hour. Doors before 20:00, then metro home for dinner.", from: "19:10", to: "21:15" },
+          { id: "crazyHorse", title: "Crazy Horse · 20:00", text: "Cabaret on Avenue George V. Nude revue, tight lighting, about an hour. Doors before 20:00. Consider a car home, or the metro, then dinner.", from: "19:10", to: "21:15" },
           { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour after the show, near the hotel. Any nearby pin within a 15 minute walk.", from: "21:40", to: "22:40" },
         ],
       },
@@ -712,11 +743,11 @@
           { id: "versaillesRiveGauche", title: "Versailles Château Rive Gauche", text: "End of the line. Walk straight up Avenue de Paris to the palace gates.", from: "09:15", to: "09:25" },
           { id: "versailles", title: "Palace of Versailles", text: "Louis XIV’s château. Hall of Mirrors, King’s State Apartments, chapel. Passport ticket, go in as it opens.", from: "09:35", to: "12:30" },
           { id: "versailles", meal: "lunch", title: "Lunch", text: "One hour in town, by the gates or back toward the station. The nearby pins on this map are Paris restaurants, not Versailles.", from: "12:35", to: "13:35" },
-          { id: "versaillesGardens", title: "Gardens of Versailles", text: "Le Nôtre’s parterres, Grand Canal, fountains. Slow walk, then the RER home.", from: "13:50", to: "16:15" },
+          { id: "versaillesGardens", title: "Gardens of Versailles", text: "Le Nôtre’s parterres, Grand Canal, fountains. Walk them, or hire a bike and ride the long loop out to the canal. The blue ring is that loop. Then the RER home.", from: "13:50", to: "16:15" },
           { id: "oratio", title: "Hotel Oratio", text: "Shower. Giverny is tomorrow, and the morning can start late.", from: "17:15", to: "18:45", pause: true },
           { id: "oratio", meal: "dinner", title: "Dinner", text: "One hour near the hotel, after 6. Then rest before the club.", from: "19:00", to: "20:00" },
           { id: "oratio", title: "Hotel Oratio", text: "Change. Metro toward Bastille, about 20 minutes.", from: "22:45", to: "23:05" },
-          { id: "badaboum", title: "Badaboum · Halloween", text: "Club on Rue des Taillandiers. Doors at 23:30, and it runs until morning. Stay as long as you want, then metro home.", from: "23:15", to: "02:30" },
+          { id: "badaboum", title: "Badaboum · Halloween", text: "Club on Rue des Taillandiers. Doors at 23:30, and it runs until morning. Stay as long as you want. Consider a car home. The metro is about 20 minutes if it is still running.", from: "23:15", to: "02:30" },
           { id: "oratio", title: "Hotel Oratio", text: "Home. Sleep. Giverny can wait until late morning.", from: "02:50", to: "03:10" },
         ],
       },
@@ -833,7 +864,7 @@
         lede: "Last full day. Breakfast, dinosaurs, an hour for lunch in South Kensington, then the V&A, St Paul’s, and Tate Modern. The hotel is only for dinner and packing. The flight is 17:50 tomorrow.",
         loop: ["royal", "nhm", "va", "stPauls", "tate", "royal"],
         events: [
-          { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Book the free Natural History slot, then tube to South Kensington.", from: "08:30", to: "09:00" },
+          { id: "royal", meal: "breakfast", title: "Breakfast", text: "Half an hour. Book the free Natural History slot. Cycle through the parks, or take the tube to South Kensington.", from: "08:30", to: "09:00" },
           { id: "royal", title: "Royal National Hotel", text: "Out the door.", from: "09:05", to: "09:15" },
           { id: "nhm", title: "Natural History Museum", text: "Hintze Hall and the blue whale, then the dinosaur gallery. Book the free slot. Leave the rest of the building.", from: "09:45", to: "11:45" },
           { id: "nhm", meal: "lunch", title: "Lunch", text: "One hour after noon in South Kensington. The V&A is next door.", from: "12:00", to: "13:00" },
@@ -916,8 +947,18 @@
       });
     }
 
-    function hopLabel(fromId, toId) {
+    function hopInfo(fromId, toId) {
       const key = `${fromId}|${toId}`;
+      const prefer = {
+        "cdg|oratio": ["uber", "Consider a car with the bags, or 1h 15m on RER B"],
+        "oratio|nord": ["uber", "20 min car. You have bags, and the station is at 06:30"],
+        "crazyHorse|oratio": ["uber", "Consider a car, or 20 min on the metro"],
+        "badaboum|oratio": ["uber", "Consider a car. The metro is about 20 min if it is still running"],
+        "petitPalais|trocadero": ["cycle", "15 min cycle along the river, or the metro"],
+        "vosges|oratio": ["cycle", "15 min cycle through the Marais, or 20 min on the metro"],
+        "royal|nhm": ["cycle", "25 min cycle through the parks, or the tube to South Kensington"],
+      };
+      if (prefer[key]) return { mode: prefer[key][0], text: prefer[key][1] };
       const known = {
         "cdg|oratio": "1h 15m RER B and a walk",
         "oratio|nord": "20 min taxi / RER B",
@@ -932,6 +973,8 @@
         "versaillesRiveGauche|saintMichel": "40 min RER C",
         "versaillesRiveGauche|versailles": "10 min walk",
         "versailles|versaillesGardens": "10 min walk",
+        "versaillesGardens|versaillesRiveGauche": "15 min walk",
+        "globe|londonEye": "20 min walk along the river",
         "versaillesGardens|oratio": "50 min RER C home",
         "oratio|versailles": "45 min RER C",
         "versailles|oratio": "45 min RER C",
@@ -1012,11 +1055,25 @@
         "buckingham|hydePark": "15 min walk",
         "eiffel|oratio": "25 min metro",
       };
-      if (known[key]) return known[key];
-      const km = kmBetween(places[fromId], places[toId]);
-      const walkMins = Math.max(1, Math.round(km / 0.08));
-      if (walkMins <= 18) return `${walkMins} min walk`;
-      return `${Math.max(15, Math.round(10 + km * 5))} min metro`;
+      const text = known[key] || (() => {
+        const km = kmBetween(places[fromId], places[toId]);
+        const walkMins = Math.max(1, Math.round(km / 0.08));
+        if (walkMins <= 18) return `${walkMins} min walk`;
+        return `${Math.max(15, Math.round(10 + km * 5))} min metro`;
+      })();
+      return { mode: hopMode(text), text };
+    }
+
+    function hopMode(text) {
+      const label = text.toLowerCase();
+      if (label.includes("cycle") || label.includes("bike")) return "cycle";
+      if (label.includes("car") || label.includes("taxi") || label.includes("uber")) return "uber";
+      if (label.includes("walk") && !label.includes("metro") && !label.includes("tube") && !label.includes("rer")) return "walk";
+      return "transit";
+    }
+
+    function hopLabel(fromId, toId) {
+      return hopInfo(fromId, toId).text;
     }
 
     function placeLabel(id, fallback) {
@@ -1030,9 +1087,13 @@
       const stopBefore = events.slice(0, index).reverse().find((item) => !item.meal);
       const stopAfter = events.slice(index + 1).find((item) => !item.meal);
       if (curr.meal) return { toHere: null, fromHere: null, fromName: null, toName: null };
+      const toHop = stopBefore && stopBefore.id !== curr.id ? hopInfo(stopBefore.id, curr.id) : null;
+      const fromHop = stopAfter && stopAfter.id !== curr.id ? hopInfo(curr.id, stopAfter.id) : null;
       return {
-        toHere: stopBefore && stopBefore.id !== curr.id ? hopLabel(stopBefore.id, curr.id) : null,
-        fromHere: stopAfter && stopAfter.id !== curr.id ? hopLabel(curr.id, stopAfter.id) : null,
+        toHere: toHop ? toHop.text : null,
+        toMode: toHop ? toHop.mode : null,
+        fromHere: fromHop ? fromHop.text : null,
+        fromMode: fromHop ? fromHop.mode : null,
         fromName: stopBefore ? placeLabel(stopBefore.id, stopBefore.title) : null,
         toName: stopAfter ? placeLabel(stopAfter.id, stopAfter.title) : null,
       };
@@ -1050,20 +1111,7 @@
     }
 
     function segmentMode(fromId, toId) {
-      if (
-        (fromId === "saintLazare" && toId === "vernon")
-        || (fromId === "vernon" && toId === "saintLazare")
-      ) return "train";
-      if (
-        (fromId === "saintMichel" && toId === "versaillesRiveGauche")
-        || (fromId === "versaillesRiveGauche" && toId === "saintMichel")
-        || (fromId === "versaillesGardens" && toId === "oratio")
-        || (fromId === "oratio" && toId === "versailles")
-        || (fromId === "versailles" && toId === "oratio")
-      ) return "train";
-      if (fromId === "nord" && toId === "stpancras") return "train";
-      if ((fromId === "royal" && toId === "lhr") || (fromId === "russellSq" && toId === "lhr")) return "train";
-      return "city";
+      return hopInfo(fromId, toId).mode;
     }
 
     function lngLat(id) {
@@ -1238,6 +1286,7 @@
             label: place.label,
             kind: place.kind,
             note: what,
+            cycleLoop: place.cycleLoop === true,
             city: place.city,
             when,
           },
@@ -1289,8 +1338,8 @@
           const hops = eventHops(day, i);
           const when = whenLabel(event);
           const hopBits = [];
-          if (hops.toHere) hopBits.push(`To: ${hops.toHere} from ${hops.fromName}`);
-          if (hops.fromHere) hopBits.push(`From: ${hops.fromHere} to ${hops.toName}`);
+          if (hops.toHere) hopBits.push(`<span class="hop ${hops.toMode}">To: ${esc(hops.toHere)} from ${esc(hops.fromName)}</span>`);
+          if (hops.fromHere) hopBits.push(`<span class="hop ${hops.fromMode}">From: ${esc(hops.fromHere)} to ${esc(hops.toName)}</span>`);
           const nearbyHtml = nearby.length
             ? `<p class="nearby"><em>15 min walk</em>${nearby.map((item) => `${esc(item.label)} · ${item.mins} min`).join("<br>")}${more > 0 ? `<br>+ ${more} more on the map` : ""}</p>`
             : "";
@@ -1418,23 +1467,19 @@
       map.addSource("shops", { type: "geojson", data: emptyCollection() });
       map.addSource("options", { type: "geojson", data: emptyCollection() });
       map.addLayer({
-        id: "routes-train",
+        id: "routes-line",
         type: "line",
         source: "routes",
-        filter: ["==", ["get", "mode"], "train"],
-        layout: { "line-cap": "round", "line-join": "round" },
-        paint: { "line-color": colors.train, "line-width": 2, "line-opacity": 0.7 },
-      });
-      map.addLayer({
-        id: "routes-city",
-        type: "line",
-        source: "routes",
-        filter: ["==", ["get", "mode"], "city"],
         layout: { "line-cap": "round", "line-join": "round" },
         paint: {
-          "line-color": colors.city,
-          "line-width": 2,
-          "line-opacity": 0.7,
+          "line-color": ["match", ["get", "mode"],
+            "walk", "#2f7d46",
+            "transit", "#2d4a6f",
+            "uber", "#c47b2a",
+            "cycle", "#0e7c8a",
+            "#6b6458"],
+          "line-width": 3,
+          "line-opacity": 0.85,
         },
       });
       map.addLayer({
@@ -1525,6 +1570,18 @@
           "text-color": "#c23b73",
           "text-halo-color": "#fffdf8",
           "text-halo-width": 1.4,
+        },
+      });
+      map.addLayer({
+        id: "stops-loop",
+        type: "circle",
+        source: "stops",
+        filter: ["==", ["get", "cycleLoop"], true],
+        paint: {
+          "circle-radius": 16,
+          "circle-color": "rgba(47, 125, 225, 0.12)",
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#2f7de1",
         },
       });
       map.addLayer({
