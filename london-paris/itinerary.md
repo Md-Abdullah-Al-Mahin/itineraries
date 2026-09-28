@@ -11,8 +11,8 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct | CX261 into Paris Charles de Gaulle, Terminal 2A, 07:35. Off the plane, immigration, bags. Consider a car with the bags, or RER B. Hotel about 10:35. |
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 29 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Not the same day as Versailles. |
-| 2 Nov | Louvre timed entry at 09:00. La Renommée at 18:00, the Paris dinner to book. |
-| 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. |
+| 2 Nov | Louvre timed entry at 09:00, and you stay until 13:00. Half a day. La Renommée at 18:00, the Paris dinner to book. |
+| 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Book it. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
 | 4 Nov | Darjeeling Express, 36–40 Rupert Street, 12:10. Lunch, one hour. Not the long dinner. |
 | 5 Nov | OMA, 2–4 Bedale Street, 18:30. The London dinner to book. Greek. |
@@ -122,24 +122,24 @@ Last open day of Monet’s house and gardens in 2026. Open 10:00–18:00, last e
 
 ## Monday 2 November · Louvre, west to the Arc, La Renommée
 
-Versailles and Orsay are closed. This is the Paris dinner to book. The passages sit between the opera and the restaurant, so there is no hotel stop before dinner. Pack after. The Eurostar is at 08:32 tomorrow.
+Versailles and Orsay are closed. The Louvre is half a day, 09:00 until 13:00, so the walk west after lunch is shorter. Garnier still happens, before the self-guided visit ends at 17:00. This is the Paris dinner to book. The passages sit between the opera and the restaurant, so there is no hotel stop before dinner. Pack after. The Eurostar is at 08:32 tomorrow.
 
 | Time | Plan |
 | --- | --- |
 | 07:45–08:15 | Breakfast, then walk or metro to Palais Royal. |
-| 09:00–11:45 | Louvre, 09:00 timed entry. Mona Lisa, Winged Victory, Venus de Milo. Then leave. |
-| 12:00–13:00 | Lunch. One hour. Nearby pins around the museum. |
-| 13:10–13:35 | Tuileries. Walk the central path west: basins, statues, chairs. Not another museum. |
-| 13:45–14:00 | Place de la Concorde. Stand at the obelisk and look back to the Louvre, then on toward the Arc. |
-| 14:25–15:15 | Arc de Triomphe. Use the underpass. Climb if you want the view. |
-| 15:35–16:45 | Palais Garnier. Grand staircase, the auditorium, the Chagall ceiling. Book online. No tickets at the door. The house closes in summer 2027. |
-| 17:00–17:35 | Passage des Panoramas. Walk the covered arcade and look in the windows. Not a sit-down. |
+| 09:00–13:00 | Louvre, 09:00 timed entry. Half a day. Mona Lisa, Winged Victory, Venus de Milo, then one more wing. You do not finish the museum. |
+| 13:00–14:00 | Lunch. One hour, after you come out. Nearby pins around the museum. |
+| 14:10–14:30 | Tuileries. Walk the central path west. This is the way out, not another museum. |
+| 14:40–14:55 | Place de la Concorde. Stand at the obelisk and look back to the Louvre, then on toward the Arc. |
+| 15:20–15:50 | Arc de Triomphe. Use the underpass. Climb only if there is no queue. Garnier closes around 17:00. |
+| 16:10–17:00 | Palais Garnier. Grand staircase, the auditorium, the Chagall ceiling. Book online. No tickets at the door. The self-guided visit usually ends at 17:00. The house closes in summer 2027. |
+| 17:10–17:40 | Passage des Panoramas. Walk the covered arcade and look in the windows. Not a sit-down. |
 | 18:00–20:00 | La Renommée. 15 minutes south of the passages, at 95 Rue Saint-Honoré. Filet au poivre. Two hours. |
 | 20:20 | Hotel, to pack. Be at Gare du Nord at 06:30 tomorrow. |
 
 ## Tuesday 3 November · Paris to London, British Museum
 
-Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. After lunch the day stays out: Covent Garden, Somerset House, then the river only as far as the National Theatre. Bankside is Thursday. Dinner is on this stretch. Home about 21:45. Darjeeling Express is lunch tomorrow. OMA is Thursday.
+Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. After lunch the day stays in Covent Garden: Neal’s Yard, Somerset House, a short turn on the river, then back to Aldwych. Mamma Mia! is 19:30 at the Novello, which is next to Somerset House. Dinner is there at 18:00. Home after the show, about 22:45. Darjeeling Express is lunch tomorrow. OMA is Thursday.
 
 | Time | Plan |
 | --- | --- |
@@ -152,10 +152,10 @@ Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be a
 | 12:35–13:35 | Lunch. One hour near the museum, then walk to Covent Garden. |
 | 13:50–14:35 | Neal’s Yard. Step into the painted courtyard and walk the lanes. A short look, then move on. |
 | 14:55–16:00 | Somerset House. Cross the courtyard to the river terrace. One room of the Courtauld if you want a picture. |
-| 16:15–18:15 | South Bank. Cross Waterloo Bridge and walk past the National Theatre and Gabriel's Wharf. Stop there. Do not continue to the Millennium Bridge. |
-| 18:30–19:30 | Dinner. One hour on this stretch of the bank. |
-| 19:45–21:15 | South Bank after dark. One drink on this part of the river. Do not walk on to the Tate. |
-| 21:45 | Hotel. |
+| 16:15–17:30 | South Bank. Cross Waterloo Bridge and walk past the National Theatre. A short turn. Do not continue to the Millennium Bridge. The show is back on Aldwych. |
+| 18:00–19:00 | Dinner. One hour on Aldwych or in Covent Garden, a few minutes from the theatre. |
+| 19:15–22:15 | Mamma Mia! at the Novello Theatre, Aldwych. Curtain 19:30. Book it. Out around 22:15. |
+| 22:45 | Hotel. Tube from Temple or Covent Garden. |
 
 ## Wednesday 4 November · Soane, Darjeeling Express, the palace
 

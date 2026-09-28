@@ -939,6 +939,17 @@
       "note": "Dinosaurs. Book a free timed ticket.",
       "about": "The museum of animals, fossils, and dinosaurs. Hintze Hall is the great room with the blue whale hanging in it.",
       "hours": "Daily 10:00–17:50. Last entry 17:30."
+    },
+    "novello": {
+      "name": "Novello Theatre",
+      "label": "Novello",
+      "kind": "london",
+      "city": "London",
+      "lat": 51.5125,
+      "lng": -0.1192,
+      "note": "Aldwych. Mamma Mia!, 19:30.",
+      "about": "A West End theatre on Aldwych, next to Somerset House. Mamma Mia! is the long-running ABBA musical here, London’s version of a Broadway show.",
+      "hours": "Mamma Mia! plays Monday–Saturday at 19:30. No performance on Sunday. About two and a half hours, out around 22:15."
     }
   },
   "days": [
@@ -1561,7 +1572,7 @@
       "label": "2 Nov",
       "title": "Louvre · west to the Arc",
       "kicker": "Monday · Paris day 6",
-      "lede": "Versailles and Orsay are closed. Breakfast, the Louvre, lunch after noon, then the Tuileries, Concorde, the Arc, and Garnier. The covered passages fill the gap before dinner. La Renommée is the one Paris meal to book: 18:00–20:00. The hotel is only after that, to pack.",
+      "lede": "Versailles and Orsay are closed. The Louvre is half a day, not a quick look: 09:00 until 13:00, then lunch. The walk west is shorter after that. Tuileries, Concorde, a short stop at the Arc, then Garnier before the self-guided visit ends. La Renommée is 18:00. Pack after dinner. The Eurostar is at 08:32 tomorrow.",
       "loop": [
         "oratio",
         "louvre",
@@ -1591,53 +1602,53 @@
         },
         {
           "id": "louvre",
-          "title": "Louvre · 09:00 timed entry",
-          "text": "Mona Lisa, Winged Victory, Venus de Milo. Two hours, then leave.",
+          "title": "Louvre · half a day",
+          "text": "The 09:00 timed entry, and you stay until 13:00. Mona Lisa, Winged Victory, Venus de Milo, then one more wing you actually want. Half a day is enough to see the famous rooms without pretending to finish the museum.",
           "from": "09:00",
-          "to": "11:45"
+          "to": "13:00"
         },
         {
           "id": "louvre",
           "meal": "lunch",
           "title": "Lunch",
-          "text": "One hour, after noon. Nearby pins around the museum. Tonight’s dinner is the one that is booked, not this.",
-          "from": "12:00",
-          "to": "13:00"
+          "text": "One hour, after you come out. Nearby pins around the museum, or the Carrousel. Tonight’s dinner is the one that is booked, not this.",
+          "from": "13:00",
+          "to": "14:00"
         },
         {
           "id": "tuileries",
           "title": "Jardin des Tuileries",
-          "text": "Walk the central path west. Basins, statues, the chairs. This is the link to Concorde, not another museum.",
-          "from": "13:10",
-          "to": "13:35"
+          "text": "Walk the central path west. Basins, statues, the chairs. This is the way out toward Concorde, not a second museum.",
+          "from": "14:10",
+          "to": "14:30"
         },
         {
           "id": "concorde",
           "title": "Place de la Concorde",
-          "text": "Stand at the obelisk and look back through the Tuileries to the Louvre. Then the underpass or the metro toward the Arc.",
-          "from": "13:45",
-          "to": "14:00"
+          "text": "Stand at the obelisk and look back through the Tuileries to the Louvre. Then walk up the Champs toward the Arc.",
+          "from": "14:40",
+          "to": "14:55"
         },
         {
           "id": "arc",
           "title": "Arc de Triomphe",
-          "text": "Tomb of the Unknown Soldier. Climb for the twelve-avenue view. Use the underpass.",
-          "from": "14:25",
-          "to": "15:15"
+          "text": "Tomb of the Unknown Soldier, from the underpass. Climb only if there is no queue. Garnier closes the self-guided visit around 17:00, so do not linger.",
+          "from": "15:20",
+          "to": "15:50"
         },
         {
           "id": "garnier",
           "title": "Palais Garnier",
-          "text": "The opera house, and the visit to do before it closes in summer 2027. Self-guided: grand staircase, auditorium, Chagall ceiling. Book online. No tickets at the door.",
-          "from": "15:35",
-          "to": "16:45"
+          "text": "The opera house, and the visit to do before it closes in summer 2027. Self-guided, and it usually ends at 17:00, so this slot is the staircase, the auditorium, and the Chagall ceiling. Book online. No tickets at the door.",
+          "from": "16:10",
+          "to": "17:00"
         },
         {
           "id": "passages",
           "title": "Passage des Panoramas",
           "text": "Walk the covered arcade. Glass roof, old shopfronts, a look in the windows. Not a sit-down. Dinner is a 15 minute walk south.",
-          "from": "17:00",
-          "to": "17:35"
+          "from": "17:10",
+          "to": "17:40"
         },
         {
           "id": "laRenommee",
@@ -1660,9 +1671,9 @@
     {
       "id": "nov3",
       "label": "3 Nov",
-      "title": "Paris to London · British Museum",
+      "title": "Paris to London · Mamma Mia!",
       "kicker": "Tuesday · travel day",
-      "lede": "Eurostar into St Pancras at 10:00. Be at Gare du Nord at 06:30 so security and passport control have room. Breakfast is a short one before the taxi. Drop bags, the British Museum, lunch after noon, then Covent Garden and the river as far as the National Theatre. Bankside is Thursday, so you do not walk on to the Tate. Dinner is here. Home about 21:45. Soane’s is closed today. Darjeeling Express is lunch tomorrow. OMA is Thursday, the dinner to book.",
+      "lede": "Eurostar into St Pancras at 10:00. Be at Gare du Nord at 06:30 so security and passport control have room. Drop bags, the British Museum, lunch after noon, then Covent Garden and Somerset House. A short turn on the river, then back to Aldwych. Mamma Mia! is 19:30 at the Novello, next to Somerset House, so this is the West End night. Dinner is there at 18:00, before the curtain. Home after the show, about 22:45.",
       "loop": [
         "oratio",
         "nord",
@@ -1672,6 +1683,7 @@
         "nealsYard",
         "somerset",
         "southBank",
+        "novello",
         "royal"
       ],
       "events": [
@@ -1743,30 +1755,30 @@
         {
           "id": "southBank",
           "title": "South Bank",
-          "text": "Cross Waterloo Bridge and walk the river path past the National Theatre and Gabriel's Wharf. Stop there. The Millennium Bridge, the Globe, and the Tate are Thursday, so you do not walk east into Bankside today.",
+          "text": "Cross Waterloo Bridge and walk the river path past the National Theatre. A short turn only. The show is back on Aldwych at 19:30, so you do not stay out here, and you do not walk on to the Tate.",
           "from": "16:15",
-          "to": "18:15"
+          "to": "17:30"
         },
         {
-          "id": "southBank",
+          "id": "novello",
           "meal": "dinner",
           "title": "Dinner",
-          "text": "One hour on this stretch of the bank. The pins here, not Bloomsbury, and not a walk on to Borough. Tomorrow’s lunch is Darjeeling Express. Thursday’s dinner, OMA, is the one to book.",
-          "from": "18:30",
-          "to": "19:30"
+          "text": "One hour on Aldwych or in Covent Garden, a few minutes from the theatre. Not back on the river, and not Bloomsbury. Be seated for the show by 19:15.",
+          "from": "18:00",
+          "to": "19:00"
         },
         {
-          "id": "southBank",
-          "title": "South Bank after dark",
-          "text": "Stay on this part of the river. One drink, then the tube home. Do not continue to the Tate.",
-          "from": "19:45",
-          "to": "21:15"
+          "id": "novello",
+          "title": "Mamma Mia! · Novello Theatre",
+          "text": "The West End night. ABBA musical, Aldwych, next to Somerset House. Curtain 19:30. Book it. About two and a half hours, out around 22:15. Monday to Saturday at 19:30, no show on Sunday.",
+          "from": "19:15",
+          "to": "22:15"
         },
         {
           "id": "royal",
           "title": "Royal National Hotel",
-          "text": "Home about 21:45.",
-          "from": "21:45",
+          "text": "Home about 22:45. Tube from Temple or Covent Garden.",
+          "from": "22:45",
           "to": "evening",
           "pause": true
         }
@@ -2287,7 +2299,11 @@
       "ileSaintLouis|sainteChapelle": "12 min walk back along the island",
       "sainteChapelle|cluny": "10 min walk",
       "cluny|luxembourg": "8 min walk",
-      "luxembourg|pantheon": "8 min walk"
+      "luxembourg|pantheon": "8 min walk",
+      "concorde|arc": "25 min walk up the Champs-Élysées",
+      "arc|garnier": "20 min metro",
+      "southBank|novello": "10 min walk back across Waterloo Bridge",
+      "novello|royal": "20 min tube from Temple or Covent Garden"
     }
   }
 }
