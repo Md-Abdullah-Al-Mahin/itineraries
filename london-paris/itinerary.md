@@ -89,7 +89,7 @@ Orsay is closed Monday, so it is today. No Seine dinner. Stay for the tower ligh
 
 ## Saturday 31 October · Versailles, then Halloween
 
-The palace in the day. Crazy Horse was Wednesday. The hotel is a shower and a change, then you leave dressed. Dinner is in the 11th. You stay out until Badaboum. Doors at 23:30. You come home after. Giverny is tomorrow, so the morning can start late.
+The palace in the day. Crazy Horse was Wednesday. The hotel is a shower and a change, then you leave dressed. Dinner is on the right bank, by Pont Alexandre III. The Bridge is the Halloween party, under the bridge. Doors at 22:00. You come home after. Giverny is tomorrow, so the morning can start late.
 
 | Time | Plan |
 | --- | --- |
@@ -100,11 +100,11 @@ The palace in the day. Crazy Horse was Wednesday. The hotel is a shower and a ch
 | 12:35–13:35 | Lunch. One hour in town, by the gates or back toward the station. |
 | 13:50–16:15 | Gardens. Parterres, Grand Canal, fountains. Walk them, or hire a bike and ride the long loop out to the canal. Then RER C home, about 50 minutes. |
 | 17:15–18:35 | Hotel. Shower and change into what you will wear. Leave by 18:40. You do not come back until after the club. |
-| 19:00–19:25 | 11th arrondissement. Metro toward Bastille. Rue de Lappe and the streets around the club. |
-| 19:30–20:30 | Dinner. One hour here. Paul Bert is open tonight, from 19:30, about 10 minutes away, if you want the steak. |
-| 20:45–23:05 | Stay out. A bar or the same streets until doors. |
-| 23:15–02:30 | Badaboum, Rue des Taillandiers. Doors at 23:30. It runs until morning if you want to stay. |
-| 02:50 | Consider a car home. The metro is about 20 minutes if it is still running. |
+| 19:05–19:15 | Right bank. Metro to Invalides, about 25 minutes. You walked this bridge yesterday. Tonight is the party underneath it. |
+| 19:15–20:15 | Dinner. One hour here, by the bridge. |
+| 20:30–21:40 | Stay out. A bar or the river until doors. |
+| 21:45–02:30 | The Bridge, 3 Port des Champs-Élysées. Doors at 22:00. It runs until 05:00. Costume is welcome and not required. Book a ticket. |
+| 03:00 | Consider a car home. The metro is about 25 minutes if it is still running. |
 
 ## Sunday 1 November · Giverny
 
