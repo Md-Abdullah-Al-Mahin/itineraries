@@ -550,7 +550,7 @@
         <a class="all-trips" href="../">All trips</a>
         <p>Trip map</p>
         <h1>Paris, then London</h1>
-        <div class="dates">28 Oct – 8 Nov 2026 · map v64</div>
+        <div class="dates">28 Oct – 8 Nov 2026 · map v65</div>
       </div>
       <div class="days" id="day-nav"></div>
       <div class="detail" id="detail"></div>
@@ -758,11 +758,14 @@
       const stopIds = uniqueStops(day.loop);
       const matches = [];
       recs.forEach((rec) => {
+        const isShop = rec.category === "Shops" || rec.source === "shopping";
+        if (options.shops && !isShop) return;
         if (options.categories && !options.categories.has(rec.category)) return;
         if (options.source && rec.source !== options.source) return;
         if (options.excludeSource && rec.source === options.excludeSource) return;
+        if (options.excludeCategories && options.excludeCategories.has(rec.category)) return;
         if (options.priority && rec.priority !== options.priority) return;
-        if (!options.categories && !options.source && FOOD.has(rec.category)) return;
+        if (!options.categories && !options.source && !options.shops && FOOD.has(rec.category)) return;
         const lat = Number(rec.lat);
         const lng = Number(rec.lng);
         if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
@@ -811,11 +814,17 @@
     }
 
     function shopPins(day) {
-      return collectPins(day, { source: "shopping", maxKm: SHOP_KM, skipPlanned: true });
+      return collectPins(day, { shops: true, maxKm: SHOP_KM, skipPlanned: true });
     }
 
     function optionPins(day) {
-      return collectPins(day, { priority: "random", excludeSource: "shopping", maxKm: OPTION_KM, skipPlanned: true });
+      return collectPins(day, {
+        priority: "random",
+        excludeSource: "shopping",
+        excludeCategories: new Set(["Shops"]),
+        maxKm: OPTION_KM,
+        skipPlanned: true,
+      });
     }
 
     function eatsForStop(eats, placeId) {
