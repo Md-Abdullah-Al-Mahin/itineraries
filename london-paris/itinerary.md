@@ -10,7 +10,7 @@ This is the written copy of the map. When the plan changes, update this file and
 | --- | --- |
 | 28 Oct | CX261 into Paris Charles de Gaulle, Terminal 2A, 07:35. Off the plane, immigration, bags. Consider a car with the bags, or RER B. Hotel about 10:35. |
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
-| 29 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Not the same day as Versailles. |
+| 28 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Arrival night, after Montmartre and the Marais. Not the same day as Versailles. |
 | 2 Nov | Louvre timed entry at 09:00, and you stay until 13:00. Half a day. La Renommée at 18:00, the Paris dinner to book. |
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Book it. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
@@ -26,47 +26,48 @@ Two dinners are the long ones, and those are numbered pins. Each is two hours. L
 
 Purple dots on the map are optional sights within a 20 minute walk. They are not on that day’s plan.
 
-## Wednesday 28 October · Arrive, islands and the 5th
+## Wednesday 28 October · Arrive, Montmartre, Crazy Horse
 
-CX261 lands at 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. One line after that. The islands first: the bookshop, Notre-Dame, Île Saint-Louis, then Sainte-Chapelle on the way off the island. Then south through Cluny, the Luxembourg, the Panthéon, and Mouffetard for dinner. The jazz cellar is on the walk home. Home about 22:45.
+CX261 lands at 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the first sight is after 11:00. Breakfast was on the flight. Montmartre is shorter than a normal morning, then the Marais. The hotel is only a shower and a change. Crazy Horse is at 20:00. Dinner is after the show, near George V. Home is about 23:15. Notre-Dame, the chapel, and the Luxembourg are tomorrow, when you have slept.
 
 | Time | Plan |
 | --- | --- |
 | 07:35–10:35 | CDG, Terminal 2A. Off the plane, immigration, bags. Consider a car with the bags, or RER B. At the hotel about 10:35. |
 | 10:35–11:05 | Hotel Oratio. Check in and drop bags. If the room is not ready, leave the bags and go. |
-| 11:10–11:35 | Shakespeare and Company. Three minutes from the hotel. Notre-Dame is the next doorway. |
-| 11:45–12:25 | Notre-Dame. Façade, parvis, the bridges. Go inside if the queue is short. Stay on the islands. |
-| 12:35–13:05 | Île Saint-Louis. Walk the street, or cycle the quay around the island. Berthillon is a nearby pin, and it is open on Wednesday. |
-| 13:10–14:10 | Lunch. One hour on the island. |
-| 14:25–15:25 | Sainte-Chapelle. The west end of the island, on the way off it. Book a timed ticket for this hour. |
-| 15:40–16:20 | Musée de Cluny. Straight off the island. The Lady and the Unicorn. It closes at 18:15. Closed Monday. |
-| 16:30–17:05 | Jardin du Luxembourg. A chair by the big basin, one lap, then on to the Panthéon. |
-| 17:15–17:55 | Panthéon. Crypt, and the dome if it is open. Mouffetard is downhill. |
-| 18:05–18:25 | Rue Mouffetard. Walk the market street. Dinner is here, not back at the hotel. |
-| 18:30–19:30 | Dinner. One hour on Mouffetard. |
-| 19:45–22:30 | Caveau de la Huchette. On the way home. Doors at 21:00, music from 21:30. One set. |
-| 22:45 | Hotel. |
-
-Du Pain et des Idées is closed at the weekend, and it is a 25 minute metro north of this walk, so it is not on today.
-
-## Thursday 29 October · Montmartre, the Marais, Crazy Horse
-
-Versailles is Saturday, so this day stays in the city. The hill and its streets, lunch after noon, then the Marais until it is time to change. Crazy Horse is at 20:00. Dinner is after the show, near George V. Home is about 23:15, because the show ends after 21:00.
-
-| Time | Plan |
-| --- | --- |
-| 08:15–08:45 | Breakfast, then metro to Anvers or Abbesses. |
-| 09:30–10:40 | Sacré-Cœur. Steps, terrace, inside if you want. |
-| 10:45–11:45 | Montmartre streets. Place du Tertre and the lanes behind it. |
-| 12:00–13:00 | Lunch. One hour on the way down. Mamiche and the other nearby pins. |
-| 13:25–14:40 | Carnavalet. Free museum of the history of Paris. |
-| 14:50–15:50 | Musée Picasso. One hour, five minutes from Carnavalet. |
-| 16:00–16:25 | Rue des Rosiers. Walk the street. Not a second meal. |
-| 16:35–17:10 | Place des Vosges. Cycle through the Marais to the hotel, or take the metro. |
-| 17:35–18:40 | Hotel. Shower and change. Leave by 18:45. |
+| 11:35–12:15 | Sacré-Cœur. Steps, terrace, inside if you want. |
+| 12:20–12:50 | Montmartre streets. Place du Tertre and the lanes behind it. |
+| 13:00–14:00 | Lunch. One hour on the way down. Mamiche and the other nearby pins. |
+| 14:25–15:25 | Carnavalet. Free museum of the history of Paris. Closed Monday, so today works. |
+| 15:35–16:25 | Musée Picasso. One hour, five minutes from Carnavalet. |
+| 16:35–16:55 | Rue des Rosiers. Walk the street. Not a second meal. |
+| 17:05–17:35 | Place des Vosges. Cycle through the Marais to the hotel, or take the metro. |
+| 17:55–18:40 | Hotel. Shower and change. Leave by 18:45. |
 | 19:10–21:15 | Crazy Horse, 20:00. 12 Avenue George V. Dinner is nearby, not at the hotel. |
 | 21:30–22:30 | Dinner. One hour around Alma and George V. |
 | 23:15 | Hotel. Consider a car, or the metro. |
+
+## Thursday 29 October · Islands and the 5th
+
+The picture day. Notre-Dame first, because Shakespeare and Company opens at 10:00. Then the bookshop, Île Saint-Louis, and Sainte-Chapelle on the way off the island. South through Cluny, the Luxembourg, the Panthéon, and Mouffetard for dinner. The jazz cellar is on the walk home. The garden closes at 17:15 this week. You are out at 16:10. Home about 22:45.
+
+| Time | Plan |
+| --- | --- |
+| 08:30–09:00 | Breakfast, then walk to the cathedral. |
+| 09:05–09:20 | Hotel. Out the door. |
+| 09:25–10:05 | Notre-Dame. Façade, parvis, the bridges. Go inside if the queue is short. |
+| 10:10–10:35 | Shakespeare and Company. It opens at 10:00. Two minutes back from the cathedral. |
+| 10:45–11:45 | Île Saint-Louis. Walk the street, or cycle the quay around the island. Berthillon is a nearby pin, and it is open on Thursday. |
+| 12:00–13:00 | Lunch. One hour on the island. |
+| 13:15–14:15 | Sainte-Chapelle. The west end of the island, on the way off it. Book a timed ticket for this hour. |
+| 14:30–15:15 | Musée de Cluny. Straight off the island. The Lady and the Unicorn. Thursday it stays open until 21:00. Closed Monday. |
+| 15:25–16:10 | Jardin du Luxembourg. A chair by the big basin, one lap, then on to the Panthéon. Closes at 17:15 this week. |
+| 16:20–17:05 | Panthéon. Crypt, and the dome if it is open. Last entry is 17:15. Mouffetard is downhill. |
+| 17:15–17:40 | Rue Mouffetard. Walk the market street. Dinner is here, not back at the hotel. |
+| 18:00–19:00 | Dinner. One hour on Mouffetard. |
+| 19:45–22:30 | Caveau de la Huchette. On the way home. Doors at 21:00, music from 21:30. One set. |
+| 22:45 | Hotel. |
+
+Du Pain et des Idées is a 25 minute metro north of this walk, so it is not on today.
 
 ## Friday 30 October · Orsay, the river, the Eiffel Tower
 
@@ -88,7 +89,7 @@ Orsay is closed Monday, so it is today. No Seine dinner. Stay for the tower ligh
 
 ## Saturday 31 October · Versailles, then Halloween
 
-The palace in the day. Crazy Horse was Thursday. The hotel is a shower and a change, then you leave dressed. Dinner is in the 11th. You stay out until Badaboum. Doors at 23:30. You come home after. Giverny is tomorrow, so the morning can start late.
+The palace in the day. Crazy Horse was Wednesday. The hotel is a shower and a change, then you leave dressed. Dinner is in the 11th. You stay out until Badaboum. Doors at 23:30. You come home after. Giverny is tomorrow, so the morning can start late.
 
 | Time | Plan |
 | --- | --- |

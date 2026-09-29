@@ -1015,134 +1015,11 @@
     {
       "id": "oct28",
       "label": "28 Oct",
-      "title": "Arrive · islands and the 5th",
+      "title": "Arrive · Montmartre · Crazy Horse",
       "kicker": "Wednesday · Paris day 1",
-      "lede": "CX261 lands 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the walk starts after 11:00. Breakfast was on the flight. One line after that: the bookshop, Notre-Dame, Île Saint-Louis, then Sainte-Chapelle on the way off the island. South from there through Cluny, the Luxembourg, the Panthéon, and Mouffetard for dinner. The jazz cellar is on the walk home.",
+      "lede": "CX261 lands 07:35. Off the plane, immigration, and bags come first. Consider a car with the bags, or the RER. The hotel is about 10:35, so the first sight is after 11:00. Breakfast was on the flight. Montmartre, lunch on the way down, then the Marais. The hotel is only a shower and a change. Crazy Horse is at 20:00. Dinner is after the show, near George V. Home about 23:15.",
       "loop": [
         "cdg",
-        "oratio",
-        "shakespeare",
-        "notreDame",
-        "ileSaintLouis",
-        "sainteChapelle",
-        "cluny",
-        "luxembourg",
-        "pantheon",
-        "mouffetard",
-        "caveau",
-        "oratio"
-      ],
-      "events": [
-        {
-          "id": "cdg",
-          "title": "Arrive CDG · CX261",
-          "text": "Terminal 2A. Off the plane, immigration, bags. Consider a car with the bags, or RER B. At the hotel about 10:35.",
-          "from": "07:35",
-          "to": "10:35"
-        },
-        {
-          "id": "oratio",
-          "title": "Hotel Oratio",
-          "text": "Check in and drop bags. If the room is not ready, leave the bags and go. Breakfast was on the flight.",
-          "from": "10:35",
-          "to": "11:05"
-        },
-        {
-          "id": "shakespeare",
-          "title": "Shakespeare and Company",
-          "text": "English-language bookshop on the Seine, three minutes from the hotel. Browse the stalls and peek at the reading room upstairs. Notre-Dame is the next doorway along the quay.",
-          "from": "11:10",
-          "to": "11:35"
-        },
-        {
-          "id": "notreDame",
-          "title": "Notre-Dame",
-          "text": "The cathedral, back after the fire. Façade, parvis, the Seine bridges. Go inside if the queue is short. Stay on the islands: Saint-Louis is the next one east. You can cycle the quay the whole way around Île de la Cité.",
-          "from": "11:45",
-          "to": "12:25"
-        },
-        {
-          "id": "ileSaintLouis",
-          "title": "Île Saint-Louis",
-          "text": "Walk rue Saint-Louis-en-l’Île, or cycle the quay the whole way around the island. Ice cream is a nearby pin, not a separate stop. Lunch is here. The chapel is on the way back, along the other side of the Cité.",
-          "from": "12:35",
-          "to": "13:05"
-        },
-        {
-          "id": "ileSaintLouis",
-          "meal": "lunch",
-          "title": "Lunch",
-          "text": "One hour on the island. A nearby pin, then walk back along the quay.",
-          "from": "13:10",
-          "to": "14:10"
-        },
-        {
-          "id": "sainteChapelle",
-          "title": "Sainte-Chapelle",
-          "text": "The west end of the island, so this is the way off it, not a separate trip. Upper chapel, the stained glass. Book a timed ticket for this hour.",
-          "from": "14:25",
-          "to": "15:25"
-        },
-        {
-          "id": "cluny",
-          "title": "Musée de Cluny",
-          "text": "Straight off the island, on the Left Bank. The Lady and the Unicorn. Go in now: it closes at 18:15. Closed Monday, so Wednesday works.",
-          "from": "15:40",
-          "to": "16:20"
-        },
-        {
-          "id": "luxembourg",
-          "title": "Jardin du Luxembourg",
-          "text": "The garden is the next walk, west from Cluny. A chair by the big basin, one lap, then on toward the Panthéon. Do not come back this way.",
-          "from": "16:30",
-          "to": "17:05"
-        },
-        {
-          "id": "pantheon",
-          "title": "Panthéon",
-          "text": "The dome on the hill, a short walk east from the garden. Voltaire, Rousseau and Curie in the crypt. Climb the dome if it is open. Mouffetard is downhill from here.",
-          "from": "17:15",
-          "to": "17:55"
-        },
-        {
-          "id": "mouffetard",
-          "title": "Rue Mouffetard",
-          "text": "The market street down the hill from the Panthéon. Walk it, then eat here. You do not go back to the hotel for dinner.",
-          "from": "18:05",
-          "to": "18:25"
-        },
-        {
-          "id": "mouffetard",
-          "meal": "dinner",
-          "title": "Dinner",
-          "text": "One hour on this street. The pins are the meal. The jazz cellar is on the walk back.",
-          "from": "18:30",
-          "to": "19:30"
-        },
-        {
-          "id": "caveau",
-          "title": "Caveau de la Huchette",
-          "text": "On the way home through the Latin Quarter, not a new neighborhood. Doors at 21:00, music from 21:30. No reservation. One set is enough. The hotel is five minutes after.",
-          "from": "19:45",
-          "to": "22:30"
-        },
-        {
-          "id": "oratio",
-          "title": "Hotel Oratio",
-          "text": "Home. About 22:45.",
-          "from": "22:45",
-          "to": "evening",
-          "pause": true
-        }
-      ]
-    },
-    {
-      "id": "oct29",
-      "label": "29 Oct",
-      "title": "Montmartre · Marais · Crazy Horse",
-      "kicker": "Thursday · Paris day 2",
-      "lede": "Versailles is Saturday, so this day stays in the city. The hill and its streets, lunch after noon, then the Marais until it is time to change. Crazy Horse is at 20:00. Dinner is after the show, near George V, then home. This night is later than 10 because the show ends after 21:00.",
-      "loop": [
         "oratio",
         "sacreCoeur",
         "tertre",
@@ -1156,75 +1033,74 @@
       ],
       "events": [
         {
-          "id": "oratio",
-          "meal": "breakfast",
-          "title": "Breakfast",
-          "text": "Half an hour, then metro to Anvers or Abbesses and walk up the butte.",
-          "from": "08:15",
-          "to": "08:45"
+          "id": "cdg",
+          "title": "Arrive CDG · CX261",
+          "text": "Terminal 2A. Off the plane, immigration, bags. Consider a car with the bags, or RER B. At the hotel about 10:35.",
+          "from": "07:35",
+          "to": "10:35"
         },
         {
           "id": "oratio",
           "title": "Hotel Oratio",
-          "text": "Out the door.",
-          "from": "08:50",
-          "to": "09:05"
+          "text": "Check in and drop bags. If the room is not ready, leave the bags and go. Breakfast was on the flight. Metro north to the hill.",
+          "from": "10:35",
+          "to": "11:05"
         },
         {
           "id": "sacreCoeur",
           "title": "Sacré-Cœur",
-          "text": "White basilica on the hill. Climb the steps, Paris from the terrace, go inside if you want.",
-          "from": "09:30",
-          "to": "10:40"
+          "text": "White basilica on the hill. Climb the steps, Paris from the terrace, go inside if you want. The visit is shorter than a normal morning, because the flight ate the early hours.",
+          "from": "11:35",
+          "to": "12:15"
         },
         {
           "id": "tertre",
           "title": "Montmartre streets",
           "text": "Place du Tertre, then the lanes behind it. Artists, side streets, the walk down. Skip the bracelet sellers.",
-          "from": "10:45",
-          "to": "11:45"
+          "from": "12:20",
+          "to": "12:50"
         },
         {
-          "id": "sacreCoeur",
+          "id": "tertre",
           "meal": "lunch",
           "title": "Lunch",
           "text": "One hour on the way down the hill, after noon. Mamiche and the other nearby pins.",
-          "from": "12:00",
-          "to": "13:00"
+          "from": "13:00",
+          "to": "14:00"
         },
         {
           "id": "carnavalet",
           "title": "Carnavalet",
-          "text": "Free museum of Paris history in two Marais mansions. Revolution rooms, reconstructed interiors upstairs.",
-          "from": "13:25",
-          "to": "14:40"
+          "text": "Free museum of Paris history in two Marais mansions. Revolution rooms, reconstructed interiors upstairs. Closed Monday, so Wednesday works.",
+          "from": "14:25",
+          "to": "15:25"
         },
         {
           "id": "picasso",
           "title": "Musée Picasso",
-          "text": "Picasso’s own collection in a Marais mansion, five minutes from Carnavalet. One hour. Closed Monday, so Thursday works.",
-          "from": "14:50",
-          "to": "15:50"
+          "text": "Picasso’s own collection in a Marais mansion, five minutes from Carnavalet. One hour. Closed Monday, so Wednesday works.",
+          "from": "15:35",
+          "to": "16:25"
         },
         {
           "id": "rosiers",
           "title": "Rue des Rosiers",
-          "text": "The short food street of the Marais. Walk it. Lunch was already at noon, so this is the street, not a second meal.",
-          "from": "16:00",
-          "to": "16:25"
+          "text": "The short food street of the Marais. Walk it. Lunch was already on the hill, so this is the street, not a second meal.",
+          "from": "16:35",
+          "to": "16:55"
         },
         {
           "id": "vosges",
           "title": "Place des Vosges",
-          "text": "Oldest planned square in Paris. Red brick, arcades, a short sit. Cycle through the Marais to the hotel, or take the metro.",
-          "from": "16:35",
-          "to": "17:10"
+          "text": "Oldest planned square in Paris. Red brick, arcades, a short sit. Cycle through the Marais to the hotel, or take the metro, and change for the show.",
+          "from": "17:05",
+          "to": "17:35"
         },
         {
           "id": "oratio",
           "title": "Hotel Oratio",
           "text": "Shower and change. Leave by 18:45 so you are at the door for 19:10.",
-          "from": "17:35",
+          "from": "17:55",
           "to": "18:40",
           "pause": true
         },
@@ -1248,6 +1124,130 @@
           "title": "Hotel Oratio",
           "text": "Home about 23:15. Consider a car, or the metro.",
           "from": "23:15",
+          "to": "evening",
+          "pause": true
+        }
+      ]
+    },
+    {
+      "id": "oct29",
+      "label": "29 Oct",
+      "title": "Islands and the 5th",
+      "kicker": "Thursday · Paris day 2",
+      "lede": "The picture day, after a night’s sleep. Notre-Dame first, because the bookshop opens at 10:00. Then Shakespeare and Company, Île Saint-Louis, and Sainte-Chapelle on the way off the island. South through Cluny, the Luxembourg, the Panthéon, and Mouffetard for dinner. The jazz cellar is on the walk home. The garden closes at 17:15 this week, and you are out before that.",
+      "loop": [
+        "oratio",
+        "notreDame",
+        "shakespeare",
+        "ileSaintLouis",
+        "sainteChapelle",
+        "cluny",
+        "luxembourg",
+        "pantheon",
+        "mouffetard",
+        "caveau",
+        "oratio"
+      ],
+      "events": [
+        {
+          "id": "oratio",
+          "meal": "breakfast",
+          "title": "Breakfast",
+          "text": "Half an hour, then walk to the cathedral. The bookshop next door opens at 10:00.",
+          "from": "08:30",
+          "to": "09:00"
+        },
+        {
+          "id": "oratio",
+          "title": "Hotel Oratio",
+          "text": "Out the door.",
+          "from": "09:05",
+          "to": "09:20"
+        },
+        {
+          "id": "notreDame",
+          "title": "Notre-Dame",
+          "text": "The cathedral, back after the fire. Façade, parvis, the Seine bridges. Go inside if the queue is short. You can cycle the quay the whole way around Île de la Cité. The bookshop is the doorway you just passed, and it opens at 10:00.",
+          "from": "09:25",
+          "to": "10:05"
+        },
+        {
+          "id": "shakespeare",
+          "title": "Shakespeare and Company",
+          "text": "English-language bookshop on the Seine. Browse the stalls and peek at the reading room upstairs. Then east to the next island.",
+          "from": "10:10",
+          "to": "10:35"
+        },
+        {
+          "id": "ileSaintLouis",
+          "title": "Île Saint-Louis",
+          "text": "Walk rue Saint-Louis-en-l’Île, or cycle the quay the whole way around the island. Berthillon is a nearby pin, and it is open on Thursday. Lunch is here. The chapel is on the way back, along the other side of the Cité.",
+          "from": "10:45",
+          "to": "11:45"
+        },
+        {
+          "id": "ileSaintLouis",
+          "meal": "lunch",
+          "title": "Lunch",
+          "text": "One hour on the island. A nearby pin, then walk back along the quay.",
+          "from": "12:00",
+          "to": "13:00"
+        },
+        {
+          "id": "sainteChapelle",
+          "title": "Sainte-Chapelle",
+          "text": "The west end of the island, so this is the way off it, not a separate trip. Upper chapel, the stained glass. Book a timed ticket for this hour.",
+          "from": "13:15",
+          "to": "14:15"
+        },
+        {
+          "id": "cluny",
+          "title": "Musée de Cluny",
+          "text": "Straight off the island, on the Left Bank. The Lady and the Unicorn. Thursday it stays open until 21:00. Closed Monday.",
+          "from": "14:30",
+          "to": "15:15"
+        },
+        {
+          "id": "luxembourg",
+          "title": "Jardin du Luxembourg",
+          "text": "The garden is the next walk, west from Cluny. A chair by the big basin, one lap, then on toward the Panthéon. This week it closes at 17:15, so leave on time.",
+          "from": "15:25",
+          "to": "16:10"
+        },
+        {
+          "id": "pantheon",
+          "title": "Panthéon",
+          "text": "The dome on the hill, a short walk east from the garden. Voltaire, Rousseau and Curie in the crypt. Climb the dome if it is open. Last entry is 17:15, and you are in before that. Mouffetard is downhill from here.",
+          "from": "16:20",
+          "to": "17:05"
+        },
+        {
+          "id": "mouffetard",
+          "title": "Rue Mouffetard",
+          "text": "The market street down the hill from the Panthéon. Walk it, then eat here. You do not go back to the hotel for dinner.",
+          "from": "17:15",
+          "to": "17:40"
+        },
+        {
+          "id": "mouffetard",
+          "meal": "dinner",
+          "title": "Dinner",
+          "text": "One hour on this street. The pins are the meal. The jazz cellar is on the walk back.",
+          "from": "18:00",
+          "to": "19:00"
+        },
+        {
+          "id": "caveau",
+          "title": "Caveau de la Huchette",
+          "text": "On the way home through the Latin Quarter, not a new neighborhood. Doors at 21:00, music from 21:30. No reservation. One set is enough. The hotel is five minutes after.",
+          "from": "19:45",
+          "to": "22:30"
+        },
+        {
+          "id": "oratio",
+          "title": "Hotel Oratio",
+          "text": "Home. About 22:45.",
+          "from": "22:45",
           "to": "evening",
           "pause": true
         }
@@ -1358,7 +1358,7 @@
       "label": "31 Oct",
       "title": "Versailles · Halloween",
       "kicker": "Saturday · Paris day 4",
-      "lede": "The palace in the day. Crazy Horse was Thursday. The hotel is a shower and a change, then you leave dressed. Dinner is in the 11th, near the club, and you stay out until doors at 23:30. You come home after. Giverny is tomorrow, so the morning can start late.",
+      "lede": "The palace in the day. Crazy Horse was Wednesday. The hotel is a shower and a change, then you leave dressed. Dinner is in the 11th, near the club, and you stay out until doors at 23:30. You come home after. Giverny is tomorrow, so the morning can start late.",
       "loop": [
         "oratio",
         "saintMichel",
@@ -2303,7 +2303,10 @@
       "concorde|arc": "25 min walk up the Champs-Élysées",
       "arc|garnier": "20 min metro",
       "southBank|novello": "10 min walk back across Waterloo Bridge",
-      "novello|royal": "20 min tube from Temple or Covent Garden"
+      "novello|royal": "20 min tube from Temple or Covent Garden",
+      "oratio|notreDame": "8 min walk",
+      "notreDame|shakespeare": "2 min walk back. It opens at 10:00",
+      "shakespeare|ileSaintLouis": "8 min walk east along the quay"
     }
   }
 }
