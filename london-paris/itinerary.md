@@ -15,14 +15,14 @@ This is the written copy of the map. When the plan changes, update this file and
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Book it. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
 | 4 Nov | Darjeeling Express, 36–40 Rupert Street, 12:10. Lunch, one hour. Not the long dinner. |
-| 5 Nov | Hawksmoor Borough, 16 Winchester Walk, 18:30. The London dinner to book. Steak. |
+| 6 Nov | Hawksmoor Knightsbridge, 3 Yeoman's Row, 18:00. The London dinner to book. Steak. |
 | 7 Nov | CX250 from Heathrow Terminal 3, 17:50, seat 59J. Dinner is on the plane. |
 
 ## How meals work
 
 Breakfast is half an hour, usually at the hotel. Lunch is one hour. Dinner is one hour. Those meals are not a fixed restaurant, and they are not a numbered pin. On the map they are the warm dots within a 15 minute walk of wherever you are. Dinner is where the day already is. You go home after, about 21:30 to 22:00. You do not go back to the hotel and then eat. The 5th arrondissement, after Giverny, is the exception, because that neighborhood is actually good and Saint-Lazare is not a dinner.
 
-Two dinners are the long ones, and those are numbered pins. Each is two hours. La Renommée on Monday 2 November, 18:00–20:00, filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead. There is a card hold, and €50 a person if you cancel inside 24 hours. Monday is dinner only, from 17:30, and this table is at 18:00. Hawksmoor Borough on Thursday 5 November, 18:30–20:30, steak at 16 Winchester Walk, beside the market. Book online. On Thursday the kitchen closes at 21:30. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
+Two dinners are the long ones, and those are numbered pins. Each is two hours. La Renommée on Monday 2 November, 18:00–20:00, filet au poivre at 95 Rue Saint-Honoré. Book up to 30 days ahead. There is a card hold, and €50 a person if you cancel inside 24 hours. Monday is dinner only, from 17:30, and this table is at 18:00. Hawksmoor Knightsbridge on Friday 6 November, 18:00–20:00, steak at 3 Yeoman's Row, a few minutes from Harrods. Book online. On Friday the kitchen closes at 22:00. Thursday dinner is beside Borough Market, one hour, walk-in. The market hall closes at 17:00, so that meal is the restaurants there, not the stalls. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
 
 Purple dots on the map are optional sights within a 20 minute walk. They are not on that day’s plan.
 
@@ -140,7 +140,7 @@ Versailles and Orsay are closed. The Louvre is half a day, 09:00 until 13:00, so
 
 ## Tuesday 3 November · Paris to London, British Museum
 
-Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. After lunch the day stays in Covent Garden: Neal’s Yard, Somerset House, a short turn on the river, then back to Aldwych. Mamma Mia! is 19:30 at the Novello, which is next to Somerset House. Dinner is there at 18:00. Home after the show, about 22:45. Darjeeling Express is lunch tomorrow. Hawksmoor is Thursday.
+Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. After lunch the day stays in Covent Garden: Neal’s Yard, Somerset House, a short turn on the river, then back to Aldwych. Mamma Mia! is 19:30 at the Novello, which is next to Somerset House. Dinner is there at 18:00. Home after the show, about 22:45. Darjeeling Express is lunch tomorrow. Hawksmoor is Friday.
 
 | Time | Plan |
 | --- | --- |
@@ -160,7 +160,7 @@ Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be a
 
 ## Wednesday 4 November · Soane, Darjeeling Express, the palace
 
-One walk south from the hotel through Soane’s and the National Gallery. Lunch is Darjeeling Express, one hour in Soho, then Whitehall. The London Eye is across the bridge from Big Ben, so it is today. Then the Abbey, the park, and the palace. Dinner stays down here. You arrived at King’s Cross yesterday, so you do not go back for Coal Drops. Hawksmoor is Thursday.
+One walk south from the hotel through Soane’s and the National Gallery. Lunch is Darjeeling Express, one hour in Soho, then Whitehall. The London Eye is across the bridge from Big Ben, so it is today. Then the Abbey, the park, and the palace. Dinner stays down here. You arrived at King’s Cross yesterday, so you do not go back for Coal Drops. Hawksmoor is Friday.
 
 | Time | Plan |
 | --- | --- |
@@ -176,9 +176,9 @@ One walk south from the hotel through Soane’s and the National Gallery. Lunch 
 | 18:00–19:00 | Dinner. One hour near the palace or the park. Not Soho. |
 | 19:45 | Hotel. Tube from Victoria or Green Park. |
 
-## Thursday 5 November · City, Bankside, Hawksmoor
+## Thursday 5 November · City, Bankside
 
-The east side is one day. St Paul’s, Sky Garden, the Tower, then the south bank west through the market, the cathedral, the Globe, and the Tate. The Eye was yesterday. Hawksmoor is dinner back at the market. You do not come back here tomorrow.
+The east side is one day. St Paul’s, Sky Garden, the Tower, then the south bank west through the market, the cathedral, the Globe, and the Tate. The Eye was yesterday. Dinner is back beside the market. The hall closes at 17:00, so this is the restaurants there, not the stalls. Hawksmoor is Friday. You do not come back here tomorrow.
 
 | Time | Plan |
 | --- | --- |
@@ -187,16 +187,16 @@ The east side is one day. St Paul’s, Sky Garden, the Tower, then the south ban
 | 10:45–11:30 | Sky Garden. Indoor gardens, then the open deck. Photos, then leave. Free timed ticket. Bring ID. |
 | 11:50–13:20 | Tower of London. Book a ticket. Crown Jewels, ravens, a Yeoman Warder tour if the time works. |
 | 13:30–13:45 | Tower Bridge. Walk across to the south bank. The high-level walkway is extra. |
-| 14:00–15:00 | Borough Market. This is lunch. One hour. The market is closed Monday, so Thursday works. |
+| 14:00–15:00 | Borough Market. This is lunch, while the stalls are open. One hour. The hall closes at 17:00. Closed Monday, so Thursday works. |
 | 15:10–15:35 | Southwark Cathedral. The nave, the Shakespeare memorial, and the courtyard. Clink Street is the lane on the way to the Globe. |
 | 15:45–16:25 | Shakespeare’s Globe. The wooden theatre from the yard, or the exhibition if you go in. Keep going west. |
 | 16:40–17:40 | Tate Modern. The Turbine Hall, then one floor of the free collection. You are already here. Stop at the Tate. The Eye was yesterday. |
-| 18:30–20:30 | Hawksmoor Borough. 16 Winchester Walk, beside the market. Steak. Two hours. Book online. On Thursday the kitchen closes at 21:30. |
-| 21:15 | Hotel. Northern line from London Bridge. |
+| 18:05–19:05 | Dinner beside the market. One hour. Padella, on Southwark Street, is the walk-in pasta room. No booking. The stalls are already shut. |
+| 19:30 | Hotel. Northern line from London Bridge. |
 
-## Friday 6 November · South Kensington
+## Friday 6 November · South Kensington, Hawksmoor
 
-Last full day, and it stays in the parks and the museums. Ride the Hyde Park loop, dinosaurs, the V&A, Kensington Gardens, then the Harrods food halls. St Paul’s, the Tate, and Hawksmoor were yesterday. Dinner is here. Home about 19:45 to pack. The flight is 17:50 tomorrow.
+Last full day, and it stays in the parks and the museums. Ride the Hyde Park loop, dinosaurs, the V&A, Kensington Gardens, then the Harrods food halls. Hawksmoor is dinner, a few minutes from the store. Home about 20:30 to pack. The flight is 17:50 tomorrow.
 
 | Time | Plan |
 | --- | --- |
@@ -207,8 +207,8 @@ Last full day, and it stays in the parks and the museums. Ride the Hyde Park loo
 | 13:20–14:20 | V&A. The cast courts, the huge plaster copies. One wing. |
 | 14:35–15:35 | Kensington Gardens. The Albert Memorial, the Round Pond, the Italian Gardens. |
 | 15:50–16:50 | Harrods. The food halls, not the whole store. |
-| 18:00–19:00 | Dinner. One hour in South Kensington or Knightsbridge. |
-| 19:45 | Hotel, to pack. Checkout is in the morning. |
+| 18:00–20:00 | Hawksmoor Knightsbridge. 3 Yeoman's Row, a 5 minute walk. Steak. Two hours. Book online. On Friday the kitchen closes at 22:00. |
+| 20:30 | Hotel, to pack. Checkout is in the morning. |
 
 ## Saturday 7 November · Fly home
 
