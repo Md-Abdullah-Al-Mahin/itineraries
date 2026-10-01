@@ -961,6 +961,17 @@
       "note": "Halloween party under Pont Alexandre III, 22:00–05:00.",
       "about": "A club on the right bank, under Pont Alexandre III. Saturday is their big Halloween party, dressed as a haunted manor.",
       "hours": "This night, 22:00–05:00. Costume is welcome and not required."
+    },
+    "hawksmoor": {
+      "name": "Hawksmoor Borough",
+      "label": "Hawksmoor",
+      "kind": "london",
+      "city": "London",
+      "lat": 51.5063,
+      "lng": -0.09125,
+      "note": "Steakhouse, 16 Winchester Walk. Book. Kitchen closes 21:30 on Thursday.",
+      "about": "A steakhouse in a market building beside Borough Market. Known for aged beef and British seafood.",
+      "hours": "Monday–Thursday kitchen 12:00–15:30 and 17:00–21:30. Friday until 22:00. Saturday 12:00–22:00. Sunday 11:30–20:30."
     }
   },
   "days": [
@@ -1800,7 +1811,7 @@
       "label": "4 Nov",
       "title": "Soane · Darjeeling Express · palace",
       "kicker": "Wednesday · London day 1",
-      "lede": "One walk south. Soane’s, the National Gallery, Darjeeling Express for lunch, then Whitehall, the Eye, the Abbey, the park, and the palace. Dinner stays down here. You arrived at King’s Cross yesterday, so you do not go back up for Coal Drops. OMA is Thursday, with Bankside.",
+      "lede": "One walk south. Soane’s, the National Gallery, Darjeeling Express for lunch, then Whitehall, the Eye, the Abbey, the park, and the palace. Dinner stays down here. You arrived at King’s Cross yesterday, so you do not go back up for Coal Drops. Hawksmoor is Thursday, with Bankside.",
       "loop": [
         "royal",
         "soane",
@@ -1906,9 +1917,9 @@
     {
       "id": "nov5",
       "label": "5 Nov",
-      "title": "City · Bankside · OMA",
+      "title": "City · Bankside · Hawksmoor",
       "kicker": "Thursday · London day 2",
-      "lede": "The whole east side in one line. St Paul’s, then Sky Garden and the Tower, across the bridge, Borough for lunch, the cathedral, the Globe, and the Tate. The Eye was yesterday. OMA is dinner, back along the same bank, because that is where the day ends. You do not come back here tomorrow.",
+      "lede": "The whole east side in one line. St Paul’s, then Sky Garden and the Tower, across the bridge, Borough for lunch, the cathedral, the Globe, and the Tate. The Eye was yesterday. Hawksmoor is dinner, back at the market, because that is where the day ends. You do not come back here tomorrow.",
       "loop": [
         "royal",
         "stPauls",
@@ -1919,7 +1930,7 @@
         "southwark",
         "globe",
         "tate",
-        "oma",
+        "hawksmoor",
         "royal"
       ],
       "events": [
@@ -1969,7 +1980,7 @@
         {
           "id": "borough",
           "title": "Borough Market · lunch",
-          "text": "This is lunch. One hour of stalls under the railway. The market is closed Monday, so Thursday works. Dinner is the same street, much later.",
+          "text": "This is lunch. One hour of stalls under the railway. The market is closed Monday, so Thursday works. Dinner is back at the market, much later.",
           "from": "14:00",
           "to": "15:00"
         },
@@ -1990,14 +2001,14 @@
         {
           "id": "tate",
           "title": "Tate Modern",
-          "text": "The Turbine Hall first, then one floor of the free collection. You are already on this bank, so this is the visit, not tomorrow. Dinner is a 10 minute walk back east, past the Globe.",
+          "text": "The Turbine Hall first, then one floor of the free collection. You are already on this bank, so this is the visit, not tomorrow. Dinner is a 12 minute walk back east, to the market.",
           "from": "16:40",
           "to": "17:40"
         },
         {
-          "id": "oma",
-          "title": "OMA · dinner",
-          "text": "The London dinner to book, and the only long dinner in the city. Greek, at 2–4 Bedale Street, by the market you had lunch at. Two hours. Book ahead. £60 a head if you cancel inside 24 hours. Not Indian.",
+          "id": "hawksmoor",
+          "title": "Hawksmoor · dinner",
+          "text": "The London dinner to book, and the only long dinner in the city. Steakhouse at 16 Winchester Walk, beside the market you had lunch at. Two hours, from 18:30. On Thursday the kitchen closes at 21:30, so order inside that. Book online. Not Indian.",
           "from": "18:30",
           "to": "20:30",
           "pause": true
@@ -2017,7 +2028,7 @@
       "label": "6 Nov",
       "title": "South Kensington",
       "kicker": "Friday · London day 3",
-      "lede": "Last full day, and it stays in the parks and the museums. Ride the Hyde Park loop, dinosaurs, lunch, the V&A, Kensington Gardens, then the Harrods food halls. St Paul’s, the Tate, and OMA were yesterday. Dinner is here. Home after that to pack. The flight is 17:50 tomorrow.",
+      "lede": "Last full day, and it stays in the parks and the museums. Ride the Hyde Park loop, dinosaurs, lunch, the V&A, Kensington Gardens, then the Harrods food halls. St Paul’s, the Tate, and Hawksmoor were yesterday. Dinner is here. Home after that to pack. The flight is 17:50 tomorrow.",
       "loop": [
         "royal",
         "hydePark",
@@ -2322,7 +2333,9 @@
       "oratio|notreDame": "8 min walk",
       "notreDame|shakespeare": "2 min walk back. It opens at 10:00",
       "shakespeare|ileSaintLouis": "8 min walk east along the quay",
-      "oratio|theBridge": "25 min metro to Invalides"
+      "oratio|theBridge": "25 min metro to Invalides",
+      "tate|hawksmoor": "12 min walk back to the market",
+      "hawksmoor|royal": "25 min tube from London Bridge"
     }
   }
 }
