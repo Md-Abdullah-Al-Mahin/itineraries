@@ -366,6 +366,17 @@
       "about": "The iron tower built for the 1889 World’s Fair. Best known for the climb and for the lights after dark.",
       "hours": "Every day 09:30–23:45 in late October. Last tickets about 45 minutes before close."
     },
+    "seineCruise": {
+      "name": "Seine night cruise",
+      "label": "Seine cruise",
+      "kind": "paris",
+      "city": "Paris",
+      "lat": 48.8605021,
+      "lng": 2.2939902,
+      "note": "Port de la Bourdonnais. Sightseeing, not dinner.",
+      "about": "A one-hour sightseeing boat from the foot of the Eiffel Tower, once the monuments are lit. Book the 22:00 departure. This is not a dinner cruise.",
+      "hours": "Friday 30 Oct. Sightseeing boats that evening include 22:00. About one hour."
+    },
     "sacreCoeur": {
       "name": "Sacré-Cœur",
       "label": "Sacré-Cœur",
@@ -1311,9 +1322,9 @@
     {
       "id": "oct30",
       "label": "30 Oct",
-      "title": "Orsay · Eiffel · Allard",
+      "title": "Orsay · Eiffel · Seine",
       "kicker": "Friday · Paris day 3",
-      "lede": "Orsay is closed Monday, so it is today. Breakfast, the museum, lunch after noon, then Invalides and the Petit Palais. Stay until the tower is lit, then back to the hotel to change. Allard is the Paris dinner, a 10 minute walk. No Seine dinner. Home after that.",
+      "lede": "Orsay is closed Monday, so it is today. Breakfast, the museum, lunch after noon, then Invalides and the Petit Palais. See the tower as it gets dark, change at the hotel, and eat earlier. The night cruise is a sightseeing boat at 22:00, not dinner on the water. Home after that.",
       "loop": [
         "oratio",
         "orsay",
@@ -1324,6 +1335,7 @@
         "eiffel",
         "oratio",
         "allard",
+        "seineCruise",
         "oratio"
       ],
       "events": [
@@ -1388,31 +1400,39 @@
         {
           "id": "eiffel",
           "title": "Eiffel Tower",
-          "text": "Book a second-floor or summit slot. Stay until the tower is lit. Late October is dark by about 18:30, and it sparkles on the hour. Leave after that. The blue dot is the avenues around the Champ de Mars: one lap of the lawns, not the grass. No dinner cruise. Dinner is after you change.",
+          "text": "Book a second-floor or summit slot. Sunset is 17:33. Stay until the lights come on, then leave at 18:10. The blue dot is the avenues around the Champ de Mars: one lap of the lawns, not the grass. The night view from the water is the 22:00 boat, not a dinner cruise.",
           "from": "16:20",
-          "to": "18:30"
+          "to": "18:10"
         },
         {
           "id": "oratio",
           "title": "Hotel Oratio · change",
-          "text": "Back to change for dinner. About 50 minutes. Allard is a 10 minute walk when you are ready. You leave the tower at 18:30, once it is dark, so dinner still fits before the kitchen closes at 22:00.",
-          "from": "19:00",
-          "to": "19:50",
+          "text": "Back to change for dinner. About 45 minutes. Allard is a 10 minute walk when you are ready. Dinner is earlier tonight so the cruise still fits.",
+          "from": "18:35",
+          "to": "19:20",
           "pause": true
         },
         {
           "id": "allard",
           "title": "Allard · dinner",
-          "text": "The Paris dinner to book. A Saint-Germain bistro since 1932, now Alain Ducasse, at 41 rue Saint-André-des-Arts. From 20:00 to 22:00. Dinner service ends at 22:00, so this is the sitting that still fits after the tower and a change. Book it.",
-          "from": "20:00",
-          "to": "22:00",
+          "text": "The Paris dinner to book. A Saint-Germain bistro since 1932, now Alain Ducasse, at 41 rue Saint-André-des-Arts. 19:30 to 21:00. Dinner service runs 19:00–22:00. This sitting is shorter so you can reach the boat. Book it.",
+          "from": "19:30",
+          "to": "21:00",
+          "pause": true
+        },
+        {
+          "id": "seineCruise",
+          "title": "Seine night cruise",
+          "text": "Port de la Bourdonnais, at the foot of the tower. Book the 22:00 sightseeing cruise, about one hour. Be there by 21:35. Sit on the right as you leave, toward the tower. It sparkles at 22:00. Not a dinner cruise.",
+          "from": "21:35",
+          "to": "23:00",
           "pause": true
         },
         {
           "id": "oratio",
           "title": "Hotel Oratio",
-          "text": "Home about 22:15. A 10 minute walk.",
-          "from": "22:15",
+          "text": "Home about 23:30. RER C to Saint-Michel, then a short walk. Versailles is tomorrow, breakfast at 07:30.",
+          "from": "23:30",
           "to": "evening",
           "pause": true
         }
@@ -2376,6 +2396,8 @@
       "fortnum|buckingham": "15 min walk",
       "buckingham|hydePark": "15 min walk",
       "eiffel|oratio": "25 min metro",
+      "allard|seineCruise": "30 min RER C",
+      "seineCruise|oratio": "25 min RER C",
       "shakespeare|notreDame": "4 min walk along the quay",
       "ileSaintLouis|sainteChapelle": "12 min walk back along the island",
       "sainteChapelle|cluny": "10 min walk",

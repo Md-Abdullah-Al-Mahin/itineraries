@@ -12,6 +12,7 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 28 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Arrival night, after Montmartre and the Marais. Not the same day as Versailles. |
 | 29 Oct – 2 Nov | Paris Museum Pass, 4 days. Already booked. First scan is Sainte-Chapelle on 29 Oct, around 13:15. It covers Sainte-Chapelle, Cluny, the Panthéon, Orsay, Versailles, the Louvre, and Invalides if you go inside. |
+| 30 Oct | Seine sightseeing cruise, Port de la Bourdonnais, 22:00. Still to book. About one hour. Not a dinner cruise. |
 | 2 Nov | Louvre, 09:00 slot still to reserve. The pass is the ticket. You stay until 13:00. Dinner that night is a walk-in near the passages. Allard is Friday. |
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Already booked. Stalls R13 and R14. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
@@ -23,7 +24,7 @@ This is the written copy of the map. When the plan changes, update this file and
 
 Breakfast is half an hour, usually at the hotel. Lunch is one hour. Dinner is one hour. Those meals are not a fixed restaurant, and they are not a numbered pin. On the map they are the warm dots within a 15 minute walk of wherever you are. Dinner is where the day already is. You go home after, about 21:30 to 22:00. You do not go back to the hotel and then eat. The 5th arrondissement, after Giverny, is the exception, because that neighborhood is actually good and Saint-Lazare is not a dinner.
 
-Two dinners are the long ones, and those are numbered pins. Each is two hours. Allard on Friday 30 October, 20:00–22:00, at 41 rue Saint-André-des-Arts. A Saint-Germain bistro since 1932. Book it. You leave the Eiffel Tower at 18:30, once it is dark, change at the hotel, and walk 10 minutes. Dinner service ends at 22:00. Not La Renommée, and not La Bourse et La Vie. Hawksmoor Knightsbridge on Friday 6 November, 18:00–20:00, steak at 3 Yeoman's Row, a few minutes from Harrods. Book online. On Friday the kitchen closes at 22:00. Thursday dinner is beside Borough Market, one hour, walk-in. The market hall closes at 17:00, so that meal is the restaurants there, not the stalls. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
+Two dinners are the long ones, and those are numbered pins. Allard on Friday 30 October, 19:30–21:00, at 41 rue Saint-André-des-Arts. A Saint-Germain bistro since 1932. Book it. You leave the Eiffel Tower at 18:10, once the lights are on, change at the hotel, and walk 10 minutes. Dinner service runs 19:00–22:00. This sitting is shorter so the 22:00 cruise still fits. Not La Renommée, and not La Bourse et La Vie. Hawksmoor Knightsbridge on Friday 6 November, 18:00–20:00, steak at 3 Yeoman's Row, a few minutes from Harrods. Book online. On Friday the kitchen closes at 22:00. Thursday dinner is beside Borough Market, one hour, walk-in. The market hall closes at 17:00, so that meal is the restaurants there, not the stalls. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
 
 Purple dots on the map are optional sights within a 20 minute walk. They are not on that day’s plan.
 
@@ -70,9 +71,9 @@ The picture day. Notre-Dame first, because Shakespeare and Company opens at 10:0
 
 Du Pain et des Idées is a 25 minute metro north of this walk, so it is not on today.
 
-## Friday 30 October · Orsay, the Eiffel Tower, Allard
+## Friday 30 October · Orsay, the Eiffel Tower, the Seine
 
-Orsay is closed Monday, so it is today. No Seine dinner. Stay until the tower is dark, about 18:30, then back to the hotel to change. Allard is the Paris dinner. Home about 22:15.
+Orsay is closed Monday, so it is today. Sunset is 17:33. See the tower as the lights come on, change at the hotel, and eat earlier. The night cruise is a sightseeing boat at 22:00, not dinner on the water. Home about 23:30. Versailles starts at 07:30 tomorrow.
 
 | Time | Plan |
 | --- | --- |
@@ -84,10 +85,11 @@ Orsay is closed Monday, so it is today. No Seine dinner. Stay until the tower is
 | 14:15–14:30 | Pont Alexandre III. Walk it end to end for the gold statues and the tower view. |
 | 14:35–15:20 | Petit Palais. Free. Closed Monday, so today works. |
 | 15:35–16:05 | Trocadéro. Cycle along the river from the Petit Palais, or take the metro. Then down through the Champ de Mars. |
-| 16:20–18:30 | Eiffel Tower. Book a second-floor or summit slot. Stay until it is dark. It sparkles on the hour. Leave at 18:30 so there is time to change. |
-| 19:00–19:50 | Hotel Oratio. Change for dinner. About 50 minutes. |
-| 20:00–22:00 | Allard. 41 rue Saint-André-des-Arts, a 10 minute walk. Classic bistro, since 1932. Book it. Dinner service ends at 22:00. |
-| 22:15 | Hotel. A 10 minute walk. |
+| 16:20–18:10 | Eiffel Tower. Book a second-floor or summit slot. Sunset is 17:33. Leave at 18:10, once the lights are on. |
+| 18:35–19:20 | Hotel Oratio. Change for dinner. |
+| 19:30–21:00 | Allard. 41 rue Saint-André-des-Arts, a 10 minute walk. Classic bistro, since 1932. Book it. Dinner service runs 19:00–22:00. Shorter tonight so the boat still fits. |
+| 21:35–23:00 | Seine night cruise. Port de la Bourdonnais, at the foot of the tower. RER C, about 30 minutes. Book the 22:00 sightseeing cruise, about one hour. Sit on the right as you leave. Not a dinner cruise. |
+| 23:30 | Hotel. RER C to Saint-Michel, then a short walk. |
 
 ## Saturday 31 October · Versailles, then Halloween
 
