@@ -174,7 +174,7 @@
       "city": "Paris",
       "lat": 48.85332,
       "lng": 2.34101,
-      "note": "Classic bistro since 1932. Book. Monday dinner 19:00–22:00.",
+      "note": "Classic bistro since 1932. Book. Dinner 19:00–22:00.",
       "about": "A Saint-Germain bistro from 1932, now in the Alain Ducasse group. The room still looks like the old bistro.",
       "hours": "Monday–Sunday lunch 12:00–14:00, dinner 19:00–22:00."
     },
@@ -1311,9 +1311,9 @@
     {
       "id": "oct30",
       "label": "30 Oct",
-      "title": "Orsay · river · Eiffel",
+      "title": "Orsay · Eiffel · Allard",
       "kicker": "Friday · Paris day 3",
-      "lede": "Orsay is closed Monday, so it is today. Breakfast, the museum, lunch after noon, then Invalides and the Petit Palais. Stay for the tower lights. Dinner is there, then the metro home about 21:15. No Seine dinner, and no hotel stop before that.",
+      "lede": "Orsay is closed Monday, so it is today. Breakfast, the museum, lunch after noon, then Invalides and the Petit Palais. Stay until the tower is lit, then back to the hotel to change. Allard is the Paris dinner, a 10 minute walk. No Seine dinner. Home after that.",
       "loop": [
         "oratio",
         "orsay",
@@ -1322,6 +1322,8 @@
         "petitPalais",
         "trocadero",
         "eiffel",
+        "oratio",
+        "allard",
         "oratio"
       ],
       "events": [
@@ -1386,23 +1388,31 @@
         {
           "id": "eiffel",
           "title": "Eiffel Tower",
-          "text": "Book a second-floor or summit slot. Stay for the lights. Late October is dark by about 18:30, and the tower sparkles on the hour. The blue dot is the avenues around the Champ de Mars: one lap of the lawns, not the grass. No dinner cruise.",
+          "text": "Book a second-floor or summit slot. Stay until the tower is lit. Late October is dark by about 18:30, and it sparkles on the hour. Leave after that. The blue dot is the avenues around the Champ de Mars: one lap of the lawns, not the grass. No dinner cruise. Dinner is after you change.",
           "from": "16:20",
-          "to": "19:00"
+          "to": "18:30"
         },
         {
-          "id": "eiffel",
-          "meal": "dinner",
-          "title": "Dinner",
-          "text": "One hour around the tower and Trocadéro. The pins here, not the hotel. Then the metro home.",
-          "from": "19:15",
-          "to": "20:15"
+          "id": "oratio",
+          "title": "Hotel Oratio · change",
+          "text": "Back to change for dinner. About 50 minutes. Allard is a 10 minute walk when you are ready. You leave the tower at 18:30, once it is dark, so dinner still fits before the kitchen closes at 22:00.",
+          "from": "19:00",
+          "to": "19:50",
+          "pause": true
+        },
+        {
+          "id": "allard",
+          "title": "Allard · dinner",
+          "text": "The Paris dinner to book. A Saint-Germain bistro since 1932, now Alain Ducasse, at 41 rue Saint-André-des-Arts. From 20:00 to 22:00. Dinner service ends at 22:00, so this is the sitting that still fits after the tower and a change. Book it.",
+          "from": "20:00",
+          "to": "22:00",
+          "pause": true
         },
         {
           "id": "oratio",
           "title": "Hotel Oratio",
-          "text": "Home about 21:15. 25 minutes on the metro.",
-          "from": "21:15",
+          "text": "Home about 22:15. A 10 minute walk.",
+          "from": "22:15",
           "to": "evening",
           "pause": true
         }
@@ -1625,9 +1635,9 @@
     {
       "id": "nov2",
       "label": "2 Nov",
-      "title": "Louvre · Allard",
+      "title": "Louvre · west to the Arc",
       "kicker": "Monday · Paris day 6",
-      "lede": "Versailles and Orsay are closed. The Louvre is half a day, not a quick look: 09:00 until 13:00, then lunch. The walk west is shorter after that. Tuileries, Concorde, a short stop at the Arc, then Garnier before the self-guided visit ends. Back to the hotel to change. Allard is the Paris dinner, a 10 minute walk. Pack after. The Eurostar is at 08:32 tomorrow.",
+      "lede": "Versailles and Orsay are closed. The Louvre is half a day, not a quick look: 09:00 until 13:00, then lunch. The walk west is shorter after that. Tuileries, Concorde, a short stop at the Arc, then Garnier before the self-guided visit ends. Dinner is one hour near the passages, walk-in. Allard was Friday. Pack after. The Eurostar is at 08:32 tomorrow.",
       "loop": [
         "oratio",
         "louvre",
@@ -1636,8 +1646,6 @@
         "arc",
         "garnier",
         "passages",
-        "oratio",
-        "allard",
         "oratio"
       ],
       "events": [
@@ -1702,31 +1710,23 @@
         {
           "id": "passages",
           "title": "Passage des Panoramas",
-          "text": "Walk the covered arcade. Glass roof, old shopfronts, a look in the windows. A short look, then the hotel to change.",
+          "text": "Walk the covered arcade. Glass roof, old shopfronts, a look in the windows. Dinner is one hour nearby, then home to pack. Allard was Friday.",
           "from": "17:10",
-          "to": "17:25"
+          "to": "17:40"
         },
         {
-          "id": "oratio",
-          "title": "Hotel Oratio · change",
-          "text": "Back to change for dinner. About an hour. Allard is a 10 minute walk when you are ready.",
-          "from": "17:50",
-          "to": "18:45",
-          "pause": true
-        },
-        {
-          "id": "allard",
-          "title": "Allard · dinner",
-          "text": "The Paris dinner to book. A Saint-Germain bistro since 1932, now Alain Ducasse, at 41 rue Saint-André-des-Arts. Two hours, from 19:00. Dinner service is 19:00–22:00. Book it. Not La Renommée, and not La Bourse et La Vie.",
-          "from": "19:00",
-          "to": "21:00",
-          "pause": true
+          "id": "passages",
+          "meal": "dinner",
+          "title": "Dinner",
+          "text": "One hour near the passages or the opera. Walk-in. Allard was Friday, after the tower.",
+          "from": "18:00",
+          "to": "19:00"
         },
         {
           "id": "oratio",
           "title": "Hotel Oratio · pack",
           "text": "Pack. Be at Gare du Nord at 06:30 tomorrow. The ticket’s 07:32 is too tight once passport control is in the line.",
-          "from": "21:15",
+          "from": "19:30",
           "to": "evening",
           "pause": true
         }
