@@ -34,11 +34,12 @@ Add a line here whenever a new rule comes in.
 
 - Breakfast is 30 minutes, at the hotel or an amber pin beside it. It is not a numbered stop. The arrival morning skips it, because breakfast was on the flight. The Eurostar morning is shorter than 30 minutes.
 - Eurostar morning, 3 Nov: be at Gare du Nord at 06:30 for the 08:32 train. That block covers security plus passport control out of France and into the UK, both at the station. The ticket’s 07:32 is too tight. St Pancras is the walk out.
-- Lunch is 1 hour and starts at 12:00 or later. Dinner is 1 hour and starts at 18:00 or later. The restaurant itself stays an unnumbered pin, chosen when you are there. 2 Nov has no reservation at La Renommée. Dinner that night is a walk-in near the opera.
+- Lunch is 1 hour and starts at 12:00 or later. Dinner is 1 hour and starts at 18:00 or later. The restaurant itself stays an unnumbered pin, chosen when you are there. 2 Nov has no reservation at La Renommée. The booked dinner that night is La Bourse et La Vie, and their Monday service starts at 19:00.
 - Dinner is where the day already is. Then you go home, about 21:30–22:00. You do not go back to the hotel and eat afterwards. The exception is 1 Nov: the 5th is actually a good neighborhood, Saint-Lazare is not a dinner, and the Louvre is at 09:00.
 - After a one-hour dinner, the evening can hold something else. Jazz on 29 Oct is that: Mouffetard for dinner, Caveau from 21:00, home about 22:45.
 - Halloween night, 31 Oct, is The Bridge, under Pont Alexandre III on the right bank. Doors at 22:00, until 05:00. Hotel only to shower and change, then dinner by the bridge. You walked the bridge on Friday. Saturday is the party, not a second look at the statues. Giverny the next morning can start late.
-- One dinner is a numbered pin, and that is the long one, two hours:
+- Two dinners are numbered pins, and those are the long ones, two hours:
+  - Paris dinner: La Bourse et La Vie, Monday 2 Nov, 19:00–21:00. Steak au poivre at 12 Rue Vivienne, a 6 minute walk from Passage des Panoramas. Book it. Monday dinner service is 19:00–22:00. Closed Saturday and Sunday. Not La Renommée.
   - London dinner: Hawksmoor Knightsbridge, Friday 6 Nov, 18:00–20:00. Steak at 3 Yeoman's Row, a few minutes from Harrods, the same evening as the food halls. Book online. On Friday the kitchen closes at 22:00. Not Indian. Home after that to pack. The flight is the next afternoon.
 - Darjeeling Express is Wednesday 4 Nov lunch, 12:10–13:10, at 36–40 Rupert Street. One hour, after the National Gallery. Lunch service ends at 14:15. It is not the long dinner.
 - 30 Oct has no Seine dinner. Dinner that night is one hour by the tower, after the lights, then the metro home about 21:15.

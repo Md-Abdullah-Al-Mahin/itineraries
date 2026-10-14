@@ -11,7 +11,7 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct | CX261 into Paris Charles de Gaulle, Terminal 2A, 07:35. Off the plane, immigration, bags. Consider a car with the bags, or RER B. Hotel about 10:35. |
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 28 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Arrival night, after Montmartre and the Marais. Not the same day as Versailles. |
-| 2 Nov | Louvre, 09:00 timed entry, still to book. You stay until 13:00. Half a day. Dinner that night is a walk-in near the opera. No reservation at La Renommée. |
+| 2 Nov | Louvre, 09:00 timed entry, still to book. You stay until 13:00. Half a day. La Bourse et La Vie at 19:00, the Paris dinner to book. Not La Renommée. |
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Book it. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
 | 4 Nov | Darjeeling Express, 36–40 Rupert Street, 12:10. Lunch, one hour. Not the long dinner. |
@@ -22,7 +22,7 @@ This is the written copy of the map. When the plan changes, update this file and
 
 Breakfast is half an hour, usually at the hotel. Lunch is one hour. Dinner is one hour. Those meals are not a fixed restaurant, and they are not a numbered pin. On the map they are the warm dots within a 15 minute walk of wherever you are. Dinner is where the day already is. You go home after, about 21:30 to 22:00. You do not go back to the hotel and then eat. The 5th arrondissement, after Giverny, is the exception, because that neighborhood is actually good and Saint-Lazare is not a dinner.
 
-One dinner is the long one, and that is a numbered pin. Two hours. Hawksmoor Knightsbridge on Friday 6 November, 18:00–20:00, steak at 3 Yeoman's Row, a few minutes from Harrods. Book online. On Friday the kitchen closes at 22:00. Monday 2 November dinner is one hour near the opera, walk-in. No reservation at La Renommée. Thursday dinner is beside Borough Market, one hour, walk-in. The market hall closes at 17:00, so that meal is the restaurants there, not the stalls. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
+Two dinners are the long ones, and those are numbered pins. Each is two hours. La Bourse et La Vie on Monday 2 November, 19:00–21:00, steak au poivre at 12 Rue Vivienne, beside Passage des Panoramas. Book it. Monday dinner service is 19:00–22:00. Closed Saturday and Sunday. Not La Renommée. Hawksmoor Knightsbridge on Friday 6 November, 18:00–20:00, steak at 3 Yeoman's Row, a few minutes from Harrods. Book online. On Friday the kitchen closes at 22:00. Thursday dinner is beside Borough Market, one hour, walk-in. The market hall closes at 17:00, so that meal is the restaurants there, not the stalls. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
 
 Purple dots on the map are optional sights within a 20 minute walk. They are not on that day’s plan.
 
@@ -121,9 +121,9 @@ Last open day of Monet’s house and gardens in 2026. Open 10:00–18:00, last e
 | 18:10–18:25 | Hotel. Drop the bag and go straight out to eat. |
 | 18:30–19:30 | Dinner. One hour in the 5th. This is the exception: the neighborhood is good, and Saint-Lazare is not a dinner. Then bed. The Louvre is at 09:00. |
 
-## Monday 2 November · Louvre, west to the Arc
+## Monday 2 November · Louvre, Bourse et La Vie
 
-Versailles and Orsay are closed. The Louvre is half a day, 09:00 until 13:00, so the walk west after lunch is shorter. Garnier still happens, before the self-guided visit ends at 17:00. Dinner is one hour near the opera, walk-in. No reservation at La Renommée. Pack after. The Eurostar is at 08:32 tomorrow.
+Versailles and Orsay are closed. The Louvre is half a day, 09:00 until 13:00, so the walk west after lunch is shorter. Garnier still happens, before the self-guided visit ends at 17:00. La Bourse et La Vie is the Paris dinner to book, on the street beside the passages. Not La Renommée. Pack after. The Eurostar is at 08:32 tomorrow.
 
 | Time | Plan |
 | --- | --- |
@@ -134,9 +134,9 @@ Versailles and Orsay are closed. The Louvre is half a day, 09:00 until 13:00, so
 | 14:40–14:55 | Place de la Concorde. Stand at the obelisk and look back to the Louvre, then on toward the Arc. |
 | 15:20–15:50 | Arc de Triomphe. Use the underpass. Climb only if there is no queue. Garnier closes around 17:00. |
 | 16:10–17:00 | Palais Garnier. Grand staircase, the auditorium, the Chagall ceiling. Book online. No tickets at the door. The self-guided visit usually ends at 17:00. The house closes in summer 2027. |
-| 17:10–17:40 | Passage des Panoramas. Walk the covered arcade and look in the windows. |
-| 18:00–19:00 | Dinner. One hour near the passages or the opera. Walk-in. No reservation at La Renommée. |
-| 19:30 | Hotel, to pack. Be at Gare du Nord at 06:30 tomorrow. |
+| 17:10–17:40 | Passage des Panoramas. Walk the covered arcade and look in the windows. Dinner is a 6 minute walk, on Rue Vivienne. |
+| 19:00–21:00 | La Bourse et La Vie. 12 Rue Vivienne. Steak au poivre. Two hours. Book it. Monday dinner service is 19:00–22:00. Not La Renommée. |
+| 21:20 | Hotel, to pack. Be at Gare du Nord at 06:30 tomorrow. |
 
 ## Tuesday 3 November · Paris to London, British Museum
 

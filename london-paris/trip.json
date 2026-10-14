@@ -156,6 +156,17 @@
       "about": "A small restaurant on Rue Saint-Honoré. Known for a serious filet au poivre.",
       "hours": "Monday dinner from 17:30."
     },
+    "laBourse": {
+      "name": "La Bourse et La Vie",
+      "label": "Bourse",
+      "kind": "paris",
+      "city": "Paris",
+      "lat": 48.8676307,
+      "lng": 2.3394491,
+      "note": "Steak au poivre, 12 Rue Vivienne. Book. Monday dinner 19:00–22:00.",
+      "about": "A bistro beside Passage des Panoramas. Known for steak au poivre and frites.",
+      "hours": "Monday–Friday lunch 12:00–14:00, dinner 19:00–22:00. Closed Saturday and Sunday."
+    },
     "soane": {
       "name": "Sir John Soane's Museum",
       "label": "Soane's",
@@ -1603,9 +1614,9 @@
     {
       "id": "nov2",
       "label": "2 Nov",
-      "title": "Louvre · west to the Arc",
+      "title": "Louvre · Bourse et La Vie",
       "kicker": "Monday · Paris day 6",
-      "lede": "Versailles and Orsay are closed. The Louvre is half a day, not a quick look: 09:00 until 13:00, then lunch. The walk west is shorter after that. Tuileries, Concorde, a short stop at the Arc, then Garnier before the self-guided visit ends. Dinner is one hour near the opera, walk-in. No reservation at La Renommée. Pack after. The Eurostar is at 08:32 tomorrow.",
+      "lede": "Versailles and Orsay are closed. The Louvre is half a day, not a quick look: 09:00 until 13:00, then lunch. The walk west is shorter after that. Tuileries, Concorde, a short stop at the Arc, then Garnier before the self-guided visit ends. La Bourse et La Vie is 19:00, on the street beside the passages. Not La Renommée. Pack after. The Eurostar is at 08:32 tomorrow.",
       "loop": [
         "oratio",
         "louvre",
@@ -1614,6 +1625,7 @@
         "arc",
         "garnier",
         "passages",
+        "laBourse",
         "oratio"
       ],
       "events": [
@@ -1643,7 +1655,7 @@
           "id": "louvre",
           "meal": "lunch",
           "title": "Lunch",
-          "text": "One hour, after you come out. Nearby pins around the museum, or the Carrousel. Dinner tonight is a walk-in near the opera.",
+          "text": "One hour, after you come out. Nearby pins around the museum, or the Carrousel. Tonight’s dinner is the one that is booked, not this.",
           "from": "13:00",
           "to": "14:00"
         },
@@ -1678,23 +1690,23 @@
         {
           "id": "passages",
           "title": "Passage des Panoramas",
-          "text": "Walk the covered arcade. Glass roof, old shopfronts, a look in the windows. Dinner is one hour nearby, then home to pack.",
+          "text": "Walk the covered arcade. Glass roof, old shopfronts, a look in the windows. Dinner is a 6 minute walk, on Rue Vivienne. Service starts at 19:00.",
           "from": "17:10",
           "to": "17:40"
         },
         {
-          "id": "passages",
-          "meal": "dinner",
-          "title": "Dinner",
-          "text": "One hour near the passages or the opera. Walk-in. No reservation at La Renommée. Then home to pack.",
-          "from": "18:00",
-          "to": "19:00"
+          "id": "laBourse",
+          "title": "La Bourse et La Vie · dinner",
+          "text": "The Paris dinner to book. Steak au poivre at 12 Rue Vivienne, beside the passages. Two hours, from 19:00. Monday dinner service is 19:00–22:00, so this table is inside it. Book on their site. Not La Renommée. Closed Saturday and Sunday.",
+          "from": "19:00",
+          "to": "21:00",
+          "pause": true
         },
         {
           "id": "oratio",
           "title": "Hotel Oratio · pack",
           "text": "Pack. Be at Gare du Nord at 06:30 tomorrow. The ticket’s 07:32 is too tight once passport control is in the line.",
-          "from": "19:30",
+          "from": "21:20",
           "to": "evening",
           "pause": true
         }
@@ -2118,7 +2130,7 @@
         {
           "id": "hawksmoorKnightsbridge",
           "title": "Hawksmoor · dinner",
-          "text": "The London dinner to book, and the only long dinner in the city. Steakhouse at 3 Yeoman's Row, a few minutes from Harrods. Two hours, from 18:00. On Friday the kitchen closes at 22:00. Book online. Not Indian. Then home to pack.",
+          "text": "The London dinner to book. Steakhouse at 3 Yeoman's Row, a few minutes from Harrods. Two hours, from 18:00. On Friday the kitchen closes at 22:00. Book online. Not Indian. Then home to pack.",
           "from": "18:00",
           "to": "20:00",
           "pause": true
@@ -2278,6 +2290,8 @@
       "laRenommee|oratio": "15 min metro",
       "garnier|laRenommee": "15 min metro",
       "passages|oratio": "20 min metro",
+      "passages|laBourse": "6 min walk",
+      "laBourse|oratio": "20 min metro",
       "oratio|duPain": "25 min metro",
       "duPain|shakespeare": "25 min metro",
       "ileSaintLouis|berthillon": "2 min walk",
