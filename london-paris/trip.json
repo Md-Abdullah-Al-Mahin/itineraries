@@ -958,7 +958,7 @@
       "city": "London",
       "lat": 51.5125,
       "lng": -0.1192,
-      "note": "Aldwych. Mamma Mia!, 19:30.",
+      "note": "Aldwych. Mamma Mia!, 19:30. Stalls R13 and R14. Already booked.",
       "about": "A West End theatre on Aldwych, next to Somerset House. Mamma Mia! is the long-running ABBA musical here, London’s version of a Broadway show.",
       "hours": "Mamma Mia! plays Monday–Saturday at 19:30. No performance on Sunday. About two and a half hours, out around 22:15."
     },
@@ -1814,7 +1814,7 @@
         {
           "id": "novello",
           "title": "Mamma Mia! · Novello Theatre",
-          "text": "The West End night. ABBA musical, Aldwych, next to Somerset House. Curtain 19:30. Book it. About two and a half hours, out around 22:15. Monday to Saturday at 19:30, no show on Sunday.",
+          "text": "The West End night. Already booked. Stalls R13 and R14. ABBA musical, Aldwych, next to Somerset House. Curtain 19:30. About two and a half hours, out around 22:15.",
           "from": "19:15",
           "to": "22:15"
         },

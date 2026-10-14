@@ -24,7 +24,7 @@ Add a line here whenever a new rule comes in.
 - 29 Oct is the picture day: Notre-Dame, Sainte-Chapelle, the Luxembourg, the Panthéon, then Mouffetard and the jazz cellar. It is not the arrival day.
 - Giverny stays Sunday 1 Nov. That is the last day of the 2026 season.
 - The Louvre is Monday 2 Nov, because Orsay and Versailles are shut that day. It is half a day, 09:00–13:00, not a two-hour visit. Lunch is after you come out. The afternoon walk west is shorter so Garnier still happens before the self-guided visit ends.
-- One West End musical, on Tuesday 3 Nov, because that afternoon is already at Somerset House and Covent Garden. Mamma Mia! is 19:30 at the Novello on Aldwych. Dinner is there at 18:00, before the curtain. It is not a second trip to Theatreland on another night.
+- One West End musical, on Tuesday 3 Nov, because that afternoon is already at Somerset House and Covent Garden. Mamma Mia! is already booked, 19:30 at the Novello on Aldwych, stalls R13 and R14. Dinner is there at 18:00, before the curtain. It is not a second trip to Theatreland on another night.
 - Palais Garnier has to happen this trip. The house closes in summer 2027.
 - Sir John Soane's Museum is closed Tuesday, so it is Wednesday in London. The British Museum is the Tuesday afternoon, after the train.
 - Du Pain et des Idées is closed at the weekend, and no day's sights pass within a 15 minute walk of it, so it is not on the map. It is a separate metro ride north if you still want the pastry.

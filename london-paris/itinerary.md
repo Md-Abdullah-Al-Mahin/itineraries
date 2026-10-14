@@ -12,7 +12,7 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 28 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Arrival night, after Montmartre and the Marais. Not the same day as Versailles. |
 | 2 Nov | Louvre, 09:00 timed entry, still to book. You stay until 13:00. Half a day. La Bourse et La Vie at 19:00, the Paris dinner to book. Not La Renommée. |
-| 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Book it. |
+| 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Already booked. Stalls R13 and R14. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
 | 4 Nov | Darjeeling Express, 36–40 Rupert Street, 12:10. Lunch, one hour. Not the long dinner. |
 | 6 Nov | Hawksmoor Knightsbridge, 3 Yeoman's Row, 18:00. The London dinner to book. Steak. |
@@ -140,7 +140,7 @@ Versailles and Orsay are closed. The Louvre is half a day, 09:00 until 13:00, so
 
 ## Tuesday 3 November · Paris to London, British Museum
 
-Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. After lunch the day stays in Covent Garden: Neal’s Yard, Somerset House, a short turn on the river, then back to Aldwych. Mamma Mia! is 19:30 at the Novello, which is next to Somerset House. Dinner is there at 18:00. Home after the show, about 22:45. Darjeeling Express is lunch tomorrow. Hawksmoor is Friday.
+Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be at Gare du Nord at 06:30. Security and passport control are both there, and the queues can run long. After lunch the day stays in Covent Garden: Neal’s Yard, Somerset House, a short turn on the river, then back to Aldwych. Mamma Mia! is already booked, 19:30 at the Novello, stalls R13 and R14, next to Somerset House. Dinner is there at 18:00. Home after the show, about 22:45. Darjeeling Express is lunch tomorrow. Hawksmoor is Friday.
 
 | Time | Plan |
 | --- | --- |
@@ -155,7 +155,7 @@ Soane’s is closed on Tuesdays, so the museum today is the British Museum. Be a
 | 14:55–16:00 | Somerset House. Cross the courtyard to the river terrace. One room of the Courtauld if you want a picture. |
 | 16:15–17:30 | South Bank. Cross Waterloo Bridge and walk past the National Theatre. A short turn. Do not continue to the Millennium Bridge. The show is back on Aldwych. |
 | 18:00–19:00 | Dinner. One hour on Aldwych or in Covent Garden, a few minutes from the theatre. |
-| 19:15–22:15 | Mamma Mia! at the Novello Theatre, Aldwych. Curtain 19:30. Book it. Out around 22:15. |
+| 19:15–22:15 | Mamma Mia! at the Novello Theatre, Aldwych. Already booked. Stalls R13 and R14. Curtain 19:30. Out around 22:15. |
 | 22:45 | Hotel. Tube from Temple or Covent Garden. |
 
 ## Wednesday 4 November · Soane, Darjeeling Express, the palace
