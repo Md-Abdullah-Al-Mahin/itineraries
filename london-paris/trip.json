@@ -163,9 +163,20 @@
       "city": "Paris",
       "lat": 48.8676307,
       "lng": 2.3394491,
-      "note": "Steak au poivre, 12 Rue Vivienne. Book. Monday dinner 19:00–22:00.",
+      "note": "Steak au poivre, 12 Rue Vivienne. Not the booked dinner. Closed Saturday and Sunday.",
       "about": "A bistro beside Passage des Panoramas. Known for steak au poivre and frites.",
       "hours": "Monday–Friday lunch 12:00–14:00, dinner 19:00–22:00. Closed Saturday and Sunday."
+    },
+    "allard": {
+      "name": "Allard",
+      "label": "Allard",
+      "kind": "paris",
+      "city": "Paris",
+      "lat": 48.85332,
+      "lng": 2.34101,
+      "note": "Classic bistro since 1932. Book. Monday dinner 19:00–22:00.",
+      "about": "A Saint-Germain bistro from 1932, now in the Alain Ducasse group. The room still looks like the old bistro.",
+      "hours": "Monday–Sunday lunch 12:00–14:00, dinner 19:00–22:00."
     },
     "soane": {
       "name": "Sir John Soane's Museum",
@@ -1614,9 +1625,9 @@
     {
       "id": "nov2",
       "label": "2 Nov",
-      "title": "Louvre · Bourse et La Vie",
+      "title": "Louvre · Allard",
       "kicker": "Monday · Paris day 6",
-      "lede": "Versailles and Orsay are closed. The Louvre is half a day, not a quick look: 09:00 until 13:00, then lunch. The walk west is shorter after that. Tuileries, Concorde, a short stop at the Arc, then Garnier before the self-guided visit ends. La Bourse et La Vie is 19:00, on the street beside the passages. Not La Renommée. Pack after. The Eurostar is at 08:32 tomorrow.",
+      "lede": "Versailles and Orsay are closed. The Louvre is half a day, not a quick look: 09:00 until 13:00, then lunch. The walk west is shorter after that. Tuileries, Concorde, a short stop at the Arc, then Garnier before the self-guided visit ends. Back to the hotel to change. Allard is the Paris dinner, a 10 minute walk. Pack after. The Eurostar is at 08:32 tomorrow.",
       "loop": [
         "oratio",
         "louvre",
@@ -1625,7 +1636,8 @@
         "arc",
         "garnier",
         "passages",
-        "laBourse",
+        "oratio",
+        "allard",
         "oratio"
       ],
       "events": [
@@ -1690,14 +1702,22 @@
         {
           "id": "passages",
           "title": "Passage des Panoramas",
-          "text": "Walk the covered arcade. Glass roof, old shopfronts, a look in the windows. Dinner is a 6 minute walk, on Rue Vivienne. Service starts at 19:00.",
+          "text": "Walk the covered arcade. Glass roof, old shopfronts, a look in the windows. A short look, then the hotel to change.",
           "from": "17:10",
-          "to": "17:40"
+          "to": "17:25"
         },
         {
-          "id": "laBourse",
-          "title": "La Bourse et La Vie · dinner",
-          "text": "The Paris dinner to book. Steak au poivre at 12 Rue Vivienne, beside the passages. Two hours, from 19:00. Monday dinner service is 19:00–22:00, so this table is inside it. Book on their site. Not La Renommée. Closed Saturday and Sunday.",
+          "id": "oratio",
+          "title": "Hotel Oratio · change",
+          "text": "Back to change for dinner. About an hour. Allard is a 10 minute walk when you are ready.",
+          "from": "17:50",
+          "to": "18:45",
+          "pause": true
+        },
+        {
+          "id": "allard",
+          "title": "Allard · dinner",
+          "text": "The Paris dinner to book. A Saint-Germain bistro since 1932, now Alain Ducasse, at 41 rue Saint-André-des-Arts. Two hours, from 19:00. Dinner service is 19:00–22:00. Book it. Not La Renommée, and not La Bourse et La Vie.",
           "from": "19:00",
           "to": "21:00",
           "pause": true
@@ -1706,7 +1726,7 @@
           "id": "oratio",
           "title": "Hotel Oratio · pack",
           "text": "Pack. Be at Gare du Nord at 06:30 tomorrow. The ticket’s 07:32 is too tight once passport control is in the line.",
-          "from": "21:20",
+          "from": "21:15",
           "to": "evening",
           "pause": true
         }
@@ -2292,6 +2312,8 @@
       "passages|oratio": "20 min metro",
       "passages|laBourse": "6 min walk",
       "laBourse|oratio": "20 min metro",
+      "oratio|allard": "10 min walk",
+      "allard|oratio": "10 min walk",
       "oratio|duPain": "25 min metro",
       "duPain|shakespeare": "25 min metro",
       "ileSaintLouis|berthillon": "2 min walk",
