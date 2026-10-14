@@ -13,10 +13,10 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Arrival night, after Montmartre and the Marais. Not the same day as Versailles. |
 | 29 Oct – 2 Nov | Paris Museum Pass, 4 days. Already booked. First scan is Sainte-Chapelle on 29 Oct, around 13:15. It covers Sainte-Chapelle, Cluny, the Panthéon, Orsay, Versailles, the Louvre, and Invalides if you go inside. |
 | 30 Oct | Seine sightseeing cruise, Port de la Bourdonnais, 20:00. Still to book. About one hour. Not a dinner cruise. |
-| 2 Nov | Louvre, 09:00 slot still to reserve. The pass is the ticket. You stay until 13:00. Allard, 19:00, is the Paris dinner to book. Pack after. |
+| 2 Nov | Louvre, 09:00 slot still to reserve. The pass is the ticket. You stay until 13:00. Allard, 19:00. Already booked. Pack after. |
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Already booked. Stalls R13 and R14. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
-| 4 Nov | Darjeeling Express, 36–40 Rupert Street, 12:10. Lunch, one hour. Not the long dinner. |
+| 4 Nov | Darjeeling Express, 36–40 Rupert Street, 12:10. Already booked. Lunch, one hour. Not the long dinner. |
 | 6 Nov | Hawksmoor Knightsbridge, 3 Yeoman's Row, 18:00. The London dinner to book. Steak. |
 | 7 Nov | CX250 from Heathrow Terminal 3, 17:50, seat 59J. Dinner is on the plane. |
 
@@ -24,7 +24,7 @@ This is the written copy of the map. When the plan changes, update this file and
 
 Breakfast is half an hour, usually at the hotel. Lunch is one hour. Dinner is one hour. Those meals are not a fixed restaurant, and they are not a numbered pin. On the map they are the warm dots within a 15 minute walk of wherever you are. Dinner is where the day already is. You go home after, about 21:30 to 22:00. You do not go back to the hotel and then eat. The 5th arrondissement, after Giverny, is the exception, because that neighborhood is actually good and Saint-Lazare is not a dinner.
 
-Two dinners are the long ones, and those are numbered pins. Each is two hours. Allard on Monday 2 November, 19:00–21:00, at 41 rue Saint-André-des-Arts. A Saint-Germain bistro since 1932. Book it. You finish the passages, change at the hotel, and walk 10 minutes. Dinner service runs 19:00–22:00, and it is open on Monday. Pack after. The train is at 06:10 the next morning. Not La Renommée, and not La Bourse et La Vie. Friday dinner is a one-hour walk-in beside the Eiffel Tower, then the boat. Hawksmoor Knightsbridge on Friday 6 November, 18:00–20:00, steak at 3 Yeoman's Row, a few minutes from Harrods. Book online. On Friday the kitchen closes at 22:00. Thursday dinner is beside Borough Market, one hour, walk-in. The market hall closes at 17:00, so that meal is the restaurants there, not the stalls. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
+Two dinners are the long ones, and those are numbered pins. Each is two hours. Allard on Monday 2 November, 19:00–21:00, at 41 rue Saint-André-des-Arts. A Saint-Germain bistro since 1932. Already booked. You finish the passages, change at the hotel, and walk 10 minutes. Dinner service runs 19:00–22:00, and it is open on Monday. Pack after. The train is at 06:10 the next morning. Not La Renommée, and not La Bourse et La Vie. Friday dinner is a one-hour walk-in beside the Eiffel Tower, then the boat. Hawksmoor Knightsbridge on Friday 6 November, 18:00–20:00, steak at 3 Yeoman's Row, a few minutes from Harrods. Book online. On Friday the kitchen closes at 22:00. Thursday dinner is beside Borough Market, one hour, walk-in. The market hall closes at 17:00, so that meal is the restaurants there, not the stalls. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, already booked, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
 
 Purple dots on the map are optional sights within a 20 minute walk. They are not on that day’s plan.
 
@@ -139,7 +139,7 @@ Versailles and Orsay are closed. The Louvre is half a day, 09:00 until 13:00, so
 | 16:10–17:00 | Palais Garnier. Grand staircase, the auditorium, the Chagall ceiling. Book online. No tickets at the door. The self-guided visit usually ends at 17:00. The house closes in summer 2027. |
 | 17:10–17:40 | Passage des Panoramas. Walk the covered arcade and look in the windows. |
 | 18:05–18:50 | Hotel Oratio. Change for dinner. About 20 minutes on the metro from the passages. |
-| 19:00–21:00 | Allard. 41 rue Saint-André-des-Arts, a 10 minute walk. Classic bistro, since 1932. Book it. Dinner service runs 19:00–22:00. Open on Monday. |
+| 19:00–21:00 | Allard. 41 rue Saint-André-des-Arts, a 10 minute walk. Classic bistro, since 1932. Already booked. Dinner service runs 19:00–22:00. |
 | 21:15 | Hotel, to pack. Out by 06:10 tomorrow. Be at Gare du Nord at 06:30. |
 
 ## Tuesday 3 November · Paris to London, British Museum
@@ -171,7 +171,7 @@ One walk south from the hotel through Soane’s and the National Gallery. Lunch 
 | 08:15–08:45 | Breakfast. |
 | 09:20–10:30 | Sir John Soane’s Museum. The picture room with the folding walls, then the crypt. Free timed ticket. You will not see every room. Closed Tuesday, so today works. |
 | 10:50–11:50 | National Gallery. Free. Sunflowers, Turner’s Fighting Temeraire, a Monet, then leave. |
-| 12:10–13:10 | Darjeeling Express. 36–40 Rupert Street. One hour. Bengali. Book it. Lunch service ends at 14:15. |
+| 12:10–13:10 | Darjeeling Express. 36–40 Rupert Street. Already booked. One hour. Bengali. Lunch service ends at 14:15. |
 | 13:35–13:55 | Big Ben and Parliament Square. Walk down Whitehall. |
 | 14:00–14:25 | London Eye. Across Westminster Bridge. Look from the path. Ride it only if you already have a ticket. |
 | 14:35–15:45 | Westminster Abbey. Back across the bridge. |

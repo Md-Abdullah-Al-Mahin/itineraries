@@ -174,7 +174,7 @@
       "city": "Paris",
       "lat": 48.85332,
       "lng": 2.34101,
-      "note": "Classic bistro since 1932. Book. Dinner 19:00–22:00.",
+      "note": "Classic bistro since 1932. Already booked, Monday 2 Nov, 19:00.",
       "about": "A Saint-Germain bistro from 1932, now in the Alain Ducasse group. The room still looks like the old bistro.",
       "hours": "Monday–Sunday lunch 12:00–14:00, dinner 19:00–22:00."
     },
@@ -616,7 +616,7 @@
       "city": "London",
       "lat": 51.5119211,
       "lng": -0.1333642,
-      "note": "36–40 Rupert Street, Soho. Bengali. Lunch until 14:15.",
+      "note": "36–40 Rupert Street, Soho. Already booked, Wednesday 4 Nov, 12:10.",
       "about": "A Bengali restaurant in Soho, run by an all-women kitchen. Known for home-style cooking, not a curry-house menu.",
       "hours": "Lunch Mon–Sat 12:00–14:15. Dinner Mon–Wed 18:00–21:00, Thu–Sat 17:00–21:00. Closed Sunday."
     },
@@ -1737,7 +1737,7 @@
         {
           "id": "allard",
           "title": "Allard · dinner",
-          "text": "The Paris dinner to book. A Saint-Germain bistro since 1932, now Alain Ducasse, at 41 rue Saint-André-des-Arts. 19:00 to 21:00. Dinner service runs 19:00–22:00. Open on Monday. Book it.",
+          "text": "Already booked. A Saint-Germain bistro since 1932, now Alain Ducasse, at 41 rue Saint-André-des-Arts. 19:00 to 21:00. Dinner service runs 19:00–22:00.",
           "from": "19:00",
           "to": "21:00",
           "pause": true
@@ -1919,7 +1919,7 @@
         {
           "id": "darjeeling",
           "title": "Darjeeling Express · lunch",
-          "text": "Bengali home cooking, all-women kitchen, 36–40 Rupert Street. One hour, not the long London dinner. Lunch service ends at 14:15, so be seated by 12:10. Book it. Kosha mangsho if you eat meat.",
+          "text": "Already booked. Bengali home cooking, all-women kitchen, 36–40 Rupert Street. One hour, not the long London dinner. Lunch service ends at 14:15, so be seated by 12:10. Kosha mangsho if you eat meat.",
           "from": "12:10",
           "to": "13:10"
         },
