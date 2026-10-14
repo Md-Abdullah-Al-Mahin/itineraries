@@ -218,7 +218,7 @@
       "city": "Paris",
       "lat": 48.8554,
       "lng": 2.345,
-      "note": "Book a timed ticket",
+      "note": "Pass covers entry. Reserve the free 13:15 slot.",
       "about": "A royal chapel built to hold a relic of the Crown of Thorns. The upper room is almost entirely stained glass.",
       "hours": "1 Oct–31 Mar, 09:00–17:00. Last entry 16:30."
     },
@@ -273,7 +273,7 @@
       "city": "Paris",
       "lat": 48.8606111,
       "lng": 2.337644,
-      "note": "Book a 09:00 timed entry",
+      "note": "Pass covers entry. Reserve the free 09:00 slot. Audio guide is €6.",
       "about": "The royal palace turned into the world’s largest art museum. The Mona Lisa, the Winged Victory, and the Venus de Milo.",
       "hours": "09:00–18:00 on Mon, Thu, Sat and Sun. 09:00–21:00 on Wed and Fri. Closed Tuesday. Last entry one hour before close."
     },
@@ -516,7 +516,7 @@
       "city": "Paris",
       "lat": 48.804865,
       "lng": 2.120355,
-      "note": "Book a Passport ticket",
+      "note": "Pass covers entry. Reserve the free morning slot.",
       "about": "The palace of the French kings. The Hall of Mirrors and the state apartments are the heart of it.",
       "hours": "Tue–Sun 09:00–18:30. Closed Monday."
     },
@@ -1240,7 +1240,7 @@
         {
           "id": "sainteChapelle",
           "title": "Sainte-Chapelle",
-          "text": "The west end of the island, so this is the way off it, not a separate trip. Upper chapel, the stained glass. Book a timed ticket for this hour.",
+          "text": "The west end of the island, so this is the way off it, not a separate trip. Upper chapel, the stained glass. The pass covers entry. Reserve the free slot for this hour. This is the first scan, so do it here, not at the Picasso museum yesterday.",
           "from": "13:15",
           "to": "14:15"
         },
@@ -1448,7 +1448,7 @@
         {
           "id": "versailles",
           "title": "Palace of Versailles",
-          "text": "Louis XIV’s château. Hall of Mirrors, King’s State Apartments, chapel. Passport ticket, go in as it opens.",
+          "text": "Louis XIV’s château. Hall of Mirrors, King’s State Apartments, chapel. The pass covers entry. Reserve the free morning slot. Go in as it opens.",
           "from": "09:35",
           "to": "12:30"
         },
@@ -1647,7 +1647,7 @@
         {
           "id": "louvre",
           "title": "Louvre · half a day",
-          "text": "The 09:00 timed entry, and you stay until 13:00. Mona Lisa, Winged Victory, Venus de Milo, then one more wing you actually want. Half a day is enough to see the famous rooms without pretending to finish the museum.",
+          "text": "The 09:00 timed slot, and you stay until 13:00. The pass covers entry. Mona Lisa, Winged Victory, Venus de Milo, then one more wing you actually want. The audio guide is €6 if you want it. Half a day is enough to see the famous rooms without pretending to finish the museum.",
           "from": "09:00",
           "to": "13:00"
         },

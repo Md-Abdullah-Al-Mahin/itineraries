@@ -11,7 +11,8 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct | CX261 into Paris Charles de Gaulle, Terminal 2A, 07:35. Off the plane, immigration, bags. Consider a car with the bags, or RER B. Hotel about 10:35. |
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 28 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Arrival night, after Montmartre and the Marais. Not the same day as Versailles. |
-| 2 Nov | Louvre, 09:00 timed entry, still to book. You stay until 13:00. Half a day. La Bourse et La Vie at 19:00, the Paris dinner to book. Not La Renommée. |
+| 29 Oct – 2 Nov | Paris Museum Pass, 4 days. Already booked. First scan is Sainte-Chapelle on 29 Oct, around 13:15. It covers Sainte-Chapelle, Cluny, the Panthéon, Orsay, Versailles, the Louvre, and Invalides if you go inside. |
+| 2 Nov | Louvre, 09:00 slot still to reserve. The pass is the ticket. You stay until 13:00. La Bourse et La Vie at 19:00, the Paris dinner to book. Not La Renommée. |
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Already booked. Stalls R13 and R14. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
 | 4 Nov | Darjeeling Express, 36–40 Rupert Street, 12:10. Lunch, one hour. Not the long dinner. |
@@ -58,7 +59,7 @@ The picture day. Notre-Dame first, because Shakespeare and Company opens at 10:0
 | 10:10–10:35 | Shakespeare and Company. It opens at 10:00. Two minutes back from the cathedral. |
 | 10:45–11:45 | Île Saint-Louis. Walk the street, or cycle the quay around the island. Berthillon is a nearby pin, and it is open on Thursday. |
 | 12:00–13:00 | Lunch. One hour on the island. |
-| 13:15–14:15 | Sainte-Chapelle. The west end of the island, on the way off it. Book a timed ticket for this hour. |
+| 13:15–14:15 | Sainte-Chapelle. The west end of the island, on the way off it. The pass covers entry. Reserve the free slot for this hour. Scan the pass here first. |
 | 14:30–15:15 | Musée de Cluny. Straight off the island. The Lady and the Unicorn. Thursday it stays open until 21:00. Closed Monday. |
 | 15:25–16:10 | Jardin du Luxembourg. A chair by the big basin, one lap, then on to the Panthéon. Closes at 17:15 this week. |
 | 16:20–17:05 | Panthéon. Crypt, and the dome if it is open. Last entry is 17:15. Mouffetard is downhill. |
@@ -96,7 +97,7 @@ The palace in the day. Crazy Horse was Wednesday. The hotel is a shower and a ch
 | 07:30–08:00 | Breakfast, then walk to Saint-Michel. |
 | 08:30 | RER C toward Versailles Château Rive Gauche. About 40 minutes. Take the train that says Versailles. |
 | 09:15–09:25 | Versailles station. Walk up Avenue de Paris to the gates. |
-| 09:35–12:30 | Palace of Versailles. Passport ticket. Hall of Mirrors, state apartments, chapel. |
+| 09:35–12:30 | Palace of Versailles. The pass covers entry. Reserve the free morning slot. Hall of Mirrors, state apartments, chapel. |
 | 12:35–13:35 | Lunch. One hour in town, by the gates or back toward the station. |
 | 13:50–16:15 | Gardens. Parterres, Grand Canal, fountains. Walk them, or hire a bike and ride the long loop out to the canal. Then RER C home, about 50 minutes. |
 | 17:15–18:35 | Hotel. Shower and change into what you will wear. Leave by 18:40. You do not come back until after the club. |
@@ -128,7 +129,7 @@ Versailles and Orsay are closed. The Louvre is half a day, 09:00 until 13:00, so
 | Time | Plan |
 | --- | --- |
 | 07:45–08:15 | Breakfast, then walk or metro to Palais Royal. |
-| 09:00–13:00 | Louvre, 09:00 timed entry. Half a day. Mona Lisa, Winged Victory, Venus de Milo, then one more wing. You do not finish the museum. |
+| 09:00–13:00 | Louvre, 09:00 timed slot. The pass covers entry. Half a day. Mona Lisa, Winged Victory, Venus de Milo, then one more wing. You do not finish the museum. |
 | 13:00–14:00 | Lunch. One hour, after you come out. Nearby pins around the museum. |
 | 14:10–14:30 | Tuileries. Walk the central path west. This is the way out, not another museum. |
 | 14:40–14:55 | Place de la Concorde. Stand at the obelisk and look back to the Louvre, then on toward the Arc. |

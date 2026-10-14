@@ -23,6 +23,7 @@ Add a line here whenever a new rule comes in.
 - Versailles is Saturday 31 Oct. It is not on the same day as Crazy Horse. The palace is closed Monday.
 - 29 Oct is the picture day: Notre-Dame, Sainte-Chapelle, the Luxembourg, the Panthéon, then Mouffetard and the jazz cellar. It is not the arrival day.
 - Giverny stays Sunday 1 Nov. That is the last day of the 2026 season.
+- The 4-day Paris Museum Pass is already booked. First scan is Sainte-Chapelle on 29 Oct, around 13:15. Do not scan it on 28 Oct. It covers Sainte-Chapelle, Cluny, the Panthéon, Orsay, Versailles, the Louvre, and Invalides if you go inside. Sainte-Chapelle, Orsay, Versailles, and the Louvre still need a free timed slot.
 - The Louvre is Monday 2 Nov, because Orsay and Versailles are shut that day. It is half a day, 09:00–13:00, not a two-hour visit. Lunch is after you come out. The afternoon walk west is shorter so Garnier still happens before the self-guided visit ends.
 - One West End musical, on Tuesday 3 Nov, because that afternoon is already at Somerset House and Covent Garden. Mamma Mia! is already booked, 19:30 at the Novello on Aldwych, stalls R13 and R14. Dinner is there at 18:00, before the curtain. It is not a second trip to Theatreland on another night.
 - Palais Garnier has to happen this trip. The house closes in summer 2027.
