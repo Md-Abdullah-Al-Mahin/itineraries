@@ -17,14 +17,14 @@ This is the written copy of the map. When the plan changes, update this file and
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Already booked. Stalls R13 and R14. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
 | 4 Nov | Darjeeling Express, 36–40 Rupert Street, 12:10. Already booked. Lunch, one hour. Not the long dinner. |
-| 6 Nov | Hawksmoor Knightsbridge, 3 Yeoman's Row, 18:00. The London dinner to book. Steak. |
+| 6 Nov | Hawksmoor Knightsbridge, 3 Yeoman's Row, 18:30. Already booked. Steak. |
 | 7 Nov | CX250 from Heathrow Terminal 3, 17:50, seat 59J. Dinner is on the plane. |
 
 ## How meals work
 
 Breakfast is half an hour, usually at the hotel. Lunch is one hour. Dinner is one hour. Those meals are not a fixed restaurant, and they are not a numbered pin. On the map they are the warm dots within a 15 minute walk of wherever you are. Dinner is where the day already is. You go home after, about 21:30 to 22:00. You do not go back to the hotel and then eat. The 5th arrondissement, after Giverny, is the exception, because that neighborhood is actually good and Saint-Lazare is not a dinner.
 
-Two dinners are the long ones, and those are numbered pins. Each is two hours. Allard on Monday 2 November, 19:00–21:00, at 41 rue Saint-André-des-Arts. A Saint-Germain bistro since 1932. Already booked. You finish the passages, change at the hotel, and walk 10 minutes. Dinner service runs 19:00–22:00, and it is open on Monday. Pack after. The train is at 06:10 the next morning. Not La Renommée, and not La Bourse et La Vie. Friday dinner is a one-hour walk-in beside the Eiffel Tower, then the boat. Hawksmoor Knightsbridge on Friday 6 November, 18:00–20:00, steak at 3 Yeoman's Row, a few minutes from Harrods. Book online. On Friday the kitchen closes at 22:00. Thursday dinner is beside Borough Market, one hour, walk-in. The market hall closes at 17:00, so that meal is the restaurants there, not the stalls. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, already booked, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
+Two dinners are the long ones, and those are numbered pins. Each is two hours. Allard on Monday 2 November, 19:00–21:00, at 41 rue Saint-André-des-Arts. A Saint-Germain bistro since 1932. Already booked. You finish the passages, change at the hotel, and walk 10 minutes. Dinner service runs 19:00–22:00, and it is open on Monday. Pack after. The train is at 06:10 the next morning. Not La Renommée, and not La Bourse et La Vie. Friday dinner is a one-hour walk-in beside the Eiffel Tower, then the boat. Hawksmoor Knightsbridge on Friday 6 November, 18:30–20:30, already booked, steak at 3 Yeoman's Row, a few minutes from Harrods. On Friday the kitchen closes at 22:00. Thursday dinner is beside Borough Market, one hour, walk-in. The market hall closes at 17:00, so that meal is the restaurants there, not the stalls. Lunch is never before noon. Dinner is never before 6. Darjeeling Express is Wednesday lunch, already booked, not that long dinner: 36–40 Rupert Street, 12:10–13:10. Lunch service ends at 14:15. The London long dinner is not Indian.
 
 Purple dots on the map are optional sights within a 20 minute walk. They are not on that day’s plan.
 
@@ -200,7 +200,7 @@ The east side is one day. St Paul’s, Sky Garden, the Tower, then the south ban
 
 ## Friday 6 November · South Kensington, Hawksmoor
 
-Last full day, and it stays in the parks and the museums. Ride the Hyde Park loop, dinosaurs, the V&A, Kensington Gardens, then the Harrods food halls. Hawksmoor is dinner, a few minutes from the store. Home about 20:30 to pack. The flight is 17:50 tomorrow.
+Last full day, and it stays in the parks and the museums. Ride the Hyde Park loop, dinosaurs, the V&A, Kensington Gardens, then the Harrods food halls. Hawksmoor is dinner at 18:30, a few minutes from the store. Home about 21:00 to pack. The flight is 17:50 tomorrow.
 
 | Time | Plan |
 | --- | --- |
@@ -210,9 +210,9 @@ Last full day, and it stays in the parks and the museums. Ride the Hyde Park loo
 | 12:10–13:10 | Lunch. One hour in South Kensington. |
 | 13:20–14:20 | V&A. The cast courts, the huge plaster copies. One wing. |
 | 14:35–15:35 | Kensington Gardens. The Albert Memorial, the Round Pond, the Italian Gardens. |
-| 15:50–16:50 | Harrods. The food halls, not the whole store. |
-| 18:00–20:00 | Hawksmoor Knightsbridge. 3 Yeoman's Row, a 5 minute walk. Steak. Two hours. Book online. On Friday the kitchen closes at 22:00. |
-| 20:30 | Hotel, to pack. Checkout is in the morning. |
+| 15:50–18:15 | Harrods. The food halls, not the whole store. Leave about 18:20. |
+| 18:30–20:30 | Hawksmoor Knightsbridge. 3 Yeoman's Row, a 5 minute walk. Already booked. Steak. On Friday the kitchen closes at 22:00. |
+| 21:00 | Hotel, to pack. Checkout is in the morning. |
 
 ## Saturday 7 November · Fly home
 

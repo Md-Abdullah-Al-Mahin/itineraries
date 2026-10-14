@@ -1013,7 +1013,7 @@
       "city": "London",
       "lat": 51.497414,
       "lng": -0.166978,
-      "note": "Steakhouse, 3 Yeoman's Row. Book. On Friday the kitchen closes at 22:00.",
+      "note": "Steakhouse, 3 Yeoman's Row. Already booked, Friday 6 Nov, 18:30.",
       "about": "A steakhouse in a basement on Yeoman's Row, a few minutes from Harrods. Known for aged beef and British seafood.",
       "hours": "Friday the kitchen is 12:00–15:30 and 17:00–22:00. The room stays open until 23:00."
     }
@@ -2163,23 +2163,23 @@
         {
           "id": "harrods",
           "title": "Harrods",
-          "text": "The food halls, not the whole store. Knightsbridge is the neighborhood you are already in. Hawksmoor is a 5 minute walk, on Yeoman's Row.",
+          "text": "The food halls, not the whole store. Knightsbridge is the neighborhood you are already in. Hawksmoor is a 5 minute walk, on Yeoman's Row. Leave about 18:20 for the 18:30 table.",
           "from": "15:50",
-          "to": "16:50"
+          "to": "18:15"
         },
         {
           "id": "hawksmoorKnightsbridge",
           "title": "Hawksmoor · dinner",
-          "text": "The London dinner to book. Steakhouse at 3 Yeoman's Row, a few minutes from Harrods. Two hours, from 18:00. On Friday the kitchen closes at 22:00. Book online. Not Indian. Then home to pack.",
-          "from": "18:00",
-          "to": "20:00",
+          "text": "Already booked. Steakhouse at 3 Yeoman's Row, a few minutes from Harrods. 18:30 to 20:30. On Friday the kitchen closes at 22:00. Then home to pack.",
+          "from": "18:30",
+          "to": "20:30",
           "pause": true
         },
         {
           "id": "royal",
           "title": "Royal National Hotel · pack",
-          "text": "Home about 20:30. Pack. CX250 is 17:50 tomorrow from Heathrow T3. Checkout is in the morning.",
-          "from": "20:30",
+          "text": "Home about 21:00. Pack. CX250 is 17:50 tomorrow from Heathrow T3. Checkout is in the morning.",
+          "from": "21:00",
           "to": "evening",
           "pause": true
         }
