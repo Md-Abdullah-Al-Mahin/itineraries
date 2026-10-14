@@ -373,9 +373,9 @@
       "city": "Paris",
       "lat": 48.8605021,
       "lng": 2.2939902,
-      "note": "Port de la Bourdonnais. Sightseeing, not dinner.",
-      "about": "A one-hour sightseeing boat from the foot of the Eiffel Tower, once the monuments are lit. Book the 20:00 departure. This is not a dinner cruise.",
-      "hours": "Friday 30 Oct. Sightseeing boats that evening include 20:00. About one hour."
+      "note": "Port de la Bourdonnais. Already booked. Sightseeing, not dinner.",
+      "about": "A one-hour sightseeing boat from the foot of the Eiffel Tower, once the monuments are lit. Already booked for 30 Oct. The ticket is for the day, so take the 20:00 boat. This is not a dinner cruise.",
+      "hours": "Friday 30 Oct. Be at the pier by 19:40 for the 20:00 boat. About one hour."
     },
     "sacreCoeur": {
       "name": "Sacré-Cœur",
@@ -1413,7 +1413,7 @@
         {
           "id": "seineCruise",
           "title": "Seine night cruise",
-          "text": "Port de la Bourdonnais, a 10 minute walk from the tower. Book the 20:00 sightseeing cruise, about one hour. Be there by 19:40. Sit on the right as you leave, toward the tower. It sparkles at 20:00. Not a dinner cruise.",
+          "text": "Already booked. Port de la Bourdonnais, a 10 minute walk from the tower. The ticket is for the day, so arrive at 19:40 and take the 20:00 boat. Sit on the right as you leave, toward the tower. It sparkles at 20:00. About one hour. Not a dinner cruise.",
           "from": "19:40",
           "to": "21:00",
           "pause": true

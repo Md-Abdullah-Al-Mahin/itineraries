@@ -12,7 +12,7 @@ This is the written copy of the map. When the plan changes, update this file and
 | 28 Oct – 3 Nov | Hotel Oratio, 42 rue des Bernardins, 75005. Every Paris day starts and ends here. |
 | 28 Oct | Crazy Horse, 12 Avenue George V, 20:00. Be there by 19:10. Arrival night, after Montmartre and the Marais. Not the same day as Versailles. |
 | 29 Oct – 2 Nov | Paris Museum Pass, 4 days. Already booked. First scan is Sainte-Chapelle on 29 Oct, around 13:15. It covers Sainte-Chapelle, Cluny, the Panthéon, Orsay, Versailles, the Louvre, and Invalides if you go inside. |
-| 30 Oct | Seine sightseeing cruise, Port de la Bourdonnais, 20:00. Still to book. About one hour. Not a dinner cruise. |
+| 30 Oct | Seine sightseeing cruise, Port de la Bourdonnais, 20:00. Already booked. About one hour. The ticket is for the day, so arrive at 19:40. Not a dinner cruise. |
 | 2 Nov | Louvre, 09:00 slot still to reserve. The pass is the ticket. You stay until 13:00. Allard, 19:00. Already booked. Pack after. |
 | 3 Nov | Eurostar 9013, Gare du Nord 08:32, arrive St Pancras 10:00. Be at the station at 06:30 for security and passport control. Coach 7, seat 31. Mamma Mia! at the Novello Theatre, Aldwych, 19:30. Already booked. Stalls R13 and R14. |
 | 3 Nov – 7 Nov | Royal National Hotel, 38–51 Bedford Way, Bloomsbury. Every London day starts and ends here. |
@@ -87,7 +87,7 @@ Orsay is closed Monday, so it is today. Sunset is 17:33. See the tower as the li
 | 15:35–16:05 | Trocadéro. Cycle along the river from the Petit Palais, or take the metro. Then down through the Champ de Mars. |
 | 16:20–18:10 | Eiffel Tower. Book a second-floor or summit slot. Sunset is 17:33. Leave at 18:10, once the lights are on. |
 | 18:20–19:20 | Dinner. One hour near the tower. Walk-in. Allard is Monday. |
-| 19:40–21:00 | Seine night cruise. Port de la Bourdonnais, a 10 minute walk. Book the 20:00 sightseeing cruise, about one hour. Sit on the right as you leave. Not a dinner cruise. |
+| 19:40–21:00 | Seine night cruise. Port de la Bourdonnais, a 10 minute walk. Already booked. Arrive at 19:40 and take the 20:00 boat. Sit on the right as you leave. Not a dinner cruise. |
 | 21:30 | Hotel. RER C to Saint-Michel, then a short walk. |
 
 ## Saturday 31 October · Versailles, then Halloween
