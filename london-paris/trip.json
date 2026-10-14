@@ -2097,7 +2097,7 @@
       "label": "6 Nov",
       "title": "South Kensington · Hawksmoor",
       "kicker": "Friday · London day 3",
-      "lede": "Last full day, and it stays in the parks and the museums. Ride the Hyde Park loop, dinosaurs, lunch, the V&A, Kensington Gardens, then the Harrods food halls. Hawksmoor is dinner, a few minutes from the store. Home after that to pack. The flight is 17:50 tomorrow.",
+      "lede": "Last full day, and it stays in the parks and the museums. Ride the Hyde Park loop, dinosaurs, lunch, the V&A, Kensington Gardens, then the Harrods food halls. Back to the hotel to change. Hawksmoor is 18:30, already booked. Home after that to pack. The flight is 17:50 tomorrow.",
       "loop": [
         "royal",
         "hydePark",
@@ -2105,6 +2105,7 @@
         "va",
         "kensingtonGardens",
         "harrods",
+        "royal",
         "hawksmoorKnightsbridge",
         "royal"
       ],
@@ -2163,14 +2164,22 @@
         {
           "id": "harrods",
           "title": "Harrods",
-          "text": "The food halls, not the whole store. Knightsbridge is the neighborhood you are already in. Hawksmoor is a 5 minute walk, on Yeoman's Row. Leave about 18:20 for the 18:30 table.",
+          "text": "The food halls, not the whole store. Leave at 16:35. The hotel is about 25 minutes on the tube, and you need the time to change before 18:30.",
           "from": "15:50",
-          "to": "18:15"
+          "to": "16:35"
+        },
+        {
+          "id": "royal",
+          "title": "Royal National Hotel · change",
+          "text": "Shower and change for dinner. About 55 minutes. Leave by 18:00. Knightsbridge is about 25 minutes on the Piccadilly line. Pack when you get back after dinner.",
+          "from": "17:00",
+          "to": "17:55",
+          "pause": true
         },
         {
           "id": "hawksmoorKnightsbridge",
           "title": "Hawksmoor · dinner",
-          "text": "Already booked. Steakhouse at 3 Yeoman's Row, a few minutes from Harrods. 18:30 to 20:30. On Friday the kitchen closes at 22:00. Then home to pack.",
+          "text": "Already booked, 18:30. Steakhouse at 3 Yeoman's Row. Until 20:30. On Friday the kitchen closes at 22:00. Then home to pack.",
           "from": "18:30",
           "to": "20:30",
           "pause": true
@@ -2385,6 +2394,7 @@
       "va|kensingtonGardens": "12 min walk",
       "kensingtonGardens|harrods": "15 min walk",
       "harrods|royal": "25 min tube",
+      "royal|hawksmoorKnightsbridge": "25 min tube to Knightsbridge",
       "coalDrops|royal": "20 min walk",
       "nationalGallery|gordons": "5 min walk",
       "gordons|bigBen": "15 min walk",
