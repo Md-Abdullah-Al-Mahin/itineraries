@@ -152,7 +152,7 @@
       "city": "Paris",
       "lat": 48.8612719,
       "lng": 2.343211,
-      "note": "Filet au poivre. Book up to 30 days ahead. Dinner from 17:30.",
+      "note": "Filet au poivre. Not reserved on this trip.",
       "about": "A small restaurant on Rue Saint-Honoré. Known for a serious filet au poivre.",
       "hours": "Monday dinner from 17:30."
     },
@@ -1605,7 +1605,7 @@
       "label": "2 Nov",
       "title": "Louvre · west to the Arc",
       "kicker": "Monday · Paris day 6",
-      "lede": "Versailles and Orsay are closed. The Louvre is half a day, not a quick look: 09:00 until 13:00, then lunch. The walk west is shorter after that. Tuileries, Concorde, a short stop at the Arc, then Garnier before the self-guided visit ends. La Renommée is 18:00. Pack after dinner. The Eurostar is at 08:32 tomorrow.",
+      "lede": "Versailles and Orsay are closed. The Louvre is half a day, not a quick look: 09:00 until 13:00, then lunch. The walk west is shorter after that. Tuileries, Concorde, a short stop at the Arc, then Garnier before the self-guided visit ends. Dinner is one hour near the opera, walk-in. No reservation at La Renommée. Pack after. The Eurostar is at 08:32 tomorrow.",
       "loop": [
         "oratio",
         "louvre",
@@ -1614,7 +1614,6 @@
         "arc",
         "garnier",
         "passages",
-        "laRenommee",
         "oratio"
       ],
       "events": [
@@ -1644,7 +1643,7 @@
           "id": "louvre",
           "meal": "lunch",
           "title": "Lunch",
-          "text": "One hour, after you come out. Nearby pins around the museum, or the Carrousel. Tonight’s dinner is the one that is booked, not this.",
+          "text": "One hour, after you come out. Nearby pins around the museum, or the Carrousel. Dinner tonight is a walk-in near the opera.",
           "from": "13:00",
           "to": "14:00"
         },
@@ -1679,23 +1678,23 @@
         {
           "id": "passages",
           "title": "Passage des Panoramas",
-          "text": "Walk the covered arcade. Glass roof, old shopfronts, a look in the windows. Not a sit-down. Dinner is a 15 minute walk south.",
+          "text": "Walk the covered arcade. Glass roof, old shopfronts, a look in the windows. Dinner is one hour nearby, then home to pack.",
           "from": "17:10",
           "to": "17:40"
         },
         {
-          "id": "laRenommee",
-          "title": "La Renommée · dinner",
-          "text": "The Paris dinner to book, and the only long dinner in the city. Filet au poivre at 95 Rue Saint-Honoré. Two hours, from 18:00. The kitchen opens at 17:30, but dinner is not before 6. Reserve up to 30 days ahead. Card hold, €50 a head if you cancel inside 24 hours.",
+          "id": "passages",
+          "meal": "dinner",
+          "title": "Dinner",
+          "text": "One hour near the passages or the opera. Walk-in. No reservation at La Renommée. Then home to pack.",
           "from": "18:00",
-          "to": "20:00",
-          "pause": true
+          "to": "19:00"
         },
         {
           "id": "oratio",
           "title": "Hotel Oratio · pack",
           "text": "Pack. Be at Gare du Nord at 06:30 tomorrow. The ticket’s 07:32 is too tight once passport control is in the line.",
-          "from": "20:20",
+          "from": "19:30",
           "to": "evening",
           "pause": true
         }
@@ -2278,6 +2277,7 @@
       "arc|laRenommee": "20 min metro",
       "laRenommee|oratio": "15 min metro",
       "garnier|laRenommee": "15 min metro",
+      "passages|oratio": "20 min metro",
       "oratio|duPain": "25 min metro",
       "duPain|shakespeare": "25 min metro",
       "ileSaintLouis|berthillon": "2 min walk",
